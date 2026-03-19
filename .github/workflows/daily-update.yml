@@ -41,10 +41,10 @@ jobs:
           FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
         run: node fetch-capex.js
 
-      - name: Update last updated date
+      - name: Update last updated timestamp
         run: |
-          TODAY=$(date -u +%Y-%m-%d)
-          sed -i "s/\"lastUpdated\": \"[^\"]*\"/\"lastUpdated\": \"$TODAY\"/" data/companies.json
+          NOW=$(date -u +%Y-%m-%dT%H:%M)
+          sed -i "s/\"lastUpdated\": \"[^\"]*\"/\"lastUpdated\": \"$NOW\"/" data/companies.json
 
       - name: Check for changes
         id: changes

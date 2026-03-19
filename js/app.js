@@ -47,6 +47,21 @@
     document.getElementById('total-companies').textContent = totalCompanies;
     document.getElementById('total-public').textContent = publicCompanies;
 
+    // Update hero badge with last updated date + time
+    const badge = document.getElementById('hero-badge');
+    if (badge && DataManager.metadata.lastUpdated) {
+      const raw = DataManager.metadata.lastUpdated;
+      const d = raw.includes('T') ? new Date(raw + 'Z') : new Date(raw + 'T00:00:00');
+      const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+      let dateStr = `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
+      if (raw.includes('T')) {
+        const hours = d.getUTCHours().toString().padStart(2, '0');
+        const mins = d.getUTCMinutes().toString().padStart(2, '0');
+        dateStr += ` at ${hours}:${mins} UTC`;
+      }
+      badge.textContent = `Live Tracker · Updated ${dateStr}`;
+    }
+
     // Animate counter
     animateCounter('total-spend', totalSpend, '$', 'B+');
   }
