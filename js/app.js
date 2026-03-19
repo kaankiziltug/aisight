@@ -147,7 +147,7 @@
           <div class="rank ${isTop3 ? 'top3' : ''}">${displayRank}</div>
           <div class="company-logo" style="background: ${company.color}15">
             <img src="https://logo.clearbit.com/${company.domain}"
-                 alt="${company.name}"
+                 alt="${company.name}" loading="lazy" width="40" height="40"
                  onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
             <span class="fallback" style="display:none; color:${company.color}">${company.name[0]}</span>
           </div>
