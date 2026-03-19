@@ -147,6 +147,46 @@ async function fetchFMPData(ticker) {
   }
 }
 
+// A6: Yahoo Finance — free market cap fallback (no API key needed)
+async function fetchYahooMarketCap(ticker) {
+  // Yahoo Finance v8 chart endpoint (public, free)
+  const cleanTicker = ticker.replace('.KS', '.KS').replace('.HK', '.HK').replace('.DE', '.DE');
+  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${cleanTicker}?range=1d&interval=1d`;
+
+  try {
+    const response = await fetch(url, {
+      headers: { 'User-Agent': 'Mozilla/5.0' }
+    });
+    if (!response.ok) return null;
+    const data = await response.json();
+    const meta = data.chart?.result?.[0]?.meta;
+    if (!meta) return null;
+
+    const price = meta.regularMarketPrice || meta.previousClose;
+    // Yahoo doesn't directly give marketCap in chart endpoint, but we can use quote endpoint
+    return { price };
+  } catch (error) {
+    return null;
+  }
+}
+
+async function fetchYahooQuote(ticker) {
+  const url = `https://query1.finance.yahoo.com/v10/finance/quoteSummary/${ticker}?modules=price`;
+  try {
+    const response = await fetch(url, {
+      headers: { 'User-Agent': 'Mozilla/5.0' }
+    });
+    if (!response.ok) return null;
+    const data = await response.json();
+    const price = data.quoteSummary?.result?.[0]?.price;
+    if (!price) return null;
+    const marketCap = price.marketCap?.raw;
+    return marketCap ? Math.round(marketCap / 1e9) : null;
+  } catch (error) {
+    return null;
+  }
+}
+
 async function main() {
   console.log('Fetching financial data for AI Spending Leaderboard...\n');
 
@@ -159,41 +199,34 @@ async function main() {
       continue;
     }
 
-    // Skip non-US tickers for SEC EDGAR
-    if (company.ticker.includes('.')) {
-      console.log(`Skipping ${company.name} (non-US: ${company.ticker})`);
-      continue;
-    }
-
     console.log(`Fetching data for ${company.name} (${company.ticker})...`);
 
-    // Fetch SEC data
-    const secData = await fetchSECData(company.ticker);
-
-    if (secData) {
-      // Log total capex from SEC (not auto-updated: fiscal year mismatches + finance lease exclusions make it unreliable)
-      const latestCapex = getLatestValue(secData.capex);
-      if (latestCapex && latestCapex > 0) {
-        const rounded = Math.round(latestCapex * 10) / 10;
-        console.log(`  Total CapEx (SEC): $${rounded}B [current: $${company.totalCapex}B]`);
-      }
-
-      // Log R&D, revenue, employees for manual review (not auto-updated due to fiscal year mismatch risk)
-      const latestRD = getLatestValue(secData.rdSpend);
-      if (latestRD && latestRD > 0) {
-        console.log(`  R&D (SEC): $${Math.round(latestRD * 10) / 10}B [current: $${company.rdSpend}B]`);
-      }
-      const latestRev = getLatestValue(secData.revenue);
-      if (latestRev && latestRev > 0) {
-        console.log(`  Revenue (SEC): $${Math.round(latestRev * 10) / 10}B [current: $${company.revenue}B]`);
-      }
-      const latestEmp = getLatestValue(secData.employees);
-      if (latestEmp && latestEmp > 0) {
-        console.log(`  Employees (SEC): ${latestEmp.toLocaleString()} [current: ${company.employees?.toLocaleString()}]`);
+    // Fetch SEC data (US companies only)
+    if (!company.ticker.includes('.')) {
+      const secData = await fetchSECData(company.ticker);
+      if (secData) {
+        const latestCapex = getLatestValue(secData.capex);
+        if (latestCapex && latestCapex > 0) {
+          const rounded = Math.round(latestCapex * 10) / 10;
+          console.log(`  Total CapEx (SEC): $${rounded}B [current: $${company.totalCapex}B]`);
+        }
+        const latestRD = getLatestValue(secData.rdSpend);
+        if (latestRD && latestRD > 0) {
+          console.log(`  R&D (SEC): $${Math.round(latestRD * 10) / 10}B [current: $${company.rdSpend}B]`);
+        }
+        const latestRev = getLatestValue(secData.revenue);
+        if (latestRev && latestRev > 0) {
+          console.log(`  Revenue (SEC): $${Math.round(latestRev * 10) / 10}B [current: $${company.revenue}B]`);
+        }
+        const latestEmp = getLatestValue(secData.employees);
+        if (latestEmp && latestEmp > 0) {
+          console.log(`  Employees (SEC): ${latestEmp.toLocaleString()} [current: ${company.employees?.toLocaleString()}]`);
+        }
       }
     }
 
-    // Fetch FMP data
+    // Fetch market cap: try FMP first, fallback to Yahoo Finance
+    let marketCapUpdated = false;
     const fmpData = await fetchFMPData(company.ticker);
     if (fmpData?.marketCap) {
       const rounded = Math.round(fmpData.marketCap);
@@ -202,11 +235,28 @@ async function main() {
         console.log(`  >> Updating marketCap: $${company.marketCap}B → $${rounded}B`);
         company.marketCap = rounded;
         updatedCount++;
+        marketCapUpdated = true;
       }
     }
 
-    // Rate limit: SEC asks for max 10 req/sec
-    await new Promise(r => setTimeout(r, 200));
+    // A6: Yahoo Finance fallback for market cap (free, no key)
+    if (!marketCapUpdated) {
+      const yahooMcap = await fetchYahooQuote(company.ticker);
+      if (yahooMcap && yahooMcap > 0) {
+        console.log(`  Market Cap (Yahoo): $${yahooMcap}B`);
+        if (company.marketCap && Math.abs(yahooMcap - company.marketCap) / company.marketCap > 0.05) {
+          console.log(`  >> Updating marketCap (Yahoo): $${company.marketCap}B → $${yahooMcap}B`);
+          company.marketCap = yahooMcap;
+          updatedCount++;
+        } else if (!company.marketCap) {
+          company.marketCap = yahooMcap;
+          updatedCount++;
+        }
+      }
+    }
+
+    // Rate limit
+    await new Promise(r => setTimeout(r, 300));
   }
 
   // Note: yoyChange represents AI spending growth (not just totalCapex growth)

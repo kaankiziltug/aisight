@@ -176,8 +176,96 @@ function deduplicateNews(articles) {
   return unique;
 }
 
+// ---- A4: SEC EDGAR Recent Filings (8-K = material events for tracked companies) ----
+// CIK numbers for our tracked companies
+const TRACKED_CIKS = {
+  '0001018724': 'Amazon', '0001652044': 'Alphabet', '0000789019': 'Microsoft',
+  '0001326801': 'Meta', '0000320193': 'Apple', '0001318605': 'Tesla',
+  '0001341439': 'Oracle', '0001045810': 'Nvidia', '0000002488': 'AMD',
+  '0000050863': 'Intel', '0001108524': 'Salesforce', '0001649338': 'Broadcom',
+  '0001373715': 'ServiceNow', '0000796343': 'Adobe', '0000051143': 'IBM',
+  '0001321655': 'Palantir', '0000858877': 'Cisco', '0000804328': 'Qualcomm',
+  '0001543151': 'Uber', '0001281761': 'Accenture', '0001571996': 'Dell Technologies',
+  '0001645590': 'HPE', '0001594805': 'Shopify', '0001639920': 'Spotify',
+};
+
+async function fetchSECNews() {
+  const articles = [];
+  const startDate = getDateDaysAgo(14);
+
+  // Query EDGAR for recent 8-K filings from tracked companies
+  for (const [cik, companyName] of Object.entries(TRACKED_CIKS)) {
+    const url = `https://data.sec.gov/submissions/CIK${cik}.json`;
+    try {
+      const response = await fetch(url, {
+        headers: { 'User-Agent': 'AISight admin@aisight.fyi', 'Accept': 'application/json' }
+      });
+      if (!response.ok) continue;
+      const data = await response.json();
+      const recent = data.filings?.recent;
+      if (!recent) continue;
+
+      // Find recent 8-K filings
+      for (let i = 0; i < Math.min(recent.form?.length || 0, 20); i++) {
+        if (recent.form[i] !== '8-K') continue;
+        const filingDate = recent.filingDate?.[i];
+        if (!filingDate || filingDate < startDate) continue;
+
+        const accession = recent.accessionNumber?.[i]?.replace(/-/g, '');
+        const desc = recent.primaryDocDescription?.[i] || '8-K Material Event';
+
+        articles.push({
+          title: `${companyName}: ${desc}`,
+          url: `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${cik}&type=8-K&dateb=&owner=include&count=5`,
+          date: filingDate,
+          source: 'SEC EDGAR',
+          companies: [companyName],
+          summary: `Official SEC 8-K filing from ${companyName} on ${filingDate}. ${desc}`,
+        });
+      }
+      await new Promise(r => setTimeout(r, 150)); // SEC rate limit: 10 req/sec
+    } catch (error) {
+      // Silently skip failures
+    }
+  }
+  return articles;
+}
+
+function getDateDaysAgo(days) {
+  const d = new Date();
+  d.setDate(d.getDate() - days);
+  return d.toISOString().split('T')[0];
+}
+
+// ---- A5: News Relevance/Quality Score ----
+const AI_KEYWORDS = ['ai ', 'artificial intelligence', 'machine learning', 'gpu', 'data center', 'capex',
+  'capital expenditure', 'infrastructure', 'spending', 'investment', 'billion', 'million',
+  'neural', 'training', 'inference', 'compute', 'chip', 'semiconductor', 'cloud'];
+const MONEY_REGEX = /\$[\d,.]+\s*[BMTbmt](?:illion)?|\d+\s*(?:billion|million|trillion)/i;
+
+function scoreArticle(article) {
+  const text = (article.title + ' ' + (article.summary || '')).toLowerCase();
+  let score = 0;
+
+  // Keyword relevance (max 0.5)
+  const keywordHits = AI_KEYWORDS.filter(kw => text.includes(kw)).length;
+  score += Math.min(keywordHits / AI_KEYWORDS.length * 2, 0.5);
+
+  // Has dollar amount (+0.2)
+  if (MONEY_REGEX.test(text)) score += 0.2;
+
+  // Mentions tracked company (+0.2)
+  if (article.companies && article.companies.length > 0) score += 0.2;
+
+  // Source quality bonus (+0.1)
+  const premiumSources = ['sec edgar', 'reuters', 'bloomberg', 'cnbc', 'wall street journal', 'financial times', 'techcrunch'];
+  if (premiumSources.some(s => (article.source || '').toLowerCase().includes(s))) score += 0.1;
+
+  return Math.round(Math.min(score, 1.0) * 100) / 100;
+}
+
 async function main() {
-  console.log('Fetching AI spending news...');
+  console.log('Fetching AI spending news...\n');
   let allArticles = [];
 
   // Fetch from Google News RSS (free, no limits)
@@ -185,7 +273,6 @@ async function main() {
     console.log(`  Google News: "${query}"`);
     const articles = await fetchGoogleNews(query);
     allArticles.push(...articles);
-    // Small delay to be polite
     await new Promise(r => setTimeout(r, 1000));
   }
 
@@ -197,11 +284,29 @@ async function main() {
     await new Promise(r => setTimeout(r, 500));
   }
 
+  // A4: Fetch from SEC EDGAR (free, no key needed)
+  console.log('  SEC EDGAR: 8-K filings...');
+  const secArticles = await fetchSECNews();
+  console.log(`    Found ${secArticles.length} SEC filings`);
+  allArticles.push(...secArticles);
+
   // Deduplicate
   allArticles = deduplicateNews(allArticles);
 
-  // Sort by date (newest first)
-  allArticles.sort((a, b) => b.date.localeCompare(a.date));
+  // A5: Score each article
+  allArticles.forEach(a => { a.relevanceScore = scoreArticle(a); });
+
+  // Sort: high-relevance first within same date, then by date
+  allArticles.sort((a, b) => {
+    const dateDiff = b.date.localeCompare(a.date);
+    if (dateDiff !== 0) return dateDiff;
+    return (b.relevanceScore || 0) - (a.relevanceScore || 0);
+  });
+
+  // Filter out very low relevance articles (score < 0.15)
+  const beforeFilter = allArticles.length;
+  allArticles = allArticles.filter(a => (a.relevanceScore || 0) >= 0.15);
+  console.log(`\n  Relevance filter: ${beforeFilter} → ${allArticles.length} articles (removed ${beforeFilter - allArticles.length} low-quality)`);
 
   // Keep only last 100 articles
   allArticles = allArticles.slice(0, 100);
@@ -214,14 +319,19 @@ async function main() {
     // File doesn't exist or is empty
   }
 
-  // Merge: add new articles, keep total under 200
-  const merged = deduplicateNews([...allArticles, ...existingNews]).slice(0, 200);
+  // Merge: add new articles, keep total under 250
+  const merged = deduplicateNews([...allArticles, ...existingNews]).slice(0, 250);
 
   // Save
   writeFileSync(NEWS_FILE, JSON.stringify(merged, null, 2));
-  console.log(`Saved ${merged.length} news articles to ${NEWS_FILE}`);
+  console.log(`\nSaved ${merged.length} news articles to ${NEWS_FILE}`);
   console.log(`  New articles: ${allArticles.length}`);
   console.log(`  Companies mentioned: ${[...new Set(allArticles.flatMap(a => a.companies))].join(', ')}`);
+
+  // Stats
+  const avgScore = (allArticles.reduce((sum, a) => sum + (a.relevanceScore || 0), 0) / allArticles.length).toFixed(2);
+  const taggedPct = Math.round(allArticles.filter(a => a.companies?.length > 0).length / allArticles.length * 100);
+  console.log(`  Avg relevance: ${avgScore} | Tagged: ${taggedPct}%`);
 }
 
 main().catch(console.error);
