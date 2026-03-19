@@ -25,9 +25,37 @@ const SEARCH_QUERIES = [
   'AI capital expenditure',
 ];
 
-// Company names to match in articles
+// Company matching: names, tickers, aliases
 const companiesData = JSON.parse(readFileSync(COMPANIES_FILE, 'utf8'));
 const COMPANY_NAMES = companiesData.companies.map(c => c.name);
+
+// Extended aliases for better matching (alias → company name)
+const COMPANY_ALIASES = {
+  'aws': 'Amazon', 'amazon web services': 'Amazon',
+  'google': 'Alphabet', 'google cloud': 'Alphabet', 'deepmind': 'Alphabet', 'waymo': 'Alphabet',
+  'facebook': 'Meta', 'instagram': 'Meta', 'whatsapp': 'Meta', 'llama': 'Meta',
+  'azure': 'Microsoft', 'github copilot': 'Microsoft', 'openai partner': 'Microsoft',
+  'iphone': 'Apple', 'apple intelligence': 'Apple',
+  'geforce': 'Nvidia', 'cuda': 'Nvidia', 'blackwell': 'Nvidia', 'hopper': 'Nvidia',
+  'taiwan semiconductor': 'TSMC',
+  'samsung electronics': 'Samsung', 'samsung elec': 'Samsung',
+  'tiktok': 'ByteDance',
+  'alibaba cloud': 'Alibaba',
+  'wechat': 'Tencent',
+  'chatgpt': 'OpenAI', 'gpt-4': 'OpenAI', 'gpt-5': 'OpenAI', 'dall-e': 'OpenAI', 'sora': 'OpenAI',
+  'claude': 'Anthropic',
+  'x.ai': 'Tesla', 'grok': 'Tesla',
+  'gemini': 'Alphabet', 'bard': 'Alphabet',
+  'copilot': 'Microsoft',
+};
+
+// Ticker → company name mapping
+const TICKER_TO_NAME = {};
+companiesData.companies.forEach(c => {
+  if (c.ticker !== 'PRIVATE') {
+    TICKER_TO_NAME[c.ticker.toLowerCase()] = c.name;
+  }
+});
 
 async function fetchGoogleNews(query) {
   const encodedQuery = encodeURIComponent(query);
@@ -83,14 +111,32 @@ async function fetchNewsAPI(query) {
 }
 
 function findMentionedCompanies(text) {
-  const mentioned = [];
+  const mentioned = new Set();
   const lowerText = text.toLowerCase();
+
+  // 1. Match exact company names
   for (const name of COMPANY_NAMES) {
     if (lowerText.includes(name.toLowerCase())) {
-      mentioned.push(name);
+      mentioned.add(name);
     }
   }
-  return mentioned;
+
+  // 2. Match aliases (AWS→Amazon, Google→Alphabet, etc.)
+  for (const [alias, companyName] of Object.entries(COMPANY_ALIASES)) {
+    if (lowerText.includes(alias)) {
+      mentioned.add(companyName);
+    }
+  }
+
+  // 3. Match ticker symbols (word boundary: "AMZN" but not "SAMSUNG")
+  for (const [ticker, companyName] of Object.entries(TICKER_TO_NAME)) {
+    const regex = new RegExp(`\\b${ticker.replace('.', '\\.')}\\b`, 'i');
+    if (regex.test(text)) {
+      mentioned.add(companyName);
+    }
+  }
+
+  return [...mentioned];
 }
 
 function extractSource(title) {
@@ -99,14 +145,35 @@ function extractSource(title) {
   return match ? match[1].trim() : '';
 }
 
+// Simple similarity check: normalized words overlap
+function titleSimilarity(a, b) {
+  const wordsA = new Set(a.toLowerCase().replace(/[^a-z0-9\s]/g, '').split(/\s+/).filter(w => w.length > 3));
+  const wordsB = new Set(b.toLowerCase().replace(/[^a-z0-9\s]/g, '').split(/\s+/).filter(w => w.length > 3));
+  if (wordsA.size === 0 || wordsB.size === 0) return 0;
+  const intersection = [...wordsA].filter(w => wordsB.has(w)).length;
+  return intersection / Math.min(wordsA.size, wordsB.size);
+}
+
 function deduplicateNews(articles) {
-  const seen = new Set();
-  return articles.filter(article => {
-    const key = article.title.toLowerCase().substring(0, 60);
-    if (seen.has(key)) return false;
-    seen.add(key);
-    return true;
-  });
+  const unique = [];
+  const seenUrls = new Set();
+
+  for (const article of articles) {
+    // 1. Exact URL dedup
+    const urlKey = article.url?.replace(/^https?:\/\/(www\.)?/, '').split('?')[0];
+    if (urlKey && seenUrls.has(urlKey)) continue;
+    if (urlKey) seenUrls.add(urlKey);
+
+    // 2. Similarity dedup — if 70%+ word overlap with existing, skip
+    const isDuplicate = unique.some(existing =>
+      existing.date === article.date && titleSimilarity(existing.title, article.title) > 0.7
+    );
+    if (isDuplicate) continue;
+
+    unique.push(article);
+  }
+
+  return unique;
 }
 
 async function main() {

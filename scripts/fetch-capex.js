@@ -212,6 +212,27 @@ async function main() {
   // Note: yoyChange represents AI spending growth (not just totalCapex growth)
   // and is manually curated from earnings calls. Not auto-calculated.
 
+  // Calculate derived metrics for each company
+  console.log('\nCalculating derived metrics...');
+  for (const company of companiesData.companies) {
+    const metrics = {};
+    if (company.aiCapex && company.totalCapex) {
+      metrics.aiCapexPctOfTotal = Math.round(company.aiCapex / company.totalCapex * 1000) / 10;
+    }
+    if (company.aiCapex && company.revenue) {
+      metrics.capexToRevenue = Math.round(company.aiCapex / company.revenue * 1000) / 10;
+    }
+    if (company.aiCapex && company.marketCap) {
+      metrics.capitalIntensity = Math.round(company.aiCapex / company.marketCap * 1000) / 10;
+    }
+    if (company.revenue && company.employees) {
+      metrics.revenuePerEmployee = Math.round(company.revenue / company.employees * 1e6 * 10) / 10; // $K per employee
+    }
+    if (Object.keys(metrics).length > 0) {
+      company.calculatedMetrics = metrics;
+    }
+  }
+
   // Update metadata
   companiesData.metadata.lastUpdated = new Date().toISOString().split('T')[0];
 

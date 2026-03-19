@@ -185,6 +185,7 @@
 
       document.getElementById('leaderboard-toggle')?.addEventListener('click', () => {
         leaderboardExpanded = !leaderboardExpanded;
+        if (typeof gtag === 'function') gtag('event', leaderboardExpanded ? 'see_more' : 'see_less');
         const hiddenRows = container.querySelectorAll('.leaderboard-row');
         hiddenRows.forEach((row, i) => {
           if (i >= INITIAL_SHOW) {
@@ -326,6 +327,7 @@
         document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         currentCategory = btn.dataset.category;
+        if (typeof gtag === 'function') gtag('event', 'filter', { category: currentCategory });
         renderLeaderboard();
       });
     });
@@ -335,6 +337,7 @@
     if (sortSelect) {
       sortSelect.addEventListener('change', (e) => {
         currentSort = e.target.value;
+        if (typeof gtag === 'function') gtag('event', 'sort', { field: currentSort });
         renderLeaderboard();
       });
     }
@@ -347,6 +350,7 @@
         clearTimeout(debounceTimer);
         debounceTimer = setTimeout(() => {
           currentSearch = e.target.value;
+          if (typeof gtag === 'function' && currentSearch.length > 2) gtag('event', 'search', { search_term: currentSearch });
           renderLeaderboard();
         }, 200);
       });
