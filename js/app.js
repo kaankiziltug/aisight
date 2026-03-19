@@ -289,7 +289,7 @@
     const news = allNews.slice(0, 10); // Only show top 10
 
     if (newsCount) {
-      newsCount.textContent = `${allNews.length} haber`;
+      newsCount.textContent = `${allNews.length} articles`;
     }
 
     function formatNewsDate(dateStr) {
@@ -318,6 +318,40 @@
       </a>
     `).join('');
   }
+
+  // ---- CSV Export ----
+  function setupCSVExport() {
+    const btn = document.getElementById('csv-export-btn');
+    if (!btn) return;
+    btn.addEventListener('click', () => {
+      const companies = DataManager.filterAndSort(currentCategory, currentSort, currentSearch);
+      const headers = ['Rank','Company','Ticker','Category','AI CapEx ($B)','Total CapEx ($B)','R&D Spend ($B)','Revenue ($B)','Market Cap ($B)','Employees','YoY Growth (%)','Source'];
+      const rows = companies.map((c, i) => [
+        i + 1,
+        `"${c.name}"`,
+        c.ticker,
+        c.category,
+        c.aiCapex ?? '',
+        c.totalCapex ?? '',
+        c.rdSpend ?? '',
+        c.revenue ?? '',
+        c.marketCap ? (c.marketCap / 1e9).toFixed(1) : '',
+        c.employees ?? '',
+        c.yoyChange ?? '',
+        `"${(c.source || '').replace(/"/g, '""')}"`
+      ]);
+      const csv = [headers.join(','), ...rows.map(r => r.join(','))].join('\n');
+      const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `aisight-leaderboard-${new Date().toISOString().slice(0,10)}.csv`;
+      a.click();
+      URL.revokeObjectURL(url);
+      if (typeof gtag === 'function') gtag('event', 'csv_export', { category: currentCategory, sort: currentSort });
+    });
+  }
+  setupCSVExport();
 
   // ---- Filters ----
   function setupFilters() {

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About & Methodology — How We Track AI Spending | AISight</title>
+  <meta name="description" content="Learn how AISight tracks AI capital expenditure across 38 companies. Our methodology, data sources, confidence levels, and FAQ.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://aisight.fyi/about">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aisight.fyi/about">
+  <meta property="og:title" content="About & Methodology — How We Track AI Spending">
+  <meta property="og:description" content="Learn how AISight tracks AI capital expenditure across 38 companies.">
+  <meta property="og:image" content="https://aisight.fyi/og-image.png">
+  <meta property="og:site_name" content="AISight">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KXM015TR4S"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-KXM015TR4S');
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] } } } }</script>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+</head>
+<body class="bg-grid">
+
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="/">Home</a>
+    <span class="sep">›</span>
+    <span class="current">About & Methodology</span>
+  </nav>
+
+  <main class="about-page">
+    <h1>About AISight</h1>
+    <p class="about-subtitle">We track how the world's biggest companies are investing in artificial intelligence — from data centers and GPU clusters to R&D and talent.</p>
+
+    <section class="about-section">
+      <h2>What We Track</h2>
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>AI CapEx</h3>
+          <p>AI-specific capital expenditure — spending on GPU clusters, AI data centers, custom chips (TPU, Trainium), and AI infrastructure. Where companies disclose AI-specific spending, we use their figures. Otherwise, we estimate based on earnings call guidance ("vast majority for AI") and analyst reports.</p>
+        </div>
+        <div class="about-card">
+          <h3>Total CapEx</h3>
+          <p>Total capital expenditure from SEC 10-K annual filings. This includes all property, plant, and equipment purchases — not just AI. Sourced directly from XBRL filings via SEC EDGAR.</p>
+        </div>
+        <div class="about-card">
+          <h3>R&D Spend</h3>
+          <p>Research and development expenses from annual reports. Includes salaries, facilities, and equipment for R&D activities across all business segments — not AI-specific.</p>
+        </div>
+        <div class="about-card">
+          <h3>Market Cap</h3>
+          <p>Market capitalization updated daily via Financial Modeling Prep API. Represents the total market value of outstanding shares.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <h2>Data Sources</h2>
+      <ul class="about-list">
+        <li><strong>SEC EDGAR</strong> — 10-K annual filings via XBRL API for US public companies (CapEx, R&D, Revenue, Employees)</li>
+        <li><strong>Financial Modeling Prep (FMP)</strong> — Market capitalization, updated daily</li>
+        <li><strong>Company Earnings Calls</strong> — AI-specific CapEx guidance and management commentary</li>
+        <li><strong>Google News RSS</strong> — Real-time AI spending news aggregation</li>
+        <li><strong>NewsAPI</strong> — Supplementary news with article summaries</li>
+        <li><strong>Analyst Reports</strong> — Bloomberg, CNBC, Reuters, TechCrunch for cross-validation</li>
+      </ul>
+    </section>
+
+    <section class="about-section">
+      <h2>Confidence Levels</h2>
+      <p>Each data point carries a confidence indicator:</p>
+      <div class="about-grid">
+        <div class="about-card">
+          <h3 style="color: var(--accent-green);">Verified</h3>
+          <p>Confirmed from 10-K filing, earnings release, or authoritative financial data source. Highest reliability.</p>
+        </div>
+        <div class="about-card">
+          <h3 style="color: var(--accent-orange);">Estimated (~)</h3>
+          <p>Derived from analyst estimates, management commentary ("vast majority"), or indirect calculation. Shown with ~ prefix and "est." badge.</p>
+        </div>
+        <div class="about-card">
+          <h3 style="color: var(--accent-red);">Unverified</h3>
+          <p>From unconfirmed press reports or limited sources. Treated with caution.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <h2>FAQ</h2>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>How is AI CapEx calculated for companies that don't disclose it?</summary>
+          <p>We use management guidance from earnings calls. For example, when Amazon says "the vast majority of our $131.8B capex is for AWS/AI infrastructure," we estimate ~76% ($100B) as AI CapEx. These estimates are marked with a ~ prefix.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Why do private companies show "funding raised" instead of CapEx?</summary>
+          <p>Private companies (OpenAI, Anthropic, Databricks) don't file public financial statements. We show their total funding raised as a proxy for investment capacity, not actual capital expenditure.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How often is the data updated?</summary>
+          <p>News and market cap data update 3 times daily via automated GitHub Actions. Financial data (CapEx, R&D, Revenue) updates quarterly after earnings season from SEC filings.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Can I use this data in my research?</summary>
+          <p>Yes! You can download the leaderboard as CSV from the homepage. Please cite "AISight (aisight.fyi)" when referencing the data.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How do I report a data error?</summary>
+          <p>Open an issue on our <a href="https://github.com/kaankiziltug/aisight" target="_blank" rel="noopener">GitHub repository</a> with the company name, incorrect value, and correct source.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <h2>Calculated Metrics</h2>
+      <p>We automatically derive these metrics from primary data:</p>
+      <ul class="about-list">
+        <li><strong>AI CapEx % of Total</strong> — What portion of total capex goes to AI</li>
+        <li><strong>CapEx-to-Revenue</strong> — How much revenue is reinvested into AI infrastructure</li>
+        <li><strong>Capital Intensity</strong> — AI CapEx as % of market cap (investment aggressiveness)</li>
+        <li><strong>Revenue per Employee</strong> — Operational efficiency metric</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="/">Leaderboard</a>
+      <a href="/news">AI News</a>
+      <a href="/about">About</a>
+      <a href="/company/amazon">Amazon</a>
+      <a href="/company/alphabet">Alphabet</a>
+      <a href="/company/microsoft">Microsoft</a>
+      <a href="/company/meta">Meta</a>
+      <a href="/company/nvidia">Nvidia</a>
+    </nav>
+    <p>
+      <a href="https://github.com/kaankiziltug/aisight" target="_blank" rel="noopener">GitHub</a> &middot;
+      <a href="/">Back to Leaderboard</a>
+    </p>
+  </footer>
+
+</body>
+</html>

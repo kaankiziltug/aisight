@@ -69,15 +69,18 @@
 </head>
 <body class="bg-grid">
 
-  <!-- Back Button + Header -->
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb" id="breadcrumb" aria-label="Breadcrumb">
+    <a href="/">Home</a>
+    <span class="sep">›</span>
+    <span id="breadcrumb-category">Loading...</span>
+    <span class="sep">›</span>
+    <span id="breadcrumb-company" class="current">Loading...</span>
+  </nav>
+
+  <!-- Header -->
   <header class="detail-header">
     <div class="detail-header-content" style="flex-direction: column; align-items: flex-start;">
-      <a href="/" class="back-btn">
-        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
-        </svg>
-        Back to Leaderboard
-      </a>
 
       <div style="display: flex; align-items: center; gap: 20px;">
         <div class="detail-logo" id="detail-logo"></div>
@@ -100,6 +103,9 @@
     <div class="detail-stats" id="detail-stats-grid">
       <div class="detail-stat"><div class="value">—</div><div class="label">Loading...</div></div>
     </div>
+
+    <!-- Share Buttons -->
+    <div class="share-bar" id="share-bar"></div>
 
     <!-- Charts -->
     <div class="chart-section">
@@ -147,6 +153,7 @@
     <nav class="footer-links" aria-label="Footer navigation">
       <a href="/">Leaderboard</a>
       <a href="/news">AI News</a>
+      <a href="/about">About</a>
       <a href="/company/amazon">Amazon</a>
       <a href="/company/alphabet">Alphabet</a>
       <a href="/company/microsoft">Microsoft</a>
