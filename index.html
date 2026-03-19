@@ -117,6 +117,26 @@
 </head>
 <body class="bg-grid">
 
+  <!-- Top Navigation -->
+  <nav class="top-nav" id="top-nav">
+    <div class="top-nav-inner">
+      <a href="/" class="nav-logo">
+        <span class="nav-logo-icon">📊</span>
+        <span class="nav-logo-text">AISight</span>
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a href="/" class="nav-link active">Leaderboard</a>
+        <a href="/news" class="nav-link">News</a>
+        <a href="/compare" class="nav-link">Compare</a>
+        <a href="/trends" class="nav-link">Trends</a>
+        <a href="/about" class="nav-link">About</a>
+      </div>
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </nav>
+
   <!-- Hero Section -->
   <header class="hero">
     <div class="hero-glow hero-glow-1"></div>
@@ -250,6 +270,21 @@
       </a>
     </section>
 
+    <!-- Newsletter Signup -->
+    <section class="newsletter-section" aria-label="Newsletter signup">
+      <div class="newsletter-card">
+        <div class="newsletter-text">
+          <h3>Stay in the loop</h3>
+          <p>Get weekly AI spending insights, new company additions, and market analysis delivered to your inbox.</p>
+        </div>
+        <form class="newsletter-form" id="newsletter-form">
+          <input type="email" id="newsletter-email" placeholder="your@email.com" required autocomplete="email" class="newsletter-input">
+          <button type="submit" class="newsletter-btn" id="newsletter-btn">Subscribe</button>
+        </form>
+        <p class="newsletter-note">Free, weekly. No spam. Unsubscribe anytime.</p>
+      </div>
+    </section>
+
   </main>
 
   <!-- Footer -->
@@ -281,6 +316,7 @@
   </footer>
 
   <!-- Scripts -->
+  <script src="/js/nav.js"></script>
   <script src="/js/data.js"></script>
   <script src="/js/app.js"></script>
 </body>
