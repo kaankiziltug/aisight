@@ -1,0 +1,53 @@
+{
+  "rewrites": [
+    { "source": "/company/amazon", "destination": "/company.html?ticker=AMZN" },
+    { "source": "/company/alphabet", "destination": "/company.html?ticker=GOOGL" },
+    { "source": "/company/microsoft", "destination": "/company.html?ticker=MSFT" },
+    { "source": "/company/meta", "destination": "/company.html?ticker=META" },
+    { "source": "/company/tsmc", "destination": "/company.html?ticker=TSM" },
+    { "source": "/company/samsung", "destination": "/company.html?ticker=005930.KS" },
+    { "source": "/company/bytedance", "destination": "/company.html?ticker=PRIVATE&name=ByteDance" },
+    { "source": "/company/oracle", "destination": "/company.html?ticker=ORCL" },
+    { "source": "/company/intel", "destination": "/company.html?ticker=INTC" },
+    { "source": "/company/tencent", "destination": "/company.html?ticker=0700.HK" },
+    { "source": "/company/alibaba", "destination": "/company.html?ticker=BABA" },
+    { "source": "/company/nvidia", "destination": "/company.html?ticker=NVDA" },
+    { "source": "/company/apple", "destination": "/company.html?ticker=AAPL" },
+    { "source": "/company/tesla", "destination": "/company.html?ticker=TSLA" },
+    { "source": "/company/broadcom", "destination": "/company.html?ticker=AVGO" },
+    { "source": "/company/baidu", "destination": "/company.html?ticker=BIDU" },
+    { "source": "/company/ibm", "destination": "/company.html?ticker=IBM" },
+    { "source": "/company/dell", "destination": "/company.html?ticker=DELL" },
+    { "source": "/company/qualcomm", "destination": "/company.html?ticker=QCOM" },
+    { "source": "/company/cisco", "destination": "/company.html?ticker=CSCO" },
+    { "source": "/company/hpe", "destination": "/company.html?ticker=HPE" },
+    { "source": "/company/servicenow", "destination": "/company.html?ticker=NOW" },
+    { "source": "/company/amd", "destination": "/company.html?ticker=AMD" },
+    { "source": "/company/palantir", "destination": "/company.html?ticker=PLTR" },
+    { "source": "/company/siemens", "destination": "/company.html?ticker=SIE.DE" },
+    { "source": "/company/salesforce", "destination": "/company.html?ticker=CRM" },
+    { "source": "/company/sap", "destination": "/company.html?ticker=SAP" },
+    { "source": "/company/accenture", "destination": "/company.html?ticker=ACN" },
+    { "source": "/company/uber", "destination": "/company.html?ticker=UBER" },
+    { "source": "/company/adobe", "destination": "/company.html?ticker=ADBE" },
+    { "source": "/company/booking", "destination": "/company.html?ticker=BKNG" },
+    { "source": "/company/infosys", "destination": "/company.html?ticker=INFY" },
+    { "source": "/company/spotify", "destination": "/company.html?ticker=SPOT" },
+    { "source": "/company/snowflake", "destination": "/company.html?ticker=SNOW" },
+    { "source": "/company/shopify", "destination": "/company.html?ticker=SHOP" },
+    { "source": "/company/openai", "destination": "/company.html?ticker=PRIVATE&name=OpenAI" },
+    { "source": "/company/anthropic", "destination": "/company.html?ticker=PRIVATE&name=Anthropic" },
+    { "source": "/company/databricks", "destination": "/company.html?ticker=PRIVATE&name=Databricks" },
+    { "source": "/news", "destination": "/news.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+      ]
+    }
+  ]
+}

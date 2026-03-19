@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aisight.fyi/sitemap.xml
+
+# Crawl-delay suggestion
+Crawl-delay: 1

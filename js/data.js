@@ -9,7 +9,7 @@ const DataManager = {
 
   async loadCompanies() {
     try {
-      const response = await fetch('./data/companies.json');
+      const response = await fetch('/data/companies.json');
       const data = await response.json();
       this.companies = data.companies;
       this.metadata = data.metadata;
@@ -22,7 +22,7 @@ const DataManager = {
 
   async loadNews() {
     try {
-      const response = await fetch('./data/news.json');
+      const response = await fetch('/data/news.json');
       this.news = await response.json();
       return this.news;
     } catch (error) {
@@ -97,9 +97,41 @@ const DataManager = {
     return Math.max(...this.companies.map(c => c.aiCapex || 0));
   },
 
+  // Slug mapping for clean URLs
+  _slugMap: {
+    'AMZN': 'amazon', 'GOOGL': 'alphabet', 'MSFT': 'microsoft', 'META': 'meta',
+    'TSM': 'tsmc', '005930.KS': 'samsung', 'ORCL': 'oracle', 'INTC': 'intel',
+    '0700.HK': 'tencent', 'BABA': 'alibaba', 'NVDA': 'nvidia', 'AAPL': 'apple',
+    'TSLA': 'tesla', 'AVGO': 'broadcom', 'BIDU': 'baidu', 'IBM': 'ibm',
+    'DELL': 'dell', 'QCOM': 'qualcomm', 'CSCO': 'cisco', 'HPE': 'hpe',
+    'NOW': 'servicenow', 'AMD': 'amd', 'PLTR': 'palantir', 'SIE.DE': 'siemens',
+    'CRM': 'salesforce', 'SAP': 'sap', 'ACN': 'accenture', 'UBER': 'uber',
+    'ADBE': 'adobe', 'BKNG': 'booking', 'INFY': 'infosys', 'SPOT': 'spotify',
+    'SNOW': 'snowflake', 'SHOP': 'shopify'
+  },
+  _privateSlugMap: {
+    'ByteDance': 'bytedance', 'OpenAI': 'openai', 'Anthropic': 'anthropic', 'Databricks': 'databricks'
+  },
+
+  getCompanySlug(company) {
+    if (company.ticker === 'PRIVATE') {
+      return this._privateSlugMap[company.name] || company.name.toLowerCase().replace(/\s+/g, '-');
+    }
+    return this._slugMap[company.ticker] || company.ticker.toLowerCase();
+  },
+
+  getCompanyUrl(company) {
+    return '/company/' + this.getCompanySlug(company);
+  },
+
   getTickerByName(name) {
     const c = this.companies.find(c => c.name.toLowerCase() === name.toLowerCase());
     return c ? c.ticker : null;
+  },
+
+  getSlugByName(name) {
+    const c = this.companies.find(c => c.name.toLowerCase() === name.toLowerCase());
+    return c ? this.getCompanySlug(c) : name.toLowerCase().replace(/\s+/g, '-');
   },
 
   getNewsForCompany(companyName) {

@@ -140,7 +140,7 @@
 
       const isHidden = !leaderboardExpanded && index >= INITIAL_SHOW;
       return `
-        <a href="company.html?ticker=${encodeURIComponent(company.ticker)}"
+        <a href="${DataManager.getCompanyUrl(company)}"
            class="leaderboard-row${isHidden ? ' leaderboard-hidden' : ''}"
            data-index="${index}"
            style="transition-delay: ${Math.min(index, INITIAL_SHOW) * 40}ms">
@@ -312,7 +312,7 @@
         <div class="news-content">
           <div class="news-title">${n.title}</div>
           ${truncateSummary(n.summary, n.title) ? `<div class="news-summary">${truncateSummary(n.summary, n.title)}</div>` : ''}
-          ${n.companies && n.companies.length > 0 ? `<div class="news-companies">${n.companies.map(c => `<span class="company-pill">${c}</span>`).join('')}</div>` : ''}
+          ${n.companies && n.companies.length > 0 ? `<div class="news-companies">${n.companies.map(c => `<a href="/company/${DataManager.getSlugByName(c)}" class="company-pill">${c}</a>`).join('')}</div>` : ''}
         </div>
       </a>
     `).join('');

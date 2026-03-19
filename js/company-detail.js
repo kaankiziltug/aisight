@@ -3,12 +3,17 @@
 // ============================================
 
 (async function() {
-  // Get ticker from URL
+  // Get company from URL — supports both clean URLs (/company/amazon) and legacy (?ticker=AMZN)
   const params = new URLSearchParams(window.location.search);
   const ticker = params.get('ticker');
+  const nameParam = params.get('name');
 
-  if (!ticker) {
-    window.location.href = 'index.html';
+  // Extract slug from clean URL path: /company/amazon → "amazon"
+  const pathMatch = window.location.pathname.match(/^\/company\/([^/]+)$/);
+  const slug = pathMatch ? pathMatch[1] : null;
+
+  if (!ticker && !slug) {
+    window.location.href = '/';
     return;
   }
 
@@ -16,7 +21,16 @@
   await DataManager.loadCompanies();
   await DataManager.loadNews();
 
-  const company = DataManager.getCompanyByTicker(decodeURIComponent(ticker));
+  // Find company: try slug first, then ticker
+  let company;
+  if (slug) {
+    // Reverse lookup: find company whose slug matches
+    company = DataManager.companies.find(c => DataManager.getCompanySlug(c) === slug);
+  } else if (ticker === 'PRIVATE' && nameParam) {
+    company = DataManager.companies.find(c => c.name === nameParam);
+  } else {
+    company = DataManager.getCompanyByTicker(decodeURIComponent(ticker));
+  }
 
   if (!company) {
     document.getElementById('detail-content').innerHTML =
@@ -24,8 +38,39 @@
     return;
   }
 
-  // Set page title
-  document.title = `${company.name} - AI Spending | The AI Arms Race`;
+  // Set dynamic SEO meta tags
+  document.title = `${company.name} AI CapEx & Spending Analysis 2026 | AISight`;
+
+  const metaDesc = `${company.name} AI spending breakdown: ${company.aiCapex ? '$' + company.aiCapex + 'B AI CapEx' : ''}${company.totalCapex ? ', $' + company.totalCapex + 'B total CapEx' : ''}${company.revenue ? ', $' + company.revenue + 'B revenue' : ''}. Charts, trends, and latest news.`;
+  let descMeta = document.querySelector('meta[name="description"]');
+  if (descMeta) { descMeta.content = metaDesc; } else { descMeta = document.createElement('meta'); descMeta.name = 'description'; descMeta.content = metaDesc; document.head.appendChild(descMeta); }
+
+  const ogTitle = `${company.name} AI Spending Analysis 2026 | AISight`;
+  document.querySelector('meta[property="og:title"]')?.setAttribute('content', ogTitle);
+  document.querySelector('meta[name="twitter:title"]')?.setAttribute('content', ogTitle);
+  document.querySelector('meta[property="og:description"]')?.setAttribute('content', metaDesc);
+  document.querySelector('meta[name="twitter:description"]')?.setAttribute('content', metaDesc);
+  // Clean URL for SEO
+  const companySlug = DataManager.getCompanySlug(company);
+  const cleanUrl = `https://aisight.fyi/company/${companySlug}`;
+  document.querySelector('meta[property="og:url"]')?.setAttribute('content', cleanUrl);
+
+  // Update canonical to clean URL
+  let canonEl = document.querySelector('link[rel="canonical"]');
+  if (canonEl) { canonEl.href = cleanUrl; } else { canonEl = document.createElement('link'); canonEl.rel = 'canonical'; canonEl.href = cleanUrl; document.head.appendChild(canonEl); }
+
+  // Structured Data for company
+  const companySchema = document.createElement('script');
+  companySchema.type = 'application/ld+json';
+  companySchema.textContent = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Corporation",
+    "name": company.name,
+    "tickerSymbol": company.ticker !== 'PRIVATE' ? company.ticker : undefined,
+    "url": cleanUrl,
+    "description": metaDesc
+  });
+  document.head.appendChild(companySchema);
 
   // Render all sections
   renderHeader(company);

@@ -3,12 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The AI Arms Race - Who's Spending the Most on AI?</title>
-  <meta name="description" content="Interactive leaderboard tracking AI capital expenditure by major tech companies. See who's spending the most on artificial intelligence.">
+  <title>AI CapEx Tracker 2026 — Who's Spending the Most on AI? | AISight</title>
+  <meta name="description" content="Live tracker ranking 38 companies by AI capital expenditure in 2026. Compare AI CapEx, R&D spend, revenue, and market cap for Amazon, Alphabet, Microsoft, Meta, Nvidia, and more.">
+  <meta name="keywords" content="AI spending, AI CapEx, artificial intelligence investment, AI arms race, tech company AI spending, AI infrastructure, GPU clusters, data center spending, AI leaderboard 2026">
+  <meta name="author" content="AISight">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://aisight.fyi/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aisight.fyi/">
+  <meta property="og:title" content="AI CapEx Tracker 2026 — Who's Spending the Most on AI?">
+  <meta property="og:description" content="Live leaderboard tracking $473B+ in AI spending across 38 companies. Compare AI CapEx, R&D, revenue, and market cap for Big Tech, chip makers, and AI-native startups.">
+  <meta property="og:image" content="https://aisight.fyi/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="AISight">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI CapEx Tracker 2026 — Who's Spending the Most on AI?">
+  <meta name="twitter:description" content="Live leaderboard tracking $473B+ in AI spending across 38 companies. Compare AI CapEx, R&D, revenue, and market cap.">
+  <meta name="twitter:image" content="https://aisight.fyi/og-image.png">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KXM015TR4S"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-KXM015TR4S');
+  </script>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://logo.clearbit.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
 
   <!-- Tailwind CSS CDN -->
@@ -24,24 +55,79 @@
   </script>
 
   <!-- Custom Styles -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="/css/style.css">
 
   <!-- Favicon -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+
+  <!-- Structured Data: WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "AISight",
+    "alternateName": "AI Arms Race Tracker",
+    "url": "https://aisight.fyi",
+    "description": "Live tracker ranking companies by AI capital expenditure. Compare AI CapEx, R&D, revenue and market cap.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://aisight.fyi/?search={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- Structured Data: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "AISight",
+    "url": "https://aisight.fyi",
+    "logo": "https://aisight.fyi/og-image.png",
+    "sameAs": []
+  }
+  </script>
+
+  <!-- Structured Data: ItemList (Leaderboard) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "AI Capital Expenditure Leaderboard 2026",
+    "description": "Top companies ranked by AI-related capital expenditure",
+    "numberOfItems": 38,
+    "itemListOrder": "https://schema.org/ItemListOrderDescending",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Amazon", "url": "https://aisight.fyi/company/amazon" },
+      { "@type": "ListItem", "position": 2, "name": "Alphabet", "url": "https://aisight.fyi/company/alphabet" },
+      { "@type": "ListItem", "position": 3, "name": "Microsoft", "url": "https://aisight.fyi/company/microsoft" },
+      { "@type": "ListItem", "position": 4, "name": "Meta", "url": "https://aisight.fyi/company/meta" },
+      { "@type": "ListItem", "position": 5, "name": "Apple", "url": "https://aisight.fyi/company/apple" },
+      { "@type": "ListItem", "position": 6, "name": "Nvidia", "url": "https://aisight.fyi/company/nvidia" },
+      { "@type": "ListItem", "position": 7, "name": "Oracle", "url": "https://aisight.fyi/company/oracle" }
+    ]
+  }
+  </script>
 </head>
 <body class="bg-grid">
 
   <!-- Hero Section -->
   <header class="hero">
-    <canvas id="hero-canvas"></canvas>
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
+      <div class="hero-badge">Live Tracker · Updated March 2026</div>
       <h1>The AI Arms Race</h1>
-      <p class="subtitle">2025 Capital Expenditure Rankings — Who's Spending the Most on AI?</p>
+      <p class="subtitle">Tracking how the world's biggest companies are spending hundreds of billions on artificial intelligence — from data centers and GPU clusters to R&D and talent.</p>
 
       <div class="hero-stats">
         <div class="hero-stat">
           <div class="value"><span id="total-spend">0</span></div>
-          <div class="label">Total AI Spending</div>
+          <div class="label">Total AI CapEx</div>
         </div>
         <div class="hero-stat">
           <div class="value" id="total-companies">0</div>
@@ -50,6 +136,25 @@
         <div class="hero-stat">
           <div class="value" id="total-public">0</div>
           <div class="label">Public Companies</div>
+        </div>
+      </div>
+
+      <div class="hero-features">
+        <div class="hero-feature">
+          <span class="hero-feature-icon">📊</span>
+          <span>AI & Total CapEx, R&D, Revenue rankings</span>
+        </div>
+        <div class="hero-feature">
+          <span class="hero-feature-icon">🏢</span>
+          <span>38 companies — Big Tech, chips, cloud, AI-native & more</span>
+        </div>
+        <div class="hero-feature">
+          <span class="hero-feature-icon">📰</span>
+          <span>Latest AI spending news from top sources</span>
+        </div>
+        <div class="hero-feature">
+          <span class="hero-feature-icon">📈</span>
+          <span>Company detail pages with financial charts</span>
         </div>
       </div>
     </div>
@@ -89,7 +194,7 @@
   <main class="main-content">
 
     <!-- Stat Cards -->
-    <div class="stats-grid">
+    <section class="stats-grid" aria-label="Key AI spending statistics">
       <div class="stat-card purple" id="stat-top-spender">
         <div class="stat-value">—</div>
         <div class="stat-label">Loading...</div>
@@ -106,38 +211,51 @@
         <div class="stat-value">—</div>
         <div class="stat-label">Loading...</div>
       </div>
-    </div>
+    </section>
 
     <!-- Leaderboard -->
-    <div id="leaderboard" class="leaderboard">
-      <div class="loading">Loading leaderboard...</div>
-    </div>
+    <section aria-label="AI CapEx leaderboard">
+      <h2 class="sr-only">AI Capital Expenditure Leaderboard</h2>
+      <div id="leaderboard" class="leaderboard">
+        <div class="loading">Loading leaderboard...</div>
+      </div>
+    </section>
 
     <!-- News Ticker -->
-    <div class="news-ticker">
+    <aside class="news-ticker" aria-label="AI news ticker">
       <h3>Latest AI Spending News</h3>
       <div id="news-scroll" class="news-scroll">
         <div class="news-item">Loading news...</div>
       </div>
-    </div>
+    </aside>
 
     <!-- News Box -->
-    <div class="news-box">
+    <section class="news-box" aria-label="Recent AI spending news">
       <div class="news-box-header">
         <h3>Latest AI Spending News</h3>
         <span class="news-count" id="news-count"></span>
       </div>
       <div id="news-list" class="news-list"></div>
-      <a href="news.html" class="news-see-all-btn">
-        Tum Haberleri Gor
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      <a href="/news" class="news-see-all-btn">
+        See All News
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
       </a>
-    </div>
+    </section>
 
   </main>
 
   <!-- Footer -->
   <footer class="footer">
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="/">Leaderboard</a>
+      <a href="/news">AI News</a>
+      <a href="/company/amazon">Amazon</a>
+      <a href="/company/alphabet">Alphabet</a>
+      <a href="/company/microsoft">Microsoft</a>
+      <a href="/company/meta">Meta</a>
+      <a href="/company/nvidia">Nvidia</a>
+      <a href="/company/oracle">Oracle</a>
+    </nav>
     <div class="methodology">
       AI CapEx figures are based on company-disclosed AI-specific spending where available.
       Where not explicitly disclosed, estimates are derived from total CapEx, earnings call guidance,
@@ -146,14 +264,13 @@
     </div>
     <p>
       Data sources: SEC EDGAR, Company Earnings Calls, Bloomberg, CNBC, Reuters, Statista<br>
-      Last updated: <span id="last-updated">2026-03-18</span> &middot;
+      Last updated: <time datetime="2026-03-19" id="last-updated">2026-03-19</time> &middot;
       Built with data from public filings and analyst reports
     </p>
   </footer>
 
   <!-- Scripts -->
-  <script src="js/data.js"></script>
-  <script src="js/hero-animation.js"></script>
-  <script src="js/app.js"></script>
+  <script src="/js/data.js"></script>
+  <script src="/js/app.js"></script>
 </body>
 </html>

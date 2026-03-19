@@ -3,11 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Company Detail - The AI Arms Race</title>
+  <title>Company Detail - AI CapEx Tracker | AISight</title>
+  <meta name="description" content="Detailed AI spending analysis with charts for capital expenditure, R&D, revenue, and market cap trends.">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="AISight">
+  <meta property="og:image" content="https://aisight.fyi/og-image.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://aisight.fyi/og-image.png">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KXM015TR4S"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-KXM015TR4S');
+  </script>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://logo.clearbit.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
 
   <!-- Tailwind CSS CDN -->
@@ -26,17 +47,32 @@
   <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 
   <!-- Custom Styles -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="/css/style.css">
 
   <!-- Favicon -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+
+  <!-- Dynamic SEO meta tags set by JS -->
+  <script>
+    (function() {
+      const params = new URLSearchParams(window.location.search);
+      const ticker = params.get('ticker');
+      if (ticker) {
+        document.querySelector('link[rel="canonical"]')?.remove();
+        const canon = document.createElement('link');
+        canon.rel = 'canonical';
+        canon.href = 'https://aisight.fyi/company.html?ticker=' + encodeURIComponent(ticker);
+        document.head.appendChild(canon);
+      }
+    })();
+  </script>
 </head>
 <body class="bg-grid">
 
   <!-- Back Button + Header -->
   <header class="detail-header">
     <div class="detail-header-content" style="flex-direction: column; align-items: flex-start;">
-      <a href="index.html" class="back-btn">
+      <a href="/" class="back-btn">
         <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
         </svg>
@@ -108,15 +144,24 @@
 
   <!-- Footer -->
   <footer class="footer">
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="/">Leaderboard</a>
+      <a href="/news">AI News</a>
+      <a href="/company/amazon">Amazon</a>
+      <a href="/company/alphabet">Alphabet</a>
+      <a href="/company/microsoft">Microsoft</a>
+      <a href="/company/meta">Meta</a>
+      <a href="/company/nvidia">Nvidia</a>
+    </nav>
     <p>
       Data sources: SEC EDGAR, Company Earnings Calls, Bloomberg, CNBC, Reuters<br>
-      <a href="index.html">Back to The AI Arms Race Leaderboard</a>
+      <a href="/">Back to The AI Arms Race Leaderboard</a>
     </p>
   </footer>
 
   <!-- Scripts -->
-  <script src="js/data.js"></script>
-  <script src="js/charts.js"></script>
-  <script src="js/company-detail.js"></script>
+  <script src="/js/data.js"></script>
+  <script src="/js/charts.js"></script>
+  <script src="/js/company-detail.js"></script>
 </body>
 </html>

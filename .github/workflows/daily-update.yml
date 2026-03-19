@@ -1,0 +1,55 @@
+name: Daily Data Update
+
+on:
+  schedule:
+    # Her gün 3 kez: 08:00, 14:00, 20:00 UTC
+    - cron: '0 8 * * *'
+    - cron: '0 14 * * *'
+    - cron: '0 20 * * *'
+  workflow_dispatch: # Manuel tetikleme
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: scripts/package-lock.json
+
+      - name: Install dependencies
+        working-directory: scripts
+        run: npm ci
+
+      - name: Fetch latest news
+        working-directory: scripts
+        env:
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+        run: node daily-news.js
+
+      - name: Update last updated date
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          sed -i "s/\"lastUpdated\": \"[^\"]*\"/\"lastUpdated\": \"$TODAY\"/" data/companies.json
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet data/ && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "chore: daily news update $(date -u +%Y-%m-%d)"
+          git push
