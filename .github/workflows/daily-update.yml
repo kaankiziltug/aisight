@@ -35,6 +35,12 @@ jobs:
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
         run: node daily-news.js
 
+      - name: Update market cap data
+        working-directory: scripts
+        env:
+          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
+        run: node fetch-capex.js
+
       - name: Update last updated date
         run: |
           TODAY=$(date -u +%Y-%m-%d)
