@@ -1,0 +1,224 @@
+// ============================================
+// SEC EDGAR + FMP Capex Data Fetcher
+// ============================================
+// Run: node fetch-capex.js
+// Recommended: Run quarterly after earnings season
+
+import { readFileSync, writeFileSync } from 'fs';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+import 'dotenv/config';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const COMPANIES_FILE = join(__dirname, '..', 'data', 'companies.json');
+
+const FMP_API_KEY = process.env.FMP_API_KEY;
+const SEC_USER_AGENT = 'AISpendingTracker admin@example.com'; // SEC requires user-agent
+
+// CIK numbers for SEC EDGAR (Central Index Key)
+const TICKER_TO_CIK = {
+  'AMZN': '0001018724',
+  'MSFT': '0000789019',
+  'GOOGL': '0001652044',
+  'META': '0001326801',
+  'AAPL': '0000320193',
+  'TSLA': '0001318605',
+  'ORCL': '0001341439',
+  'NVDA': '0001045810',
+  'AMD': '0000002488',
+  'INTC': '0000050863',
+  'CRM': '0001108524',
+  'AVGO': '0001649338',
+  'NOW': '0001373715',
+  'ADBE': '0000796343',
+  'IBM': '0000051143',
+  'PLTR': '0001321655',
+  'SNOW': '0001640147',
+  'CSCO': '0000858877',
+  'QCOM': '0000804328',
+  'UBER': '0001543151',
+  'ACN': '0001281761',
+  'SAP': '0001000184',
+  'DELL': '0001571996',
+  'HPE': '0001645590',
+  'SHOP': '0001594805',
+  'SPOT': '0001639920',
+  'BKNG': '0001075531',
+  'INFY': '0001067491',
+};
+
+// Fetch company financials from SEC EDGAR
+async function fetchSECData(ticker) {
+  const cik = TICKER_TO_CIK[ticker];
+  if (!cik) {
+    console.warn(`  No CIK for ${ticker}, skipping SEC fetch`);
+    return null;
+  }
+
+  const url = `https://data.sec.gov/api/xbrl/companyfacts/CIK${cik}.json`;
+
+  try {
+    const response = await fetch(url, {
+      headers: { 'User-Agent': SEC_USER_AGENT }
+    });
+
+    if (!response.ok) {
+      console.error(`  SEC EDGAR error for ${ticker}: ${response.status}`);
+      return null;
+    }
+
+    const data = await response.json();
+    const facts = data.facts?.['us-gaap'] || {};
+
+    // Extract Capital Expenditures
+    const capexFact = facts['PaymentsToAcquirePropertyPlantAndEquipment'] ||
+                      facts['CapitalExpenditureDiscontinuedOperations'] ||
+                      facts['PaymentsForCapitalImprovements'];
+
+    // Extract R&D
+    const rdFact = facts['ResearchAndDevelopmentExpense'] ||
+                   facts['ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost'];
+
+    // Extract Revenue
+    const revFact = facts['RevenueFromContractWithCustomerExcludingAssessedTax'] ||
+                    facts['Revenues'] ||
+                    facts['SalesRevenueNet'];
+
+    // Extract Employees
+    const empFact = facts['EntityNumberOfEmployees'];
+
+    return {
+      capex: extractAnnualValues(capexFact, 'USD'),
+      rdSpend: extractAnnualValues(rdFact, 'USD'),
+      revenue: extractAnnualValues(revFact, 'USD'),
+      employees: extractAnnualValues(empFact, 'pure'),
+    };
+  } catch (error) {
+    console.error(`  SEC fetch failed for ${ticker}:`, error.message);
+    return null;
+  }
+}
+
+function extractAnnualValues(fact, unit) {
+  if (!fact?.units?.[unit]) return {};
+
+  const entries = fact.units[unit]
+    .filter(e => e.form === '10-K' && !e.frame?.includes('Q'))
+    .sort((a, b) => b.end.localeCompare(a.end)); // Most recent first
+
+  const result = {};
+  for (const entry of entries) {
+    const year = parseInt(entry.end.substring(0, 4));
+    if (!result[year] && year >= 2020) {
+      // Convert from raw USD to billions
+      result[year] = unit === 'pure' ? entry.val : entry.val / 1e9;
+    }
+  }
+  return result;
+}
+
+// Get the most recent annual value (by date, not by magnitude)
+function getLatestValue(values) {
+  const years = Object.keys(values).map(Number).sort((a, b) => b - a);
+  return years.length > 0 ? values[years[0]] : null;
+}
+
+// Fetch from Financial Modeling Prep (freemium)
+async function fetchFMPData(ticker) {
+  if (!FMP_API_KEY) {
+    return null;
+  }
+
+  try {
+    // Fetch key metrics
+    const url = `https://financialmodelingprep.com/api/v3/key-metrics/${ticker}?period=annual&limit=5&apikey=${FMP_API_KEY}`;
+    const response = await fetch(url);
+    const data = await response.json();
+
+    if (!Array.isArray(data) || data.length === 0) return null;
+
+    return {
+      marketCap: data[0]?.marketCap ? data[0].marketCap / 1e9 : null,
+      peRatio: data[0]?.peRatio || null,
+    };
+  } catch (error) {
+    console.error(`  FMP fetch failed for ${ticker}:`, error.message);
+    return null;
+  }
+}
+
+async function main() {
+  console.log('Fetching financial data for AI Spending Leaderboard...\n');
+
+  const companiesData = JSON.parse(readFileSync(COMPANIES_FILE, 'utf8'));
+  let updatedCount = 0;
+
+  for (const company of companiesData.companies) {
+    if (!company.isPublic || company.ticker === 'PRIVATE') {
+      console.log(`Skipping ${company.name} (private)`);
+      continue;
+    }
+
+    // Skip non-US tickers for SEC EDGAR
+    if (company.ticker.includes('.')) {
+      console.log(`Skipping ${company.name} (non-US: ${company.ticker})`);
+      continue;
+    }
+
+    console.log(`Fetching data for ${company.name} (${company.ticker})...`);
+
+    // Fetch SEC data
+    const secData = await fetchSECData(company.ticker);
+
+    if (secData) {
+      // Log total capex from SEC (not auto-updated: fiscal year mismatches + finance lease exclusions make it unreliable)
+      const latestCapex = getLatestValue(secData.capex);
+      if (latestCapex && latestCapex > 0) {
+        const rounded = Math.round(latestCapex * 10) / 10;
+        console.log(`  Total CapEx (SEC): $${rounded}B [current: $${company.totalCapex}B]`);
+      }
+
+      // Log R&D, revenue, employees for manual review (not auto-updated due to fiscal year mismatch risk)
+      const latestRD = getLatestValue(secData.rdSpend);
+      if (latestRD && latestRD > 0) {
+        console.log(`  R&D (SEC): $${Math.round(latestRD * 10) / 10}B [current: $${company.rdSpend}B]`);
+      }
+      const latestRev = getLatestValue(secData.revenue);
+      if (latestRev && latestRev > 0) {
+        console.log(`  Revenue (SEC): $${Math.round(latestRev * 10) / 10}B [current: $${company.revenue}B]`);
+      }
+      const latestEmp = getLatestValue(secData.employees);
+      if (latestEmp && latestEmp > 0) {
+        console.log(`  Employees (SEC): ${latestEmp.toLocaleString()} [current: ${company.employees?.toLocaleString()}]`);
+      }
+    }
+
+    // Fetch FMP data
+    const fmpData = await fetchFMPData(company.ticker);
+    if (fmpData?.marketCap) {
+      const rounded = Math.round(fmpData.marketCap);
+      console.log(`  Market Cap (FMP): $${rounded}B`);
+      if (company.marketCap && Math.abs(rounded - company.marketCap) / company.marketCap > 0.05) {
+        console.log(`  >> Updating marketCap: $${company.marketCap}B → $${rounded}B`);
+        company.marketCap = rounded;
+        updatedCount++;
+      }
+    }
+
+    // Rate limit: SEC asks for max 10 req/sec
+    await new Promise(r => setTimeout(r, 200));
+  }
+
+  // Note: yoyChange represents AI spending growth (not just totalCapex growth)
+  // and is manually curated from earnings calls. Not auto-calculated.
+
+  // Update metadata
+  companiesData.metadata.lastUpdated = new Date().toISOString().split('T')[0];
+
+  // Save
+  writeFileSync(COMPANIES_FILE, JSON.stringify(companiesData, null, 2));
+  console.log(`\nDone! Updated ${updatedCount} companies.`);
+  console.log(`Data saved to ${COMPANIES_FILE}`);
+}
+
+main().catch(console.error);

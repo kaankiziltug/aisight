@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Detail - The AI Arms Race</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+        }
+      }
+    }
+  </script>
+
+  <!-- ApexCharts -->
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+</head>
+<body class="bg-grid">
+
+  <!-- Back Button + Header -->
+  <header class="detail-header">
+    <div class="detail-header-content" style="flex-direction: column; align-items: flex-start;">
+      <a href="index.html" class="back-btn">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+        </svg>
+        Back to Leaderboard
+      </a>
+
+      <div style="display: flex; align-items: center; gap: 20px;">
+        <div class="detail-logo" id="detail-logo"></div>
+        <div class="detail-title">
+          <h1 id="detail-name">Loading...</h1>
+          <div class="meta">
+            <span class="ticker" id="detail-ticker"></span>
+            <span class="category-badge" id="detail-category"></span>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 8px;" id="detail-note"></p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Detail Content -->
+  <div id="detail-content">
+
+    <!-- Stats Row -->
+    <div class="detail-stats" id="detail-stats-grid">
+      <div class="detail-stat"><div class="value">—</div><div class="label">Loading...</div></div>
+    </div>
+
+    <!-- Charts -->
+    <div class="chart-section">
+
+      <!-- Multi-Axis Timeline -->
+      <div class="chart-card" id="chart-multiaxis-card">
+        <h2>AI Investment, Market Cap & Workforce Over Time</h2>
+        <div class="chart-container" id="chart-multiaxis"></div>
+      </div>
+
+      <!-- Two-column layout for smaller charts -->
+      <div class="comparison-grid">
+        <!-- Revenue vs AI -->
+        <div class="chart-card" id="chart-revenue-ai-card">
+          <h2>AI CapEx vs Revenue Growth</h2>
+          <div class="chart-container" id="chart-revenue-ai"></div>
+        </div>
+
+        <!-- CapEx Donut -->
+        <div class="chart-card" id="chart-capex-donut-card">
+          <h2>CapEx Breakdown: AI vs Other</h2>
+          <div class="chart-container" id="chart-capex-donut"></div>
+        </div>
+      </div>
+
+      <!-- Sector Comparison -->
+      <div class="chart-card" id="chart-sector-card">
+        <h2>Sector Comparison: AI CapEx</h2>
+        <div class="chart-container" id="chart-sector"></div>
+      </div>
+
+      <!-- Related News -->
+      <div class="chart-card">
+        <h2>Related News & Updates</h2>
+        <ul class="news-list" id="company-news">
+          <li class="loading">Loading news...</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>
+      Data sources: SEC EDGAR, Company Earnings Calls, Bloomberg, CNBC, Reuters<br>
+      <a href="index.html">Back to The AI Arms Race Leaderboard</a>
+    </p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/company-detail.js"></script>
+</body>
+</html>

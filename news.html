@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Spending News - The AI Arms Race</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+</head>
+<body class="bg-grid">
+
+  <!-- Header -->
+  <header class="detail-header">
+    <div class="detail-header-content" style="flex-direction: column; align-items: flex-start;">
+      <a href="index.html" class="back-btn">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+        </svg>
+        Back to Leaderboard
+      </a>
+      <div style="margin-top: 16px;">
+        <h1 style="font-size: 1.8rem; font-weight: 800; color: var(--text-primary);">AI Spending News</h1>
+        <p style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 4px;">Latest news about AI investments, infrastructure spending, and capital expenditure</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Filter Bar -->
+  <div class="news-page-filters">
+    <select id="company-filter" class="news-filter-select">
+      <option value="all">All Companies</option>
+    </select>
+    <span id="news-total" class="news-total-label"></span>
+  </div>
+
+  <!-- News List -->
+  <div class="news-page-list" id="news-page-list">
+    <div class="loading">Loading news...</div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>
+      Data sources: Google News RSS, NewsAPI<br>
+      <a href="index.html">Back to The AI Arms Race Leaderboard</a>
+    </p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script>
+  (async function() {
+    await DataManager.loadNews();
+    await DataManager.loadCompanies();
+
+    const listEl = document.getElementById('news-page-list');
+    const filterEl = document.getElementById('company-filter');
+    const totalEl = document.getElementById('news-total');
+    const news = DataManager.news;
+
+    // Populate company filter
+    const allCompanies = [...new Set(news.flatMap(n => n.companies || []))].sort();
+    allCompanies.forEach(c => {
+      const opt = document.createElement('option');
+      opt.value = c;
+      opt.textContent = c;
+      filterEl.appendChild(opt);
+    });
+
+    function formatDate(dateStr) {
+      if (!dateStr) return '';
+      const d = new Date(dateStr + 'T00:00:00');
+      const months = ['Oca', 'Sub', 'Mar', 'Nis', 'May', 'Haz', 'Tem', 'Agu', 'Eyl', 'Eki', 'Kas', 'Ara'];
+      return months[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
+    }
+
+    function renderNews(filter) {
+      const filtered = filter === 'all' ? news : news.filter(n => (n.companies || []).includes(filter));
+      totalEl.textContent = filtered.length + ' haber';
+
+      if (filtered.length === 0) {
+        listEl.innerHTML = '<div class="loading">No news found for this filter.</div>';
+        return;
+      }
+
+      listEl.innerHTML = filtered.map(n => `
+        <a href="${n.url || '#'}" target="_blank" rel="noopener" class="news-page-card">
+          <div class="news-page-meta">
+            <span class="news-page-date">${formatDate(n.date)}</span>
+            <span class="news-page-source">${n.source || ''}</span>
+          </div>
+          <div class="news-page-content">
+            <div class="news-page-title">${n.title}</div>
+            ${n.summary && n.summary !== n.title && !n.title.startsWith(n.summary.substring(0, 30))
+              ? `<div class="news-page-summary">${n.summary}</div>` : ''}
+            ${(n.companies || []).length > 0
+              ? `<div class="news-companies">${n.companies.map(c => `<a href="company.html?ticker=${encodeURIComponent(DataManager.getTickerByName(c) || c)}" class="company-pill" onclick="event.stopPropagation()">${c}</a>`).join('')}</div>` : ''}
+          </div>
+        </a>
+      `).join('');
+    }
+
+    filterEl.addEventListener('change', () => renderNews(filterEl.value));
+    renderNews('all');
+  })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The AI Arms Race - Who's Spending the Most on AI?</title>
+  <meta name="description" content="Interactive leaderboard tracking AI capital expenditure by major tech companies. See who's spending the most on artificial intelligence.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+</head>
+<body class="bg-grid">
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <canvas id="hero-canvas"></canvas>
+    <div class="hero-content">
+      <h1>The AI Arms Race</h1>
+      <p class="subtitle">2025 Capital Expenditure Rankings — Who's Spending the Most on AI?</p>
+
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="value"><span id="total-spend">0</span></div>
+          <div class="label">Total AI Spending</div>
+        </div>
+        <div class="hero-stat">
+          <div class="value" id="total-companies">0</div>
+          <div class="label">Companies Tracked</div>
+        </div>
+        <div class="hero-stat">
+          <div class="value" id="total-public">0</div>
+          <div class="label">Public Companies</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Filter Bar -->
+  <nav class="filter-bar">
+    <div class="filter-container">
+      <div class="filter-categories">
+        <button class="filter-btn active" data-category="all">All</button>
+        <button class="filter-btn" data-category="bigtech">Big Tech</button>
+        <button class="filter-btn" data-category="chip">Chip & HW</button>
+        <button class="filter-btn" data-category="cloud">Cloud / SaaS</button>
+        <button class="filter-btn" data-category="china">China / Asia</button>
+        <button class="filter-btn" data-category="ainative">AI-Native</button>
+        <button class="filter-btn" data-category="other">Other</button>
+      </div>
+
+      <select id="sort-select" class="sort-select">
+        <option value="aiCapex">Sort: AI CapEx</option>
+        <option value="totalCapex">Sort: Total CapEx</option>
+        <option value="rdSpend">Sort: R&D Spend</option>
+        <option value="marketCap">Sort: Market Cap</option>
+        <option value="yoyChange">Sort: YoY Growth</option>
+        <option value="revenue">Sort: Revenue</option>
+        <option value="employees">Sort: Employees</option>
+      </select>
+
+      <input type="text"
+             id="search-input"
+             class="search-input"
+             placeholder="Search companies...">
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content">
+
+    <!-- Stat Cards -->
+    <div class="stats-grid">
+      <div class="stat-card purple" id="stat-top-spender">
+        <div class="stat-value">—</div>
+        <div class="stat-label">Loading...</div>
+      </div>
+      <div class="stat-card green" id="stat-fastest">
+        <div class="stat-value">—</div>
+        <div class="stat-label">Loading...</div>
+      </div>
+      <div class="stat-card blue" id="stat-total">
+        <div class="stat-value">—</div>
+        <div class="stat-label">Loading...</div>
+      </div>
+      <div class="stat-card orange" id="stat-concentration">
+        <div class="stat-value">—</div>
+        <div class="stat-label">Loading...</div>
+      </div>
+    </div>
+
+    <!-- Leaderboard -->
+    <div id="leaderboard" class="leaderboard">
+      <div class="loading">Loading leaderboard...</div>
+    </div>
+
+    <!-- News Ticker -->
+    <div class="news-ticker">
+      <h3>Latest AI Spending News</h3>
+      <div id="news-scroll" class="news-scroll">
+        <div class="news-item">Loading news...</div>
+      </div>
+    </div>
+
+    <!-- News Box -->
+    <div class="news-box">
+      <div class="news-box-header">
+        <h3>Latest AI Spending News</h3>
+        <span class="news-count" id="news-count"></span>
+      </div>
+      <div id="news-list" class="news-list"></div>
+      <a href="news.html" class="news-see-all-btn">
+        Tum Haberleri Gor
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="methodology">
+      AI CapEx figures are based on company-disclosed AI-specific spending where available.
+      Where not explicitly disclosed, estimates are derived from total CapEx, earnings call guidance,
+      and analyst reports. All figures in USD billions. Private companies (OpenAI, Anthropic, Databricks)
+      show funding raised, not capital expenditure.
+    </div>
+    <p>
+      Data sources: SEC EDGAR, Company Earnings Calls, Bloomberg, CNBC, Reuters, Statista<br>
+      Last updated: <span id="last-updated">2026-03-18</span> &middot;
+      Built with data from public filings and analyst reports
+    </p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/hero-animation.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
