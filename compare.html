@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compare AI Spending — Side-by-Side Company Analysis | AISight</title>
+  <meta name="description" content="Compare AI capital expenditure, R&D spend, revenue, and market cap side-by-side for up to 4 companies. Amazon vs Alphabet vs Microsoft vs Meta and more.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://aisight.fyi/compare">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aisight.fyi/compare">
+  <meta property="og:title" content="Compare AI Spending — Side-by-Side Company Analysis">
+  <meta property="og:description" content="Compare AI capital expenditure side-by-side for up to 4 companies.">
+  <meta property="og:image" content="https://aisight.fyi/og-image.png">
+  <meta property="og:site_name" content="AISight">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KXM015TR4S"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-KXM015TR4S');
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] } } } }</script>
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+</head>
+<body class="bg-grid">
+
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="/">Home</a>
+    <span class="sep">›</span>
+    <span class="current">Compare Companies</span>
+  </nav>
+
+  <main class="compare-page">
+    <h1>Compare AI Spending</h1>
+    <p class="compare-subtitle">Select up to 4 companies to compare side-by-side</p>
+
+    <!-- Company Selector -->
+    <div class="compare-selector" id="compare-selector">
+      <div class="compare-slot" id="slot-0"><button class="add-company-btn" data-slot="0">+ Add Company</button></div>
+      <div class="compare-slot" id="slot-1"><button class="add-company-btn" data-slot="1">+ Add Company</button></div>
+      <div class="compare-slot" id="slot-2"><button class="add-company-btn" data-slot="2">+ Add Company</button></div>
+      <div class="compare-slot" id="slot-3"><button class="add-company-btn" data-slot="3">+ Add Company</button></div>
+    </div>
+
+    <!-- Company Picker Modal -->
+    <div class="picker-overlay" id="picker-overlay" style="display:none;">
+      <div class="picker-modal">
+        <input type="text" id="picker-search" placeholder="Search companies..." class="picker-search" autofocus>
+        <div id="picker-list" class="picker-list"></div>
+      </div>
+    </div>
+
+    <!-- Comparison Content (hidden until companies selected) -->
+    <div id="compare-content" style="display:none;">
+      <!-- Stats Table -->
+      <div class="compare-table-wrap">
+        <table class="compare-table" id="compare-table">
+          <thead><tr id="compare-header"></tr></thead>
+          <tbody id="compare-body"></tbody>
+        </table>
+      </div>
+
+      <!-- Bar Chart -->
+      <div class="chart-card" style="margin-top: 24px;">
+        <h2>AI CapEx Comparison</h2>
+        <div id="compare-chart" class="chart-container"></div>
+      </div>
+
+      <!-- Share URL -->
+      <div class="compare-share" id="compare-share"></div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="/">Leaderboard</a>
+      <a href="/news">AI News</a>
+      <a href="/about">About</a>
+      <a href="/compare">Compare</a>
+    </nav>
+    <p><a href="/">Back to The AI Arms Race Leaderboard</a></p>
+  </footer>
+
+  <script src="/js/data.js"></script>
+  <script>
+  (async function() {
+    await DataManager.loadCompanies();
+
+    const slots = [null, null, null, null]; // selected company objects
+    let activeSlot = -1;
+    const COLORS = ['#7c3aed', '#3b82f6', '#10b981', '#f59e0b'];
+
+    // Read URL params: /compare?c=amazon,meta,nvidia
+    const urlParams = new URLSearchParams(window.location.search);
+    const preselected = (urlParams.get('c') || '').split(',').filter(Boolean);
+
+    // Picker elements
+    const overlay = document.getElementById('picker-overlay');
+    const searchInput = document.getElementById('picker-search');
+    const pickerList = document.getElementById('picker-list');
+
+    // Setup add buttons
+    document.querySelectorAll('.add-company-btn').forEach(btn => {
+      btn.addEventListener('click', () => openPicker(parseInt(btn.dataset.slot)));
+    });
+
+    function openPicker(slotIndex) {
+      activeSlot = slotIndex;
+      overlay.style.display = 'flex';
+      searchInput.value = '';
+      renderPickerList('');
+      setTimeout(() => searchInput.focus(), 50);
+    }
+
+    function closePicker() {
+      overlay.style.display = 'none';
+      activeSlot = -1;
+    }
+
+    overlay.addEventListener('click', (e) => { if (e.target === overlay) closePicker(); });
+    searchInput.addEventListener('input', () => renderPickerList(searchInput.value));
+
+    function renderPickerList(query) {
+      const q = query.toLowerCase();
+      const selectedNames = slots.filter(Boolean).map(c => c.name);
+      const filtered = DataManager.companies
+        .filter(c => !selectedNames.includes(c.name))
+        .filter(c => !q || c.name.toLowerCase().includes(q) || c.ticker.toLowerCase().includes(q));
+
+      pickerList.innerHTML = filtered.slice(0, 20).map(c => `
+        <button class="picker-item" data-name="${c.name}">
+          <span class="picker-name">${c.name}</span>
+          <span class="picker-ticker">${c.ticker !== 'PRIVATE' ? c.ticker : 'Private'}</span>
+          <span class="picker-capex">${c.aiCapex ? '$' + c.aiCapex + 'B' : '—'}</span>
+        </button>
+      `).join('');
+
+      pickerList.querySelectorAll('.picker-item').forEach(item => {
+        item.addEventListener('click', () => {
+          const company = DataManager.getCompanyByName(item.dataset.name);
+          if (company) selectCompany(activeSlot, company);
+          closePicker();
+        });
+      });
+    }
+
+    function selectCompany(slotIndex, company) {
+      slots[slotIndex] = company;
+      renderSlots();
+      renderComparison();
+      updateURL();
+      if (typeof gtag === 'function') gtag('event', 'compare_select', { company: company.name, slot: slotIndex });
+    }
+
+    function removeCompany(slotIndex) {
+      slots[slotIndex] = null;
+      renderSlots();
+      renderComparison();
+      updateURL();
+    }
+
+    function renderSlots() {
+      slots.forEach((company, i) => {
+        const slot = document.getElementById(`slot-${i}`);
+        if (company) {
+          slot.innerHTML = `
+            <div class="selected-company" style="border-color: ${COLORS[i]}">
+              <div class="sc-name" style="color: ${COLORS[i]}">${company.name}</div>
+              <div class="sc-ticker">${company.ticker !== 'PRIVATE' ? company.ticker : 'Private'}</div>
+              <button class="sc-remove" data-slot="${i}">&times;</button>
+            </div>
+          `;
+          slot.querySelector('.sc-remove').addEventListener('click', () => removeCompany(i));
+        } else {
+          slot.innerHTML = `<button class="add-company-btn" data-slot="${i}">+ Add Company</button>`;
+          slot.querySelector('.add-company-btn').addEventListener('click', () => openPicker(i));
+        }
+      });
+    }
+
+    function updateURL() {
+      const slugs = slots.filter(Boolean).map(c => DataManager.getCompanySlug(c));
+      const newUrl = slugs.length > 0 ? `/compare?c=${slugs.join(',')}` : '/compare';
+      window.history.replaceState({}, '', newUrl);
+    }
+
+    function renderComparison() {
+      const selected = slots.filter(Boolean);
+      const content = document.getElementById('compare-content');
+      if (selected.length < 2) { content.style.display = 'none'; return; }
+      content.style.display = 'block';
+
+      // Stats table
+      const metrics = [
+        { label: 'AI CapEx', key: 'aiCapex', fmt: v => v ? `$${v}B` : '—' },
+        { label: 'Total CapEx', key: 'totalCapex', fmt: v => v ? `$${v}B` : '—' },
+        { label: 'R&D Spend', key: 'rdSpend', fmt: v => v ? `$${v}B` : '—' },
+        { label: 'Revenue', key: 'revenue', fmt: v => v ? `$${v}B` : '—' },
+        { label: 'Market Cap', key: 'marketCap', fmt: v => v ? (v >= 1000 ? `$${(v/1000).toFixed(1)}T` : `$${v}B`) : '—' },
+        { label: 'Employees', key: 'employees', fmt: v => v ? v.toLocaleString() : '—' },
+        { label: 'YoY Growth', key: 'yoyChange', fmt: v => v !== null && v !== undefined ? `${v > 0 ? '+' : ''}${v}%` : '—' },
+        { label: 'AI % of Total CapEx', key: 'calculatedMetrics.aiCapexPctOfTotal', fmt: v => v ? `${v}%` : '—' },
+        { label: 'CapEx/Revenue', key: 'calculatedMetrics.capexToRevenue', fmt: v => v ? `${v}%` : '—' },
+      ];
+
+      const header = document.getElementById('compare-header');
+      header.innerHTML = `<th>Metric</th>` + selected.map((c, i) =>
+        `<th style="color: ${COLORS[slots.indexOf(c)]}">${c.name}</th>`
+      ).join('');
+
+      const body = document.getElementById('compare-body');
+      body.innerHTML = metrics.map(m => {
+        const cells = selected.map(c => {
+          const val = m.key.includes('.') ? m.key.split('.').reduce((o, k) => o?.[k], c) : c[m.key];
+          return `<td>${m.fmt(val)}</td>`;
+        }).join('');
+        return `<tr><td class="metric-label">${m.label}</td>${cells}</tr>`;
+      }).join('');
+
+      // Highlight max value per row
+      body.querySelectorAll('tr').forEach(row => {
+        const cells = [...row.querySelectorAll('td')].slice(1);
+        const values = cells.map(td => {
+          const num = parseFloat(td.textContent.replace(/[$%,TB+]/g, ''));
+          return isNaN(num) ? -Infinity : num;
+        });
+        const maxIdx = values.indexOf(Math.max(...values));
+        if (maxIdx >= 0 && values[maxIdx] > -Infinity) {
+          cells[maxIdx].classList.add('compare-best');
+        }
+      });
+
+      // Bar chart
+      renderCompareChart(selected);
+
+      // Share URL
+      const shareUrl = window.location.href;
+      document.getElementById('compare-share').innerHTML = `
+        <span class="share-label">Share this comparison:</span>
+        <input type="text" value="${shareUrl}" class="share-url" readonly onclick="this.select()">
+      `;
+    }
+
+    function renderCompareChart(companies) {
+      const container = document.getElementById('compare-chart');
+      container.innerHTML = '';
+
+      const categories = ['AI CapEx', 'Total CapEx', 'R&D Spend'];
+      const series = companies.map((c, i) => ({
+        name: c.name,
+        data: [c.aiCapex || 0, c.totalCapex || 0, c.rdSpend || 0],
+        color: COLORS[slots.indexOf(c)]
+      }));
+
+      new ApexCharts(container, {
+        chart: { type: 'bar', height: 350, background: 'transparent', toolbar: { show: false } },
+        series,
+        xaxis: { categories, labels: { style: { colors: '#a0a0b8', fontSize: '12px' } } },
+        yaxis: { labels: { style: { colors: '#a0a0b8' }, formatter: v => `$${v}B` } },
+        plotOptions: { bar: { borderRadius: 4, columnWidth: '60%' } },
+        dataLabels: { enabled: false },
+        grid: { borderColor: 'rgba(255,255,255,0.06)' },
+        legend: { labels: { colors: '#a0a0b8' }, position: 'top' },
+        tooltip: { theme: 'dark', y: { formatter: v => `$${v}B` } },
+      }).render();
+    }
+
+    // Auto-load from URL params
+    if (preselected.length > 0) {
+      preselected.forEach((slug, i) => {
+        if (i >= 4) return;
+        const company = DataManager.companies.find(c => DataManager.getCompanySlug(c) === slug);
+        if (company) { slots[i] = company; }
+      });
+      renderSlots();
+      renderComparison();
+    }
+  })();
+  </script>
+</body>
+</html>

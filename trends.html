@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Spending Trends 2026 — Industry Growth & Analysis | AISight</title>
+  <meta name="description" content="Track AI spending trends across the tech industry. Total AI CapEx over time, category growth rates, fastest-growing companies, and spending concentration analysis.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://aisight.fyi/trends">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aisight.fyi/trends">
+  <meta property="og:title" content="AI Spending Trends 2026 — Industry Growth & Analysis">
+  <meta property="og:description" content="Track AI spending trends across the tech industry. Total AI CapEx, category growth, and fastest-growing companies.">
+  <meta property="og:image" content="https://aisight.fyi/og-image.png">
+  <meta property="og:site_name" content="AISight">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KXM015TR4S"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-KXM015TR4S');
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] } } } }</script>
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+</head>
+<body class="bg-grid">
+
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="/">Home</a>
+    <span class="sep">›</span>
+    <span class="current">AI Spending Trends</span>
+  </nav>
+
+  <main class="trends-page">
+    <h1>AI Spending Trends</h1>
+    <p class="trends-subtitle">How the AI arms race is evolving — total industry spend, category breakdowns, and the fastest movers</p>
+
+    <!-- Key Stats -->
+    <div class="trends-stats" id="trends-stats"></div>
+
+    <!-- Total AI Spend Timeline -->
+    <div class="chart-card">
+      <h2>Total Industry AI CapEx Over Time</h2>
+      <div id="chart-total-timeline" class="chart-container"></div>
+    </div>
+
+    <!-- Category Breakdown -->
+    <div class="comparison-grid">
+      <div class="chart-card">
+        <h2>AI CapEx by Category</h2>
+        <div id="chart-category-pie" class="chart-container"></div>
+      </div>
+      <div class="chart-card">
+        <h2>Top 10 AI Spenders</h2>
+        <div id="chart-top10" class="chart-container"></div>
+      </div>
+    </div>
+
+    <!-- Growth Leaders -->
+    <div class="chart-card">
+      <h2>Fastest Growing AI Spenders (YoY)</h2>
+      <div id="chart-growth" class="chart-container"></div>
+    </div>
+
+    <!-- Spending Concentration -->
+    <div class="chart-card">
+      <h2>Spending Concentration: Top 5 vs Rest</h2>
+      <div id="chart-concentration" class="chart-container"></div>
+    </div>
+
+    <!-- Category Table -->
+    <div class="chart-card">
+      <h2>Category Summary</h2>
+      <table class="compare-table" id="category-table">
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Companies</th>
+            <th>Total AI CapEx</th>
+            <th>Avg AI CapEx</th>
+            <th>Top Spender</th>
+          </tr>
+        </thead>
+        <tbody id="category-body"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="/">Leaderboard</a>
+      <a href="/news">AI News</a>
+      <a href="/about">About</a>
+      <a href="/compare">Compare</a>
+      <a href="/trends">Trends</a>
+    </nav>
+    <p><a href="/">Back to The AI Arms Race Leaderboard</a></p>
+  </footer>
+
+  <script src="/js/data.js"></script>
+  <script>
+  (async function() {
+    await DataManager.loadCompanies();
+    const companies = DataManager.companies;
+    const COLORS = { bigtech: '#7c3aed', chip: '#3b82f6', cloud: '#10b981', china: '#f59e0b', ainative: '#ef4444', other: '#6b7280' };
+
+    // ---- Key Stats ----
+    const totalAI = companies.reduce((s, c) => s + (c.aiCapex || 0), 0);
+    const totalCapex = companies.reduce((s, c) => s + (c.totalCapex || 0), 0);
+    const avgGrowth = companies.filter(c => c.yoyChange !== null).reduce((s, c, _, a) => s + c.yoyChange / a.length, 0);
+    const top5Share = companies.sort((a, b) => (b.aiCapex || 0) - (a.aiCapex || 0)).slice(0, 5).reduce((s, c) => s + (c.aiCapex || 0), 0) / totalAI * 100;
+
+    document.getElementById('trends-stats').innerHTML = [
+      { label: 'Total AI CapEx', value: `$${totalAI.toFixed(0)}B` },
+      { label: 'Total CapEx (All)', value: `$${totalCapex.toFixed(0)}B` },
+      { label: 'Avg YoY Growth', value: `+${avgGrowth.toFixed(0)}%` },
+      { label: 'Top 5 Concentration', value: `${top5Share.toFixed(0)}%` },
+    ].map(s => `<div class="detail-stat"><div class="value">${s.value}</div><div class="label">${s.label}</div></div>`).join('');
+
+    // ---- Total AI Spend Timeline (from historical data) ----
+    const yearsSet = new Set();
+    companies.forEach(c => { if (c.historical?.years) c.historical.years.forEach(y => yearsSet.add(y)); });
+    const years = [...yearsSet].sort();
+
+    if (years.length > 0) {
+      const yearlyTotals = years.map(year => {
+        let total = 0;
+        companies.forEach(c => {
+          if (!c.historical?.years) return;
+          const idx = c.historical.years.indexOf(year);
+          if (idx >= 0 && c.historical.aiCapex?.[idx] !== null) total += c.historical.aiCapex[idx];
+        });
+        return total;
+      });
+
+      new ApexCharts(document.getElementById('chart-total-timeline'), {
+        chart: { type: 'area', height: 350, background: 'transparent', toolbar: { show: false } },
+        series: [{ name: 'Total AI CapEx ($B)', data: yearlyTotals }],
+        xaxis: { categories: years, labels: { style: { colors: '#a0a0b8' } } },
+        yaxis: { labels: { style: { colors: '#a0a0b8' }, formatter: v => `$${v.toFixed(0)}B` } },
+        colors: ['#7c3aed'],
+        fill: { type: 'gradient', gradient: { shadeIntensity: 1, opacityFrom: 0.5, opacityTo: 0.1 } },
+        stroke: { curve: 'smooth', width: 3 },
+        dataLabels: { enabled: true, formatter: v => `$${v.toFixed(0)}B`, style: { fontSize: '11px' } },
+        grid: { borderColor: 'rgba(255,255,255,0.06)' },
+        tooltip: { theme: 'dark' },
+      }).render();
+    } else {
+      document.getElementById('chart-total-timeline').innerHTML = '<p style="color: var(--text-muted); padding: 40px; text-align: center;">Historical data not available yet</p>';
+    }
+
+    // ---- Category Pie ----
+    const categories = ['bigtech', 'chip', 'cloud', 'china', 'ainative', 'other'];
+    const catData = categories.map(cat => {
+      const catCompanies = companies.filter(c => c.category === cat);
+      return { name: DataManager.getCategoryLabel(cat), value: catCompanies.reduce((s, c) => s + (c.aiCapex || 0), 0), color: COLORS[cat] };
+    }).filter(d => d.value > 0);
+
+    new ApexCharts(document.getElementById('chart-category-pie'), {
+      chart: { type: 'donut', height: 350, background: 'transparent' },
+      series: catData.map(d => Math.round(d.value * 10) / 10),
+      labels: catData.map(d => d.name),
+      colors: catData.map(d => d.color),
+      legend: { labels: { colors: '#a0a0b8' }, position: 'bottom' },
+      dataLabels: { enabled: true, formatter: (val, opts) => `$${catData[opts.seriesIndex].value.toFixed(0)}B` },
+      tooltip: { theme: 'dark', y: { formatter: v => `$${v}B` } },
+      plotOptions: { pie: { donut: { size: '55%', labels: { show: true, total: { show: true, label: 'Total', color: '#a0a0b8', formatter: () => `$${totalAI.toFixed(0)}B` } } } } },
+    }).render();
+
+    // ---- Top 10 Bar Chart ----
+    const top10 = [...companies].sort((a, b) => (b.aiCapex || 0) - (a.aiCapex || 0)).slice(0, 10);
+    new ApexCharts(document.getElementById('chart-top10'), {
+      chart: { type: 'bar', height: 350, background: 'transparent', toolbar: { show: false } },
+      series: [{ name: 'AI CapEx ($B)', data: top10.map(c => c.aiCapex || 0) }],
+      xaxis: { categories: top10.map(c => c.name), labels: { style: { colors: '#a0a0b8', fontSize: '11px' }, rotate: -45 } },
+      yaxis: { labels: { style: { colors: '#a0a0b8' }, formatter: v => `$${v}B` } },
+      colors: top10.map(c => COLORS[c.category] || '#6b7280'),
+      plotOptions: { bar: { borderRadius: 4, distributed: true, columnWidth: '70%' } },
+      dataLabels: { enabled: false },
+      legend: { show: false },
+      grid: { borderColor: 'rgba(255,255,255,0.06)' },
+      tooltip: { theme: 'dark', y: { formatter: v => `$${v}B` } },
+    }).render();
+
+    // ---- Growth Leaders ----
+    const growers = companies.filter(c => c.yoyChange !== null && c.yoyChange > 0)
+      .sort((a, b) => b.yoyChange - a.yoyChange).slice(0, 10);
+
+    new ApexCharts(document.getElementById('chart-growth'), {
+      chart: { type: 'bar', height: 350, background: 'transparent', toolbar: { show: false } },
+      series: [{ name: 'YoY Growth', data: growers.map(c => c.yoyChange) }],
+      xaxis: { categories: growers.map(c => c.name), labels: { style: { colors: '#a0a0b8', fontSize: '11px' }, rotate: -45 } },
+      yaxis: { labels: { style: { colors: '#a0a0b8' }, formatter: v => `${v}%` } },
+      colors: ['#10b981'],
+      plotOptions: { bar: { borderRadius: 4, columnWidth: '60%' } },
+      dataLabels: { enabled: true, formatter: v => `+${v}%`, style: { fontSize: '11px' } },
+      grid: { borderColor: 'rgba(255,255,255,0.06)' },
+      tooltip: { theme: 'dark', y: { formatter: v => `+${v}%` } },
+    }).render();
+
+    // ---- Spending Concentration ----
+    const sorted = [...companies].sort((a, b) => (b.aiCapex || 0) - (a.aiCapex || 0));
+    const top5Total = sorted.slice(0, 5).reduce((s, c) => s + (c.aiCapex || 0), 0);
+    const restTotal = totalAI - top5Total;
+
+    new ApexCharts(document.getElementById('chart-concentration'), {
+      chart: { type: 'donut', height: 300, background: 'transparent' },
+      series: [Math.round(top5Total), Math.round(restTotal)],
+      labels: [`Top 5 (${sorted.slice(0,5).map(c=>c.name).join(', ')})`, `Other ${companies.length - 5} Companies`],
+      colors: ['#7c3aed', '#374151'],
+      legend: { labels: { colors: '#a0a0b8' }, position: 'bottom' },
+      dataLabels: { enabled: true, formatter: (val) => `${val.toFixed(0)}%` },
+      tooltip: { theme: 'dark', y: { formatter: v => `$${v}B` } },
+      plotOptions: { pie: { donut: { size: '50%' } } },
+    }).render();
+
+    // ---- Category Summary Table ----
+    const catBody = document.getElementById('category-body');
+    catBody.innerHTML = categories.map(cat => {
+      const catCompanies = companies.filter(c => c.category === cat);
+      const catTotal = catCompanies.reduce((s, c) => s + (c.aiCapex || 0), 0);
+      const catAvg = catCompanies.length > 0 ? catTotal / catCompanies.length : 0;
+      const topSpender = catCompanies.sort((a, b) => (b.aiCapex || 0) - (a.aiCapex || 0))[0];
+      return `<tr>
+        <td><span style="color: ${COLORS[cat]}; font-weight: 600;">${DataManager.getCategoryLabel(cat)}</span></td>
+        <td>${catCompanies.length}</td>
+        <td>$${catTotal.toFixed(1)}B</td>
+        <td>$${catAvg.toFixed(1)}B</td>
+        <td>${topSpender ? `<a href="${DataManager.getCompanyUrl(topSpender)}" style="color: var(--accent-blue);">${topSpender.name}</a>` : '—'}</td>
+      </tr>`;
+    }).join('');
+  })();
+  </script>
+</body>
+</html>
