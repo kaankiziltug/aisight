@@ -259,8 +259,71 @@ async function main() {
     await new Promise(r => setTimeout(r, 300));
   }
 
-  // Note: yoyChange represents AI spending growth (not just totalCapex growth)
-  // and is manually curated from earnings calls. Not auto-calculated.
+  // Auto-calculate yoyChange from historical data ONLY if not already set manually
+  // Manual yoyChange values from earnings calls are more accurate than historical array calculations
+  console.log('\nChecking YoY changes...');
+  for (const company of companiesData.companies) {
+    if (company.yoyChange !== null && company.yoyChange !== undefined) continue; // Keep manual values
+    if (!company.historical?.aiCapex || company.historical.aiCapex.length < 2) continue;
+    const aiCapexArr = company.historical.aiCapex;
+    const current = aiCapexArr[aiCapexArr.length - 1];
+    const previous = aiCapexArr[aiCapexArr.length - 2];
+    if (current !== null && previous !== null && previous > 0) {
+      const calculated = Math.round((current - previous) / previous * 100);
+      console.log(`  ${company.name}: yoyChange auto-calculated as ${calculated}%`);
+      company.yoyChange = calculated;
+    }
+  }
+
+  // Cross-validate: compare FMP market cap vs Yahoo Finance
+  console.log('\nCross-validating market caps (FMP vs Yahoo)...');
+  let crossValidated = 0;
+  for (const company of companiesData.companies) {
+    if (!company.isPublic || company.ticker === 'PRIVATE') continue;
+    if (!FMP_API_KEY) break;
+
+    const fmpData = await fetchFMPData(company.ticker);
+    const yahooMcap = await fetchYahooQuote(company.ticker);
+
+    if (fmpData?.marketCap && yahooMcap && yahooMcap > 0) {
+      const fmpVal = Math.round(fmpData.marketCap);
+      const diff = Math.abs(fmpVal - yahooMcap) / Math.max(fmpVal, yahooMcap);
+      if (diff > 0.15) {
+        console.log(`  ⚠ ${company.name}: FMP=$${fmpVal}B vs Yahoo=$${yahooMcap}B (${(diff * 100).toFixed(0)}% diff)`);
+        // Use the more conservative (lower) value when there's large discrepancy
+        company.marketCap = Math.min(fmpVal, yahooMcap);
+        // Mark as estimated when sources disagree
+        if (company.confidence) company.confidence.marketCap = 'estimated';
+      } else {
+        // Sources agree — use FMP as primary, mark as verified
+        company.marketCap = fmpVal;
+        if (company.confidence) company.confidence.marketCap = 'verified';
+      }
+      crossValidated++;
+    }
+    await new Promise(r => setTimeout(r, 200));
+  }
+  console.log(`  Cross-validated ${crossValidated} companies`);
+
+  // Auto-assign confidence levels based on data availability
+  console.log('\nAuto-assigning confidence levels...');
+  for (const company of companiesData.companies) {
+    if (!company.confidence) company.confidence = {};
+
+    // If we have SEC EDGAR data, mark totalCapex/revenue/rdSpend/employees as verified
+    const cik = TICKER_TO_CIK[company.ticker];
+    if (cik) {
+      if (company.totalCapex) company.confidence.totalCapex = company.confidence.totalCapex || 'verified';
+      if (company.revenue) company.confidence.revenue = company.confidence.revenue || 'verified';
+      if (company.rdSpend) company.confidence.rdSpend = company.confidence.rdSpend || 'verified';
+      if (company.employees) company.confidence.employees = company.confidence.employees || 'verified';
+    }
+
+    // AI CapEx is always estimated unless manually marked as verified
+    if (company.aiCapex && !company.confidence.aiCapex) {
+      company.confidence.aiCapex = 'estimated';
+    }
+  }
 
   // Calculate derived metrics for each company
   console.log('\nCalculating derived metrics...');

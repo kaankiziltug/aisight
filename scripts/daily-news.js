@@ -276,8 +276,8 @@ async function main() {
     await new Promise(r => setTimeout(r, 1000));
   }
 
-  // Fetch from NewsAPI (100 req/day free)
-  for (const query of SEARCH_QUERIES.slice(0, 2)) {
+  // Fetch from NewsAPI (100 req/day free — use all 5 queries)
+  for (const query of SEARCH_QUERIES) {
     console.log(`  NewsAPI: "${query}"`);
     const articles = await fetchNewsAPI(query);
     allArticles.push(...articles);
