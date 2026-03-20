@@ -18,7 +18,7 @@ const Charts = {
       theme: 'dark',
       style: { fontSize: '13px' },
     },
-    colors: ['#7c3aed', '#3b82f6', '#10b981', '#f59e0b', '#ef4444'],
+    colors: ['#7c3aed', '#a78bfa', '#c4b5fd', '#ddd6fe', '#ede9fe'],
   },
 
   // Multi-axis timeline: CapEx (bar) + Market Cap (line) + Employees (line)
@@ -46,7 +46,7 @@ const Charts = {
       plotOptions: {
         bar: { columnWidth: '40%', borderRadius: 4 },
       },
-      colors: ['#7c3aed', '#4c1d95', '#3b82f6', '#10b981'],
+      colors: ['#7c3aed', '#a78bfa', '#c4b5fd', '#ddd6fe'],
       fill: {
         opacity: [0.9, 0.4, 1, 1],
       },
@@ -62,13 +62,13 @@ const Charts = {
         { show: false },
         {
           opposite: true,
-          title: { text: 'Market Cap ($B)', style: { color: '#3b82f6' } },
-          labels: { style: { colors: '#3b82f6' }, formatter: v => `$${v.toFixed(0)}B` },
+          title: { text: 'Market Cap ($B)', style: { color: '#a78bfa' } },
+          labels: { style: { colors: '#a78bfa' }, formatter: v => `$${v.toFixed(0)}B` },
         },
         {
           opposite: true,
-          title: { text: 'Employees', style: { color: '#10b981' } },
-          labels: { style: { colors: '#10b981' }, formatter: v => Format.compact(v) },
+          title: { text: 'Employees', style: { color: '#c4b5fd' } },
+          labels: { style: { colors: '#c4b5fd' }, formatter: v => Format.compact(v) },
           show: false,
         },
       ],
@@ -113,7 +113,7 @@ const Charts = {
         { name: 'Revenue ($B)', data: revenue.map(v => v ?? 0) },
       ],
       stroke: { width: 3, curve: 'smooth' },
-      colors: ['#7c3aed', '#f59e0b'],
+      colors: ['#7c3aed', '#a78bfa'],
       markers: { size: 6, strokeWidth: 0 },
       xaxis: {
         categories: years,
@@ -126,8 +126,8 @@ const Charts = {
         },
         {
           opposite: true,
-          title: { text: 'Revenue ($B)', style: { color: '#f59e0b' } },
-          labels: { style: { colors: '#f59e0b' }, formatter: v => `$${v.toFixed(0)}B` },
+          title: { text: 'Revenue ($B)', style: { color: '#a78bfa' } },
+          labels: { style: { colors: '#a78bfa' }, formatter: v => `$${v.toFixed(0)}B` },
         },
       ],
       legend: {
