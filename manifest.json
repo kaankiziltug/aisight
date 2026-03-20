@@ -1,0 +1,16 @@
+{
+  "name": "AISight — AI CapEx Tracker",
+  "short_name": "AISight",
+  "description": "Track AI capital expenditure across 38 companies. Live data from SEC filings.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#7c3aed",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

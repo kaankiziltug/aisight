@@ -41,7 +41,10 @@
     { "source": "/news", "destination": "/news.html" },
     { "source": "/about", "destination": "/about.html" },
     { "source": "/compare", "destination": "/compare.html" },
-    { "source": "/trends", "destination": "/trends.html" }
+    { "source": "/trends", "destination": "/trends.html" },
+    { "source": "/quiz", "destination": "/quiz.html" },
+    { "source": "/api/v1/companies", "destination": "/data/companies.json" },
+    { "source": "/api/v1/news", "destination": "/data/news.json" }
   ],
   "headers": [
     {
@@ -67,6 +70,14 @@
     {
       "source": "/data/(.*)",
       "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=3600, stale-while-revalidate=86400" }
+      ]
+    },
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET" },
         { "key": "Cache-Control", "value": "public, max-age=3600, stale-while-revalidate=86400" }
       ]
     }

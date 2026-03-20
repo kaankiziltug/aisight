@@ -69,8 +69,14 @@ const DataManager = {
     }
 
     filtered.sort((a, b) => {
-      const valA = a[sortField] ?? -1;
-      const valB = b[sortField] ?? -1;
+      let valA, valB;
+      if (sortField === 'capexToRevenue' || sortField === 'aiCapexPctOfTotal') {
+        valA = a.calculatedMetrics?.[sortField] ?? -1;
+        valB = b.calculatedMetrics?.[sortField] ?? -1;
+      } else {
+        valA = a[sortField] ?? -1;
+        valB = b[sortField] ?? -1;
+      }
       return valB - valA;
     });
 

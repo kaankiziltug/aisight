@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Spending Quiz — How Well Do You Know the AI Arms Race? | AISight</title>
+  <meta name="description" content="Test your knowledge of AI capital expenditure. Which company spends more on AI? Take the quiz and share your score.">
+  <link rel="canonical" href="https://aisight.fyi/quiz">
+  <meta property="og:title" content="AI Spending Quiz — How Well Do You Know the AI Arms Race?">
+  <meta property="og:description" content="Can you guess which company spends more on AI? Test yourself with real data from SEC filings.">
+  <meta property="og:url" content="https://aisight.fyi/quiz">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] } } } }</script>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="alternate" type="application/rss+xml" title="AISight" href="/feed.xml">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%237c3aed' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M3 3v18h18'/><path d='M18.7 8l-5.1 5.2-2.8-2.7L7 14.3'/></svg>">
+</head>
+<body class="bg-grid">
+  <nav class="top-nav" id="top-nav">
+    <div class="top-nav-inner">
+      <a href="/" class="nav-logo"><span class="nav-logo-text">AISight</span></a>
+      <div class="nav-links" id="nav-links">
+        <a href="/" class="nav-link">Leaderboard</a>
+        <a href="/news" class="nav-link">News</a>
+        <a href="/compare" class="nav-link">Compare</a>
+        <a href="/trends" class="nav-link">Trends</a>
+        <a href="/about" class="nav-link">About</a>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        </button>
+        <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main-content" style="max-width:700px;">
+    <div style="text-align:center;margin-bottom:40px;">
+      <h1 style="font-size:2rem;font-weight:800;letter-spacing:-0.03em;margin-bottom:8px;">AI Spending Quiz</h1>
+      <p style="color:var(--muted-foreground);font-size:0.95rem;">Which company spends more on AI? 10 questions, real data.</p>
+    </div>
+
+    <div id="quiz-container">
+      <div id="quiz-progress" style="display:flex;gap:4px;margin-bottom:24px;"></div>
+      <div id="quiz-question" style="min-height:300px;"></div>
+    </div>
+
+    <div id="quiz-result" style="display:none;text-align:center;">
+      <div style="font-size:4rem;font-weight:900;color:var(--violet-400);margin-bottom:8px;" id="result-score"></div>
+      <p style="font-size:1.1rem;color:var(--foreground);margin-bottom:4px;" id="result-text"></p>
+      <p style="color:var(--muted-foreground);font-size:0.875rem;margin-bottom:24px;">Based on real AI CapEx data from SEC filings and earnings calls.</p>
+      <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;">
+        <a id="share-twitter" target="_blank" rel="noopener" class="newsletter-btn" style="text-decoration:none;display:inline-flex;align-items:center;gap:6px;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4l11.733 16h4.267l-11.733 -16zM4 20l6.768 -6.768M15.232 10.232l4.768 -6.232"/></svg>
+          Share on X
+        </a>
+        <button onclick="startQuiz()" class="newsletter-btn" style="background:var(--secondary);color:var(--foreground);">Play Again</button>
+        <a href="/" class="newsletter-btn" style="text-decoration:none;background:var(--secondary);color:var(--foreground);">View Leaderboard</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="/">Leaderboard</a>
+      <a href="/news">AI News</a>
+      <a href="/about">About</a>
+      <a href="/compare">Compare</a>
+      <a href="/trends">Trends</a>
+    </nav>
+    <p style="margin-top:16px;">Data from SEC EDGAR, earnings calls, and analyst reports.</p>
+  </footer>
+
+  <script src="/js/nav.js"></script>
+  <script src="/js/data.js"></script>
+  <script>
+  let questions = [];
+  let currentQ = 0;
+  let score = 0;
+  const TOTAL = 10;
+
+  async function initQuiz() {
+    await DataManager.loadCompanies();
+    startQuiz();
+  }
+
+  function startQuiz() {
+    currentQ = 0;
+    score = 0;
+    questions = generateQuestions();
+    document.getElementById('quiz-result').style.display = 'none';
+    document.getElementById('quiz-container').style.display = 'block';
+    renderQuestion();
+  }
+
+  function generateQuestions() {
+    const companies = DataManager.companies
+      .filter(c => c.aiCapex && c.aiCapex > 0)
+      .sort(() => Math.random() - 0.5);
+    const qs = [];
+    const used = new Set();
+    for (let i = 0; i < companies.length - 1 && qs.length < TOTAL; i++) {
+      for (let j = i + 1; j < companies.length && qs.length < TOTAL; j++) {
+        const a = companies[i], b = companies[j];
+        const key = [a.ticker, b.ticker].sort().join('-');
+        if (used.has(key)) continue;
+        if (a.aiCapex === b.aiCapex) continue;
+        used.add(key);
+        qs.push({ a, b, answer: a.aiCapex > b.aiCapex ? 'a' : 'b' });
+      }
+    }
+    return qs.sort(() => Math.random() - 0.5).slice(0, TOTAL);
+  }
+
+  function renderProgress() {
+    const p = document.getElementById('quiz-progress');
+    p.innerHTML = Array.from({ length: TOTAL }, (_, i) => {
+      let cls = 'background:var(--secondary);';
+      if (i < currentQ) cls = questions[i]._correct ? 'background:var(--violet-400);' : 'background:var(--destructive);';
+      if (i === currentQ) cls = 'background:var(--violet-600);';
+      return `<div style="flex:1;height:4px;border-radius:2px;${cls}"></div>`;
+    }).join('');
+  }
+
+  function renderQuestion() {
+    if (currentQ >= TOTAL) return showResult();
+    renderProgress();
+    const q = questions[currentQ];
+    const container = document.getElementById('quiz-question');
+    container.innerHTML = `
+      <div style="text-align:center;margin-bottom:8px;color:var(--muted-foreground);font-size:0.8rem;">Question ${currentQ + 1} of ${TOTAL}</div>
+      <h2 style="text-align:center;font-size:1.25rem;font-weight:700;margin-bottom:32px;">Which company has higher AI CapEx?</h2>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;" id="quiz-options">
+        <button class="quiz-option" data-choice="a" onclick="answer('a')">
+          <img src="https://unavatar.io/${q.a.domain}?fallback=false" width="48" height="48" style="border-radius:12px;background:var(--secondary);"
+               onerror="this.src='https://www.google.com/s2/favicons?domain=${q.a.domain}&sz=128'">
+          <span style="font-size:1.1rem;font-weight:700;margin-top:8px;">${q.a.name}</span>
+          <span style="font-size:0.75rem;color:var(--muted-foreground);">${q.a.ticker !== 'PRIVATE' ? q.a.ticker : 'Private'}</span>
+        </button>
+        <button class="quiz-option" data-choice="b" onclick="answer('b')">
+          <img src="https://unavatar.io/${q.b.domain}?fallback=false" width="48" height="48" style="border-radius:12px;background:var(--secondary);"
+               onerror="this.src='https://www.google.com/s2/favicons?domain=${q.b.domain}&sz=128'">
+          <span style="font-size:1.1rem;font-weight:700;margin-top:8px;">${q.b.name}</span>
+          <span style="font-size:0.75rem;color:var(--muted-foreground);">${q.b.ticker !== 'PRIVATE' ? q.b.ticker : 'Private'}</span>
+        </button>
+      </div>
+    `;
+  }
+
+  function answer(choice) {
+    const q = questions[currentQ];
+    const correct = choice === q.answer;
+    q._correct = correct;
+    if (correct) score++;
+
+    // Show result
+    const options = document.querySelectorAll('.quiz-option');
+    options.forEach(opt => {
+      opt.disabled = true;
+      opt.style.pointerEvents = 'none';
+      const c = opt.dataset.choice;
+      if (c === q.answer) {
+        opt.style.borderColor = 'var(--violet-400)';
+        opt.style.background = 'rgba(124,58,237,0.1)';
+      } else if (c === choice && !correct) {
+        opt.style.borderColor = 'var(--destructive)';
+        opt.style.opacity = '0.6';
+      }
+    });
+
+    // Show values
+    const vals = document.createElement('div');
+    vals.style.cssText = 'text-align:center;margin-top:16px;color:var(--muted-foreground);font-size:0.85rem;';
+    vals.innerHTML = `${q.a.name}: <strong style="color:var(--foreground)">$${q.a.aiCapex}B</strong> vs ${q.b.name}: <strong style="color:var(--foreground)">$${q.b.aiCapex}B</strong>`;
+    document.getElementById('quiz-question').appendChild(vals);
+
+    setTimeout(() => { currentQ++; renderQuestion(); }, 1800);
+  }
+
+  function showResult() {
+    document.getElementById('quiz-container').style.display = 'none';
+    const result = document.getElementById('quiz-result');
+    result.style.display = 'block';
+    document.getElementById('result-score').textContent = `${score}/${TOTAL}`;
+    const msg = score >= 9 ? 'AI spending expert!'
+      : score >= 7 ? 'Great knowledge of the AI arms race!'
+      : score >= 5 ? 'Not bad — you know your way around AI spending.'
+      : score >= 3 ? 'Room for improvement. Check the leaderboard!'
+      : 'Time to explore aisight.fyi!';
+    document.getElementById('result-text').textContent = msg;
+    const shareText = encodeURIComponent(`I scored ${score}/${TOTAL} on the AI Spending Quiz! Can you beat me? aisight.fyi/quiz`);
+    document.getElementById('share-twitter').href = `https://twitter.com/intent/tweet?text=${shareText}`;
+    if (typeof gtag === 'function') gtag('event', 'quiz_complete', { score, total: TOTAL });
+  }
+
+  initQuiz();
+  </script>
+  <style>
+  .quiz-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    padding: 32px 16px;
+    background: var(--card);
+    border: 2px solid var(--border);
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: all 0.15s;
+    color: var(--foreground);
+    font-family: inherit;
+  }
+  .quiz-option:hover {
+    border-color: var(--violet-600);
+    background: var(--secondary);
+  }
+  </style>
+</body>
+</html>

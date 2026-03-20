@@ -19,11 +19,33 @@
   let leaderboardExpanded = false;
   const INITIAL_SHOW = 10;
 
+  // Watchlist
+  function getWatchlist() {
+    try { return JSON.parse(localStorage.getItem('aisight_watchlist') || '[]'); } catch { return []; }
+  }
+  function saveWatchlist(list) {
+    localStorage.setItem('aisight_watchlist', JSON.stringify(list));
+  }
+  function toggleWatchlist(ticker, e) {
+    if (e) { e.preventDefault(); e.stopPropagation(); }
+    const list = getWatchlist();
+    const idx = list.indexOf(ticker);
+    if (idx > -1) list.splice(idx, 1);
+    else list.push(ticker);
+    saveWatchlist(list);
+    renderWatchlist();
+    renderLeaderboard();
+    if (typeof gtag === 'function') gtag('event', 'watchlist_toggle', { ticker, action: idx > -1 ? 'remove' : 'add' });
+  }
+
   // Render hero stats
   renderHeroStats();
 
   // Render stat cards
   renderStatCards();
+
+  // Render watchlist
+  renderWatchlist();
 
   // Render leaderboard
   renderLeaderboard();
@@ -36,6 +58,85 @@
 
   // Setup event listeners
   setupFilters();
+
+  // ---- Watchlist ----
+  function renderWatchlist() {
+    const container = document.getElementById('watchlist-section');
+    if (!container) return;
+    const watchlist = getWatchlist();
+    if (watchlist.length === 0) {
+      container.innerHTML = '';
+      container.style.display = 'none';
+      return;
+    }
+    container.style.display = 'block';
+    const watchedCompanies = watchlist
+      .map(t => DataManager.getCompanyByTicker(t))
+      .filter(Boolean);
+    if (watchedCompanies.length === 0) {
+      container.innerHTML = '';
+      container.style.display = 'none';
+      return;
+    }
+    const maxValue = Math.max(...watchedCompanies.map(c => c[currentSort] || 0));
+    container.innerHTML = `
+      <div class="watchlist-header">
+        <span class="watchlist-title">Your Watchlist</span>
+      </div>
+      <div class="leaderboard">
+        ${watchedCompanies.map((company, index) => {
+          const value = company[currentSort];
+          const barWidth = value && maxValue ? (value / maxValue * 100) : 0;
+          const amountDisplay = currentSort === 'employees'
+            ? Format.compact(value)
+            : currentSort === 'yoyChange'
+              ? Format.percent(value)
+              : Format.billions(value);
+          const yoyClass = company.yoyChange > 0 ? 'positive' : company.yoyChange < 0 ? 'negative' : 'neutral';
+          const yoyText = company.yoyChange !== null ? Format.percent(company.yoyChange) : 'N/A';
+          const yoyArrow = company.yoyChange > 0 ? '↑' : company.yoyChange < 0 ? '↓' : '—';
+          return `
+            <a href="${DataManager.getCompanyUrl(company)}"
+               class="leaderboard-row watchlist-row visible"
+               style="transition-delay: ${index * 40}ms">
+              <button class="bookmark-btn active" data-ticker="${company.ticker}" title="Remove from watchlist">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+              </button>
+              <div class="rank">${index + 1}</div>
+              <div class="company-logo">
+                <img src="https://unavatar.io/${company.domain}?fallback=false"
+                     alt="${company.name}" loading="lazy" width="40" height="40"
+                     onerror="this.src='https://www.google.com/s2/favicons?domain=${company.domain}&sz=128'; this.onerror=function(){this.style.display='none'; this.nextElementSibling.style.display='flex';}">
+                <span class="fallback" style="display:none">${company.name[0]}</span>
+              </div>
+              <div class="company-info">
+                <div class="company-header">
+                  <span class="company-name">${company.name}</span>
+                  <span class="company-ticker">${company.ticker !== 'PRIVATE' ? company.ticker : ''}</span>
+                </div>
+                <div class="bar-container">
+                  <div class="bar-fill" style="width:${barWidth}%; background: linear-gradient(90deg, ${company.gradient[0]}, ${company.gradient[1]});"></div>
+                </div>
+              </div>
+              <div class="amount-section">
+                <div class="amount">${amountDisplay}</div>
+              </div>
+              <div class="yoy-badge ${yoyClass}">${yoyArrow} ${yoyText}</div>
+            </a>`;
+        }).join('')}
+      </div>
+    `;
+
+    // Re-bind watchlist remove buttons
+    container.querySelectorAll('.bookmark-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const ticker = btn.dataset.ticker;
+        if (ticker) toggleWatchlist(ticker, e);
+      });
+    });
+  }
 
   // ---- Hero Stats ----
   function renderHeroStats() {
@@ -117,10 +218,12 @@
   function renderLeaderboard() {
     const container = document.getElementById('leaderboard');
     const companies = DataManager.filterAndSort(currentCategory, currentSort, currentSearch);
-    const maxValue = Math.max(...companies.map(c => c[currentSort] || 0));
+    const isCalcMetricSort = currentSort === 'capexToRevenue' || currentSort === 'aiCapexPctOfTotal';
+    const maxValue = Math.max(...companies.map(c => isCalcMetricSort ? (c.calculatedMetrics?.[currentSort] || 0) : (c[currentSort] || 0)));
 
     container.innerHTML = companies.map((company, index) => {
-      const value = company[currentSort];
+      const isCalcMetric = currentSort === 'capexToRevenue' || currentSort === 'aiCapexPctOfTotal';
+      const value = isCalcMetric ? company.calculatedMetrics?.[currentSort] : company[currentSort];
       const barWidth = value ? (value / maxValue * 100) : 0;
       const isTop3 = index < 3;
       const displayRank = index + 1;
@@ -133,10 +236,12 @@
         ? Format.compact(value)
         : currentSort === 'yoyChange'
           ? Format.percent(value)
-          : Format.billions(value);
+          : isCalcMetric
+            ? (value !== null && value !== undefined ? value.toFixed(1) + '%' : 'N/A')
+            : Format.billions(value);
 
       // Confidence indicator
-      const confidenceField = currentSort === 'yoyChange' ? 'totalCapex' : currentSort;
+      const confidenceField = currentSort === 'yoyChange' ? 'totalCapex' : isCalcMetric ? 'aiCapex' : currentSort;
       const confidence = company.confidence ? company.confidence[confidenceField] : 'verified';
       const isEstimated = confidence === 'estimated' || confidence === 'unverified';
       const confidencePrefix = isEstimated ? '~' : '';
@@ -151,14 +256,20 @@
         marketCap: 'Market Cap',
         yoyChange: 'YoY Growth',
         employees: 'Employees',
+        capexToRevenue: 'CapEx/Revenue',
+        aiCapexPctOfTotal: 'AI % of Total',
       }[currentSort] || '';
 
       const isHidden = !leaderboardExpanded && index >= INITIAL_SHOW;
+      const isWatched = getWatchlist().includes(company.ticker);
       return `
         <a href="${DataManager.getCompanyUrl(company)}"
            class="leaderboard-row${isHidden ? ' leaderboard-hidden' : ''}"
            data-index="${index}"
            style="transition-delay: ${Math.min(index, INITIAL_SHOW) * 40}ms">
+          <button class="bookmark-btn${isWatched ? ' active' : ''}" data-ticker="${company.ticker}" title="${isWatched ? 'Remove from' : 'Add to'} watchlist">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="${isWatched ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+          </button>
           <div class="rank ${isTop3 ? 'top3' : ''}">${displayRank}</div>
           <div class="company-logo">
             <img src="https://unavatar.io/${company.domain}?fallback=false"
@@ -239,6 +350,15 @@
       }, { threshold: 0.1 });
 
       rows.forEach(row => observer.observe(row));
+    });
+
+    // Bookmark button click handlers
+    container.querySelectorAll('.bookmark-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        toggleWatchlist(btn.dataset.ticker, e);
+      });
     });
   }
 
