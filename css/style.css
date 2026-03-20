@@ -163,7 +163,7 @@ body {
 .newsletter-section { margin-top: 48px; }
 
 .newsletter-card {
-  background: var(--secondary);
+  background: var(--background);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 32px;
@@ -673,7 +673,7 @@ body {
 
 /* ---- News Ticker ---- */
 .news-ticker {
-  background: var(--secondary);
+  background: var(--background);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 16px 24px;
@@ -718,7 +718,7 @@ body {
 
 /* ---- News Box ---- */
 .news-box {
-  background: var(--secondary);
+  background: var(--background);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 24px;
