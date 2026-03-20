@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI CapEx by Sector | AISight</title>
+  <meta name="description" content="Deep-dive into AI spending by sector: Big Tech, Chip & Hardware, Cloud/SaaS, China/Asia, AI-Native companies.">
+  <link rel="canonical" href="https://aisight.fyi/sector">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','system-ui','sans-serif']}}}}</script>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="alternate" type="application/rss+xml" title="AISight" href="/feed.xml">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%237c3aed' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M3 3v18h18'/><path d='M18.7 8l-5.1 5.2-2.8-2.7L7 14.3'/></svg>">
+</head>
+<body class="bg-grid">
+  <nav class="top-nav" id="top-nav">
+    <div class="top-nav-inner">
+      <a href="/" class="nav-logo"><span class="nav-logo-text">AISight</span></a>
+      <div class="nav-links" id="nav-links">
+        <a href="/" class="nav-link">Leaderboard</a>
+        <a href="/news" class="nav-link">News</a>
+        <a href="/compare" class="nav-link">Compare</a>
+        <a href="/trends" class="nav-link">Trends</a>
+        <a href="/about" class="nav-link">About</a>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        </button>
+        <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main-content">
+    <div style="text-align:center;margin-bottom:40px;">
+      <h1 style="font-size:2rem;font-weight:800;letter-spacing:-0.03em;margin-bottom:8px;">Sector Analysis</h1>
+      <p style="color:var(--muted-foreground);font-size:0.95rem;">AI spending breakdown by industry sector</p>
+    </div>
+
+    <!-- Sector Navigation -->
+    <div id="sector-nav" style="display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-bottom:32px;"></div>
+
+    <!-- Sector Detail -->
+    <div id="sector-content"></div>
+  </main>
+
+  <footer class="footer">
+    <nav class="footer-links"><a href="/">Leaderboard</a><a href="/news">AI News</a><a href="/about">About</a><a href="/compare">Compare</a><a href="/trends">Trends</a></nav>
+    <p style="margin-top:16px;">Data from SEC EDGAR, earnings calls, and analyst reports.</p>
+  </footer>
+
+  <script src="/js/nav.js"></script>
+  <script src="/js/data.js"></script>
+  <script>
+  (async function() {
+    await DataManager.loadCompanies();
+
+    const categories = ['bigtech', 'chip', 'cloud', 'china', 'ainative', 'other'];
+    const urlParams = new URLSearchParams(window.location.search);
+    let activeCategory = urlParams.get('c') || 'bigtech';
+
+    function renderSectorNav() {
+      const nav = document.getElementById('sector-nav');
+      nav.innerHTML = categories.map(cat => `
+        <button class="filter-btn${cat === activeCategory ? ' active' : ''}" data-category="${cat}">
+          ${DataManager.getCategoryLabel(cat)}
+        </button>
+      `).join('');
+      nav.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          activeCategory = btn.dataset.category;
+          renderSectorNav();
+          renderSector();
+        });
+      });
+    }
+
+    function renderSector() {
+      const companies = DataManager.getByCategory(activeCategory).sort((a, b) => (b.aiCapex || 0) - (a.aiCapex || 0));
+      const totalCapex = companies.reduce((s, c) => s + (c.aiCapex || 0), 0);
+      const avgCapex = companies.length ? totalCapex / companies.length : 0;
+      const totalRevenue = companies.reduce((s, c) => s + (c.revenue || 0), 0);
+      const avgYoy = companies.filter(c => c.yoyChange != null).reduce((s, c, _, a) => s + c.yoyChange / a.length, 0);
+      const maxCapex = Math.max(...companies.map(c => c.aiCapex || 0));
+      const topSpender = companies[0];
+
+      const content = document.getElementById('sector-content');
+      content.innerHTML = `
+        <!-- Sector Stats -->
+        <div class="stats-grid" style="margin-bottom:24px;">
+          <div class="stat-card">
+            <div class="stat-value">${Format.billions(totalCapex)}</div>
+            <div class="stat-label">Total AI CapEx</div>
+            <div class="stat-detail">${companies.length} companies</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">${Format.billions(avgCapex)}</div>
+            <div class="stat-label">Average AI CapEx</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">${avgYoy > 0 ? '+' : ''}${avgYoy.toFixed(0)}%</div>
+            <div class="stat-label">Avg YoY Growth</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">${Format.billions(totalRevenue)}</div>
+            <div class="stat-label">Total Revenue</div>
+          </div>
+        </div>
+
+        <!-- Sector Leaderboard -->
+        <h2 style="font-size:1.1rem;font-weight:700;margin-bottom:12px;">${DataManager.getCategoryLabel(activeCategory)} Companies</h2>
+        <div class="leaderboard">
+          ${companies.map((c, i) => {
+            const barWidth = maxCapex ? ((c.aiCapex || 0) / maxCapex * 100) : 0;
+            const yoyClass = c.yoyChange > 0 ? 'positive' : c.yoyChange < 0 ? 'negative' : 'neutral';
+            return `
+              <a href="${DataManager.getCompanyUrl(c)}" class="leaderboard-row visible" style="grid-template-columns:50px 44px 1fr auto auto;">
+                <div class="rank${i < 3 ? ' top3' : ''}">${i + 1}</div>
+                <div class="company-logo">
+                  <img src="https://unavatar.io/${c.domain}?fallback=false" alt="${c.name}" loading="lazy" width="40" height="40"
+                       onerror="this.src='https://www.google.com/s2/favicons?domain=${c.domain}&sz=128';this.onerror=function(){this.style.display='none';this.nextElementSibling.style.display='flex';}">
+                  <span class="fallback" style="display:none">${c.name[0]}</span>
+                </div>
+                <div class="company-info">
+                  <div class="company-header">
+                    <span class="company-name">${c.name}</span>
+                    <span class="company-ticker">${c.ticker !== 'PRIVATE' ? c.ticker : ''}</span>
+                  </div>
+                  <div class="bar-container"><div class="bar-fill" style="width:${barWidth}%;background:linear-gradient(90deg,${c.gradient[0]},${c.gradient[1]});"></div></div>
+                </div>
+                <div class="amount-section">
+                  <div class="amount">${Format.billions(c.aiCapex)}</div>
+                  <div class="amount-label">AI CapEx</div>
+                </div>
+                <div class="yoy-badge ${yoyClass}">${c.yoyChange > 0 ? '↑' : c.yoyChange < 0 ? '↓' : '—'} ${Format.percent(c.yoyChange)}</div>
+              </a>`;
+          }).join('')}
+        </div>
+
+        <!-- Cross-sector comparison -->
+        <h2 style="font-size:1.1rem;font-weight:700;margin:32px 0 12px;">All Sectors Comparison</h2>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;">
+          ${categories.map(cat => {
+            const catCompanies = DataManager.getByCategory(cat);
+            const catTotal = catCompanies.reduce((s, c) => s + (c.aiCapex || 0), 0);
+            const isActive = cat === activeCategory;
+            return `
+              <div style="background:var(--card);border:1px solid ${isActive ? 'var(--primary)' : 'var(--border)'};border-radius:var(--radius);padding:14px;cursor:pointer;transition:all 0.15s;" onclick="document.querySelector('[data-category=${cat}]').click()">
+                <div style="font-size:0.7rem;color:var(--muted-foreground);text-transform:uppercase;letter-spacing:0.06em;">${DataManager.getCategoryLabel(cat)}</div>
+                <div style="font-size:1.25rem;font-weight:800;${isActive ? 'color:var(--violet-400);' : ''}">${Format.billions(catTotal)}</div>
+                <div style="font-size:0.75rem;color:var(--muted-foreground);">${catCompanies.length} companies</div>
+              </div>`;
+          }).join('')}
+        </div>
+      `;
+    }
+
+    renderSectorNav();
+    renderSector();
+  })();
+  </script>
+</body>
+</html>

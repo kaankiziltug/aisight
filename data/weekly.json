@@ -1,0 +1,343 @@
+{
+  "generated": "2026-03-20T22:45:39.069Z",
+  "weekOf": "2026-03-13",
+  "summary": {
+    "totalChanges": 38,
+    "newsArticles": 230,
+    "companiesTracked": 38
+  },
+  "changes": [
+    {
+      "company": "Amazon",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Alphabet",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Microsoft",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Meta",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "TSMC",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Samsung",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "ByteDance",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Oracle",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Intel",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Tencent",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Alibaba",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Nvidia",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Apple",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Tesla",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Broadcom",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Baidu",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "IBM",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Dell Technologies",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Qualcomm",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Cisco",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "HPE",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "ServiceNow",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "AMD",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Palantir",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Siemens",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Salesforce",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "SAP",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Accenture",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Uber",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Adobe",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Booking Holdings",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Infosys",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Spotify",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Snowflake",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Shopify",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "OpenAI",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Anthropic",
+      "type": "new",
+      "detail": "New company added"
+    },
+    {
+      "company": "Databricks",
+      "type": "new",
+      "detail": "New company added"
+    }
+  ],
+  "snapshot": {
+    "AMZN": {
+      "marketCap": 2252,
+      "aiCapex": 100
+    },
+    "GOOGL": {
+      "marketCap": 3742,
+      "aiCapex": 85
+    },
+    "MSFT": {
+      "marketCap": 2972,
+      "aiCapex": 80
+    },
+    "META": {
+      "marketCap": 1557,
+      "aiCapex": 65
+    },
+    "TSM": {
+      "marketCap": 1760,
+      "aiCapex": 35
+    },
+    "005930.KS": {
+      "marketCap": 880,
+      "aiCapex": 25
+    },
+    "PRIVATE": {
+      "marketCap": 134,
+      "aiCapex": null
+    },
+    "ORCL": {
+      "marketCap": 445,
+      "aiCapex": 18
+    },
+    "INTC": {
+      "marketCap": 230,
+      "aiCapex": 8
+    },
+    "0700.HK": {
+      "marketCap": 595,
+      "aiCapex": 8
+    },
+    "BABA": {
+      "marketCap": 326,
+      "aiCapex": 6
+    },
+    "NVDA": {
+      "marketCap": 4450,
+      "aiCapex": 5
+    },
+    "AAPL": {
+      "marketCap": 3736,
+      "aiCapex": 3
+    },
+    "TSLA": {
+      "marketCap": 1473,
+      "aiCapex": 4.5
+    },
+    "AVGO": {
+      "marketCap": 1520,
+      "aiCapex": 0.4
+    },
+    "BIDU": {
+      "marketCap": 45.6,
+      "aiCapex": 1.2
+    },
+    "IBM": {
+      "marketCap": 245,
+      "aiCapex": 1
+    },
+    "DELL": {
+      "marketCap": 98,
+      "aiCapex": 1
+    },
+    "QCOM": {
+      "marketCap": 145,
+      "aiCapex": 0.8
+    },
+    "CSCO": {
+      "marketCap": 315,
+      "aiCapex": 0.6
+    },
+    "HPE": {
+      "marketCap": 30,
+      "aiCapex": 0.8
+    },
+    "NOW": {
+      "marketCap": 125,
+      "aiCapex": 0.6
+    },
+    "AMD": {
+      "marketCap": 330,
+      "aiCapex": 0.5
+    },
+    "PLTR": {
+      "marketCap": 313,
+      "aiCapex": 0.5
+    },
+    "SIE.DE": {
+      "marketCap": 198,
+      "aiCapex": 0.5
+    },
+    "CRM": {
+      "marketCap": 185,
+      "aiCapex": 0.5
+    },
+    "SAP": {
+      "marketCap": 251,
+      "aiCapex": 0.4
+    },
+    "ACN": {
+      "marketCap": 125,
+      "aiCapex": 0.4
+    },
+    "UBER": {
+      "marketCap": 150,
+      "aiCapex": 0.2
+    },
+    "ADBE": {
+      "marketCap": 111,
+      "aiCapex": 0.12
+    },
+    "BKNG": {
+      "marketCap": 141,
+      "aiCapex": 0.17
+    },
+    "INFY": {
+      "marketCap": 56,
+      "aiCapex": 0.15
+    },
+    "SPOT": {
+      "marketCap": 107,
+      "aiCapex": 0.05
+    },
+    "SNOW": {
+      "marketCap": 62,
+      "aiCapex": 0.03
+    },
+    "SHOP": {
+      "marketCap": 155,
+      "aiCapex": 0.02
+    }
+  }
+}

@@ -43,6 +43,10 @@
     { "source": "/compare", "destination": "/compare.html" },
     { "source": "/trends", "destination": "/trends.html" },
     { "source": "/quiz", "destination": "/quiz.html" },
+    { "source": "/weekly", "destination": "/weekly.html" },
+    { "source": "/map", "destination": "/map.html" },
+    { "source": "/sector", "destination": "/sector.html" },
+    { "source": "/sector/:category", "destination": "/sector.html?c=:category" },
     { "source": "/api/v1/companies", "destination": "/data/companies.json" },
     { "source": "/api/v1/news", "destination": "/data/news.json" }
   ],

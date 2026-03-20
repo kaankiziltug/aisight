@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global AI CapEx Map — Where Is AI Money Going? | AISight</title>
+  <meta name="description" content="Interactive map showing AI capital expenditure by country. See which nations are investing the most in AI infrastructure.">
+  <link rel="canonical" href="https://aisight.fyi/map">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','system-ui','sans-serif']}}}}</script>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="alternate" type="application/rss+xml" title="AISight" href="/feed.xml">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%237c3aed' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M3 3v18h18'/><path d='M18.7 8l-5.1 5.2-2.8-2.7L7 14.3'/></svg>">
+</head>
+<body class="bg-grid">
+  <nav class="top-nav" id="top-nav">
+    <div class="top-nav-inner">
+      <a href="/" class="nav-logo"><span class="nav-logo-text">AISight</span></a>
+      <div class="nav-links" id="nav-links">
+        <a href="/" class="nav-link">Leaderboard</a>
+        <a href="/news" class="nav-link">News</a>
+        <a href="/compare" class="nav-link">Compare</a>
+        <a href="/trends" class="nav-link">Trends</a>
+        <a href="/about" class="nav-link">About</a>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        </button>
+        <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main-content">
+    <div style="text-align:center;margin-bottom:40px;">
+      <h1 style="font-size:2rem;font-weight:800;letter-spacing:-0.03em;margin-bottom:8px;">Global AI CapEx Map</h1>
+      <p style="color:var(--muted-foreground);font-size:0.95rem;">Where in the world is AI money going?</p>
+    </div>
+
+    <!-- Country Cards -->
+    <div id="country-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px;margin-bottom:40px;"></div>
+
+    <!-- Country Detail -->
+    <div id="country-detail" style="display:none;margin-top:24px;"></div>
+  </main>
+
+  <footer class="footer">
+    <nav class="footer-links"><a href="/">Leaderboard</a><a href="/news">AI News</a><a href="/about">About</a><a href="/compare">Compare</a><a href="/trends">Trends</a></nav>
+    <p style="margin-top:16px;">Data from SEC EDGAR, earnings calls, and analyst reports.</p>
+  </footer>
+
+  <script src="/js/nav.js"></script>
+  <script src="/js/data.js"></script>
+  <script>
+  (async function() {
+    await DataManager.loadCompanies();
+
+    const countryNames = {
+      US: 'United States', CN: 'China', KR: 'South Korea', TW: 'Taiwan',
+      DE: 'Germany', IE: 'Ireland', IN: 'India', SE: 'Sweden', CA: 'Canada',
+      JP: 'Japan', NL: 'Netherlands', UK: 'United Kingdom'
+    };
+
+    const countryFlags = {
+      US: '🇺🇸', CN: '🇨🇳', KR: '🇰🇷', TW: '🇹🇼', DE: '🇩🇪',
+      IE: '🇮🇪', IN: '🇮🇳', SE: '🇸🇪', CA: '🇨🇦', JP: '🇯🇵'
+    };
+
+    // Aggregate by country
+    const byCountry = {};
+    for (const c of DataManager.companies) {
+      const cc = c.country || 'US';
+      if (!byCountry[cc]) byCountry[cc] = { total: 0, companies: [] };
+      byCountry[cc].total += c.aiCapex || 0;
+      byCountry[cc].companies.push(c);
+    }
+
+    const sorted = Object.entries(byCountry).sort((a, b) => b[1].total - a[1].total);
+    const maxTotal = sorted[0]?.[1].total || 1;
+
+    const grid = document.getElementById('country-grid');
+    grid.innerHTML = sorted.map(([code, data]) => {
+      const pct = (data.total / maxTotal * 100).toFixed(0);
+      return `
+        <div class="country-card" data-code="${code}" style="background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;cursor:pointer;transition:all 0.15s;" onmouseover="this.style.borderColor='rgba(124,58,237,0.4)'" onmouseout="this.style.borderColor='var(--border)'">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+            <div>
+              <span style="font-size:1.5rem;margin-right:8px;">${countryFlags[code] || ''}</span>
+              <span style="font-size:1rem;font-weight:700;">${countryNames[code] || code}</span>
+            </div>
+            <span style="font-size:1.1rem;font-weight:800;color:var(--violet-400);">${Format.billions(data.total)}</span>
+          </div>
+          <div style="height:6px;background:var(--secondary);border-radius:3px;overflow:hidden;margin-bottom:10px;">
+            <div style="height:100%;width:${pct}%;background:var(--primary);border-radius:3px;transition:width 0.5s;"></div>
+          </div>
+          <div style="font-size:0.75rem;color:var(--muted-foreground);">${data.companies.length} ${data.companies.length === 1 ? 'company' : 'companies'}: ${data.companies.map(c => c.name).join(', ')}</div>
+        </div>`;
+    }).join('');
+
+    // Click to show detail
+    grid.querySelectorAll('.country-card').forEach(card => {
+      card.addEventListener('click', () => {
+        const code = card.dataset.code;
+        const data = byCountry[code];
+        const detail = document.getElementById('country-detail');
+        detail.style.display = 'block';
+        detail.innerHTML = `
+          <h2 style="font-size:1.25rem;font-weight:700;margin-bottom:16px;">${countryFlags[code] || ''} ${countryNames[code] || code} — ${Format.billions(data.total)} Total AI CapEx</h2>
+          <div class="leaderboard">
+            ${data.companies.sort((a, b) => (b.aiCapex || 0) - (a.aiCapex || 0)).map((c, i) => `
+              <a href="${DataManager.getCompanyUrl(c)}" class="leaderboard-row visible" style="grid-template-columns:50px 44px 1fr auto auto;">
+                <div class="rank${i < 3 ? ' top3' : ''}">${i + 1}</div>
+                <div class="company-logo">
+                  <img src="https://unavatar.io/${c.domain}?fallback=false" alt="${c.name}" loading="lazy" width="40" height="40"
+                       onerror="this.src='https://www.google.com/s2/favicons?domain=${c.domain}&sz=128'; this.onerror=function(){this.style.display='none';this.nextElementSibling.style.display='flex';}">
+                  <span class="fallback" style="display:none">${c.name[0]}</span>
+                </div>
+                <div class="company-info">
+                  <div class="company-header">
+                    <span class="company-name">${c.name}</span>
+                    <span class="company-ticker">${c.ticker !== 'PRIVATE' ? c.ticker : ''}</span>
+                  </div>
+                </div>
+                <div class="amount-section"><div class="amount">${Format.billions(c.aiCapex)}</div><div class="amount-label">AI CapEx</div></div>
+                <div class="yoy-badge ${c.yoyChange > 0 ? 'positive' : c.yoyChange < 0 ? 'negative' : 'neutral'}">${c.yoyChange > 0 ? '↑' : c.yoyChange < 0 ? '↓' : '—'} ${Format.percent(c.yoyChange)}</div>
+              </a>
+            `).join('')}
+          </div>
+        `;
+        detail.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  })();
+  </script>
+</body>
+</html>
