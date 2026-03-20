@@ -114,8 +114,56 @@
   // Render all sections
   renderHeader(company);
   renderStats(company);
+  renderPeerComparison(company);
   renderCharts(company);
   renderNews(company);
+
+  // ---- Peer Comparison ----
+  function renderPeerComparison(c) {
+    const container = document.getElementById('peer-comparison');
+    if (!container) return;
+    const peers = DataManager.getByCategory(c.category).filter(p => p.ticker !== c.ticker && p.aiCapex);
+    if (peers.length === 0) { container.style.display = 'none'; return; }
+
+    const metrics = [
+      { key: 'aiCapex', label: 'AI CapEx', format: v => Format.billions(v) },
+      { key: 'yoyChange', label: 'YoY Growth', format: v => Format.percent(v) },
+      { key: 'capexToRevenue', label: 'CapEx/Revenue', format: v => v ? v.toFixed(1) + '%' : 'N/A', calc: true },
+    ];
+
+    const catAvg = (key, calc) => {
+      const vals = peers.map(p => calc ? p.calculatedMetrics?.[key] : p[key]).filter(v => v != null);
+      return vals.length ? vals.reduce((a, b) => a + b, 0) / vals.length : 0;
+    };
+
+    container.innerHTML = `
+      <h3 style="font-size:1rem;font-weight:700;margin-bottom:16px;">vs ${DataManager.getCategoryLabel(c.category)} Peers</h3>
+      <div style="display:grid;grid-template-columns:repeat(${metrics.length},1fr);gap:12px;">
+        ${metrics.map(m => {
+          const val = m.calc ? c.calculatedMetrics?.[m.key] : c[m.key];
+          const avg = catAvg(m.key, m.calc);
+          const max = Math.max(val || 0, avg || 0);
+          const valPct = max ? ((val || 0) / max * 100) : 0;
+          const avgPct = max ? (avg / max * 100) : 0;
+          return `
+            <div style="background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:16px;">
+              <div style="font-size:0.7rem;color:var(--muted-foreground);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:12px;">${m.label}</div>
+              <div style="margin-bottom:8px;">
+                <div style="display:flex;justify-content:space-between;font-size:0.8rem;margin-bottom:4px;"><span>${c.name}</span><span style="font-weight:600;">${m.format(val)}</span></div>
+                <div style="height:6px;background:var(--secondary);border-radius:3px;overflow:hidden;"><div style="height:100%;width:${valPct}%;background:var(--primary);border-radius:3px;"></div></div>
+              </div>
+              <div>
+                <div style="display:flex;justify-content:space-between;font-size:0.8rem;margin-bottom:4px;color:var(--muted-foreground);"><span>Category Avg</span><span>${m.format(avg)}</span></div>
+                <div style="height:6px;background:var(--secondary);border-radius:3px;overflow:hidden;"><div style="height:100%;width:${avgPct}%;background:var(--muted-foreground);border-radius:3px;opacity:0.5;"></div></div>
+              </div>
+            </div>`;
+        }).join('')}
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:12px;">
+        ${peers.slice(0, 6).map(p => `<a href="${DataManager.getCompanyUrl(p)}" style="font-size:0.75rem;padding:4px 10px;border-radius:100px;border:1px solid var(--border);color:var(--muted-foreground);text-decoration:none;transition:all 0.15s;" onmouseover="this.style.borderColor='var(--violet-600)';this.style.color='var(--foreground)'" onmouseout="this.style.borderColor='var(--border)';this.style.color='var(--muted-foreground)'">${p.name}</a>`).join('')}
+      </div>
+    `;
+  }
 
   // ---- Header ----
   function renderHeader(c) {
@@ -159,6 +207,17 @@
         <div class="label">${s.label}</div>
       </div>
     `).join('');
+
+    // Add guidance info
+    if (c.guidance) {
+      const g = c.guidance;
+      statsContainer.innerHTML += `
+        <div class="detail-stat" style="border-color: rgba(124, 58, 237, 0.3);">
+          <div class="value" style="color: var(--violet-400);">$${g.totalCapex.min}-${g.totalCapex.max}B</div>
+          <div class="label">${g.year} CapEx Guidance</div>
+        </div>
+      `;
+    }
 
     // Add funding badge for private companies
     if (c.fundingRaised) {

@@ -218,11 +218,11 @@
   function renderLeaderboard() {
     const container = document.getElementById('leaderboard');
     const companies = DataManager.filterAndSort(currentCategory, currentSort, currentSearch);
-    const isCalcMetricSort = currentSort === 'capexToRevenue' || currentSort === 'aiCapexPctOfTotal';
+    const isCalcMetricSort = currentSort === 'capexToRevenue' || currentSort === 'aiCapexPctOfTotal' || currentSort === 'efficiencyScore';
     const maxValue = Math.max(...companies.map(c => isCalcMetricSort ? (c.calculatedMetrics?.[currentSort] || 0) : (c[currentSort] || 0)));
 
     container.innerHTML = companies.map((company, index) => {
-      const isCalcMetric = currentSort === 'capexToRevenue' || currentSort === 'aiCapexPctOfTotal';
+      const isCalcMetric = currentSort === 'capexToRevenue' || currentSort === 'aiCapexPctOfTotal' || currentSort === 'efficiencyScore';
       const value = isCalcMetric ? company.calculatedMetrics?.[currentSort] : company[currentSort];
       const barWidth = value ? (value / maxValue * 100) : 0;
       const isTop3 = index < 3;
@@ -236,7 +236,9 @@
         ? Format.compact(value)
         : currentSort === 'yoyChange'
           ? Format.percent(value)
-          : isCalcMetric
+          : currentSort === 'efficiencyScore'
+            ? (value !== null && value !== undefined ? value + '/100' : 'N/A')
+            : isCalcMetric
             ? (value !== null && value !== undefined ? value.toFixed(1) + '%' : 'N/A')
             : Format.billions(value);
 
@@ -258,6 +260,7 @@
         employees: 'Employees',
         capexToRevenue: 'CapEx/Revenue',
         aiCapexPctOfTotal: 'AI % of Total',
+        efficiencyScore: 'Efficiency',
       }[currentSort] || '';
 
       const isHidden = !leaderboardExpanded && index >= INITIAL_SHOW;

@@ -346,6 +346,24 @@ async function main() {
     }
   }
 
+  // Calculate efficiency score (0-100) for each company
+  console.log('\nCalculating efficiency scores...');
+  const allCapexToRev = companiesData.companies.filter(c => c.calculatedMetrics?.capexToRevenue).map(c => c.calculatedMetrics.capexToRevenue);
+  const allYoy = companiesData.companies.filter(c => c.yoyChange !== null && c.yoyChange !== undefined).map(c => c.yoyChange);
+  const allCapInt = companiesData.companies.filter(c => c.calculatedMetrics?.capitalIntensity).map(c => c.calculatedMetrics.capitalIntensity);
+  const maxCapRev = Math.max(...allCapexToRev, 1);
+  const maxYoy = Math.max(...allYoy, 1);
+  const maxCapInt = Math.max(...allCapInt, 1);
+
+  for (const company of companiesData.companies) {
+    const cm = company.calculatedMetrics;
+    if (!cm) continue;
+    const capRevNorm = (cm.capexToRevenue || 0) / maxCapRev;
+    const yoyNorm = Math.max(0, (company.yoyChange || 0)) / maxYoy;
+    const capIntNorm = (cm.capitalIntensity || 0) / maxCapInt;
+    cm.efficiencyScore = Math.round((capRevNorm * 0.4 + yoyNorm * 0.3 + capIntNorm * 0.3) * 100);
+  }
+
   // Update metadata
   companiesData.metadata.lastUpdated = new Date().toISOString().split('T')[0];
 
