@@ -121,12 +121,11 @@
   function renderHeader(c) {
     const logoContainer = document.getElementById('detail-logo');
     logoContainer.innerHTML = `
-      <img src="https://logo.clearbit.com/${c.domain}"
+      <img src="https://unavatar.io/${c.domain}?fallback=false"
            alt="${c.name}" loading="lazy" width="64" height="64"
-           onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-      <span class="fallback" style="display:none; color:${c.color}; font-size:2rem; font-weight:700;">${c.name[0]}</span>
+           onerror="this.src='https://www.google.com/s2/favicons?domain=${c.domain}&sz=128'; this.onerror=function(){this.style.display='none'; this.nextElementSibling.style.display='flex';}">
+      <span class="fallback" style="display:none">${c.name[0]}</span>
     `;
-    logoContainer.style.background = `${c.color}15`;
 
     document.getElementById('detail-name').textContent = c.name;
     document.getElementById('detail-ticker').textContent = c.ticker !== 'PRIVATE' ? c.ticker : 'Private';

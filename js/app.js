@@ -160,11 +160,11 @@
            data-index="${index}"
            style="transition-delay: ${Math.min(index, INITIAL_SHOW) * 40}ms">
           <div class="rank ${isTop3 ? 'top3' : ''}">${displayRank}</div>
-          <div class="company-logo" style="background: ${company.color}15">
-            <img src="https://logo.clearbit.com/${company.domain}"
+          <div class="company-logo">
+            <img src="https://unavatar.io/${company.domain}?fallback=false"
                  alt="${company.name}" loading="lazy" width="40" height="40"
-                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-            <span class="fallback" style="display:none; color:${company.color}">${company.name[0]}</span>
+                 onerror="this.src='https://www.google.com/s2/favicons?domain=${company.domain}&sz=128'; this.onerror=function(){this.style.display='none'; this.nextElementSibling.style.display='flex';}">
+            <span class="fallback" style="display:none">${company.name[0]}</span>
           </div>
           <div class="company-info">
             <div class="company-header">
