@@ -142,6 +142,16 @@
   <script src="/js/data.js"></script>
   <script>
   (async function() {
+    function escapeHtml(str) {
+      if (!str) return '';
+      return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+    }
+    function sanitizeUrl(url) {
+      if (!url) return '#';
+      const s = String(url).trim();
+      return (s.startsWith('http://') || s.startsWith('https://')) ? escapeHtml(s) : '#';
+    }
+
     await DataManager.loadNews();
     await DataManager.loadCompanies();
 
@@ -176,17 +186,17 @@
       }
 
       listEl.innerHTML = filtered.map(n => `
-        <a href="${n.url || '#'}" target="_blank" rel="noopener" class="news-page-card">
+        <a href="${sanitizeUrl(n.url)}" target="_blank" rel="noopener" class="news-page-card">
           <div class="news-page-meta">
             <span class="news-page-date">${formatDate(n.date)}</span>
-            <span class="news-page-source">${n.source || ''}</span>
+            <span class="news-page-source">${escapeHtml(n.source)}</span>
           </div>
           <div class="news-page-content">
-            <div class="news-page-title">${n.title}</div>
+            <div class="news-page-title">${escapeHtml(n.title)}</div>
             ${n.summary && n.summary !== n.title && !n.title.startsWith(n.summary.substring(0, 30))
-              ? `<div class="news-page-summary">${n.summary}</div>` : ''}
+              ? `<div class="news-page-summary">${escapeHtml(n.summary)}</div>` : ''}
             ${(n.companies || []).length > 0
-              ? `<div class="news-companies">${n.companies.map(c => `<a href="/company/${DataManager.getSlugByName(c)}" class="company-pill" onclick="event.stopPropagation()">${c}</a>`).join('')}</div>` : ''}
+              ? `<div class="news-companies">${n.companies.map(c => `<a href="/company/${escapeHtml(DataManager.getSlugByName(c))}" class="company-pill" onclick="event.stopPropagation()">${escapeHtml(c)}</a>`).join('')}</div>` : ''}
           </div>
         </a>
       `).join('');

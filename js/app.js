@@ -2,6 +2,17 @@
 // Main Leaderboard Application
 // ============================================
 
+function escapeHtml(str) {
+  if (!str) return '';
+  return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+
+function sanitizeUrl(url) {
+  if (!url) return '#';
+  const s = String(url).trim();
+  return (s.startsWith('http://') || s.startsWith('https://')) ? escapeHtml(s) : '#';
+}
+
 (async function() {
   try {
   // Load data
@@ -96,23 +107,23 @@
           const yoyText = company.yoyChange !== null ? Format.percent(company.yoyChange) : 'N/A';
           const yoyArrow = company.yoyChange > 0 ? '↑' : company.yoyChange < 0 ? '↓' : '—';
           return `
-            <a href="${DataManager.getCompanyUrl(company)}"
+            <a href="${sanitizeUrl(DataManager.getCompanyUrl(company))}"
                class="leaderboard-row watchlist-row visible"
                style="transition-delay: ${index * 40}ms">
-              <button class="bookmark-btn active" data-ticker="${company.ticker}" title="Remove from watchlist">
+              <button class="bookmark-btn active" data-ticker="${escapeHtml(company.ticker)}" title="Remove from watchlist">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
               </button>
               <div class="rank">${index + 1}</div>
               <div class="company-logo">
-                <img src="https://unavatar.io/${company.domain}?fallback=false"
-                     alt="${company.name}" loading="lazy" width="40" height="40"
-                     onerror="this.src='https://www.google.com/s2/favicons?domain=${company.domain}&sz=128'; this.onerror=function(){this.style.display='none'; this.nextElementSibling.style.display='flex';}">
-                <span class="fallback" style="display:none">${company.name[0]}</span>
+                <img src="https://unavatar.io/${encodeURIComponent(company.domain)}?fallback=false"
+                     alt="${escapeHtml(company.name)}" loading="lazy" width="40" height="40"
+                     onerror="this.src='https://www.google.com/s2/favicons?domain=${encodeURIComponent(company.domain)}&sz=128'; this.onerror=function(){this.style.display='none'; this.nextElementSibling.style.display='flex';}">
+                <span class="fallback" style="display:none">${escapeHtml(company.name[0])}</span>
               </div>
               <div class="company-info">
                 <div class="company-header">
-                  <span class="company-name">${company.name}</span>
-                  <span class="company-ticker">${company.ticker !== 'PRIVATE' ? company.ticker : ''}</span>
+                  <span class="company-name">${escapeHtml(company.name)}</span>
+                  <span class="company-ticker">${company.ticker !== 'PRIVATE' ? escapeHtml(company.ticker) : ''}</span>
                 </div>
                 <div class="bar-container">
                   <div class="bar-fill" style="width:${barWidth}%; background: linear-gradient(90deg, ${company.gradient[0]}, ${company.gradient[1]});"></div>
@@ -195,12 +206,12 @@
     document.getElementById('stat-top-spender').innerHTML = `
       <div class="stat-value">${Format.billions(topSpender.aiCapex)}</div>
       <div class="stat-label">Largest AI Spender</div>
-      <div class="stat-detail">${topSpender.name}</div>
+      <div class="stat-detail">${escapeHtml(topSpender.name)}</div>
     `;
     document.getElementById('stat-fastest').innerHTML = `
       <div class="stat-value">+${fastestGrower.yoyChange}%</div>
       <div class="stat-label">Fastest YoY Growth</div>
-      <div class="stat-detail">${fastestGrower.name}</div>
+      <div class="stat-detail">${escapeHtml(fastestGrower.name)}</div>
     `;
     document.getElementById('stat-total').innerHTML = `
       <div class="stat-value">${Format.billions(totalSpend)}</div>
@@ -210,7 +221,7 @@
     document.getElementById('stat-concentration').innerHTML = `
       <div class="stat-value">${top3Pct}%</div>
       <div class="stat-label">Top 3 Concentration</div>
-      <div class="stat-detail">${top3.map(c => c.name).join(', ')}</div>
+      <div class="stat-detail">${top3.map(c => escapeHtml(c.name)).join(', ')}</div>
     `;
   }
 
@@ -266,26 +277,26 @@
       const isHidden = !leaderboardExpanded && index >= INITIAL_SHOW;
       const isWatched = getWatchlist().includes(company.ticker);
       return `
-        <a href="${DataManager.getCompanyUrl(company)}"
+        <a href="${sanitizeUrl(DataManager.getCompanyUrl(company))}"
            class="leaderboard-row${isHidden ? ' leaderboard-hidden' : ''}"
            data-index="${index}"
            style="transition-delay: ${Math.min(index, INITIAL_SHOW) * 40}ms">
-          <button class="bookmark-btn${isWatched ? ' active' : ''}" data-ticker="${company.ticker}" title="${isWatched ? 'Remove from' : 'Add to'} watchlist">
+          <button class="bookmark-btn${isWatched ? ' active' : ''}" data-ticker="${escapeHtml(company.ticker)}" title="${isWatched ? 'Remove from' : 'Add to'} watchlist">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="${isWatched ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
           </button>
           <div class="rank ${isTop3 ? 'top3' : ''}">${displayRank}</div>
           <div class="company-logo">
-            <img src="https://unavatar.io/${company.domain}?fallback=false"
-                 alt="${company.name}" loading="lazy" width="40" height="40"
-                 onerror="this.src='https://www.google.com/s2/favicons?domain=${company.domain}&sz=128'; this.onerror=function(){this.style.display='none'; this.nextElementSibling.style.display='flex';}">
-            <span class="fallback" style="display:none">${company.name[0]}</span>
+            <img src="https://unavatar.io/${encodeURIComponent(company.domain)}?fallback=false"
+                 alt="${escapeHtml(company.name)}" loading="lazy" width="40" height="40"
+                 onerror="this.src='https://www.google.com/s2/favicons?domain=${encodeURIComponent(company.domain)}&sz=128'; this.onerror=function(){this.style.display='none'; this.nextElementSibling.style.display='flex';}">
+            <span class="fallback" style="display:none">${escapeHtml(company.name[0])}</span>
           </div>
           <div class="company-info">
             <div class="company-header">
-              <span class="company-name">${company.name}</span>
-              <span class="company-ticker">${company.ticker !== 'PRIVATE' ? company.ticker : ''}</span>
-              <span class="category-badge ${company.category}">${DataManager.getCategoryLabel(company.category)}</span>
-              ${company.fundingRaised ? `<span class="funding-badge">$${company.fundingRaised}B raised</span>` : ''}
+              <span class="company-name">${escapeHtml(company.name)}</span>
+              <span class="company-ticker">${company.ticker !== 'PRIVATE' ? escapeHtml(company.ticker) : ''}</span>
+              <span class="category-badge ${escapeHtml(company.category)}">${escapeHtml(DataManager.getCategoryLabel(company.category))}</span>
+              ${company.fundingRaised ? `<span class="funding-badge">$${escapeHtml(String(company.fundingRaised))}B raised</span>` : ''}
             </div>
             <div class="bar-container">
               <div class="bar-fill" data-width="${barWidth}"
@@ -294,7 +305,7 @@
             </div>
           </div>
           <div class="amount-section">
-            <div class="amount ${confidenceClass}" ${confidenceTooltip ? `title="${confidenceTooltip}"` : ''}>${confidencePrefix}${amountDisplay}</div>
+            <div class="amount ${confidenceClass}" ${confidenceTooltip ? `title="${escapeHtml(confidenceTooltip)}"` : ''}>${confidencePrefix}${amountDisplay}</div>
             <div class="amount-label">${sortLabel}${isEstimated ? ' <span class="est-badge">est.</span>' : ''}</div>
           </div>
           <div class="yoy-badge ${yoyClass}">${yoyArrow} ${yoyText}</div>
@@ -397,9 +408,9 @@
 
     const newsHTML = DataManager.news.slice(0, 20).map(n => `
       <div class="news-item">
-        <span class="news-date">${n.date || ''}</span>
-        <a href="${n.url || '#'}" target="_blank" rel="noopener">${n.title}</a>
-        <span style="color: var(--text-muted)">— ${n.source || ''}</span>
+        <span class="news-date">${escapeHtml(n.date || '')}</span>
+        <a href="${sanitizeUrl(n.url)}" target="_blank" rel="noopener">${escapeHtml(n.title)}</a>
+        <span style="color: var(--text-muted)">— ${escapeHtml(n.source || '')}</span>
       </div>
     `).join('');
 
@@ -443,15 +454,15 @@
     }
 
     newsList.innerHTML = news.map(n => `
-      <a href="${n.url || '#'}" target="_blank" rel="noopener" class="news-item-card">
+      <a href="${sanitizeUrl(n.url)}" target="_blank" rel="noopener" class="news-item-card">
         <div class="news-meta">
-          <span class="news-date">${formatNewsDate(n.date)}</span>
-          <span class="news-source">${n.source || ''}</span>
+          <span class="news-date">${escapeHtml(formatNewsDate(n.date))}</span>
+          <span class="news-source">${escapeHtml(n.source || '')}</span>
         </div>
         <div class="news-content">
-          <div class="news-title">${n.title}</div>
-          ${truncateSummary(n.summary, n.title) ? `<div class="news-summary">${truncateSummary(n.summary, n.title)}</div>` : ''}
-          ${n.companies && n.companies.length > 0 ? `<div class="news-companies">${n.companies.map(c => `<a href="/company/${DataManager.getSlugByName(c)}" class="company-pill">${c}</a>`).join('')}</div>` : ''}
+          <div class="news-title">${escapeHtml(n.title)}</div>
+          ${truncateSummary(n.summary, n.title) ? `<div class="news-summary">${escapeHtml(truncateSummary(n.summary, n.title))}</div>` : ''}
+          ${n.companies && n.companies.length > 0 ? `<div class="news-companies">${n.companies.map(c => `<a href="/company/${escapeHtml(DataManager.getSlugByName(c))}" class="company-pill">${escapeHtml(c)}</a>`).join('')}</div>` : ''}
         </div>
       </a>
     `).join('');
@@ -528,5 +539,5 @@
       });
     }
   }
-  } catch(e) { console.error('APP.JS ERROR:', e); document.getElementById('leaderboard').innerHTML = '<p style="color:red;">Error: ' + e.message + '</p>'; }
+  } catch(e) { console.error('APP.JS ERROR:', e); const errEl = document.getElementById('leaderboard'); if (errEl) { errEl.textContent = ''; const p = document.createElement('p'); p.style.color = 'red'; p.textContent = 'Error: ' + e.message; errEl.appendChild(p); } }
 })();

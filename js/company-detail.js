@@ -2,6 +2,17 @@
 // Company Detail Page Logic
 // ============================================
 
+function escapeHtml(str) {
+  if (!str) return '';
+  return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+function sanitizeUrl(url) {
+  if (!url) return '#';
+  const s = String(url).trim();
+  if (s.startsWith('http://') || s.startsWith('https://') || s.startsWith('/')) return escapeHtml(s);
+  return '#';
+}
+
 (async function() {
   // Get company from URL — supports both clean URLs (/company/amazon) and legacy (?ticker=AMZN)
   const params = new URLSearchParams(window.location.search);
@@ -137,7 +148,7 @@
     };
 
     container.innerHTML = `
-      <h3 style="font-size:1rem;font-weight:700;margin-bottom:16px;">vs ${DataManager.getCategoryLabel(c.category)} Peers</h3>
+      <h3 style="font-size:1rem;font-weight:700;margin-bottom:16px;">vs ${escapeHtml(DataManager.getCategoryLabel(c.category))} Peers</h3>
       <div style="display:grid;grid-template-columns:repeat(${metrics.length},1fr);gap:12px;">
         ${metrics.map(m => {
           const val = m.calc ? c.calculatedMetrics?.[m.key] : c[m.key];
@@ -147,20 +158,20 @@
           const avgPct = max ? (avg / max * 100) : 0;
           return `
             <div style="background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:16px;">
-              <div style="font-size:0.7rem;color:var(--muted-foreground);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:12px;">${m.label}</div>
+              <div style="font-size:0.7rem;color:var(--muted-foreground);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:12px;">${escapeHtml(m.label)}</div>
               <div style="margin-bottom:8px;">
-                <div style="display:flex;justify-content:space-between;font-size:0.8rem;margin-bottom:4px;"><span>${c.name}</span><span style="font-weight:600;">${m.format(val)}</span></div>
+                <div style="display:flex;justify-content:space-between;font-size:0.8rem;margin-bottom:4px;"><span>${escapeHtml(c.name)}</span><span style="font-weight:600;">${escapeHtml(m.format(val))}</span></div>
                 <div style="height:6px;background:var(--secondary);border-radius:3px;overflow:hidden;"><div style="height:100%;width:${valPct}%;background:var(--primary);border-radius:3px;"></div></div>
               </div>
               <div>
-                <div style="display:flex;justify-content:space-between;font-size:0.8rem;margin-bottom:4px;color:var(--muted-foreground);"><span>Category Avg</span><span>${m.format(avg)}</span></div>
+                <div style="display:flex;justify-content:space-between;font-size:0.8rem;margin-bottom:4px;color:var(--muted-foreground);"><span>Category Avg</span><span>${escapeHtml(m.format(avg))}</span></div>
                 <div style="height:6px;background:var(--secondary);border-radius:3px;overflow:hidden;"><div style="height:100%;width:${avgPct}%;background:var(--muted-foreground);border-radius:3px;opacity:0.5;"></div></div>
               </div>
             </div>`;
         }).join('')}
       </div>
       <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:12px;">
-        ${peers.slice(0, 6).map(p => `<a href="${DataManager.getCompanyUrl(p)}" style="font-size:0.75rem;padding:4px 10px;border-radius:100px;border:1px solid var(--border);color:var(--muted-foreground);text-decoration:none;transition:all 0.15s;" onmouseover="this.style.borderColor='var(--violet-600)';this.style.color='var(--foreground)'" onmouseout="this.style.borderColor='var(--border)';this.style.color='var(--muted-foreground)'">${p.name}</a>`).join('')}
+        ${peers.slice(0, 6).map(p => `<a href="${sanitizeUrl(DataManager.getCompanyUrl(p))}" style="font-size:0.75rem;padding:4px 10px;border-radius:100px;border:1px solid var(--border);color:var(--muted-foreground);text-decoration:none;transition:all 0.15s;" onmouseover="this.style.borderColor='var(--violet-600)';this.style.color='var(--foreground)'" onmouseout="this.style.borderColor='var(--border)';this.style.color='var(--muted-foreground)'">${escapeHtml(p.name)}</a>`).join('')}
       </div>
     `;
   }
@@ -169,10 +180,10 @@
   function renderHeader(c) {
     const logoContainer = document.getElementById('detail-logo');
     logoContainer.innerHTML = `
-      <img src="https://unavatar.io/${c.domain}?fallback=false"
-           alt="${c.name}" loading="lazy" width="64" height="64"
-           onerror="this.src='https://www.google.com/s2/favicons?domain=${c.domain}&sz=128'; this.onerror=function(){this.style.display='none'; this.nextElementSibling.style.display='flex';}">
-      <span class="fallback" style="display:none">${c.name[0]}</span>
+      <img src="https://unavatar.io/${escapeHtml(c.domain)}?fallback=false"
+           alt="${escapeHtml(c.name)}" loading="lazy" width="64" height="64"
+           onerror="this.src='https://www.google.com/s2/favicons?domain=${escapeHtml(c.domain)}&sz=128'; this.onerror=function(){this.style.display='none'; this.nextElementSibling.style.display='flex';}">
+      <span class="fallback" style="display:none">${escapeHtml(c.name[0])}</span>
     `;
 
     document.getElementById('detail-name').textContent = c.name;
@@ -203,8 +214,8 @@
 
     statsContainer.innerHTML = stats.map(s => `
       <div class="detail-stat">
-        <div class="value">${s.value}</div>
-        <div class="label">${s.label}</div>
+        <div class="value">${escapeHtml(s.value)}</div>
+        <div class="label">${escapeHtml(s.label)}</div>
       </div>
     `).join('');
 
@@ -213,8 +224,8 @@
       const g = c.guidance;
       statsContainer.innerHTML += `
         <div class="detail-stat" style="border-color: rgba(124, 58, 237, 0.3);">
-          <div class="value" style="color: var(--violet-400);">$${g.totalCapex.min}-${g.totalCapex.max}B</div>
-          <div class="label">${g.year} CapEx Guidance</div>
+          <div class="value" style="color: var(--violet-400);">$${escapeHtml(String(g.totalCapex.min))}-${escapeHtml(String(g.totalCapex.max))}B</div>
+          <div class="label">${escapeHtml(String(g.year))} CapEx Guidance</div>
         </div>
       `;
     }
@@ -223,7 +234,7 @@
     if (c.fundingRaised) {
       statsContainer.innerHTML += `
         <div class="detail-stat" style="border-color: rgba(245, 158, 11, 0.3);">
-          <div class="value" style="color: var(--accent-orange);">$${c.fundingRaised}B</div>
+          <div class="value" style="color: var(--accent-orange);">$${escapeHtml(String(c.fundingRaised))}B</div>
           <div class="label">Total Funding Raised</div>
         </div>
       `;
@@ -286,8 +297,8 @@
 
       newsList.innerHTML = sampleNews.map(n => `
         <li>
-          <span class="news-source">${n.source}</span>
-          <span class="news-title">${n.title}</span>
+          <span class="news-source">${escapeHtml(n.source)}</span>
+          <span class="news-title">${escapeHtml(n.title)}</span>
         </li>
       `).join('');
       return;
@@ -297,11 +308,11 @@
       const hasSummary = n.summary && n.summary !== n.title && !n.title.startsWith((n.summary || '').substring(0, 30));
       return `
         <li>
-          <span class="news-source">${n.source || ''}</span>
+          <span class="news-source">${escapeHtml(n.source || '')}</span>
           <span class="news-title">
-            ${n.url ? `<a href="${n.url}" target="_blank" rel="noopener">${n.title}</a>` : n.title}
+            ${n.url ? `<a href="${sanitizeUrl(n.url)}" target="_blank" rel="noopener">${escapeHtml(n.title)}</a>` : escapeHtml(n.title)}
           </span>
-          ${hasSummary ? `<p style="font-size: 0.8rem; color: var(--text-muted); margin: 4px 0 0; line-height: 1.4;">${n.summary}</p>` : ''}
+          ${hasSummary ? `<p style="font-size: 0.8rem; color: var(--text-muted); margin: 4px 0 0; line-height: 1.4;">${escapeHtml(n.summary)}</p>` : ''}
         </li>
       `;
     }).join('');

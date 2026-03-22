@@ -59,6 +59,16 @@
   <script src="/js/nav.js"></script>
   <script src="/js/data.js"></script>
   <script>
+  function escapeHtml(str) {
+    if (!str) return '';
+    return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+  }
+  function sanitizeUrl(url) {
+    if (!url) return '#';
+    const s = String(url).trim();
+    if (s.startsWith('/') || s.startsWith('http://') || s.startsWith('https://')) return escapeHtml(s);
+    return '#';
+  }
   (async function() {
     await DataManager.loadCompanies();
 
@@ -121,17 +131,17 @@
             const barWidth = maxCapex ? ((c.aiCapex || 0) / maxCapex * 100) : 0;
             const yoyClass = c.yoyChange > 0 ? 'positive' : c.yoyChange < 0 ? 'negative' : 'neutral';
             return `
-              <a href="${DataManager.getCompanyUrl(c)}" class="leaderboard-row visible" style="grid-template-columns:50px 44px 1fr auto auto;">
+              <a href="${sanitizeUrl(DataManager.getCompanyUrl(c))}" class="leaderboard-row visible" style="grid-template-columns:50px 44px 1fr auto auto;">
                 <div class="rank${i < 3 ? ' top3' : ''}">${i + 1}</div>
                 <div class="company-logo">
-                  <img src="https://unavatar.io/${c.domain}?fallback=false" alt="${c.name}" loading="lazy" width="40" height="40"
-                       onerror="this.src='https://www.google.com/s2/favicons?domain=${c.domain}&sz=128';this.onerror=function(){this.style.display='none';this.nextElementSibling.style.display='flex';}">
-                  <span class="fallback" style="display:none">${c.name[0]}</span>
+                  <img src="https://unavatar.io/${escapeHtml(c.domain)}?fallback=false" alt="${escapeHtml(c.name)}" loading="lazy" width="40" height="40"
+                       onerror="this.src='https://www.google.com/s2/favicons?domain=${escapeHtml(c.domain)}&sz=128';this.onerror=function(){this.style.display='none';this.nextElementSibling.style.display='flex';}">
+                  <span class="fallback" style="display:none">${escapeHtml(c.name[0])}</span>
                 </div>
                 <div class="company-info">
                   <div class="company-header">
-                    <span class="company-name">${c.name}</span>
-                    <span class="company-ticker">${c.ticker !== 'PRIVATE' ? c.ticker : ''}</span>
+                    <span class="company-name">${escapeHtml(c.name)}</span>
+                    <span class="company-ticker">${c.ticker !== 'PRIVATE' ? escapeHtml(c.ticker) : ''}</span>
                   </div>
                   <div class="bar-container"><div class="bar-fill" style="width:${barWidth}%;background:linear-gradient(90deg,${c.gradient[0]},${c.gradient[1]});"></div></div>
                 </div>

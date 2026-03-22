@@ -98,11 +98,8 @@ function updateThemeIcon() {
         if (!response.ok) throw new Error('Formspree error');
       }
 
-      // Store locally as backup / confirmation
-      const subscribers = JSON.parse(localStorage.getItem('aisight_emails') || '[]');
-      subscribers.push({ email, date: new Date().toISOString() });
-      localStorage.setItem('aisight_emails', JSON.stringify(subscribers));
-      localStorage.setItem('aisight_subscribed', '1');
+      // Mark as subscribed (no email stored for privacy)
+      localStorage.setItem('aisight_subscribed', 'true');
 
       // Success UI
       form.innerHTML = '<p class="newsletter-success">You\'re in! We\'ll send you weekly AI spending insights.</p>';
@@ -111,8 +108,8 @@ function updateThemeIcon() {
       if (typeof gtag === 'function') gtag('event', 'newsletter_signup', { email_domain: email.split('@')[1] });
 
     } catch (error) {
-      // Still save locally on error
-      localStorage.setItem('aisight_subscribed', '1');
+      // Mark as subscribed even on error
+      localStorage.setItem('aisight_subscribed', 'true');
       form.innerHTML = '<p class="newsletter-success">Thanks for subscribing!</p>';
     }
   });

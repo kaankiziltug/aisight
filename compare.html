@@ -119,6 +119,16 @@
   <script src="/js/nav.js"></script>
   <script src="/js/data.js"></script>
   <script>
+  function escapeHtml(str) {
+    if (!str) return '';
+    return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+  }
+  function sanitizeUrl(url) {
+    if (!url) return '#';
+    const s = String(url).trim();
+    if (s.startsWith('/') || s.startsWith('http://') || s.startsWith('https://')) return escapeHtml(s);
+    return '#';
+  }
   (async function() {
     await DataManager.loadCompanies();
 
@@ -164,10 +174,10 @@
         .filter(c => !q || c.name.toLowerCase().includes(q) || c.ticker.toLowerCase().includes(q));
 
       pickerList.innerHTML = filtered.slice(0, 20).map(c => `
-        <button class="picker-item" data-name="${c.name}">
-          <span class="picker-name">${c.name}</span>
-          <span class="picker-ticker">${c.ticker !== 'PRIVATE' ? c.ticker : 'Private'}</span>
-          <span class="picker-capex">${c.aiCapex ? '$' + c.aiCapex + 'B' : '—'}</span>
+        <button class="picker-item" data-name="${escapeHtml(c.name)}">
+          <span class="picker-name">${escapeHtml(c.name)}</span>
+          <span class="picker-ticker">${c.ticker !== 'PRIVATE' ? escapeHtml(c.ticker) : 'Private'}</span>
+          <span class="picker-capex">${c.aiCapex ? '$' + escapeHtml(c.aiCapex) + 'B' : '—'}</span>
         </button>
       `).join('');
 
@@ -201,8 +211,8 @@
         if (company) {
           slot.innerHTML = `
             <div class="selected-company" style="border-color: ${COLORS[i]}">
-              <div class="sc-name" style="color: ${COLORS[i]}">${company.name}</div>
-              <div class="sc-ticker">${company.ticker !== 'PRIVATE' ? company.ticker : 'Private'}</div>
+              <div class="sc-name" style="color: ${COLORS[i]}">${escapeHtml(company.name)}</div>
+              <div class="sc-ticker">${company.ticker !== 'PRIVATE' ? escapeHtml(company.ticker) : 'Private'}</div>
               <button class="sc-remove" data-slot="${i}">&times;</button>
             </div>
           `;
@@ -241,7 +251,7 @@
 
       const header = document.getElementById('compare-header');
       header.innerHTML = `<th>Metric</th>` + selected.map((c, i) =>
-        `<th style="color: ${COLORS[slots.indexOf(c)]}">${c.name}</th>`
+        `<th style="color: ${COLORS[slots.indexOf(c)]}">${escapeHtml(c.name)}</th>`
       ).join('');
 
       const body = document.getElementById('compare-body');
@@ -270,11 +280,12 @@
       renderCompareChart(selected);
 
       // Share URL
-      const shareUrl = window.location.href;
-      document.getElementById('compare-share').innerHTML = `
+      const shareEl = document.getElementById('compare-share');
+      shareEl.innerHTML = `
         <span class="share-label">Share this comparison:</span>
-        <input type="text" value="${shareUrl}" class="share-url" readonly onclick="this.select()">
+        <input type="text" value="" class="share-url" readonly onclick="this.select()">
       `;
+      shareEl.querySelector('.share-url').value = window.location.href;
     }
 
     function renderCompareChart(companies) {
@@ -283,7 +294,7 @@
 
       const categories = ['AI CapEx', 'Total CapEx', 'R&D Spend'];
       const series = companies.map((c, i) => ({
-        name: c.name,
+        name: escapeHtml(c.name),
         data: [c.aiCapex || 0, c.totalCapex || 0, c.rdSpend || 0],
         color: COLORS[slots.indexOf(c)]
       }));
