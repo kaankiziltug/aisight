@@ -188,6 +188,71 @@ body {
   font-weight: 600;
 }
 
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-dropdown-toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 14px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--muted-foreground);
+  text-decoration: none;
+  border-radius: var(--radius);
+  transition: all 0.15s;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-family: inherit;
+}
+
+.nav-dropdown-toggle:hover {
+  color: var(--foreground);
+  background: var(--secondary);
+}
+
+.nav-dropdown-toggle svg {
+  transition: transform 0.2s;
+}
+
+.nav-dropdown.open .nav-dropdown-toggle svg {
+  transform: rotate(180deg);
+}
+
+.nav-dropdown-toggle.active {
+  color: var(--violet-400);
+  background: rgba(124, 58, 237, 0.1);
+  font-weight: 600;
+}
+
+.nav-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  min-width: 160px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 4px;
+  z-index: 100;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+}
+
+.nav-dropdown.open .nav-dropdown-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-dropdown-menu .nav-link {
+  padding: 8px 12px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
 .nav-hamburger {
   display: none;
   background: none;
@@ -220,6 +285,14 @@ body {
   .nav-links.open { display: flex; }
   .nav-link { padding: 10px 14px; width: 100%; font-size: 0.9rem; }
   .nav-hamburger { display: block; }
+  .nav-dropdown-menu {
+    position: static;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    padding: 0 0 0 12px;
+  }
+  .nav-dropdown.open .nav-dropdown-menu { display: flex; }
 }
 
 /* ---- Newsletter ---- */

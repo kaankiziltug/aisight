@@ -49,9 +49,24 @@ function updateThemeIcon() {
     link.addEventListener('click', () => navLinks.classList.remove('open'));
   });
 
+  // Dropdown toggle
+  document.querySelectorAll('.nav-dropdown-toggle').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const dropdown = btn.closest('.nav-dropdown');
+      const isOpen = dropdown.classList.contains('open');
+      document.querySelectorAll('.nav-dropdown').forEach(d => d.classList.remove('open'));
+      if (!isOpen) dropdown.classList.add('open');
+      btn.setAttribute('aria-expanded', !isOpen);
+    });
+  });
+
   // Close on outside click
   document.addEventListener('click', (e) => {
     if (!e.target.closest('.top-nav')) navLinks.classList.remove('open');
+    if (!e.target.closest('.nav-dropdown')) {
+      document.querySelectorAll('.nav-dropdown').forEach(d => d.classList.remove('open'));
+    }
   });
 
   // Theme toggle button
