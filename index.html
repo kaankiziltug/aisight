@@ -316,30 +316,48 @@
 
   <!-- Footer -->
   <footer class="footer">
-    <nav class="footer-links" aria-label="Footer navigation">
-      <a href="/">Leaderboard</a>
-      <a href="/news">AI News</a>
-      <a href="/about">About</a>
-      <a href="/compare">Compare</a>
-      <a href="/trends">Trends</a>
-      <a href="/company/amazon">Amazon</a>
-      <a href="/company/alphabet">Alphabet</a>
-      <a href="/company/microsoft">Microsoft</a>
-      <a href="/company/meta">Meta</a>
-      <a href="/company/nvidia">Nvidia</a>
-      <a href="/company/oracle">Oracle</a>
-    </nav>
-    <div class="methodology">
-      AI CapEx figures are based on company-disclosed AI-specific spending where available.
-      Where not explicitly disclosed, estimates are derived from total CapEx, earnings call guidance,
-      and analyst reports. All figures in USD billions. Private companies (OpenAI, Anthropic, Databricks)
-      show funding raised, not capital expenditure.
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="/" style="font-size:1.1rem;font-weight:800;color:var(--foreground);text-decoration:none;">AISight</a>
+        <p>Tracking AI capital expenditure across 38 companies. Updated 3x daily from SEC filings, earnings calls, and analyst reports.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <a href="/">Leaderboard</a>
+        <a href="/news">News</a>
+        <a href="/compare">Compare</a>
+        <a href="/trends">Trends</a>
+      </div>
+      <div class="footer-col">
+        <h4>Insights</h4>
+        <a href="/map">Map</a>
+        <a href="/sector">Sector</a>
+        <a href="/weekly">Weekly</a>
+        <a href="/quiz">Quiz</a>
+        <a href="/api">API</a>
+      </div>
+      <div class="footer-col">
+        <h4>Top Companies</h4>
+        <a href="/company/amazon">Amazon</a>
+        <a href="/company/alphabet">Alphabet</a>
+        <a href="/company/microsoft">Microsoft</a>
+        <a href="/company/meta">Meta</a>
+        <a href="/company/nvidia">Nvidia</a>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <a href="/about">About</a>
+        <a href="/feed.xml">RSS Feed</a>
+        <a href="/api">Public API</a>
+      </div>
     </div>
-    <p>
-      Data sources: SEC EDGAR, Company Earnings Calls, Bloomberg, CNBC, Reuters, Statista<br>
-      Last updated: <time datetime="2026-03-19" id="last-updated">2026-03-19</time> &middot;
-      Built with data from public filings and analyst reports
-    </p>
+    <div class="footer-bottom">
+      <p>
+        Data sources: SEC EDGAR, Company Earnings Calls, Bloomberg, CNBC, Reuters, Statista<br>
+        All figures in USD billions. Estimates derived from public filings and analyst reports.<br>
+        &copy; 2026 AISight &middot; <a href="/about">About</a>
+      </p>
+    </div>
   </footer>
 
   <!-- Scripts -->
