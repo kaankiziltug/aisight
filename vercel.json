@@ -47,6 +47,7 @@
     { "source": "/map", "destination": "/map.html" },
     { "source": "/sector", "destination": "/sector.html" },
     { "source": "/sector/:category", "destination": "/sector.html?c=:category" },
+    { "source": "/api", "destination": "/api.html" },
     { "source": "/api/v1/companies", "destination": "/data/companies.json" },
     { "source": "/api/v1/news", "destination": "/data/news.json" }
   ],
