@@ -285,6 +285,8 @@ body {
   .nav-links.open { display: flex; }
   .nav-link { padding: 10px 14px; width: 100%; font-size: 0.9rem; }
   .nav-hamburger { display: block; }
+  .nav-dropdown { width: 100%; }
+  .nav-dropdown-toggle { width: 100%; justify-content: flex-start; padding: 10px 14px; font-size: 0.9rem; }
   .nav-dropdown-menu {
     position: static;
     box-shadow: none;
@@ -292,6 +294,7 @@ body {
     background: transparent;
     padding: 0 0 0 12px;
   }
+  .nav-dropdown-menu .nav-link { padding: 8px 14px; font-size: 0.85rem; }
   .nav-dropdown.open .nav-dropdown-menu { display: flex; }
 }
 
