@@ -1272,6 +1272,13 @@ body {
 .detail-stat .value { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.01em; }
 .detail-stat .label { font-size: 0.7rem; color: var(--muted-foreground); text-transform: uppercase; letter-spacing: 0.04em; margin-top: 4px; }
 
+/* ---- Peer Comparison ---- */
+#peer-comparison {
+  max-width: 1200px;
+  margin: 0 auto 24px;
+  padding: 0 24px;
+}
+
 /* ---- Charts ---- */
 .chart-section {
   max-width: 1200px;

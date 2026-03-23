@@ -138,7 +138,7 @@ function sanitizeUrl(url) {
 
     const metrics = [
       { key: 'aiCapex', label: 'AI CapEx', format: v => Format.billions(v) },
-      { key: 'yoyChange', label: 'YoY Growth', format: v => Format.percent(v) },
+      { key: 'yoyChange', label: 'YoY Growth', format: v => v != null ? (v > 0 ? '+' : '') + Math.round(v) + '%' : 'N/A' },
       { key: 'capexToRevenue', label: 'CapEx/Revenue', format: v => v ? v.toFixed(1) + '%' : 'N/A', calc: true },
     ];
 
@@ -149,7 +149,7 @@ function sanitizeUrl(url) {
 
     container.innerHTML = `
       <h3 style="font-size:1rem;font-weight:700;margin-bottom:16px;">vs ${escapeHtml(DataManager.getCategoryLabel(c.category))} Peers</h3>
-      <div style="display:grid;grid-template-columns:repeat(${metrics.length},minmax(0,220px));gap:12px;">
+      <div style="display:grid;grid-template-columns:repeat(${metrics.length},1fr);gap:12px;">
         ${metrics.map(m => {
           const val = m.calc ? c.calculatedMetrics?.[m.key] : c[m.key];
           const avg = catAvg(m.key, m.calc);
