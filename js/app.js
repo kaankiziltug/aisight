@@ -10,6 +10,7 @@ function escapeHtml(str) {
 function sanitizeUrl(url) {
   if (!url) return '#';
   const s = String(url).trim();
+  if (s.startsWith('/')) return s;
   return (s.startsWith('http://') || s.startsWith('https://')) ? escapeHtml(s) : '#';
 }
 
