@@ -1,4 +1,4 @@
-const CACHE_NAME = 'aisight-v2';
+const CACHE_NAME = 'aisight-v3';
 const STATIC_ASSETS = [
   '/',
   '/css/style.css',
