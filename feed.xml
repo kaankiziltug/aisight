@@ -5,7 +5,7 @@
     <link>https://aisight.fyi</link>
     <description>Latest news and data on AI infrastructure spending across 38 companies. Updated 3x daily from SEC filings and earnings calls.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Mar 2026 08:53:57 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2026 14:49:01 GMT</lastBuildDate>
     <atom:link href="https://aisight.fyi/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>TSMC Has a Monopoly on Making AI Chips. Here&apos;s Why This Stock Could Be the Safest Bet in the $700 Billion Capex Boom. - The Motley Fool</title>
@@ -16,12 +16,44 @@
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMimAFBVV95cUxOZl9DOFZOWW1mSE1wSklRTko0NDNVczg5bkZ6VTJwU0dqMVpJVjRyOFh2WDgxQXVMM0JEZXpRUTV6TXhESE44dkQzS0ZOMERqWTdOQTFvQmRITDdwM2w0bUNhV2I0MnZ5N0IyYVNPVGhpMWRYY0FnOXJRbEs0WWZ4b1NFTjNWSk5fUndVTU8tN20tTkJmeW1DVA?oc=5</guid>
     </item>
     <item>
+      <title>SoftBank secures $40 billion loan to boost OpenAI investments - Reuters</title>
+      <link>https://news.google.com/rss/articles/CBMivwFBVV95cUxNRVRFbHZ5a3lqS2I4VWE4cmhmaHR6V0pvWHNQY1BHZ0ZZRTM5V1dsR2Uzckl2SjNRc0lDdmJEakhmWVhxQ1RwR1hqSXVLRzI3ZFY3eXY4MjFMRWNBSEdaU2FnTkNvM0JHazVvRFZDdUVvTm01SWI3dGJ2eGhQcGFNOFpzVmt5VjVPWkpXNDhPcUJQNTRzN3laVTc3Q1F4WmN0dWhmU2NFdEdQTThzQW5pX1Q1cHZjSXdWNmRuWURFRQ?oc=5</link>
+      <description>SoftBank secures $40 billion loan to boost OpenAI investments  Reuters [OpenAI]</description>
+      <source url="https://aisight.fyi">Reuters</source>
+      <pubDate>Fri, 27 Mar 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMivwFBVV95cUxNRVRFbHZ5a3lqS2I4VWE4cmhmaHR6V0pvWHNQY1BHZ0ZZRTM5V1dsR2Uzckl2SjNRc0lDdmJEakhmWVhxQ1RwR1hqSXVLRzI3ZFY3eXY4MjFMRWNBSEdaU2FnTkNvM0JHazVvRFZDdUVvTm01SWI3dGJ2eGhQcGFNOFpzVmt5VjVPWkpXNDhPcUJQNTRzN3laVTc3Q1F4WmN0dWhmU2NFdEdQTThzQW5pX1Q1cHZjSXdWNmRuWURFRQ?oc=5</guid>
+    </item>
+    <item>
+      <title>Meta Boosts Investment in El Paso AI Data Center to $10 Billion - National Today</title>
+      <link>https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQXd3VlVlT28xTVNXczdyQXpjY0NzdmMwQ0dYR2RTcVJSSm40el9CeXZtWm13NlRDOEtOUVFTVFRwbHZ6MVJBbW5Nd18zQ1RIWW16SU9mUU0tQ3pFVjVyWmhybDc3eW5lbWpvb3ZJSkVmSEpMSGdiWkp4YWVQYlNnZjd5aDVFSVNRQzNOcFdMYTlTNGhXMUllRjV4YW9VcmJRX2g3Wk9wRXNXQzBCSWJTSWFpRkpCUmxjNVhZ?oc=5</link>
+      <description>Meta Boosts Investment in El Paso AI Data Center to $10 Billion  National Today [Meta]</description>
+      <source url="https://aisight.fyi">National Today</source>
+      <pubDate>Fri, 27 Mar 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQXd3VlVlT28xTVNXczdyQXpjY0NzdmMwQ0dYR2RTcVJSSm40el9CeXZtWm13NlRDOEtOUVFTVFRwbHZ6MVJBbW5Nd18zQ1RIWW16SU9mUU0tQ3pFVjVyWmhybDc3eW5lbWpvb3ZJSkVmSEpMSGdiWkp4YWVQYlNnZjd5aDVFSVNRQzNOcFdMYTlTNGhXMUllRjV4YW9VcmJRX2g3Wk9wRXNXQzBCSWJTSWFpRkpCUmxjNVhZ?oc=5</guid>
+    </item>
+    <item>
       <title>Meta Boosts This AI Data Center Investment to $10 Billion - Republic World</title>
       <link>https://news.google.com/rss/articles/CBMilgFBVV95cUxQY1htcGpSUzhlQkZXd1pCbVBQdGs5aFpuS0V3QzVDSTV0SHViZmh3a21UU2FLUjZWdVh3OFlFNEFxLTZPaGVHN01SOFluWE9JQnlSSVA2LUlhc3oxUzJ3NmZ0bm9BZlNTTkg3SEl0aG1MRldCUXNKRktLbGYwMUtKNFNWMEJJMzNwcTBJa1U5RzdCQ1o3WFHSAZsBQVVfeXFMUEQ0UHA1dy1yeTY0Tm1OdHBrZmc5emtuV3hBMzVPNTJwMDZ1dGZQTG92bER5RUlTQlFrVEZFblJjRUZWSE9xaW44WXhaQmkxMXhvV2dCMlcway00YUlKN1JncE9MZmQwQUJYbDdvdDdjNElYel9kVlV0OUxKeE00RndMUnVMYlRyYmtvSDIxM1M4SHBIeFBVTG5LX00?oc=5</link>
       <description>Meta Boosts This AI Data Center Investment to $10 Billion  Republic World [Meta]</description>
       <source url="https://aisight.fyi">Republic World</source>
       <pubDate>Fri, 27 Mar 2026 12:00:00 GMT</pubDate>
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMilgFBVV95cUxQY1htcGpSUzhlQkZXd1pCbVBQdGs5aFpuS0V3QzVDSTV0SHViZmh3a21UU2FLUjZWdVh3OFlFNEFxLTZPaGVHN01SOFluWE9JQnlSSVA2LUlhc3oxUzJ3NmZ0bm9BZlNTTkg3SEl0aG1MRldCUXNKRktLbGYwMUtKNFNWMEJJMzNwcTBJa1U5RzdCQ1o3WFHSAZsBQVVfeXFMUEQ0UHA1dy1yeTY0Tm1OdHBrZmc5emtuV3hBMzVPNTJwMDZ1dGZQTG92bER5RUlTQlFrVEZFblJjRUZWSE9xaW44WXhaQmkxMXhvV2dCMlcway00YUlKN1JncE9MZmQwQUJYbDdvdDdjNElYel9kVlV0OUxKeE00RndMUnVMYlRyYmtvSDIxM1M4SHBIeFBVTG5LX00?oc=5</guid>
+    </item>
+    <item>
+      <title>Meta Increases AI Investment, Capital Expenditures Up to $135 Billion - Intellectia AI</title>
+      <link>https://news.google.com/rss/articles/CBMiowFBVV95cUxPTUFkLU1GT0tGRUFzdExnb1pwLWlxT0VmZHRQb1R6UzFwVG1IQnVDd2pTV2loYjBoWFhhb3pSTEFuTURhT0VHUGE5YVI4R1NoMllNeTFxdTBrNzFqbm9OSTd4ZDZjeDUtRXQtM0JuTkNfRUNzVDJBbXZTa3lQVUptS3piNVBhSmplRFBWSThnVTh2bkxhMGtMaUQxUlVaN3J4ZmxJ?oc=5</link>
+      <description>Meta Increases AI Investment, Capital Expenditures Up to $135 Billion  Intellectia AI [Meta, Intel]</description>
+      <source url="https://aisight.fyi">Intellectia AI</source>
+      <pubDate>Fri, 27 Mar 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiowFBVV95cUxPTUFkLU1GT0tGRUFzdExnb1pwLWlxT0VmZHRQb1R6UzFwVG1IQnVDd2pTV2loYjBoWFhhb3pSTEFuTURhT0VHUGE5YVI4R1NoMllNeTFxdTBrNzFqbm9OSTd4ZDZjeDUtRXQtM0JuTkNfRUNzVDJBbXZTa3lQVUptS3piNVBhSmplRFBWSThnVTh2bkxhMGtMaUQxUlVaN3J4ZmxJ?oc=5</guid>
+    </item>
+    <item>
+      <title>Meta Boosts Texas AI Data Center Spending To $10B - Let&apos;s Data Science</title>
+      <link>https://news.google.com/rss/articles/CBMilAFBVV95cUxQOHdpY21GSW1ZZkN2ejNRNkRoU1QzQ0lhdW1vUWdSMmNINmZRZ2cwaUhvU1F2aDA1QmE5amZ5b24yRVo3WGhCd1FqTUpzbWlOTEk5Q2pJNUtNQUlqSzUtVU9BS19uODRrcW43ZWoyZHhNMVR1UGtXdlVoMmlBS2VtNExXWTNRX0NOS0tldVVtQ1Zwd25Z?oc=5</link>
+      <description>Meta Boosts Texas AI Data Center Spending To $10B  Let&apos;s Data Science [Meta]</description>
+      <source url="https://aisight.fyi">Let&apos;s Data Science</source>
+      <pubDate>Fri, 27 Mar 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMilAFBVV95cUxQOHdpY21GSW1ZZkN2ejNRNkRoU1QzQ0lhdW1vUWdSMmNINmZRZ2cwaUhvU1F2aDA1QmE5amZ5b24yRVo3WGhCd1FqTUpzbWlOTEk5Q2pJNUtNQUlqSzUtVU9BS19uODRrcW43ZWoyZHhNMVR1UGtXdlVoMmlBS2VtNExXWTNRX0NOS0tldVVtQ1Zwd25Z?oc=5</guid>
     </item>
     <item>
       <title>Meta Platforms Boosts West Texas AI Data Center Investment to $10B Despite Investor Concerns - TipRanks</title>
@@ -48,6 +80,38 @@
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMilAFBVV95cUxOa2pXSDBDTTdFajVReWJsZ1JtMVZ4c2RndzhsUFp3aE1CZXRyX3ZZdVZPMGEyMzdxV3RCRENhWDkzU1FjOGNxbmlBYTJRa0VEMTlIR2ZiWjNTd2pZVEcwWnprdGNTWnVFN2MyU3VHNTN3VzZHcjc1WXZyMUlBeW1Lc2xoaktBazZheENFT2NzdWl5bDhm?oc=5</guid>
     </item>
     <item>
+      <title>Are Meta layoffs in 2026 funding a $135 billion AI pivot? - The HR Digest</title>
+      <link>https://news.google.com/rss/articles/CBMijAFBVV95cUxNbm56b3RCOHZWWmRVeDljMnFYMWpZMkR5TWRtOGVST1otTms3YmVwTkFUdnRqWkNmSl91NFd4cmpsTDBTWXNVbXhta0lDTklGNFVUYlRNQmlIN3NMSjVlZ2xlN3A3enFSLVB2a1hWTkdfWVRGVWE0aFR1ZHE0WEJuWHpMMG14T3pxbHRwcA?oc=5</link>
+      <description>Are Meta layoffs in 2026 funding a $135 billion AI pivot?  The HR Digest [Meta]</description>
+      <source url="https://aisight.fyi">The HR Digest</source>
+      <pubDate>Fri, 27 Mar 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMijAFBVV95cUxNbm56b3RCOHZWWmRVeDljMnFYMWpZMkR5TWRtOGVST1otTms3YmVwTkFUdnRqWkNmSl91NFd4cmpsTDBTWXNVbXhta0lDTklGNFVUYlRNQmlIN3NMSjVlZ2xlN3A3enFSLVB2a1hWTkdfWVRGVWE0aFR1ZHE0WEJuWHpMMG14T3pxbHRwcA?oc=5</guid>
+    </item>
+    <item>
+      <title>Meta boosts Texas AI data center spend to $10B (META:NASDAQ) - Seeking Alpha</title>
+      <link>https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSHpNZWlmalJOd054bjQyVWVoZjhpbDhIUlFtSkUtLXV4eldvWFpQUlRRVzg3bUI4akRaR0hTTFRUTVZDZkNDVFo0M2QxTUNtek1ZU28tSzhXUnRiNjdYY3EwdGU4M3NXbVJhVUkwd2lLaEhnNWpoeGQ2M25qa1ZqbmlIekFvY0gwSVU0?oc=5</link>
+      <description>Meta boosts Texas AI data center spend to $10B (META:NASDAQ)  Seeking Alpha [Meta]</description>
+      <source url="https://aisight.fyi">Seeking Alpha</source>
+      <pubDate>Fri, 27 Mar 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSHpNZWlmalJOd054bjQyVWVoZjhpbDhIUlFtSkUtLXV4eldvWFpQUlRRVzg3bUI4akRaR0hTTFRUTVZDZkNDVFo0M2QxTUNtek1ZU28tSzhXUnRiNjdYY3EwdGU4M3NXbVJhVUkwd2lLaEhnNWpoeGQ2M25qa1ZqbmlIekFvY0gwSVU0?oc=5</guid>
+    </item>
+    <item>
+      <title>Applied Materials Overcomes a 21% Drawdown: How $700 Billion in AI CapEx Fuels the $431 Target - TIKR.com</title>
+      <link>https://news.google.com/rss/articles/CBMitwFBVV95cUxNQTltNTlEa3pjeFMya2U5UlREVEZzT2hOTVpMQjRtQTIydk1zNjROV0p0dGtKODNLWHlZRmZ3WmVVT2x0OXNGdkFWZDU2ZVJUelN2dU5jN2RIWE1UOTk0R1pGS3AzN3dtQ2NBTk5nUklNUWY0M3hnOHlIY1NRR1hybHNPb2JfUndreUh1ZFRXZHhhQVduZktURVBGbXVTek5abjZDVmhhd1lsX09iQUoxYXZudDIwenc?oc=5</link>
+      <description>Applied Materials Overcomes a 21% Drawdown: How $700 Billion in AI CapEx Fuels the $431 Target  TIKR.com</description>
+      <source url="https://aisight.fyi">TIKR.com</source>
+      <pubDate>Fri, 27 Mar 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMitwFBVV95cUxNQTltNTlEa3pjeFMya2U5UlREVEZzT2hOTVpMQjRtQTIydk1zNjROV0p0dGtKODNLWHlZRmZ3WmVVT2x0OXNGdkFWZDU2ZVJUelN2dU5jN2RIWE1UOTk0R1pGS3AzN3dtQ2NBTk5nUklNUWY0M3hnOHlIY1NRR1hybHNPb2JfUndreUh1ZFRXZHhhQVduZktURVBGbXVTek5abjZDVmhhd1lsX09iQUoxYXZudDIwenc?oc=5</guid>
+    </item>
+    <item>
+      <title>SoftBank secures $40B loan to deepen OpenAI partnership - Invezz</title>
+      <link>https://news.google.com/rss/articles/CBMioAFBVV95cUxPcjU4ZU9iSXZVZXVfb0dhT1hrRVZkTlZYQ2Q5Q1NSUmZrTTAxYzhDOE9aRWlhWjJUT0ZlVzU1eVNqM29aNVNHNkRUNW1ieXZQa1lRZnhCM1Jxa3ROWG5yd0M1LVhacnhzcnM4Y1dkMDN3YXZIc0FIbE5veV9wdUNGNGt0MVFJNTQ3Y2xNNlQzaWE3SkdnZjd3NkZoRGVXVUEx?oc=5</link>
+      <description>SoftBank secures $40B loan to deepen OpenAI partnership  Invezz [OpenAI, Microsoft]</description>
+      <source url="https://aisight.fyi">Invezz</source>
+      <pubDate>Fri, 27 Mar 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMioAFBVV95cUxPcjU4ZU9iSXZVZXVfb0dhT1hrRVZkTlZYQ2Q5Q1NSUmZrTTAxYzhDOE9aRWlhWjJUT0ZlVzU1eVNqM29aNVNHNkRUNW1ieXZQa1lRZnhCM1Jxa3ROWG5yd0M1LVhacnhzcnM4Y1dkMDN3YXZIc0FIbE5veV9wdUNGNGt0MVFJNTQ3Y2xNNlQzaWE3SkdnZjd3NkZoRGVXVUEx?oc=5</guid>
+    </item>
+    <item>
       <title>META Stock Today: March 27 – Layoffs Highlight AI Spending Shift - Meyka</title>
       <link>https://news.google.com/rss/articles/CBMilAFBVV95cUxNWW9CeTh4MnY5TUM0RXFMR0otUUlUNTgxa2k2R0M3d2w3Z3dpTjA1bTFTZ2FLTU5MTnIxWmdFVUpvSWdER2RUR2JZY3FOUFRCbUFfbEdJQlZNZ2ZjY29XRVU0aUkzYlRESnh6eWVDbHkwSW1nVVh2LXVDZkxxMWh0VDdpQ1BhRlpEcXRhbVhSdkNsV290?oc=5</link>
       <description>META Stock Today: March 27 – Layoffs Highlight AI Spending Shift  Meyka [Meta]</description>
@@ -64,12 +128,52 @@
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMixAFBVV95cUxPYWhzc0ZlSnYxVzRMTnBNNU9oNUExNzV2S09PMnRJa0FjVk9lZmpqWFlIZUNjTko4d3FFTmNPVjk1WndIRmRXSmN1Qk9jZXIzT1BkVHRMWC13cndRNTNuTERvcmx1UWtMRS14Z0FJMktBUklNMEFTRjlocE01SWp5Z1VXMnU1cGZBSkkxRU9TWUxfWjFSajhSc0JyYUN0RUk3enlUaE1Dd3R1UmZaZ09kTjBUTkZwcWlHeWxZcEtZTnN0ZnVk?oc=5</guid>
     </item>
     <item>
+      <title>Marvell&apos;s Data Center Revenue Just Grew 21%. Here&apos;s Why This Artificial Intelligence (AI) Stock Could Deliver 50% Upside in 2026. - The Motley Fool</title>
+      <link>https://news.google.com/rss/articles/CBMijwFBVV95cUxQbENBR3JUdHo5X0tZRHhPMWxINk5BMUtPaUhjUGxYdVZwLXNOOE5kYUIzd2hGM0hjcmxmMDdBU0xKVVBocFUzbE50azlHb3hpRUxVMlFjMjlZeVhuVVVUcmhLMFBqSk94YzhhanpVd2RuLVlNYTlIdVJPSHFsa0MtMVpsbHlXUXRRZlhJRGxvcw?oc=5</link>
+      <description>Marvell&apos;s Data Center Revenue Just Grew 21%. Here&apos;s Why This Artificial Intelligence (AI) Stock Could Deliver 50% Upside in 2026.  The Motley Fool [Intel]</description>
+      <source url="https://aisight.fyi">The Motley Fool</source>
+      <pubDate>Fri, 27 Mar 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMijwFBVV95cUxQbENBR3JUdHo5X0tZRHhPMWxINk5BMUtPaUhjUGxYdVZwLXNOOE5kYUIzd2hGM0hjcmxmMDdBU0xKVVBocFUzbE50azlHb3hpRUxVMlFjMjlZeVhuVVVUcmhLMFBqSk94YzhhanpVd2RuLVlNYTlIdVJPSHFsa0MtMVpsbHlXUXRRZlhJRGxvcw?oc=5</guid>
+    </item>
+    <item>
       <title>Nvidia Stock Outlook: AI Spending and Market Leadership Key to Future Gains - News and Statistics - IndexBox</title>
       <link>https://news.google.com/rss/articles/CBMingFBVV95cUxNcWpMWTZoOW9hSi01eFRSNl90ZUpJUTNZM3p3RTNuaVFVdGxDbnR2TlpRc2tNMG1nZHFGTTVJRFRHek9qMHdUTm90U3hwZXFMZzBwT1FjSk93Z1A5Zy1CeWppWnY3elNrZnBmbE1JQ3Z1SUx5czByRUJMMDFXSDhodUoweE90c3daZ01OTkxwbjQ2YzVFRHdRRmFzWjlrZw?oc=5</link>
       <description>Nvidia Stock Outlook: AI Spending and Market Leadership Key to Future Gains - News and Statistics  IndexBox [Nvidia]</description>
       <source url="https://aisight.fyi">IndexBox</source>
       <pubDate>Fri, 27 Mar 2026 12:00:00 GMT</pubDate>
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMingFBVV95cUxNcWpMWTZoOW9hSi01eFRSNl90ZUpJUTNZM3p3RTNuaVFVdGxDbnR2TlpRc2tNMG1nZHFGTTVJRFRHek9qMHdUTm90U3hwZXFMZzBwT1FjSk93Z1A5Zy1CeWppWnY3elNrZnBmbE1JQ3Z1SUx5czByRUJMMDFXSDhodUoweE90c3daZ01OTkxwbjQ2YzVFRHdRRmFzWjlrZw?oc=5</guid>
+    </item>
+    <item>
+      <title>Matt Garman defends AWS AI spending as layoffs reshape Amazon - mezha.net</title>
+      <link>https://news.google.com/rss/articles/CBMiXEFVX3lxTFBvY24tSzJiSjRmUXh4OVU0cEhReDFKS0NhQWdld3JyVnBCOXBIYUl1RTktYXZ6WTNaWDM5YmpKd1NiREQ3UHNQODZPd1ppRlNJc1JDTkpNVlNaMklR?oc=5</link>
+      <description>Matt Garman defends AWS AI spending as layoffs reshape Amazon  mezha.net [Amazon]</description>
+      <source url="https://aisight.fyi">mezha.net</source>
+      <pubDate>Fri, 27 Mar 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiXEFVX3lxTFBvY24tSzJiSjRmUXh4OVU0cEhReDFKS0NhQWdld3JyVnBCOXBIYUl1RTktYXZ6WTNaWDM5YmpKd1NiREQ3UHNQODZPd1ppRlNJc1JDTkpNVlNaMklR?oc=5</guid>
+    </item>
+    <item>
+      <title>Meta Platforms (META) Slid on Concerns Over Aggressive AI Capital Expenditure Plans - Insider Monkey</title>
+      <link>https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcGZhYjlrTVRlYkRydnNRbVZPNHhQMnNqb1VFRDFDbHdWd0VIMEw2aWJ2UGJpMlp2X25tb2RpZkg4a1hiWVVJUEQyNUlMbFREcDhfZHh0bzNFUWp1SXFteU5WUjB3YUxCZ3NiZ3FlYUhkUWhjeko1M2VySzYyZWdjZ2NMYXh3WjZqaUFmLU5WU3MtdWt3V1RFbU1zVmZiNnNrTjRBSkdJQ2JNZE9jUVFHeVE1X3o1TW4wRkVEY1pQU2FyZ0nSAcsBQVVfeXFMUHItbVpxZEdsQXktOVIyT1dOdkgwSk1oTTUwOHg5a2tQTzRlcW1CLXJ5WDR4cEU1UEdHVmRiZ19OUEtTNGVMdkNyYl9GUzQ2VHRncjQtNGpOVmVhRHd2VGlzNk1yTVg2ZzMwRG53SVJCUDJqUFNlTWpVaEtaVGZudE53QlFyamhQdGo1VEdWTVlYR0s3WllRcnQ4TTFweC15cjloQ2JnUnNsa0FER0RWZzc1cTFla3pSQzlTanM4UHJndnJrdHNSZk5uU0U?oc=5</link>
+      <description>Meta Platforms (META) Slid on Concerns Over Aggressive AI Capital Expenditure Plans  Insider Monkey [Meta]</description>
+      <source url="https://aisight.fyi">Insider Monkey</source>
+      <pubDate>Fri, 27 Mar 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcGZhYjlrTVRlYkRydnNRbVZPNHhQMnNqb1VFRDFDbHdWd0VIMEw2aWJ2UGJpMlp2X25tb2RpZkg4a1hiWVVJUEQyNUlMbFREcDhfZHh0bzNFUWp1SXFteU5WUjB3YUxCZ3NiZ3FlYUhkUWhjeko1M2VySzYyZWdjZ2NMYXh3WjZqaUFmLU5WU3MtdWt3V1RFbU1zVmZiNnNrTjRBSkdJQ2JNZE9jUVFHeVE1X3o1TW4wRkVEY1pQU2FyZ0nSAcsBQVVfeXFMUHItbVpxZEdsQXktOVIyT1dOdkgwSk1oTTUwOHg5a2tQTzRlcW1CLXJ5WDR4cEU1UEdHVmRiZ19OUEtTNGVMdkNyYl9GUzQ2VHRncjQtNGpOVmVhRHd2VGlzNk1yTVg2ZzMwRG53SVJCUDJqUFNlTWpVaEtaVGZudE53QlFyamhQdGo1VEdWTVlYR0s3WllRcnQ4TTFweC15cjloQ2JnUnNsa0FER0RWZzc1cTFla3pSQzlTanM4UHJndnJrdHNSZk5uU0U?oc=5</guid>
+    </item>
+    <item>
+      <title>Meta Platforms, Inc. Stock Faces Mounting Pressures Amid Legal Setbacks and AI Spending Surge - AD HOC NEWS</title>
+      <link>https://news.google.com/rss/articles/CBMixwFBVV95cUxPaVprdlRxOHBnUFBSdXYyNEduTkNLTjhSNVdTdl91Xy1ZTVRtRGtWYlNSUzdBVXI0MW1aZ3VDaEdmMnRRSEtickFZbEJteUw0V0JKak4taU1ZTEIwR3JlNWFnbnBSbFh1LXZMRGtYSXliUHRESldUTkJaVGdOaEhqTHhkQnE3alRCeXZfdzFwNTJlVWpSX2ZkWWhibF9lUXRocjB5WWVlc21keGtfY1NwVTNnQnRxbFRTOWU5UWlSclA3SlJHU0FJ?oc=5</link>
+      <description>Meta Platforms, Inc. Stock Faces Mounting Pressures Amid Legal Setbacks and AI Spending Surge  AD HOC NEWS [Meta]</description>
+      <source url="https://aisight.fyi">AD HOC NEWS</source>
+      <pubDate>Fri, 27 Mar 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMixwFBVV95cUxPaVprdlRxOHBnUFBSdXYyNEduTkNLTjhSNVdTdl91Xy1ZTVRtRGtWYlNSUzdBVXI0MW1aZ3VDaEdmMnRRSEtickFZbEJteUw0V0JKak4taU1ZTEIwR3JlNWFnbnBSbFh1LXZMRGtYSXliUHRESldUTkJaVGdOaEhqTHhkQnE3alRCeXZfdzFwNTJlVWpSX2ZkWWhibF9lUXRocjB5WWVlc21keGtfY1NwVTNnQnRxbFRTOWU5UWlSclA3SlJHU0FJ?oc=5</guid>
+    </item>
+    <item>
+      <title>Data center spending is exploding. What happens if AI doesn&apos;t deliver? - The Business Journals</title>
+      <link>https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUmNyOHFMUkFzUzJwTzFVajhIc21zaDdkR0xOZzlyTWVOblRCY2dZRkphWk81YXVnOU50RGZjOFdLS1lwMkRGNGZTQV93NGo2MFBBUlpqTDJ6MjFhSTFaZUUwRDREbzFtY1RuQmxFS1RubzRQZnkydnhUUzlFSy14U2s3eXQ0cDZ5OWs0cnpTczkxa015UE96QVdfUFdVTkJoYkxDRGRxd1k?oc=5</link>
+      <description>Data center spending is exploding. What happens if AI doesn&apos;t deliver?  The Business Journals</description>
+      <source url="https://aisight.fyi">The Business Journals</source>
+      <pubDate>Fri, 27 Mar 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUmNyOHFMUkFzUzJwTzFVajhIc21zaDdkR0xOZzlyTWVOblRCY2dZRkphWk81YXVnOU50RGZjOFdLS1lwMkRGNGZTQV93NGo2MFBBUlpqTDJ6MjFhSTFaZUUwRDREbzFtY1RuQmxFS1RubzRQZnkydnhUUzlFSy14U2s3eXQ0cDZ5OWs0cnpTczkxa015UE96QVdfUFdVTkJoYkxDRGRxd1k?oc=5</guid>
     </item>
     <item>
       <title>AI: Diving into OpenAI vs Anthropic financial growth metrics. RTZ #1038 - AI: Reset to Zero</title>
@@ -80,12 +184,28 @@
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMie0FVX3lxTFBjOTA5cHB0eC1qTkpvT1cxM3Q0b242ZFBFUDA1d2JkVExtWTNBcVRRRHBxUDU3YTRpRlhQWG5tMlBXS2RiLVZKTng2MU84eTRlRzFzRjRyT3FhMGM4VmJiUDhhMHJyRTRYU05GaXA1UFRNNzE4TjVMSVhObw?oc=5</guid>
     </item>
     <item>
-      <title>Shield AI, a Start-Up Making Military Drones, Raises $2 Billion - The New York Times</title>
-      <link>https://news.google.com/rss/articles/CBMinAFBVV95cUxNNVpRcWdkS2RjX1JqQ0JBbUE1MnMwR1RnM0p0WThfaGtvaUx0eUVfcjFqRjVIWlFuOFd2UDgzT1BYRjdSTUdLNExfM1ItcThpMXFBS2RqY0QxQjRfWWV6LTVkbHJvTHBoNkxBbW9IX0ZFZ2ZmeGllSjUxb1Q1ME5tVGNDZkxHTVhBLTFkSWFFeWx6VGs2RmhvSlpSNGs?oc=5</link>
-      <description>Shield AI, a Start-Up Making Military Drones, Raises $2 Billion  The New York Times</description>
-      <source url="https://aisight.fyi">The New York Times</source>
+      <title>13 century-old companies riding the AI infrastructure boom: Jon Erlichman - BNN Bloomberg</title>
+      <link>https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMXNDc2k4ZWhJMWpKb0RQdDE5VzB0eWxKVlcyUHZqZmgxeVN6TS1pSjRINlhoNUJfQzVybVpISXN4N2FrbGM1TWhpeTJEak82MmVHSjJ4bHE4d2pQVjFnUTBZQUF4R3dhamhuTFJqcHVwdjJXS25QRGZLZ3FObVd0SWJVR1Y0OEZTSVBBX3AxUU9lcWVXbTQxMGFRNEJRRHJjMkFuc3V3TTBwQXFZaGFjRVZpTjRnbGVXaTB0VlBNX0dndw?oc=5</link>
+      <description>13 century-old companies riding the AI infrastructure boom: Jon Erlichman  BNN Bloomberg</description>
+      <source url="https://aisight.fyi">BNN Bloomberg</source>
       <pubDate>Fri, 27 Mar 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMinAFBVV95cUxNNVpRcWdkS2RjX1JqQ0JBbUE1MnMwR1RnM0p0WThfaGtvaUx0eUVfcjFqRjVIWlFuOFd2UDgzT1BYRjdSTUdLNExfM1ItcThpMXFBS2RqY0QxQjRfWWV6LTVkbHJvTHBoNkxBbW9IX0ZFZ2ZmeGllSjUxb1Q1ME5tVGNDZkxHTVhBLTFkSWFFeWx6VGs2RmhvSlpSNGs?oc=5</guid>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMXNDc2k4ZWhJMWpKb0RQdDE5VzB0eWxKVlcyUHZqZmgxeVN6TS1pSjRINlhoNUJfQzVybVpISXN4N2FrbGM1TWhpeTJEak82MmVHSjJ4bHE4d2pQVjFnUTBZQUF4R3dhamhuTFJqcHVwdjJXS25QRGZLZ3FObVd0SWJVR1Y0OEZTSVBBX3AxUU9lcWVXbTQxMGFRNEJRRHJjMkFuc3V3TTBwQXFZaGFjRVZpTjRnbGVXaTB0VlBNX0dndw?oc=5</guid>
+    </item>
+    <item>
+      <title>Microsoft freezes hiring in cloud, sales teams; managers asked to not hire candidates who don&apos;t already h - The Times of India</title>
+      <link>https://news.google.com/rss/articles/CBMimAJBVV95cUxQbmRpMGl4OXBkeDNIbzdta1J6TWZIS1Z5LUZZaFVUNy0zdngzMGxLdW16NWlsaDJ1ZDN3QkYzLVBhM0ZMR1FPdjRsSVZLa05oUk9ONW0zUEEyd3ktM01hSXBLbDZwVTZWUk5CNUZHVFNaNm5kS013ekI3ZUlFak1IVjlFMjJ2aThqM25LQVlTRDBtVGVuUTFyMUJvUFFXbXZsaTE1ampYUmRCVnlaZzJfVGlmS0Q2ODlLbHR5NTM2YmJyaXRxTDFGZVVyb0hmQzZhUkV6aFlRQ2NHNHpFaXdWc0ZsOUo3VWR6alp3M1N2dGpfTHM0MVk0eVFaS29zN1JaaFpSM2wtZjhuMHhvSmZsOTYyZjdGYlMx0gGeAkFVX3lxTE1JOXJMOW5FbU9vXzYwOXNhNTVCVFlPUGYzNGxDektzSngzbVVLaUo3a2U3cEVNeGtvdDd0ZTRhUFNRbE9JVXdnMU5yM0pndDNlVkVNeVpzTUFNU09PeVlWd3pKMENBQUhzWmozdUM0OHZUTGZqZ08yemNfSnMxQkZFZzZPVHB1WnNRejNYOXR2TFZCdXpwcXdLVHczSjUwZEJoTHQ1VmdzY001NlhIQkhHdXBEVDFUX2ltQV9IVEpuTGUwb3E4dEFmZ2pFbkRsNGJGcTJqUnpURnRDbGpYQ2dQdl9KX2hpcFJ1RzJSazdGeDdSbTZiVkJ3NU5PZU9VeGt1T2NDa21MVVBFUnpNRGc2cGxzUE8tbVpRMlpYTnc?oc=5</link>
+      <description>Microsoft freezes hiring in cloud, sales teams; managers asked to not hire candidates who don&apos;t already h  The Times of India [Microsoft]</description>
+      <source url="https://aisight.fyi">The Times of India</source>
+      <pubDate>Fri, 27 Mar 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMimAJBVV95cUxQbmRpMGl4OXBkeDNIbzdta1J6TWZIS1Z5LUZZaFVUNy0zdngzMGxLdW16NWlsaDJ1ZDN3QkYzLVBhM0ZMR1FPdjRsSVZLa05oUk9ONW0zUEEyd3ktM01hSXBLbDZwVTZWUk5CNUZHVFNaNm5kS013ekI3ZUlFak1IVjlFMjJ2aThqM25LQVlTRDBtVGVuUTFyMUJvUFFXbXZsaTE1ampYUmRCVnlaZzJfVGlmS0Q2ODlLbHR5NTM2YmJyaXRxTDFGZVVyb0hmQzZhUkV6aFlRQ2NHNHpFaXdWc0ZsOUo3VWR6alp3M1N2dGpfTHM0MVk0eVFaS29zN1JaaFpSM2wtZjhuMHhvSmZsOTYyZjdGYlMx0gGeAkFVX3lxTE1JOXJMOW5FbU9vXzYwOXNhNTVCVFlPUGYzNGxDektzSngzbVVLaUo3a2U3cEVNeGtvdDd0ZTRhUFNRbE9JVXdnMU5yM0pndDNlVkVNeVpzTUFNU09PeVlWd3pKMENBQUhzWmozdUM0OHZUTGZqZ08yemNfSnMxQkZFZzZPVHB1WnNRejNYOXR2TFZCdXpwcXdLVHczSjUwZEJoTHQ1VmdzY001NlhIQkhHdXBEVDFUX2ltQV9IVEpuTGUwb3E4dEFmZ2pFbkRsNGJGcTJqUnpURnRDbGpYQ2dQdl9KX2hpcFJ1RzJSazdGeDdSbTZiVkJ3NU5PZU9VeGt1T2NDa21MVVBFUnpNRGc2cGxzUE8tbVpRMlpYTnc?oc=5</guid>
+    </item>
+    <item>
+      <title>Microsoft faces its worst quarterly stock performance since 2008 amid a high-stakes AI gamble and the threat of business substitution. - Moomoo</title>
+      <link>https://news.google.com/rss/articles/CBMisAFBVV95cUxNa2gwS3ROYXRKLWtLN2lsOVVmRDVDcEpxSEdtcWFCYkRYT2lzXzEyR2Q4NHdEUE1NQTJHTmoyeVBYVWtUcTd0UlFNVHByNjRNRHh5UlhVOXYwWXlHeU94UWNJei1mWjNxVktnbUZEWWJJWFlkUEc5aEdidVJnUEpINFRZbmdqVXRLR0UtX2pfRkxPN1lSbVd0VERsMW00OGRnQlJCZzczMFhmTFNGODJyQw?oc=5</link>
+      <description>Microsoft faces its worst quarterly stock performance since 2008 amid a high-stakes AI gamble and the threat of business substitution.  Moomoo [Microsoft]</description>
+      <source url="https://aisight.fyi">Moomoo</source>
+      <pubDate>Fri, 27 Mar 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMisAFBVV95cUxNa2gwS3ROYXRKLWtLN2lsOVVmRDVDcEpxSEdtcWFCYkRYT2lzXzEyR2Q4NHdEUE1NQTJHTmoyeVBYVWtUcTd0UlFNVHByNjRNRHh5UlhVOXYwWXlHeU94UWNJei1mWjNxVktnbUZEWWJJWFlkUEc5aEdidVJnUEpINFRZbmdqVXRLR0UtX2pfRkxPN1lSbVd0VERsMW00OGRnQlJCZzczMFhmTFNGODJyQw?oc=5</guid>
     </item>
     <item>
       <title>Okestro convenes South Korea public AI infrastructure conference, charts sovereignty - CHOSUNBIZ - Chosunbiz</title>
@@ -104,6 +224,14 @@
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMilAFBVV95cUxNYTA3Qm1HRWVoYU1WeS1hWlR5UW1HODRRenI2OGxUUFFWRjVPSlB6S3VDTDBGeGZ0Mk1HZEVQcWU4Z2dPWHNPME9hX2I1cExfc21MZXlORU9vaW9KOUFVZDN4cXQydm5CYTR0bzdrRjNqbWJJMWVUWDlzd3A3ckZISzJiQkZ1M01BdjlXb1J3V0Y1OC1w?oc=5</guid>
     </item>
     <item>
+      <title>Inside Polar Capital Technology Trust’s AI maximalist investment strategy - UK Investor Magazine</title>
+      <link>https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUTNuTXI5Mm8xRFpMVll3b3I2cnZSTmM3Y3VEV3JPbVpUWTJVRkJJYklpY2NjeGc1WXlSY3FpTVlXbklTQjFIVFlwakxSYjB3YVNYbnNqV0R6aHJMdjF5UTVvZVRHd2gyVVppLXlaa1BQTk81WUk1bng2bXVIall3U2Y0ejhfc212TThLZkp5X2Z2YjJpeHhBSW4tTDhJa0RwLU4ySnptd0FPQQ?oc=5</link>
+      <description>Inside Polar Capital Technology Trust’s AI maximalist investment strategy  UK Investor Magazine</description>
+      <source url="https://aisight.fyi">UK Investor Magazine</source>
+      <pubDate>Fri, 27 Mar 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUTNuTXI5Mm8xRFpMVll3b3I2cnZSTmM3Y3VEV3JPbVpUWTJVRkJJYklpY2NjeGc1WXlSY3FpTVlXbklTQjFIVFlwakxSYjB3YVNYbnNqV0R6aHJMdjF5UTVvZVRHd2gyVVppLXlaa1BQTk81WUk1bng2bXVIall3U2Y0ejhfc212TThLZkp5X2Z2YjJpeHhBSW4tTDhJa0RwLU4ySnptd0FPQQ?oc=5</guid>
+    </item>
+    <item>
       <title>Meta boosts investment in West Texas AI data center by over sixfold to $10 billion - CNBC</title>
       <link>https://news.google.com/rss/articles/CBMipAFBVV95cUxQQzlUNzhaWENtQV9WLW1FTVBXYTVJT1JXWUY2VGdyQTBDak5feTBqdXJYWWlMVE1ubDJZSGpzVno3dEZ0TVpkYkNzS2F2Z0NMd2Q1V2h0UURmRjRueXhZOUdZSHRrV2tENWRDNlJyWnpMaUpjQTdXVlIxbHpVcEJWc2RfZnh6UkJsOU02ajV6QVpTZkpIUTJVTWdOYzNGaFp2NVJnZdIBqgFBVV95cUxPQ3dkTE9xS3oySy1mOW02T0swWDlieDRsRkgxVGk5RG1JSzNnUXJrTU9IQS1GNVdLeGhxallaN3dya1Q3ZF9rbG9QWDBqeHB0TG5LYkt6MVd5WHo1YktqcnNac2FKdzRZOWNYNHEyNGlNdVdXTEszVmZnWU1VRnlBZzBHN1ZQXzNtdFhBOWdiTWh2UTBONmJaQndNWlBIQ1dQaXdiN0dNZmc0Zw?oc=5</link>
       <description>Meta boosts investment in West Texas AI data center by over sixfold to $10 billion  CNBC [Meta]</description>
@@ -120,14 +248,6 @@
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiswFBVV95cUxNTFNPdHQtMmpJVm5YbjR2U0lWSjNvNjlsdUFzV0FTUFM3c1JjeWE3NnRQX1VDTjlzekJfNzlUeG9PcnJmeE1sa3lRZ1dEbjd2UGdDeGlvRXVzS1BYcXFpVkVhbG0wWVpheWgzV2Z4QVltMFk0S0FIUFJiTUlNWXcwUE9obXFhSWZDNDFreVpoYlhEdGFBZ2RLU3BubUFYQ3RhRnJvdkI0UnpvRjlTamgwSDRkZw?oc=5</guid>
     </item>
     <item>
-      <title>I went to rural Louisiana to see Meta’s massive $27 billion AI data center. Here’s what I found. - Fortune</title>
-      <link>https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMTJQT0VfTmJzMlZCcWRIRlZQV0hhLXBNaS1LOWdsN09ZRzgzaXBJX3RsYUNJaUFOVF9EVEIyaldaQkZxYktzYkwyU3hDZDJ2SjJYTXRwazR3NFljNUNIb0JKX0JiX3NfY0JCMjNPRXYxUTJ6OWpnQWI3QjVaYzdvTEVMRnJYNE83dENJ?oc=5</link>
-      <description>I went to rural Louisiana to see Meta’s massive $27 billion AI data center. Here’s what I found.  Fortune [Meta]</description>
-      <source url="https://aisight.fyi">Fortune</source>
-      <pubDate>Thu, 26 Mar 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMTJQT0VfTmJzMlZCcWRIRlZQV0hhLXBNaS1LOWdsN09ZRzgzaXBJX3RsYUNJaUFOVF9EVEIyaldaQkZxYktzYkwyU3hDZDJ2SjJYTXRwazR3NFljNUNIb0JKX0JiX3NfY0JCMjNPRXYxUTJ6OWpnQWI3QjVaYzdvTEVMRnJYNE83dENJ?oc=5</guid>
-    </item>
-    <item>
       <title>Meta’s $27 billion AI data center is causing chaos in small town Louisiana - Fortune</title>
       <link>https://news.google.com/rss/articles/CBMiekFVX3lxTE5ZRERpRWt5eDBieUI1TlpxeFZybE4zMm9YdW1xYXpzOXNvamhHNEtDdXZCQTdySXR5aThkNnN2dXZKOVFJZkVNQ1NjWVFOeXpibXlSYnlaR19QcEVfZjNVYzNqVy1ZaVBvbUJFR0FHZTh1ZkloMGN4TWV3?oc=5</link>
       <description>Meta’s $27 billion AI data center is causing chaos in small town Louisiana  Fortune [Meta]</description>
@@ -136,12 +256,12 @@
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiekFVX3lxTE5ZRERpRWt5eDBieUI1TlpxeFZybE4zMm9YdW1xYXpzOXNvamhHNEtDdXZCQTdySXR5aThkNnN2dXZKOVFJZkVNQ1NjWVFOeXpibXlSYnlaR19QcEVfZjNVYzNqVy1ZaVBvbUJFR0FHZTh1ZkloMGN4TWV3?oc=5</guid>
     </item>
     <item>
-      <title>Nvidia-backed Reflection AI eyes $25 billion valuation, WSJ reports - Reuters</title>
-      <link>https://news.google.com/rss/articles/CBMirwFBVV95cUxQUmRCZkV3ZWtxZ0ljc0FQb1d3ak1Nb0gwbTNDUzJiTU1iR0Ewbmw3UjFWR0FwalFxWmYyRHdCVmNmVDlRRDJjVWVLekVyeU02UG9RQ1Rsb2psYWRjVmJyWFowNndjSllteXI4ZEhMalVMTkdOZGJFR1JTd3A0SjY4SjluZjZHdmJQS3dvZlplTGdJaWtJOFBkd0ZqN3RfbGVEanBmRXJHZXRONDRsc3gw?oc=5</link>
-      <description>Nvidia-backed Reflection AI eyes $25 billion valuation, WSJ reports  Reuters [Nvidia]</description>
-      <source url="https://aisight.fyi">Reuters</source>
+      <title>I went to rural Louisiana to see Meta’s massive $27 billion AI data center. Here’s what I found. - Fortune</title>
+      <link>https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMTJQT0VfTmJzMlZCcWRIRlZQV0hhLXBNaS1LOWdsN09ZRzgzaXBJX3RsYUNJaUFOVF9EVEIyaldaQkZxYktzYkwyU3hDZDJ2SjJYTXRwazR3NFljNUNIb0JKX0JiX3NfY0JCMjNPRXYxUTJ6OWpnQWI3QjVaYzdvTEVMRnJYNE83dENJ?oc=5</link>
+      <description>I went to rural Louisiana to see Meta’s massive $27 billion AI data center. Here’s what I found.  Fortune [Meta]</description>
+      <source url="https://aisight.fyi">Fortune</source>
       <pubDate>Thu, 26 Mar 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMirwFBVV95cUxQUmRCZkV3ZWtxZ0ljc0FQb1d3ak1Nb0gwbTNDUzJiTU1iR0Ewbmw3UjFWR0FwalFxWmYyRHdCVmNmVDlRRDJjVWVLekVyeU02UG9RQ1Rsb2psYWRjVmJyWFowNndjSllteXI4ZEhMalVMTkdOZGJFR1JTd3A0SjY4SjluZjZHdmJQS3dvZlplTGdJaWtJOFBkd0ZqN3RfbGVEanBmRXJHZXRONDRsc3gw?oc=5</guid>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMTJQT0VfTmJzMlZCcWRIRlZQV0hhLXBNaS1LOWdsN09ZRzgzaXBJX3RsYUNJaUFOVF9EVEIyaldaQkZxYktzYkwyU3hDZDJ2SjJYTXRwazR3NFljNUNIb0JKX0JiX3NfY0JCMjNPRXYxUTJ6OWpnQWI3QjVaYzdvTEVMRnJYNE83dENJ?oc=5</guid>
     </item>
     <item>
       <title>Kuaishou Expects $3.6 Billion Capex in 2026 to Boost AI Infrastructure - Pandaily</title>
@@ -152,12 +272,13 @@
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMilAFBVV95cUxNT1Y5bThkcTZXdzVweVZjUUpjbWtSVEpUZjBOcks2aXhMLWJnVWpENElmZXlLRVFraS1id19IM3RiUW1tNDMzc3dnQnlqR0NDeEhiaXBjUzNfWldGM252N2ZpSmFGbm85b3RnTGZacFZlb3Z5M1VuZGItMzNaa2pLZVNGZUI1X2oyVWh3ZFc5dG1pb29V?oc=5</guid>
     </item>
     <item>
-      <title>Inflation Pulse From AI and Energy Will Last Decades, IFM Says</title>
-      <link>https://financialpost.com/pmn/business-pmn/inflation-pulse-from-ai-and-energy-will-last-decades-ifm-says</link>
-      <description>Enormous spending on artificial intelligence and the global energy transition are likely to cause inflationary pressures for decades to come, according to the chief executive of global infrastructure money manager IFM Investors. [Intel]</description>
-      <source url="https://aisight.fyi">Financial Post</source>
+      <title>ARK Invest sees AI infrastructure market nearing $1.5 trillion by 2030</title>
+      <link>https://bitcoinfoundation.org/news/defi/ark-ai-adoption/</link>
+      <description>Falling model costs do not reduce overall AI spending. ARK Invest says lower costs widen adoption and push companies to buy more compute, networking, and...
+The post ARK Invest sees AI infrastructure market nearing $1.5 trillion by 2030 appeared first on Bitc…</description>
+      <source url="https://aisight.fyi">Bitcoinfoundation.org</source>
       <pubDate>Thu, 26 Mar 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://financialpost.com/pmn/business-pmn/inflation-pulse-from-ai-and-energy-will-last-decades-ifm-says</guid>
+      <guid isPermaLink="false">https://bitcoinfoundation.org/news/defi/ark-ai-adoption/</guid>
     </item>
     <item>
       <title>AMZN Stock Today, March 26: Valuation Edge vs $200B AI Capex Fears - Meyka</title>
@@ -168,28 +289,12 @@
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMilwFBVV95cUxORHZEX29DQmZLR3d3cHNRVFBLYk5hLS1CbHZISjNtaDRVam5QWlNsZ1FsTTVMb2Ezbld5MXVFMm9aR2I1eGk1dVhIVm04NjMtOUFRRE9tVzAtNzdjSEZhdk5tU3g0NXFERW9FU1hpT0R2aWw2WTUwWHJuV2ZPZXpodVcyQzVtT3hBVnRITTgxeXotbzh2RXA4?oc=5</guid>
     </item>
     <item>
-      <title>Meta Layoffs Test $3 Trillion Hopes as AI Spending Surges - TechStock²</title>
-      <link>https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQjNJdTBaWlBtVWZMY1BVRDlUZmJrWDktbktROTRRZ3NWVDFEaHJ0VnZzYXk4NTFldkZiNjc4Mlk0NGc1bXZfMGlQMVZqdWZOeWlMdkF4Sm9SajU5dDBZY3hRLVh2clJFanExLW1JUTZsellIS01WS2QzMDlEaU9NcnEwN1dBb1pHWmRkNHkwTElVR3d1c0N3MkRxLTBNT1VUb2hHUTVWSF9JUQ?oc=5</link>
-      <description>Meta Layoffs Test $3 Trillion Hopes as AI Spending Surges  TechStock² [Meta]</description>
-      <source url="https://aisight.fyi">TechStock²</source>
-      <pubDate>Thu, 26 Mar 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQjNJdTBaWlBtVWZMY1BVRDlUZmJrWDktbktROTRRZ3NWVDFEaHJ0VnZzYXk4NTFldkZiNjc4Mlk0NGc1bXZfMGlQMVZqdWZOeWlMdkF4Sm9SajU5dDBZY3hRLVh2clJFanExLW1JUTZsellIS01WS2QzMDlEaU9NcnEwN1dBb1pHWmRkNHkwTElVR3d1c0N3MkRxLTBNT1VUb2hHUTVWSF9JUQ?oc=5</guid>
-    </item>
-    <item>
       <title>Exclusive | Nvidia-Backed Startup Seeking to Counter Chinese AI Eyes $25 Billion Valuation - WSJ</title>
-      <link>https://news.google.com/rss/articles/CBMiugNBVV95cUxNWng1c2ZJc08tTjdxc2VzSzRqZmo2VUVDRjJadWlaS2lyTzZLaEJ3eXkzbTJkYzE2RUpWRm44WHFSYVNJLWhtdVRFLU9tNmtSVmRIc3UwczVRUHdTOVFxSXctNEdWM3hQVS1HOFVwWDlFam9nSWFjUTdrM2gxbE03UnZhU1p0bzFDMFZienE5RW1zc2xZeEphdXlWQlYwc2FFSElSSTQ0UmM3dEJQMEJJNDFDRVg2TUFJMUcxaDNZVXlFR0liR05ra092cm1oMDBCTGFGNHp4S3dUQjlWb1gtQTJMZmh5UFNlMENIRWgzN2VvVU9rNnowdnlUM2swYlE1OGVPSC0wc3ZvcTBKNXMxeVhfazgxQmREbnc4TzB5blF3WjlnNFA4TlBQOFRUa0dSRTl1c0U1cm9fTkxsNjBaNHBVNm5sN3hMTUxuUVNGRHhxdGxnLWxaZ3R1bEdPSl91YTZxZlY4MGp5QmU1US1QN3lGWExubnFDNkNYa3dPdmFfUDQxZTFsazVRcTlrRllCb1kyYzBBTnctaDU3WTB3SmFwQ21vNjZ2N3RJWXZ5WFpBTmpPWWt0djh3?oc=5</link>
+      <link>https://news.google.com/rss/articles/CBMiugNBVV95cUxQXzRmUjhDZ1B3ZkhfR3ZQUno0X0RoYkNSNWliOEk0dlllaTRMSmJ0clRQenVqZjg3cFd3amg1OUhaWlVCSFlqUHU1TFdPQ3FUcUJocEJNc09wdlNmdzNMNURQNmh0d3hZbEdNV3ZoWko5djktd2c4dTFQdVVienVQdnljREFROWVGUUtZWE1lb3BOXy1qeVNKRnAzdVlDYUxodk5oVkxRUm5jSFZ2UllIbkhVNjNzbmlQb0xWLWFOclViRmtTZzlQOHd1NGQ0c1lNX0V3eXFCWmtQb3lLenlkeEFxRDdtMjh3RVpvcXpOZVNrbDVYSkp0VDk5YVRzZmNXMW0zajRXQlFJUkpJMmtPMFNqUHZhc3lyS2dFU1J3NkR6c1BjUjJ3eG1HdVpEU2xET2dnTjc3dkd2YTNiM1RLWVM5RENpVjI3N3BmWEFqYmd6UFU4NjhndGFHeFpUNDN5TEZUX1ljU3dORWU3ajluMXVCLU93Mm4yYjIwWkoxMHhfMGtSVjhJU2JZX2FnX1VZMmpISFJMcFE1dExpc0lNZENHNWNSS2dBalVXTWNSTi1IS1NQQWR0cnhn?oc=5</link>
       <description>Exclusive | Nvidia-Backed Startup Seeking to Counter Chinese AI Eyes $25 Billion Valuation  WSJ [Nvidia]</description>
       <source url="https://aisight.fyi">WSJ</source>
       <pubDate>Thu, 26 Mar 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiugNBVV95cUxNWng1c2ZJc08tTjdxc2VzSzRqZmo2VUVDRjJadWlaS2lyTzZLaEJ3eXkzbTJkYzE2RUpWRm44WHFSYVNJLWhtdVRFLU9tNmtSVmRIc3UwczVRUHdTOVFxSXctNEdWM3hQVS1HOFVwWDlFam9nSWFjUTdrM2gxbE03UnZhU1p0bzFDMFZienE5RW1zc2xZeEphdXlWQlYwc2FFSElSSTQ0UmM3dEJQMEJJNDFDRVg2TUFJMUcxaDNZVXlFR0liR05ra092cm1oMDBCTGFGNHp4S3dUQjlWb1gtQTJMZmh5UFNlMENIRWgzN2VvVU9rNnowdnlUM2swYlE1OGVPSC0wc3ZvcTBKNXMxeVhfazgxQmREbnc4TzB5blF3WjlnNFA4TlBQOFRUa0dSRTl1c0U1cm9fTkxsNjBaNHBVNm5sN3hMTUxuUVNGRHhxdGxnLWxaZ3R1bEdPSl91YTZxZlY4MGp5QmU1US1QN3lGWExubnFDNkNYa3dPdmFfUDQxZTFsazVRcTlrRllCb1kyYzBBTnctaDU3WTB3SmFwQ21vNjZ2N3RJWXZ5WFpBTmpPWWt0djh3?oc=5</guid>
-    </item>
-    <item>
-      <title>Alphabet Stock Nears Bear Market as Google’s $185 Billion AI Spend Faces Wall Street Test - TechStock²</title>
-      <link>https://news.google.com/rss/articles/CBMirAFBVV95cUxNLWlMcVlkVmlnNndHN1ViYmwwT1o0OWFfVkdlUWZTTklJZUtyeGowbF9NTGtkdG5uM1QwaTl1T3pERVM1NmhsT1dkc1ByWE9vdk1IRjU0aTJzb2t0QWNyNk1FSmNvMEhQb3h0TzRpcDNhRmljeUpLMm5IelpXSjJCWm13cEdHY05laUx5OXRZbEFrSUdFRjNIRUY3akY4T2xRbjZHdXprTlVEMnF4?oc=5</link>
-      <description>Alphabet Stock Nears Bear Market as Google’s $185 Billion AI Spend Faces Wall Street Test  TechStock² [Alphabet]</description>
-      <source url="https://aisight.fyi">TechStock²</source>
-      <pubDate>Thu, 26 Mar 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMirAFBVV95cUxNLWlMcVlkVmlnNndHN1ViYmwwT1o0OWFfVkdlUWZTTklJZUtyeGowbF9NTGtkdG5uM1QwaTl1T3pERVM1NmhsT1dkc1ByWE9vdk1IRjU0aTJzb2t0QWNyNk1FSmNvMEhQb3h0TzRpcDNhRmljeUpLMm5IelpXSjJCWm13cEdHY05laUx5OXRZbEFrSUdFRjNIRUY3akY4T2xRbjZHdXprTlVEMnF4?oc=5</guid>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiugNBVV95cUxQXzRmUjhDZ1B3ZkhfR3ZQUno0X0RoYkNSNWliOEk0dlllaTRMSmJ0clRQenVqZjg3cFd3amg1OUhaWlVCSFlqUHU1TFdPQ3FUcUJocEJNc09wdlNmdzNMNURQNmh0d3hZbEdNV3ZoWko5djktd2c4dTFQdVVienVQdnljREFROWVGUUtZWE1lb3BOXy1qeVNKRnAzdVlDYUxodk5oVkxRUm5jSFZ2UllIbkhVNjNzbmlQb0xWLWFOclViRmtTZzlQOHd1NGQ0c1lNX0V3eXFCWmtQb3lLenlkeEFxRDdtMjh3RVpvcXpOZVNrbDVYSkp0VDk5YVRzZmNXMW0zajRXQlFJUkpJMmtPMFNqUHZhc3lyS2dFU1J3NkR6c1BjUjJ3eG1HdVpEU2xET2dnTjc3dkd2YTNiM1RLWVM5RENpVjI3N3BmWEFqYmd6UFU4NjhndGFHeFpUNDN5TEZUX1ljU3dORWU3ajluMXVCLU93Mm4yYjIwWkoxMHhfMGtSVjhJU2JZX2FnX1VZMmpISFJMcFE1dExpc0lNZENHNWNSS2dBalVXTWNSTi1IS1NQQWR0cnhn?oc=5</guid>
     </item>
     <item>
       <title>Meta supercharges Texas AI hub with $10B investment - The Tech Buzz</title>
@@ -200,36 +305,20 @@
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiiwFBVV95cUxONU1SQ2tnV0tvTHZkbDNQbmlfWGVRWUFnUUN6SWlaSDBrS0MzSndIcUp6Y1RDQW01dTVmdDVVWDhUbWYwc3A4NG9CYURPc1RSVjZQMjNSUUIxWmNqRWtqMk94eEV5bE9pMXRLMXVVQ2NiNzdob1haY2tkQ29RRUlOTURpWlozdC1NaEhB?oc=5</guid>
     </item>
     <item>
+      <title>Roku, Inc. (ROKU) Expands Streaming with Texas A&amp;M Partnership</title>
+      <link>https://finance.yahoo.com/markets/stocks/articles/roku-inc-roku-expands-streaming-144231037.html</link>
+      <description>Roku Inc. (NASDAQ:ROKU) is one of the tech stocks to sell right now, according to Cathie Wood. In Q3 2025, ARK Investment Management owned 7.35 million... [ServiceNow]</description>
+      <source url="https://aisight.fyi">Yahoo Entertainment</source>
+      <pubDate>Thu, 26 Mar 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://finance.yahoo.com/markets/stocks/articles/roku-inc-roku-expands-streaming-144231037.html</guid>
+    </item>
+    <item>
       <title>South Korea to invest $166 million in AI chip startup Rebellions - Yahoo Finance</title>
       <link>https://news.google.com/rss/articles/CBMioAFBVV95cUxNcUxwVmZMOV9QQV9WZ2diaG1TS1ZiNnJadktOSlBYZWhubzc1VFFRbnp5SHMwNUI3NTA4ZGo5Q056TlN1LWhJX3FrdWxJTFNxMkJrMy1ubExjeW5JR3g4RHM0MDRibDc2V3JzeXZJbEFfQkRQZVVZcGgxc0w3VEdiak5mVTVxN1dFLThNRjlMMGhjVXR0UE85TWg2aTRkZWl2?oc=5</link>
       <description>South Korea to invest $166 million in AI chip startup Rebellions  Yahoo Finance</description>
       <source url="https://aisight.fyi">Yahoo Finance</source>
       <pubDate>Thu, 26 Mar 2026 12:00:00 GMT</pubDate>
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMioAFBVV95cUxNcUxwVmZMOV9QQV9WZ2diaG1TS1ZiNnJadktOSlBYZWhubzc1VFFRbnp5SHMwNUI3NTA4ZGo5Q056TlN1LWhJX3FrdWxJTFNxMkJrMy1ubExjeW5JR3g4RHM0MDRibDc2V3JzeXZJbEFfQkRQZVVZcGgxc0w3VEdiak5mVTVxN1dFLThNRjlMMGhjVXR0UE85TWg2aTRkZWl2?oc=5</guid>
-    </item>
-    <item>
-      <title>Reflection AI targets $25 billion valuation as JPMorgan explores investment - domain-b.com</title>
-      <link>https://news.google.com/rss/articles/CBMirwFBVV95cUxNLXlqdkg0RW9oZi1kZXdEOHMyeW45ZkxLZEdhWmlGQ0JzSnFRRDFUR0dMMHoycnI1MGVEN1NwdV9OeGZnR05hU0cxT19OWXpaclFFNWdiTlpTQllfUDZpb0VRZ29xbnVuYzlSNHVUaDQ4UHkwaHVRV0t4Tjh2ejZNSXEzanIyaEQyU0c2ZmdEQzhwLTV1WUJielN4MTEwMVFvYmU5d3FRUzdscGhySHRF?oc=5</link>
-      <description>Reflection AI targets $25 billion valuation as JPMorgan explores investment  domain-b.com</description>
-      <source url="https://aisight.fyi">AISight</source>
-      <pubDate>Thu, 26 Mar 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMirwFBVV95cUxNLXlqdkg0RW9oZi1kZXdEOHMyeW45ZkxLZEdhWmlGQ0JzSnFRRDFUR0dMMHoycnI1MGVEN1NwdV9OeGZnR05hU0cxT19OWXpaclFFNWdiTlpTQllfUDZpb0VRZ29xbnVuYzlSNHVUaDQ4UHkwaHVRV0t4Tjh2ejZNSXEzanIyaEQyU0c2ZmdEQzhwLTV1WUJielN4MTEwMVFvYmU5d3FRUzdscGhySHRF?oc=5</guid>
-    </item>
-    <item>
-      <title>Indian startups raise $9.1 billion as AI drives 91% of deeptech investments - People Matters - HR News</title>
-      <link>https://news.google.com/rss/articles/CBMi4gFBVV95cUxPd0R4dzVIeDBrRENiXzVHc2YxQm96azBBME5IV1F1bGphWGV4MWo0Z2o0WjRhOVR0T3d5czJvWWtwaEdQUE1iem9KS2lGZ1BPbWx5cUNwTFRGSElsRUVadmF2TDJWMHR0aVNhWGwxcVhpbXoyQVA1Q3VkNU83UjJhSmZ4bDJNWHcwZUdMbDd3RGdaS0xRSk83Z09IWjZvRVk1WXNlX3pGdWdwMlM1TmFtWVJVck9UcENuQzRFMXpLYnotUU1nS2VQeWdOOVVfUDd6TzJzdFRHZmJmU1NkTzVwUWtn?oc=5</link>
-      <description>Indian startups raise $9.1 billion as AI drives 91% of deeptech investments  People Matters - HR News</description>
-      <source url="https://aisight.fyi">HR News</source>
-      <pubDate>Thu, 26 Mar 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi4gFBVV95cUxPd0R4dzVIeDBrRENiXzVHc2YxQm96azBBME5IV1F1bGphWGV4MWo0Z2o0WjRhOVR0T3d5czJvWWtwaEdQUE1iem9KS2lGZ1BPbWx5cUNwTFRGSElsRUVadmF2TDJWMHR0aVNhWGwxcVhpbXoyQVA1Q3VkNU83UjJhSmZ4bDJNWHcwZUdMbDd3RGdaS0xRSk83Z09IWjZvRVk1WXNlX3pGdWdwMlM1TmFtWVJVck9UcENuQzRFMXpLYnotUU1nS2VQeWdOOVVfUDd6TzJzdFRHZmJmU1NkTzVwUWtn?oc=5</guid>
-    </item>
-    <item>
-      <title>L&amp;T Tech to sell smart world portfolio to AM Group-backed AMI Paradigm Solutions</title>
-      <link>https://www.livemint.com/companies/news/lt-tech-sells-smart-world-communication-business-india-ami-paradigm-11774504863808.html</link>
-      <description>The deal with L&amp;amp;T Technology Services comes as AM Group advances plans to invest about $25 billion to build a 1 GW high-performance computing hub in Uttar Pradesh, underscoring its push into AI infrastructure.</description>
-      <source url="https://aisight.fyi">Livemint</source>
-      <pubDate>Thu, 26 Mar 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://www.livemint.com/companies/news/lt-tech-sells-smart-world-communication-business-india-ami-paradigm-11774504863808.html</guid>
     </item>
     <item>
       <title>NVIDIA Stock Has Gas in the Tank Amid Mag 7’s $650B+ Capex Surge - 24/7 Wall St.</title>
@@ -246,6 +335,14 @@
       <source url="https://aisight.fyi">Reuters</source>
       <pubDate>Thu, 26 Mar 2026 12:00:00 GMT</pubDate>
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNE1PTk90R05qVGx5VnhsQnJvaWlVc0JWcGRzN2U1RGcxRFkyVTBYSFRXMGVPUHBZZGYtMzE5Z293RDJxNW94bmZ5cTZad3RhcEVmNVgwV3FKQk5hT3RGZXY4X2thTmlIUE5BWEJ4Y09KeUlQREg0Z2pheS00Z0tpM1FzOTdJSGFsemdDZUJ1RTdlVFJKMTNPR2pXU2xRNlZKWWN2SVdEZ05DOTY1ZUk1WlVMLVdZLWVmUFdTRkpWZHNwcXR5RTNIUlZmWWRpVW11c2VvUUZR?oc=5</guid>
+    </item>
+    <item>
+      <title>Hyperscalers spending to differentiate their cloud services</title>
+      <link>https://www.computerweekly.com/microscope/news/366640837/Hyperscalers-spending-to-differentiate-their-cloud-services</link>
+      <description>Ensuring firms are in a position to support increasing AI demands is driving growth in the infrastructure services market</description>
+      <source url="https://aisight.fyi">ComputerWeekly.com</source>
+      <pubDate>Thu, 26 Mar 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://www.computerweekly.com/microscope/news/366640837/Hyperscalers-spending-to-differentiate-their-cloud-services</guid>
     </item>
     <item>
       <title>Breakingviews - How Big Tech&apos;s $630 bln AI splurge will fall short - Reuters</title>
@@ -288,14 +385,6 @@
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdl9ZV2lmRkEyZDlqWlV5bkVwLWpoaGJnNzZGa2VkQ21zVV9PWDR5cFBrYktYWm40WjZMbndhRDVKeC1sV3EyQk9rdDcxMk9rVHZWV3ZFV0VWLWJqT1dEWmE2MVRUbkJNV3RHdnJVSlJQU2ZrclpkYkhubXY3NXZqOG9JNWVnWHg3MTJob25lcXpabGhnV0toU3lNVmRGRkRqcHJNN3Z5b0w0YWYzNTFqbGlHVjhhelNWNVlxbnE1N0FQSWNiS1VIY2pmaElyZUtLczY0VTBB?oc=5</guid>
     </item>
     <item>
-      <title>Shield AI Valued at $US12.7 Billion - Sharecafe</title>
-      <link>https://news.google.com/rss/articles/CBMigAFBVV95cUxPNUpONHJMVWZUVmF4QXNPS2ZNRkxqb202VWVFdkRyNDhMN1B6UTA0SFJXTFZOcFNlZmR6cnNab3p2dkxNZTJkZHJiOGtOUTBudm5FYWtJbkEyTTNncVFkYldqMmdYTjVZcXhnSV9jakVZQnFMNHVZOUMtQkdidlA5dw?oc=5</link>
-      <description>Shield AI Valued at $US12.7 Billion  Sharecafe</description>
-      <source url="https://aisight.fyi">Sharecafe</source>
-      <pubDate>Thu, 26 Mar 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMigAFBVV95cUxPNUpONHJMVWZUVmF4QXNPS2ZNRkxqb202VWVFdkRyNDhMN1B6UTA0SFJXTFZOcFNlZmR6cnNab3p2dkxNZTJkZHJiOGtOUTBudm5FYWtJbkEyTTNncVFkYldqMmdYTjVZcXhnSV9jakVZQnFMNHVZOUMtQkdidlA5dw?oc=5</guid>
-    </item>
-    <item>
       <title>The AI infrastructure bottleneck: Why ‘good enough’ Kubernetes isn’t cutting it anymore - SiliconANGLE</title>
       <link>https://news.google.com/rss/articles/CBMirgFBVV95cUxORW4yVUQ3Ulo0X0xsbVNwUDZSQmtrV1N4b3UwUnJwNHl1MzJfN0FqcEJqa0Iwa0I1Zk40RG5PWjNZdThjN0xyNjBKbFJhSGxUdnFaX2wwX0RoUFZKRFVyclpoUUdEV3RaTUtrX01SdWcxRXFfNkJ1Uy1uUGNrRnBnNlVseXpNVFJabU5NNDFDRkEwcVZHZE9xYzRWYW1qVUd0MDhjWUROMVRKZmNTNHc?oc=5</link>
       <description>The AI infrastructure bottleneck: Why ‘good enough’ Kubernetes isn’t cutting it anymore  SiliconANGLE [Uber]</description>
@@ -318,94 +407,6 @@
       <source url="https://aisight.fyi">The Indian Express</source>
       <pubDate>Thu, 26 Mar 2026 12:00:00 GMT</pubDate>
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi4gFBVV95cUxQaXFTdVBHZm1aZ0tHUmg0amNYR003cktYU3h0N2plVjZqaU9WRWlRd0l6Snh4UVpLbWNYX1hINVkyaFJXcFV2YnQ1WkJQdWtfZG1ZOFhibVRieVQ5SmVNd3VzU2thSk9iWEtMbE5haUFEUVJrOEZmdlBhZ3Q4dzNYMTJUT1htYWo4QkIyWDFSQzBiR0duTG1oanNDeUt1REpkbE1xc0F1U2sxbVByY3JsWGYzZ1otYm1qeHA1QndiV0tFT1BDTmJySG9ZOVprekYtQVJLM1l4QmQxZUxUcEhRWUR30gHoAUFVX3lxTE81MUk5b0xVaURSX09DUW1GR2xkSUtMdVRMMUxjVGs1M1JsWnlYSHZHUkh4NGdaT29aR3c5YmU1dHQzMWQ0Rng5ZVB2YV9SbEtPelF1Um45UkJDV0JIN1lWci1UYnFQYng4OGVZQjFKb1FfR1hxZ3pfWGZBOF9NNnZGeWFCWVZSakkwc0Q5OGdIZnhxQkxFRF93WXVKMjN4U2NXRHhOaC1TZzhYOUE3VnI2RTRjTXZTajltRWc3cVFQc0ZZQ0hwdVA0STh0QlJoM1BHdEVEV05wOE5VNmN5YUYzbWhMeVhkai0?oc=5</guid>
-    </item>
-    <item>
-      <title>Meta Plans Layoffs Amid Heavy AI CapEx - Let&apos;s Data Science</title>
-      <link>https://news.google.com/rss/articles/CBMihwFBVV95cUxOd0xwRUhtYnZMS0ZiQk4xemF1WjlMVmFSLTU5a3dXNjRaaHA5YVNJaUlFcVdJaEtvT2daZDNSNjM1djZQOEJkZnVIUjZDSlRWVWp4aGxibi1rTVN6elRsSW9VN1VleS1XREl4NmFPcUdqSWIxTXN5R1FESUp5YlVXVUZZNnRHMlk?oc=5</link>
-      <description>Meta Plans Layoffs Amid Heavy AI CapEx  Let&apos;s Data Science [Meta]</description>
-      <source url="https://aisight.fyi">Let&apos;s Data Science</source>
-      <pubDate>Thu, 26 Mar 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMihwFBVV95cUxOd0xwRUhtYnZMS0ZiQk4xemF1WjlMVmFSLTU5a3dXNjRaaHA5YVNJaUlFcVdJaEtvT2daZDNSNjM1djZQOEJkZnVIUjZDSlRWVWp4aGxibi1rTVN6elRsSW9VN1VleS1XREl4NmFPcUdqSWIxTXN5R1FESUp5YlVXVUZZNnRHMlk?oc=5</guid>
-    </item>
-    <item>
-      <title>Sudden shutdown of OpenAI’s Sora video app signals a reckoning for AI hype</title>
-      <link>https://www.naturalnews.com/2026-03-26-shutdown-openai-sora-video-app-ai-reckoning.html</link>
-      <description>OpenAI suddenly shut down its Sora video app months after a major Disney deal. The closure fuels debate on whether the AI investment bubble is starting to burst. The company cited unsustainable costs and a pivot to robotics research instead. Analysts compare … [OpenAI]</description>
-      <source url="https://aisight.fyi">Naturalnews.com</source>
-      <pubDate>Thu, 26 Mar 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://www.naturalnews.com/2026-03-26-shutdown-openai-sora-video-app-ai-reckoning.html</guid>
-    </item>
-    <item>
-      <title>Nanya Technology shares surge 10% after $2.5 billion fundraising</title>
-      <link>https://www.channelnewsasia.com/business/nanya-technology-shares-surge-10-after-25-billion-fundraising-6017601</link>
-      <description>TAIPEI, March 26 : Shares of Taiwanese memory chip maker Nanya Technology opened limit-up 10 per cent on Thursday after raising about $2.5 billion in a private placement from SanDisk Technologies and others to expand advanced chip production.The fundraising c…</description>
-      <source url="https://aisight.fyi">CNA</source>
-      <pubDate>Thu, 26 Mar 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://www.channelnewsasia.com/business/nanya-technology-shares-surge-10-after-25-billion-fundraising-6017601</guid>
-    </item>
-    <item>
-      <title>‘You should freak out’: Brussels grapples with warnings from the AI frontier</title>
-      <link>https://www.irishtimes.com/world/europe/2026/03/26/you-should-freak-out-brussels-grapples-with-warnings-from-the-ai-frontier/</link>
-      <description>Brussels regulators get expert help to watch for any hint of tech companies ‘losing control’ of their own artificial intelligence [Intel, Apple]</description>
-      <source url="https://aisight.fyi">The Irish Times</source>
-      <pubDate>Thu, 26 Mar 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://www.irishtimes.com/world/europe/2026/03/26/you-should-freak-out-brussels-grapples-with-warnings-from-the-ai-frontier/</guid>
-    </item>
-    <item>
-      <title>Equinix Inc. stock faces pressure amid data center capacity crunch and AI hyperscaler spending shift - AD HOC NEWS</title>
-      <link>https://news.google.com/rss/articles/CBMiywFBVV95cUxOOWFmamF3Y0h1Q3RpdDZJY3d4RnVXWTN5SGdhU2Uzd2dDemtKRW9CNHl6VlpEbWJPMmtpbU1vOTNmQVFrWGpTSDRTWl96MWhSdlRiT3N2bTBSV1hCU2k3NVB1TXI5YzVpQ2JSeGYxVng0X2EyVEpfVW1Pa3hiM1ZPb2ZVV18zLTJaeHp6UndyTGY4YlFSQk5xaXIyZnU2OGhfQzlDX056cGRsSXZMTGhvbFZzQmxNLVY0Z3BQcU5LSGRrZGhaZEVjVnNVaw?oc=5</link>
-      <description>Equinix Inc. stock faces pressure amid data center capacity crunch and AI hyperscaler spending shift  AD HOC NEWS</description>
-      <source url="https://aisight.fyi">AD HOC NEWS</source>
-      <pubDate>Thu, 26 Mar 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiywFBVV95cUxOOWFmamF3Y0h1Q3RpdDZJY3d4RnVXWTN5SGdhU2Uzd2dDemtKRW9CNHl6VlpEbWJPMmtpbU1vOTNmQVFrWGpTSDRTWl96MWhSdlRiT3N2bTBSV1hCU2k3NVB1TXI5YzVpQ2JSeGYxVng0X2EyVEpfVW1Pa3hiM1ZPb2ZVV18zLTJaeHp6UndyTGY4YlFSQk5xaXIyZnU2OGhfQzlDX056cGRsSXZMTGhvbFZzQmxNLVY0Z3BQcU5LSGRrZGhaZEVjVnNVaw?oc=5</guid>
-    </item>
-    <item>
-      <title>We Must Prepare For an AI Bubble Now - Time Magazine</title>
-      <link>https://news.google.com/rss/articles/CBMifkFVX3lxTE1FOGYxVWZNcUJTNDVBZ2ZIbUswMGxfVFFiWDZWaGQyaVlWWDFab3V6UjhXX1d0RUREamdFMTVRTlpzd2xsU1g5QXVCVjVmYkZjbzhhNDZnTlJXemtpc0pHMTNfVGJlQWgxTFhxRTU0eGJlODZBWERXaEZfb3lUQQ?oc=5</link>
-      <description>We Must Prepare For an AI Bubble Now  Time Magazine [ServiceNow]</description>
-      <source url="https://aisight.fyi">Time Magazine</source>
-      <pubDate>Thu, 26 Mar 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMifkFVX3lxTE1FOGYxVWZNcUJTNDVBZ2ZIbUswMGxfVFFiWDZWaGQyaVlWWDFab3V6UjhXX1d0RUREamdFMTVRTlpzd2xsU1g5QXVCVjVmYkZjbzhhNDZnTlJXemtpc0pHMTNfVGJlQWgxTFhxRTU0eGJlODZBWERXaEZfb3lUQQ?oc=5</guid>
-    </item>
-    <item>
-      <title>3 Reasons Broadcom Could Be a Better AI Play Than Nvidia - The Globe and Mail</title>
-      <link>https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZl9VeDBGV2lGYV9kOFB2TV9haVJvSFF5OU9QanRRXzEtbHowTkZaMEk0em85aFdNTWxNbmVCWTdwNjl3VlFZcWc2X2dXZ28xSU55MlBRN2VIVjdMS2RxbTc0Nk95d3ZjNlpBNWdCOW95eUdoNzdTZ0Jkc2ZTRXVxTC1IaHMxelAtQXJDTEF5clhsa281UkFsaVRDQTU4eUpzbGxNZVZDMDRQcEs1bU1xNEFnSmZkQmxaQUNCNmtoVElCY3E5TkV5eGpVYzU2anR5ajNjZ0NoNA?oc=5</link>
-      <description>3 Reasons Broadcom Could Be a Better AI Play Than Nvidia  The Globe and Mail [Nvidia, Broadcom]</description>
-      <source url="https://aisight.fyi">The Globe and Mail</source>
-      <pubDate>Thu, 26 Mar 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZl9VeDBGV2lGYV9kOFB2TV9haVJvSFF5OU9QanRRXzEtbHowTkZaMEk0em85aFdNTWxNbmVCWTdwNjl3VlFZcWc2X2dXZ28xSU55MlBRN2VIVjdMS2RxbTc0Nk95d3ZjNlpBNWdCOW95eUdoNzdTZ0Jkc2ZTRXVxTC1IaHMxelAtQXJDTEF5clhsa281UkFsaVRDQTU4eUpzbGxNZVZDMDRQcEs1bU1xNEFnSmZkQmxaQUNCNmtoVElCY3E5TkV5eGpVYzU2anR5ajNjZ0NoNA?oc=5</guid>
-    </item>
-    <item>
-      <title>Oracle (ORCL) Deep Dive: AI Transformation Meets Legal and Financial Headwinds - The Chronicle-Journal</title>
-      <link>https://news.google.com/rss/articles/CBMi6wFBVV95cUxQdGZXbmFRMzE3Z0R3MGZJeUdRNkRJZnlpaDJlcXNMaDVER1pIb0xfRHlTMWJITklWd2IwVFBCSy0tdkRkWVI5ODNxRS1mWlpPOE01V1JnM2IwMVIzbElJaUk3RFV0dFFFbnR1SC1JazM4Z1Boa3ZQZHR2ODl3V20xN1NRVGNJSmNsN2VVU0VSVEJGcXg2N0dNMVFuei1KLU1xbkxvLTVnVl81TV9IeVpLbUFLLXRiODA5aG5yUHZTenEtX1JXMW45VC0yYUNlbkF0UGhrNmlZaXRyZ2MzXzJyMnZZZ3l1Tk51aWlv?oc=5</link>
-      <description>Oracle (ORCL) Deep Dive: AI Transformation Meets Legal and Financial Headwinds  The Chronicle-Journal [Oracle]</description>
-      <source url="https://aisight.fyi">AISight</source>
-      <pubDate>Thu, 26 Mar 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi6wFBVV95cUxQdGZXbmFRMzE3Z0R3MGZJeUdRNkRJZnlpaDJlcXNMaDVER1pIb0xfRHlTMWJITklWd2IwVFBCSy0tdkRkWVI5ODNxRS1mWlpPOE01V1JnM2IwMVIzbElJaUk3RFV0dFFFbnR1SC1JazM4Z1Boa3ZQZHR2ODl3V20xN1NRVGNJSmNsN2VVU0VSVEJGcXg2N0dNMVFuei1KLU1xbkxvLTVnVl81TV9IeVpLbUFLLXRiODA5aG5yUHZTenEtX1JXMW45VC0yYUNlbkF0UGhrNmlZaXRyZ2MzXzJyMnZZZ3l1Tk51aWlv?oc=5</guid>
-    </item>
-    <item>
-      <title>India Smart Kitchen Appliances Market to Reach USD 2.99 Billion by 2032, Driven by Rising Smart Home Adoption, Says MarkNtel Advisors</title>
-      <link>https://www.prnewswire.co.uk/news-releases/india-smart-kitchen-appliances-market-to-reach-usd-2-99-billion-by-2032--driven-by-rising-smart-home-adoption-says-markntel-advisors-302725229.html</link>
-      <description>NEW DELHI, March 26, 2026 /PRNewswire/ -- According to the recent market research report published by MarkNtel Advisors, the India Smart Kitchen Appliances Market is projected to grow at a CAGR of around 25% during 2026–2032. The market expansion is primarily…</description>
-      <source url="https://aisight.fyi">PR Newswire UK</source>
-      <pubDate>Thu, 26 Mar 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://www.prnewswire.co.uk/news-releases/india-smart-kitchen-appliances-market-to-reach-usd-2-99-billion-by-2032--driven-by-rising-smart-home-adoption-says-markntel-advisors-302725229.html</guid>
-    </item>
-    <item>
-      <title>Melania Trump Escorted by Talking Humanoid Robot at White House Tech Summit</title>
-      <link>https://www.cnet.com/tech/first-lady-melania-trump-humanoid-robot-childrens-technology-educational-summit/</link>
-      <description>The first lady shared the spotlight with the robot to promote the use of artificial intelligence in education. [Intel]</description>
-      <source url="https://aisight.fyi">CNET</source>
-      <pubDate>Thu, 26 Mar 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://www.cnet.com/tech/first-lady-melania-trump-humanoid-robot-childrens-technology-educational-summit/</guid>
-    </item>
-    <item>
-      <title>Big Tech giants to spend more on capex than payouts in 2026 amid AI boom: HSBC - The Economic Times</title>
-      <link>https://news.google.com/rss/articles/CBMi5gFBVV95cUxNcmJwSWhsSzdCR1oxR1dHSmgxOHJjMkg0WG1lcUdCSW5NT3U5X2hvcmJoY1k0OVRNN2xoa0VlendXVUdvdjJxcktOb3d2TkpXYzNFZlBJVkJGSGpJaU44WVA3RTdtRmt1NGd2dnJncXNkSlQ1ODR0QVB1clV3bzdWZDk2bGZJbjFSVHZZSG1janRQRVZHd3NoVjRleW9XSUJkUVJ5QTVVbnBCeG1nbUZBWjhZTXlFWWZ4UUdDaGJaRVh6Ty0wckk0d191ejJQZEx4YkVSTXVVTnpfOGtlM2pGM1Z1M0RmUdIB6wFBVV95cUxON01SMzFVYkpCcTNhVHgyMVdFdEtoYjh0T0NleEpKcjdIY1VMbzNJNlFjZFY1TGdzUF94dUs4dWxONFhHcElySTVLdHdYRVFfVnBQWGh2X3pVekN2VzNJUFNzcklUVzMwdFg1Ymtxd2dnY2JNQlRIdHkwOFNERTJLU3dOSHE1VFNucnNCYjNtV0hwOVMxWDJZV3RWUW55VUU4Y2hUWVRORUI0a1pyUFdvVGROYVZQU3FZOEd1R3hvQXRqSEx5N0cxVy1pZXJqMXltRGZGbkVSTkwtYmRwcEZXTU9JQlk4dVZXN0dF?oc=5</link>
-      <description>Big Tech giants to spend more on capex than payouts in 2026 amid AI boom: HSBC  The Economic Times</description>
-      <source url="https://aisight.fyi">The Economic Times</source>
-      <pubDate>Thu, 26 Mar 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi5gFBVV95cUxNcmJwSWhsSzdCR1oxR1dHSmgxOHJjMkg0WG1lcUdCSW5NT3U5X2hvcmJoY1k0OVRNN2xoa0VlendXVUdvdjJxcktOb3d2TkpXYzNFZlBJVkJGSGpJaU44WVA3RTdtRmt1NGd2dnJncXNkSlQ1ODR0QVB1clV3bzdWZDk2bGZJbjFSVHZZSG1janRQRVZHd3NoVjRleW9XSUJkUVJ5QTVVbnBCeG1nbUZBWjhZTXlFWWZ4UUdDaGJaRVh6Ty0wckk0d191ejJQZEx4YkVSTXVVTnpfOGtlM2pGM1Z1M0RmUdIB6wFBVV95cUxON01SMzFVYkpCcTNhVHgyMVdFdEtoYjh0T0NleEpKcjdIY1VMbzNJNlFjZFY1TGdzUF94dUs4dWxONFhHcElySTVLdHdYRVFfVnBQWGh2X3pVekN2VzNJUFNzcklUVzMwdFg1Ymtxd2dnY2JNQlRIdHkwOFNERTJLU3dOSHE1VFNucnNCYjNtV0hwOVMxWDJZV3RWUW55VUU4Y2hUWVRORUI0a1pyUFdvVGROYVZQU3FZOEd1R3hvQXRqSEx5N0cxVy1pZXJqMXltRGZGbkVSTkwtYmRwcEZXTU9JQlk4dVZXN0dF?oc=5</guid>
     </item>
   </channel>
 </rss>
