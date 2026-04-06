@@ -5,7 +5,7 @@
     <link>https://aisight.fyi</link>
     <description>Latest news and data on AI infrastructure spending across 38 companies. Updated 3x daily from SEC filings and earnings calls.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Apr 2026 14:45:33 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 20:30:14 GMT</lastBuildDate>
     <atom:link href="https://aisight.fyi/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Nvidia is investing $2 billion in Marvell and opening up NVLink Fusion for semi-custom AI infrastructure - igor´sLAB</title>
@@ -14,6 +14,14 @@
       <source url="https://aisight.fyi">igor´sLAB</source>
       <pubDate>Mon, 06 Apr 2026 12:00:00 GMT</pubDate>
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiywFBVV95cUxQeHJwZ2VQcG1fYmxIclE5b2QxcGJfWXNqcndMRGtEQkRBenlGYU41MFNRaEpJZTI3cmRleUNjOGlrMi1pV3p2dXlZYy1HVkhzdTlIOVNxeU9jakhiOGVnTGl6WmhKWkUwM01yR0VOOFpsekZudGpPekgwaHpDeVVaMkJxb1NhVnk4QVFyQ1JzSmF6UFNnb1RINklQOUc3SkUzbTZZVVBON2pZN1lIeU9uYmZjelZXRUszWEZvV1o5WDBDei1Wb1dJRkhfbw?oc=5</guid>
+    </item>
+    <item>
+      <title>Zettascale Ambitions: How AI Infrastructure Spending is Insulating Oracle and Cloud Titans from Macro Shocks - The Chronicle-Journal</title>
+      <link>https://news.google.com/rss/articles/CBMimgJBVV95cUxNSTRmMUZnSVJsM2FYU2hqUTlNSG5kTlpOLU5pNlo2bW1VT05MLVdHcVlUMmZEdkNvSkZiOHZKbXp5bjN5VU1ZUzhYWklmMmpPRDdmTmhTSDhEbVlxS21TZ2NIbERySU9LZjFUU1JCQTNBQWNBWXUtTkRTUlM0SWNzRGo2VW5XTE9xQjZQaUpRaEI2OWFBZkQ2ZzhVR2RJLVRNdFB6eHpqR1Fpak5jTGxidGh3V3FxZlBMMnAtek91WGdWU05sZTZGeWtVc21QTlhCSHBwcTBtWDh4MzhKTlc5VDFZTllnOXVuTERqMUUxY0FzU2lnMjFkT1dTR01Hay00UThxT1l1aVo5akg3V19FN0VXT253RWoxdlE?oc=5</link>
+      <description>Zettascale Ambitions: How AI Infrastructure Spending is Insulating Oracle and Cloud Titans from Macro Shocks  The Chronicle-Journal [Oracle]</description>
+      <source url="https://aisight.fyi">AISight</source>
+      <pubDate>Mon, 06 Apr 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMimgJBVV95cUxNSTRmMUZnSVJsM2FYU2hqUTlNSG5kTlpOLU5pNlo2bW1VT05MLVdHcVlUMmZEdkNvSkZiOHZKbXp5bjN5VU1ZUzhYWklmMmpPRDdmTmhTSDhEbVlxS21TZ2NIbERySU9LZjFUU1JCQTNBQWNBWXUtTkRTUlM0SWNzRGo2VW5XTE9xQjZQaUpRaEI2OWFBZkQ2ZzhVR2RJLVRNdFB6eHpqR1Fpak5jTGxidGh3V3FxZlBMMnAtek91WGdWU05sZTZGeWtVc21QTlhCSHBwcTBtWDh4MzhKTlc5VDFZTllnOXVuTERqMUUxY0FzU2lnMjFkT1dTR01Hay00UThxT1l1aVo5akg3V19FN0VXT253RWoxdlE?oc=5</guid>
     </item>
     <item>
       <title>Microsoft announces ~RM40 billion investment in Japan - TechNave</title>
@@ -40,20 +48,44 @@
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMifEFVX3lxTE1MVEpnRU5EYlBmWi1kQWtQMlJEbFdpZXg1Z2lpRFoteVVqbkkyWmFFSWN2UEVuRkNJNjJieXJfNFpqM1FOV2VIMXAtWWdCeE5vVFZRSjFEclR6b3prVFlram10VEdTb0lMSTdxWlpRcU15YUxqUEZKYnRXbkc?oc=5</guid>
     </item>
     <item>
-      <title>Oracle names Schneider Electric’s Maxson as CFO amid soaring AI spending - BNN Bloomberg</title>
-      <link>https://news.google.com/rss/articles/CBMivAFBVV95cUxNWGJ1Qm1mNVpaV0x1bHpEMklPX01MeHFaeGVHYVY3VlVkMVJQdjRTckZmNmhIQmhWbUtiSFJsbzY5U2Q1d3Q2NlNKQjFpbGtya2tNT2Fld1U4a2gwNVVnRGI3aEtNbWg3LV9XMHhZS2ZJLUxydkp3QTB6MTNEekVUckFic2JseFpaREVLWHVzVFVvVU03X0xlelFMWndEYVBYeUlDb1FTakFTalVrVkRsVlp5a2tXOWVFcGpPMQ?oc=5</link>
-      <description>Oracle names Schneider Electric’s Maxson as CFO amid soaring AI spending  BNN Bloomberg [Oracle]</description>
-      <source url="https://aisight.fyi">BNN Bloomberg</source>
+      <title>Oracle names Schneider Electric&apos;s Maxson as CFO amid soaring AI spending - CNBC</title>
+      <link>https://news.google.com/rss/articles/CBMirAFBVV95cUxOV3VnSVV1VU1BekMyc0FZVmdnVnZzcUR6cTJ1bUlZQ2sxYzU5TzF0OXNOUmdFMFBBbWh5TDdHQXJoVS1jbzhNMnVFdUVNVEhTM0JZN0F2VlVIM2dKZlo1UWtxa2YweXY4bk5lcXZkTU82emttWVZRa2xobG5kV0FzRlRWcHFyck1wS3FwRmVuQ2lzdXRXT0daQkhmeHlfdWx0eV9jY1NuWXllazA10gGyAUFVX3lxTE5yQmFBNFJLWktFTFFpTnNCU0tXR3FINTQwQ2NsUEVrX2FsVzdvOG0wcjI1NTZyODdCdFAxWUZfYmJTT2hLbWxVTTJjX1dvREEzSk5FblhOQnFqYTM3eHlGZTFaVTUtcDRObDAxZW5zSm85X2J3NGR2YkpQNTNaeDZ6YWtlNi0yNGtyV0tINUlLbUxlZTFad2h5QkV1bTRyOUh5ellOcnNEakZkalV5VGZ4RUE?oc=5</link>
+      <description>Oracle names Schneider Electric&apos;s Maxson as CFO amid soaring AI spending  CNBC [Oracle]</description>
+      <source url="https://aisight.fyi">CNBC</source>
       <pubDate>Mon, 06 Apr 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMivAFBVV95cUxNWGJ1Qm1mNVpaV0x1bHpEMklPX01MeHFaeGVHYVY3VlVkMVJQdjRTckZmNmhIQmhWbUtiSFJsbzY5U2Q1d3Q2NlNKQjFpbGtya2tNT2Fld1U4a2gwNVVnRGI3aEtNbWg3LV9XMHhZS2ZJLUxydkp3QTB6MTNEekVUckFic2JseFpaREVLWHVzVFVvVU03X0xlelFMWndEYVBYeUlDb1FTakFTalVrVkRsVlp5a2tXOWVFcGpPMQ?oc=5</guid>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMirAFBVV95cUxOV3VnSVV1VU1BekMyc0FZVmdnVnZzcUR6cTJ1bUlZQ2sxYzU5TzF0OXNOUmdFMFBBbWh5TDdHQXJoVS1jbzhNMnVFdUVNVEhTM0JZN0F2VlVIM2dKZlo1UWtxa2YweXY4bk5lcXZkTU82emttWVZRa2xobG5kV0FzRlRWcHFyck1wS3FwRmVuQ2lzdXRXT0daQkhmeHlfdWx0eV9jY1NuWXllazA10gGyAUFVX3lxTE5yQmFBNFJLWktFTFFpTnNCU0tXR3FINTQwQ2NsUEVrX2FsVzdvOG0wcjI1NTZyODdCdFAxWUZfYmJTT2hLbWxVTTJjX1dvREEzSk5FblhOQnFqYTM3eHlGZTFaVTUtcDRObDAxZW5zSm85X2J3NGR2YkpQNTNaeDZ6YWtlNi0yNGtyV0tINUlLbUxlZTFad2h5QkV1bTRyOUh5ellOcnNEakZkalV5VGZ4RUE?oc=5</guid>
     </item>
     <item>
-      <title>Microsoft Commits Billions to Japanese AI and Security Expansion - ad-hoc-news.de</title>
-      <link>https://news.google.com/rss/articles/CBMiugFBVV95cUxOOWZjUzJqdHgxaFhKVGdIRHRGdnhTV1VmMS1yVUpKNzlBQUZleDhjVWM4Tm9icmlzTDVxd0dsUkxuZGFkUVlwQWVyOVBkdGR1R0J2NS1XWDZfbkt6MXozT0RYTkFoSHZzWEduNVBSY2RKbU1Fb2hUSHZkSFRHYTRYZ3NPY0ExT1dSbTRxNUhXTnhRVlVEaGRJOFpvWmV0Y09aeFZ4R203WTNpUjk1ejFodEJVdzhUb01nSHc?oc=5</link>
-      <description>Microsoft Commits Billions to Japanese AI and Security Expansion  ad-hoc-news.de [Microsoft]</description>
-      <source url="https://aisight.fyi">AISight</source>
+      <title>Oracle hires Schneider Electric&apos;s Maxson as CFO amid AI spending boom - Reuters</title>
+      <link>https://news.google.com/rss/articles/CBMihAFBVV95cUxNSkZTYXhacXhzY2ZHc1FyUW1reElickZYMHFURFY1SHNQNW1tR0Z2LTZzSTFiOWFYcmx4Z1hXRjQ2enMyYzlDWWpodVphbUdoMWE4Umxnc0VnZ1ZKdlctX1k2NGR2MHNfcmRURi1qekdfZDltMkc2bmFqSmpjUjNxYllfdWo?oc=5</link>
+      <description>Oracle hires Schneider Electric&apos;s Maxson as CFO amid AI spending boom  Reuters [Oracle]</description>
+      <source url="https://aisight.fyi">Reuters</source>
       <pubDate>Mon, 06 Apr 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiugFBVV95cUxOOWZjUzJqdHgxaFhKVGdIRHRGdnhTV1VmMS1yVUpKNzlBQUZleDhjVWM4Tm9icmlzTDVxd0dsUkxuZGFkUVlwQWVyOVBkdGR1R0J2NS1XWDZfbkt6MXozT0RYTkFoSHZzWEduNVBSY2RKbU1Fb2hUSHZkSFRHYTRYZ3NPY0ExT1dSbTRxNUhXTnhRVlVEaGRJOFpvWmV0Y09aeFZ4R203WTNpUjk1ejFodEJVdzhUb01nSHc?oc=5</guid>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMihAFBVV95cUxNSkZTYXhacXhzY2ZHc1FyUW1reElickZYMHFURFY1SHNQNW1tR0Z2LTZzSTFiOWFYcmx4Z1hXRjQ2enMyYzlDWWpodVphbUdoMWE4Umxnc0VnZ1ZKdlctX1k2NGR2MHNfcmRURi1qekdfZDltMkc2bmFqSmpjUjNxYllfdWo?oc=5</guid>
+    </item>
+    <item>
+      <title>Heavy AI Spending Weighs on Alibaba&apos;s Profits: Hold or Fold the Stock? - The Globe and Mail</title>
+      <link>https://news.google.com/rss/articles/CBMi5wFBVV95cUxNT1d0NG52bGlnVzl6a3NFRmJxLWJLcG51TlA0a1ZTQmptbXBFc3BLcGh2Uk5kLXdkZlQtOHY3RkswV3Q1b24wNGFxT2hBdTUtakUtczVDVUg1RUNyZjVhRE8zWWMwdXYyMGdHVHEtMnlKLXVIMWJNanVDV1AwYkctY05lS3d2RW5fRHMtdHVWc1ljSXpUXzA5cjR3TGZxQlJpRXVlQjJYRVppbVUxMzFvU0lzNGhlbHQzdk9ya29BZkY2NnY5SHZQSHMybHRWRGtCb0xSUU96cGhkd3FuTG9FdXZDeVEtT00?oc=5</link>
+      <description>Heavy AI Spending Weighs on Alibaba&apos;s Profits: Hold or Fold the Stock?  The Globe and Mail [Alibaba]</description>
+      <source url="https://aisight.fyi">The Globe and Mail</source>
+      <pubDate>Mon, 06 Apr 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi5wFBVV95cUxNT1d0NG52bGlnVzl6a3NFRmJxLWJLcG51TlA0a1ZTQmptbXBFc3BLcGh2Uk5kLXdkZlQtOHY3RkswV3Q1b24wNGFxT2hBdTUtakUtczVDVUg1RUNyZjVhRE8zWWMwdXYyMGdHVHEtMnlKLXVIMWJNanVDV1AwYkctY05lS3d2RW5fRHMtdHVWc1ljSXpUXzA5cjR3TGZxQlJpRXVlQjJYRVppbVUxMzFvU0lzNGhlbHQzdk9ya29BZkY2NnY5SHZQSHMybHRWRGtCb0xSUU96cGhkd3FuTG9FdXZDeVEtT00?oc=5</guid>
+    </item>
+    <item>
+      <title>DELL Benefits From Cloud Infrastructure Expansion: More Upside Ahead? - TradingView</title>
+      <link>https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRXhIYXNxZ0Fad2c0ZnM2ZnJIYmNrOWFMTjBiWFE2TTk1VUNNU09tVWZ5aTFwdzJJbnhtdHVBWWNFU09aTUx1bTRrSkR4bTNXZnlrQ0g5MUxhdGZlQ0RoVXJRTnd2R1VDa3M5dUxET19vTThFWWR2eERZT0hLWjMtY25QSE5VY1hPVmtQN19ZcFBjUklLeHRaaUhodkJ2QUlrTnBBRmpsbWJjWXoyMlV4dDh6ekdaZEZsOWN2YzFKZjM?oc=5</link>
+      <description>DELL Benefits From Cloud Infrastructure Expansion: More Upside Ahead?  TradingView [Dell Technologies]</description>
+      <source url="https://aisight.fyi">TradingView</source>
+      <pubDate>Mon, 06 Apr 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRXhIYXNxZ0Fad2c0ZnM2ZnJIYmNrOWFMTjBiWFE2TTk1VUNNU09tVWZ5aTFwdzJJbnhtdHVBWWNFU09aTUx1bTRrSkR4bTNXZnlrQ0g5MUxhdGZlQ0RoVXJRTnd2R1VDa3M5dUxET19vTThFWWR2eERZT0hLWjMtY25QSE5VY1hPVmtQN19ZcFBjUklLeHRaaUhodkJ2QUlrTnBBRmpsbWJjWXoyMlV4dDh6ekdaZEZsOWN2YzFKZjM?oc=5</guid>
+    </item>
+    <item>
+      <title>Investors Push Amazon, Microsoft, and Google Over Water and Energy Use in US Data Centers - Meyka</title>
+      <link>https://news.google.com/rss/articles/CBMisAFBVV95cUxPT2pBMDY1TllxQ2JhdEdvMTAzY3NDWlRoSHdWelBjQm9PWnNwX2drTWxNVTNRT25XOGNERm5OcUlkV2tmZ01EdFNFNERoZ1Q2N2MyQTk1VVc0TkpuYzdqNDdIcjdVNUVGMGFZSnU5OU5wSjYwVXZpVGswX1dhZDFNeE5JSlk1V01TWkZLRTRGN0x3NFhSb21PVm9Qa1BGUVlucnExSExUWkVoVUJEM0F2TA?oc=5</link>
+      <description>Investors Push Amazon, Microsoft, and Google Over Water and Energy Use in US Data Centers  Meyka [Amazon, Microsoft, Alphabet]</description>
+      <source url="https://aisight.fyi">Meyka</source>
+      <pubDate>Mon, 06 Apr 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMisAFBVV95cUxPT2pBMDY1TllxQ2JhdEdvMTAzY3NDWlRoSHdWelBjQm9PWnNwX2drTWxNVTNRT25XOGNERm5OcUlkV2tmZ01EdFNFNERoZ1Q2N2MyQTk1VVc0TkpuYzdqNDdIcjdVNUVGMGFZSnU5OU5wSjYwVXZpVGswX1dhZDFNeE5JSlk1V01TWkZLRTRGN0x3NFhSb21PVm9Qa1BGUVlucnExSExUWkVoVUJEM0F2TA?oc=5</guid>
     </item>
     <item>
       <title>JPMorgan Plans $1 Trillion Investment to Boost US Economy, Says Dimon - Meyka</title>
@@ -64,14 +96,6 @@
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMilgFBVV95cUxQM3ExTkZISFltQXM5MklMdDhBMnJ1VWs5S05yeVVBREZKTU1QOUVMQXRNZVhyX3dDNU0waW5BczFMSElTTFBSS3hrcDE1Umd4aEI3d0I0TVd0WTNxelRJOWxaU2JiM1JORUtyeUl2RzVESTZhTkdTcjlCcGhJNmNvazg2UHRERGxkVG1qREdoRUc2YmhCOWc?oc=5</guid>
     </item>
     <item>
-      <title>India&apos;s AI Infra Drive: $200B+ Pledges Face Capital &amp; Execution Hurdles - Whalesbook</title>
-      <link>https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQ09SM3NxWUR3Q0t1NWNFZG8xc1J2YlFLblZvU002aTBCWDhuOGlWRlpjSldhN2FBYjhvTGRiQVEyNV9LeGE5S2tjVVlqc3BDVG5OcXFYbnlXTktUNFhFemcyTWRwU2t1Qm5jYTUzXzdvRGdRV1h5czdHc0pBbzZjSjIzazQtX0RWY1ZralJXRVljcGZWMEphaHNjeXBmWVpJTERaMGIyX05PbDRvOUJ1dkk2WFB2NjhWUS1uUnFqdzlkVklkSXlXOExCb1AxWnBtUHR6UmpzOGl1aVVROWc?oc=5</link>
-      <description>India&apos;s AI Infra Drive: $200B+ Pledges Face Capital &amp; Execution Hurdles  Whalesbook</description>
-      <source url="https://aisight.fyi">Whalesbook</source>
-      <pubDate>Mon, 06 Apr 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQ09SM3NxWUR3Q0t1NWNFZG8xc1J2YlFLblZvU002aTBCWDhuOGlWRlpjSldhN2FBYjhvTGRiQVEyNV9LeGE5S2tjVVlqc3BDVG5OcXFYbnlXTktUNFhFemcyTWRwU2t1Qm5jYTUzXzdvRGdRV1h5czdHc0pBbzZjSjIzazQtX0RWY1ZralJXRVljcGZWMEphaHNjeXBmWVpJTERaMGIyX05PbDRvOUJ1dkk2WFB2NjhWUS1uUnFqdzlkVklkSXlXOExCb1AxWnBtUHR6UmpzOGl1aVVROWc?oc=5</guid>
-    </item>
-    <item>
       <title>AI data center boom ‘stress tests’ insurers as private capital floods in - CNBC</title>
       <link>https://news.google.com/rss/articles/CBMikAFBVV95cUxPUHZrWE51VEc2bGNsOERycnhpSXJRRHlQX0dDUDh1ZkxuNUx6Rzc0ODZIeEhKQkg4R2JmdUlBZzRVVWZlQ3pHVGlmTVlFa1ZVU0x2U2h0Mi1rWktUMXQ2T1NnbVNJcklhdjM0UkNkN09ieVAzbE1OUzA5cmlZWFJGcUV3OVdzSjdxR3I5Vy1uLWo?oc=5</link>
       <description>AI data center boom ‘stress tests’ insurers as private capital floods in  CNBC</description>
@@ -80,20 +104,44 @@
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMikAFBVV95cUxPUHZrWE51VEc2bGNsOERycnhpSXJRRHlQX0dDUDh1ZkxuNUx6Rzc0ODZIeEhKQkg4R2JmdUlBZzRVVWZlQ3pHVGlmTVlFa1ZVU0x2U2h0Mi1rWktUMXQ2T1NnbVNJcklhdjM0UkNkN09ieVAzbE1OUzA5cmlZWFJGcUV3OVdzSjdxR3I5Vy1uLWo?oc=5</guid>
     </item>
     <item>
-      <title>OpenAI proposes wealth fund for AI-driven job shocks - Tech in Asia</title>
-      <link>https://news.google.com/rss/articles/CBMijAFBVV95cUxNb2hJNGFoRnlxR0dybU9aek5sZlBLUDA5TE10RkUwNTVkTE1UbHpGM3lOVXFVSVdvNmhESGllbzJzaFpTeG1VbG84TWhHbmx2c0gwREVrSi1Ka0s3QlVqSnBkODZQQTZDRnBtSTdYWXBpNnJJUjc5TTZTd284X1hrUGdTbVczMFRRMWJOaA?oc=5</link>
-      <description>OpenAI proposes wealth fund for AI-driven job shocks  Tech in Asia [OpenAI]</description>
-      <source url="https://aisight.fyi">Tech in Asia</source>
+      <title>US AI spending peak may arrive this year, Jefferies warns - Investing.com</title>
+      <link>https://news.google.com/rss/articles/CBMixAFBVV95cUxOUVdVWHBEdmpkNXMxek9qczFHeFpENHVydDZlbnZ2ZG9Rd0FjaE9UdU5UUWFBS2xnQ3hqUzBTQ3llVGFuMFBTeHVjZTRYelpHOVNCaHRNQ29GQm12VHpfRGd4VkdJdFA2UlhJQ1pyMlZqdVBPbVFoUVRuWE1COEhoOUtvTEV5STAweXI3eXpWY210RjJucUFZOXA5RjBFNkNjdjhSRjRCeGozMk1acFZvanZOUlJuakdPZXJCbXJnOHFEakdE?oc=5</link>
+      <description>US AI spending peak may arrive this year, Jefferies warns  Investing.com</description>
+      <source url="https://aisight.fyi">Investing.com</source>
       <pubDate>Mon, 06 Apr 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMijAFBVV95cUxNb2hJNGFoRnlxR0dybU9aek5sZlBLUDA5TE10RkUwNTVkTE1UbHpGM3lOVXFVSVdvNmhESGllbzJzaFpTeG1VbG84TWhHbmx2c0gwREVrSi1Ka0s3QlVqSnBkODZQQTZDRnBtSTdYWXBpNnJJUjc5TTZTd284X1hrUGdTbVczMFRRMWJOaA?oc=5</guid>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMixAFBVV95cUxOUVdVWHBEdmpkNXMxek9qczFHeFpENHVydDZlbnZ2ZG9Rd0FjaE9UdU5UUWFBS2xnQ3hqUzBTQ3llVGFuMFBTeHVjZTRYelpHOVNCaHRNQ29GQm12VHpfRGd4VkdJdFA2UlhJQ1pyMlZqdVBPbVFoUVRuWE1COEhoOUtvTEV5STAweXI3eXpWY210RjJucUFZOXA5RjBFNkNjdjhSRjRCeGozMk1acFZvanZOUlJuakdPZXJCbXJnOHFEakdE?oc=5</guid>
     </item>
     <item>
-      <title>Optical Communication Stocks Surge on AI Infrastructure Demand - 조선일보</title>
-      <link>https://news.google.com/rss/articles/CBMijgFBVV95cUxOckttQ1pWSVA3R2RBdVo1VGg2bXB1YzBkUnRCcnpHOVhWejh6aWljZ3UzOTRVMWpkcXhpdXpyYlFYU0hTc21ncUJqaS1rSWhRZ2IxbGZTRlF2cTRvYVNiYVpDUVZGYjNXN003U3pkbU15bjVZamg3YjBjNENIVlhJNmhiblQxTnZaZlZ0X0NB?oc=5</link>
-      <description>Optical Communication Stocks Surge on AI Infrastructure Demand  조선일보</description>
+      <title>Hyperscaler backlogs show growing demand for AI infrastructure - Network World</title>
+      <link>https://news.google.com/rss/articles/CBMisgFBVV95cUxQazFQNjdaaE1jU2VXVC1fNC1SUWMtMC1jMWdMRVVRaGxYNzc5QXpJaDd0NFFzVVZIbHY0TWE3OWlhQ3hYd0RWQmktdzFmR0p5N21mRjFsMnNXWlgwWVhtMWNWV2NyWGF5RFZnaGlXZHBSeFR3T2pndnY4SDJPQVBQUHdmS0tNcFZNdlRDS1h3Qnc4U1dJY21zMkxnVkhSYVBjUUNsNk1zblJrNEdkS1l1S1NR?oc=5</link>
+      <description>Hyperscaler backlogs show growing demand for AI infrastructure  Network World</description>
+      <source url="https://aisight.fyi">Network World</source>
+      <pubDate>Mon, 06 Apr 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMisgFBVV95cUxQazFQNjdaaE1jU2VXVC1fNC1SUWMtMC1jMWdMRVVRaGxYNzc5QXpJaDd0NFFzVVZIbHY0TWE3OWlhQ3hYd0RWQmktdzFmR0p5N21mRjFsMnNXWlgwWVhtMWNWV2NyWGF5RFZnaGlXZHBSeFR3T2pndnY4SDJPQVBQUHdmS0tNcFZNdlRDS1h3Qnc4U1dJY21zMkxnVkhSYVBjUUNsNk1zblJrNEdkS1l1S1NR?oc=5</guid>
+    </item>
+    <item>
+      <title>Consumer Reports: How AI scams are costing Americans billions - WSLS</title>
+      <link>https://news.google.com/rss/articles/CBMinwFBVV95cUxNWjhETlVUVFhsVHdGb2w3U1ozSE5GQWNIUzRNUU04QWVqeW0tdjRTc1JqMkxINkxXeU1BZHBYOUhrZ1cyREs2bFNIUXZwaEtoVnZKaGNTcHZXNl9oTEFDUnRLbVVjUTd3ZDJRY0VHTlU1OVRCeFZmRndqbm5CSkprMFh2bjN0TF9WcnVMN3ZJWkVzQUJhVjF2cHpIYUg3NHM?oc=5</link>
+      <description>Consumer Reports: How AI scams are costing Americans billions  WSLS</description>
+      <source url="https://aisight.fyi">WSLS</source>
+      <pubDate>Mon, 06 Apr 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMinwFBVV95cUxNWjhETlVUVFhsVHdGb2w3U1ozSE5GQWNIUzRNUU04QWVqeW0tdjRTc1JqMkxINkxXeU1BZHBYOUhrZ1cyREs2bFNIUXZwaEtoVnZKaGNTcHZXNl9oTEFDUnRLbVVjUTd3ZDJRY0VHTlU1OVRCeFZmRndqbm5CSkprMFh2bjN0TF9WcnVMN3ZJWkVzQUJhVjF2cHpIYUg3NHM?oc=5</guid>
+    </item>
+    <item>
+      <title>Top AI Infrastructure Stocks for 2026: Investing in Computing Power Providers - News and Statistics - IndexBox</title>
+      <link>https://news.google.com/rss/articles/CBMirAFBVV95cUxOcGlyaUVvcHA4LUhmbGU3S1VLdmhjWU40cG1ZWEhmLUZ6OENtZXhIVFZLUmt5b2doZ1k2NGlZcWJRZ0pSVFdRZ01ES0FjUWYxcFZNaC1WelhYdHlpYnN2TUYzSzFRLW9SSFE2UjZjdEFUZ2VYVGlGaklYSUotbVpsdFA4ZVl0SHJxVjIzQ1F0OEQwM051ZGg4ck96MmJSd0h3clF2MVNDb0E4V2dM?oc=5</link>
+      <description>Top AI Infrastructure Stocks for 2026: Investing in Computing Power Providers - News and Statistics  IndexBox</description>
+      <source url="https://aisight.fyi">IndexBox</source>
+      <pubDate>Mon, 06 Apr 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMirAFBVV95cUxOcGlyaUVvcHA4LUhmbGU3S1VLdmhjWU40cG1ZWEhmLUZ6OENtZXhIVFZLUmt5b2doZ1k2NGlZcWJRZ0pSVFdRZ01ES0FjUWYxcFZNaC1WelhYdHlpYnN2TUYzSzFRLW9SSFE2UjZjdEFUZ2VYVGlGaklYSUotbVpsdFA4ZVl0SHJxVjIzQ1F0OEQwM051ZGg4ck96MmJSd0h3clF2MVNDb0E4V2dM?oc=5</guid>
+    </item>
+    <item>
+      <title>Optical Communication Stocks Rally as AI Infrastructure Demand Surges - 조선일보</title>
+      <link>https://news.google.com/rss/articles/CBMijgFBVV95cUxQaWtyVzZvQmtJdTlUZDdyNkw5bjZ1TUlLTVVQUk9VVEN0VUI0M2lYRDB0bXJOQ3VONnZ4eEZjZmtpbTFvOF9RRjctZ0E2TWt6b2NWOXlOal9jcXBzekNwMGlvUTNrN1BlZnhYVXBxUDBuU01fMlhMLWNhZHp6OVktYjd3U3BMWGFpWDFmWTBn?oc=5</link>
+      <description>Optical Communication Stocks Rally as AI Infrastructure Demand Surges  조선일보</description>
       <source url="https://aisight.fyi">조선일보</source>
       <pubDate>Mon, 06 Apr 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMijgFBVV95cUxOckttQ1pWSVA3R2RBdVo1VGg2bXB1YzBkUnRCcnpHOVhWejh6aWljZ3UzOTRVMWpkcXhpdXpyYlFYU0hTc21ncUJqaS1rSWhRZ2IxbGZTRlF2cTRvYVNiYVpDUVZGYjNXN003U3pkbU15bjVZamg3YjBjNENIVlhJNmhiblQxTnZaZlZ0X0NB?oc=5</guid>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMijgFBVV95cUxQaWtyVzZvQmtJdTlUZDdyNkw5bjZ1TUlLTVVQUk9VVEN0VUI0M2lYRDB0bXJOQ3VONnZ4eEZjZmtpbTFvOF9RRjctZ0E2TWt6b2NWOXlOal9jcXBzekNwMGlvUTNrN1BlZnhYVXBxUDBuU01fMlhMLWNhZHp6OVktYjd3U3BMWGFpWDFmWTBn?oc=5</guid>
     </item>
     <item>
       <title>MU vs. STX vs. MRVL: Which ‘Strong Buy’ AI Infrastructure Stock Can Deliver the Best Upside? - TipRanks</title>
@@ -112,6 +160,14 @@
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU1FhR1k0OVhUT0paOHRoZmF3QjRKeXNyZUtuaURUYzJTREkxd01fd3dkZkJoY0ZnMmJVTmJXemtsMXhFU05Lb2xsOFp1MTNBdzVScF9lZ21zTmhTLXF2UDFZUkZ1eXRPRlBQTWM5RGIwWkZFZ1RzT3pacE9zX21tcXc4eFY1T1lQRGpEQnBvRmZ3bE42SlRZSlpGYWpZb2E4UHBNU0hOX1VsUEMtSGRvMXB1dmdzaUNp?oc=5</guid>
     </item>
     <item>
+      <title>Oracle hires new CFO on mammoth salary after ruthless worker bloodbath - New York Post</title>
+      <link>https://news.google.com/rss/articles/CBMilwFBVV95cUxQT0JkbjkxOHVVNEkyOVBzdnlpVHlEMVNlbjBXbDZWMTFkampBaTN3azBRMXoxaUtENUliSW5ZWmRscHN1SWM0SmJKX2dTRHFwVk54U29oZ2p4Y2Q5cmFjYmdvNVZuWmNJTTBOR3lJbWJoTlRYVUgwM0h2aExqS1dMWFZoYjdaa1N3ZlJCZVdSajN3MWJjSElr?oc=5</link>
+      <description>Oracle hires new CFO on mammoth salary after ruthless worker bloodbath  New York Post [Oracle]</description>
+      <source url="https://aisight.fyi">New York Post</source>
+      <pubDate>Mon, 06 Apr 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMilwFBVV95cUxQT0JkbjkxOHVVNEkyOVBzdnlpVHlEMVNlbjBXbDZWMTFkampBaTN3azBRMXoxaUtENUliSW5ZWmRscHN1SWM0SmJKX2dTRHFwVk54U29oZ2p4Y2Q5cmFjYmdvNVZuWmNJTTBOR3lJbWJoTlRYVUgwM0h2aExqS1dMWFZoYjdaa1N3ZlJCZVdSajN3MWJjSElr?oc=5</guid>
+    </item>
+    <item>
       <title>Microsoft: $10 Billion Investment To Expand AI Infrastructure In Japan - Pulse 2.0</title>
       <link>https://news.google.com/rss/articles/CBMikgFBVV95cUxOTEdfblNGRm1WZEVpV05Vanp2M3ZPT0IxeThNYTZIbE5DbVFxYVFjV1VkZm5CZE1Cck9MUUt4Z0hoVHBGS2lnTklBYlQxQjZjNGgzOGhhM3dLOGhYU3IxT08zMkNPUEVmaXVWRTRfOHpjYVR4ZElhZnA5em5PTUhCTjZ1MlNIZGxISXZlQkVJU3ZkUdIBlwFBVV95cUxOYjRzTEFGYXVVWjc4UVlVYXpMLXRzZDZoMHBTZnZzTGQxVGdxRm1jRXUzcFlFMnpTamkwVi1kMjJJVU1GbVEwOXNRXzN3Q2ltajRvVGRjOURPWEIxMERMS2tKa3phVUxJLUhmdlFmak5QVzBxVGNEVVh4YVhDdDktM1NycUxHVlEtcEN2aGFGVlljNFlRd2FJ?oc=5</link>
       <description>Microsoft: $10 Billion Investment To Expand AI Infrastructure In Japan  Pulse 2.0 [Microsoft]</description>
@@ -128,10 +184,10 @@
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUUtRUGRIbl9MOHhGTTlndUNiM2JUbVZsam9qU2p5MG8xVjVkNGlEcm9vR3JZenh1R3dqWmVvMmNHdV9YM1RoTElybUlGb3RMcHFmbHBBMkU3TWl0bzVlYW9DMi14dHlYUHFmM1gwbXlfUTVkRVZnSUlVRHd1ajhPdzhrNEh2SlVIS1d4WmhOM0dCYUdjeXdRLWJINHZsY3E3dUhYSEpIQjNPYTFTYzlEQTNlM1d6UlJZSGxBWWNGdTBvdw?oc=5</guid>
     </item>
     <item>
-      <title>Microsoft&apos;s $10 Billion Investment Positions SoftBank as Japan&apos;s AI Infrastructure Leader - ad-hoc-news.de</title>
+      <title>Microsoft&apos;s $10 Billion Investment Positions SoftBank as Japan&apos;s AI Infrastructure Leader - AD HOC NEWS</title>
       <link>https://news.google.com/rss/articles/CBMivAFBVV95cUxPRHpqTGhLbXJpMVpVUGN4MzRhU0VWa0ZDMFlEWllpWGZheEo1NUhLM2ZXRDBPdHNZZHBuVGFqVTlWNVRyT2RBdkF0SzFfU2VSQXN3bXY2UlMzUEtYLUYzakF4ZG9WNFJRdE1vczJ1dUNIR0NtdVpQajJ6UzJLV0h6LXBlWjJNclJ2MHhseW1XYXRobHhfb19jTU1oY2VkR2o5VWdwWlI5c2VJemJFWFZRUkFKV3ZESjhuQjE5LQ?oc=5</link>
-      <description>Microsoft&apos;s $10 Billion Investment Positions SoftBank as Japan&apos;s AI Infrastructure Leader  ad-hoc-news.de [Microsoft]</description>
-      <source url="https://aisight.fyi">AISight</source>
+      <description>Microsoft&apos;s $10 Billion Investment Positions SoftBank as Japan&apos;s AI Infrastructure Leader  AD HOC NEWS [Microsoft]</description>
+      <source url="https://aisight.fyi">AD HOC NEWS</source>
       <pubDate>Sun, 05 Apr 2026 12:00:00 GMT</pubDate>
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMivAFBVV95cUxPRHpqTGhLbXJpMVpVUGN4MzRhU0VWa0ZDMFlEWllpWGZheEo1NUhLM2ZXRDBPdHNZZHBuVGFqVTlWNVRyT2RBdkF0SzFfU2VSQXN3bXY2UlMzUEtYLUYzakF4ZG9WNFJRdE1vczJ1dUNIR0NtdVpQajJ6UzJLV0h6LXBlWjJNclJ2MHhseW1XYXRobHhfb19jTU1oY2VkR2o5VWdwWlI5c2VJemJFWFZRUkFKV3ZESjhuQjE5LQ?oc=5</guid>
     </item>
@@ -144,12 +200,12 @@
       <guid isPermaLink="false">https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-led-demand-to-drive-sharp-surge-in-semiconductor-revenues-goldman-sachs/articleshow/130036959.cms</guid>
     </item>
     <item>
-      <title>Flex (FLEX) Announces $1.1B Acquisition to Boost Power Infrastructure Capabilities</title>
-      <link>https://finance.yahoo.com/sectors/technology/articles/flex-flex-announces-1-1b-091247943.html</link>
-      <description>Flex Ltd. (NASDAQ:FLEX) is among the 13 Best Strong Buy AI Stocks to Invest In Now. On March 30, Flex Ltd. (NASDAQ:FLEX) announced a definitive agreement to ... [ServiceNow]</description>
-      <source url="https://aisight.fyi">Yahoo Entertainment</source>
+      <title>Is MSFT stock vulnerable to rising capex pressure from AI spending? - MSN</title>
+      <link>https://news.google.com/rss/articles/CBMilANBVV95cUxOZjBrZWJCc04zc0JhS05aa2JzaU5lUVFxWG1QeTB2LTAzT1cxWjUzbUpHV1VJemE0ajVVVy1BMUxwNUkxWDBpYlZDai1wTFFFYUdPLTBYWXBTVThYVGZnYTl3c1pYZHI5N3M0amtCajhxSXpGTjVEUVM1ZzdOcDRRQnloSVJ6cHFGbUF3RXZENEFaZ1ZfSW9Ma0JBWjBObmZZSjEybTJUdGJrN3poekFvU0h0YmRlN0R1dlI1bXVkb0Q2ZzdyTzNxbXpZN3k2REh1RDY0NmtYR1FsMHRIdmViV1prU1FCUmU0czk3aDFGU2pRUFQ4NUhqQ3RoYmtpTllyVi1JdTl5YmlBbnpmMHRvcVlzVFRiNXg2ZXp4cHNTalFLZHJsZzNRSWJBX19LSlRiUzVleHlzVFVVRkNzTEx1Z0xocmdWbEozM1p3amxweTN2SVRzS2xCcWd2aUlnREhvSmtCUzVzZkpXcl9mbmxMSVB0Zlk4ektTS1RmcmlaLUc5bWU2LWhkandnQVZNTXZGTEc0bg?oc=5</link>
+      <description>Is MSFT stock vulnerable to rising capex pressure from AI spending?  MSN [Microsoft]</description>
+      <source url="https://aisight.fyi">MSN</source>
       <pubDate>Sun, 05 Apr 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://finance.yahoo.com/sectors/technology/articles/flex-flex-announces-1-1b-091247943.html</guid>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMilANBVV95cUxOZjBrZWJCc04zc0JhS05aa2JzaU5lUVFxWG1QeTB2LTAzT1cxWjUzbUpHV1VJemE0ajVVVy1BMUxwNUkxWDBpYlZDai1wTFFFYUdPLTBYWXBTVThYVGZnYTl3c1pYZHI5N3M0amtCajhxSXpGTjVEUVM1ZzdOcDRRQnloSVJ6cHFGbUF3RXZENEFaZ1ZfSW9Ma0JBWjBObmZZSjEybTJUdGJrN3poekFvU0h0YmRlN0R1dlI1bXVkb0Q2ZzdyTzNxbXpZN3k2REh1RDY0NmtYR1FsMHRIdmViV1prU1FCUmU0czk3aDFGU2pRUFQ4NUhqQ3RoYmtpTllyVi1JdTl5YmlBbnpmMHRvcVlzVFRiNXg2ZXp4cHNTalFLZHJsZzNRSWJBX19LSlRiUzVleHlzVFVVRkNzTEx1Z0xocmdWbEozM1p3amxweTN2SVRzS2xCcWd2aUlnREhvSmtCUzVzZkpXcl9mbmxMSVB0Zlk4ektTS1RmcmlaLUc5bWU2LWhkandnQVZNTXZGTEc0bg?oc=5</guid>
     </item>
     <item>
       <title>NVIDIA Stock in 2026: Analysts Urge Buy as AI Demand Powers Growth Despite Valuation Concerns</title>
@@ -168,14 +224,6 @@
       <guid isPermaLink="false">https://www.ibtimes.com.au/top-5-best-palantir-competitors-2026-led-databricks-snowflake-microsoft-fabric-data-ai-platforms-1865435</guid>
     </item>
     <item>
-      <title>AI Infrastructure Leaders: Nvidia and TSMC Market Dominance - News and Statistics - indexbox.io</title>
-      <link>https://news.google.com/rss/articles/CBMilAFBVV95cUxPdi1FaENuYTVQaS1nb1FLcUNVN1hLQXQtZTlEdHFpV0dDelhNWkRPWGRIeE81Qlp3V0d6bEowZWdLNHlQOWRhMnpfQVA5VTNtUzZZSEtmYXh6by1aTkh3XzJYSWY2Q0tzTmhIczRmcWdTSVp6M2c4YlJoQXMtbk1BckJDcmw1V3RTLUhCcjRLdkM2d2tK?oc=5</link>
-      <description>AI Infrastructure Leaders: Nvidia and TSMC Market Dominance - News and Statistics  indexbox.io [TSMC, Nvidia]</description>
-      <source url="https://aisight.fyi">indexbox.io</source>
-      <pubDate>Sun, 05 Apr 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMilAFBVV95cUxPdi1FaENuYTVQaS1nb1FLcUNVN1hLQXQtZTlEdHFpV0dDelhNWkRPWGRIeE81Qlp3V0d6bEowZWdLNHlQOWRhMnpfQVA5VTNtUzZZSEtmYXh6by1aTkh3XzJYSWY2Q0tzTmhIczRmcWdTSVp6M2c4YlJoQXMtbk1BckJDcmw1V3RTLUhCcjRLdkM2d2tK?oc=5</guid>
-    </item>
-    <item>
       <title>What Dell Technologies (DELL)&apos;s Expanding AI Infrastructure Role Means For Shareholders - simplywall.st</title>
       <link>https://news.google.com/rss/articles/CBMiygFBVV95cUxPLXVNSFM3R256aWM4Y1FmN2w4UG5mY2Y2QzZtM0M5cndPSXdYXzNpbERYQXR2ZE00RGROaXRfZ3lHV2RHdXhWMVgyY0R5Ymw4Ukd2T3NzV3JvaGNnNGxsZVlJeUQwX1JFOHpwR0t5ZXAxUVpRd2JuVW40bUdIWDQyejdKenVJWG5FX2JKSkU4b0hwd3dKX3RpcGRPWDA4bHh0cWZZSm1zQ2xPSGplQUhHd1lkbzhmdEpzX181VlYxRG9YVGN0VVhlbmx30gHPAUFVX3lxTFBoNGxjZ1dLaGZzRmQwcC1Sek81YmxlRjMzUDNuaVhMT1U1d2dUN29LdnBGNW1zS0Q4YXJuekQ5NlgzNnNHTkhNQnd5TTZLU2c2ZzhaSDRxYS1HaVdKVV9QZEFOSURJTXNCOTk0dUtFb00xU1VHdGpYUXVqVk1fY3lBZk9XNExWbWFzdEEtLXVYd0xDd2hub0l3XzRQLUdzOVJ2R0ZMekplbkc3X2FzeGVlRnVwQUJlS3BrMWlpaVVhMHpubmxyTVctOU0zUEtRRQ?oc=5</link>
       <description>What Dell Technologies (DELL)&apos;s Expanding AI Infrastructure Role Means For Shareholders  simplywall.st [Dell Technologies]</description>
@@ -184,10 +232,10 @@
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiygFBVV95cUxPLXVNSFM3R256aWM4Y1FmN2w4UG5mY2Y2QzZtM0M5cndPSXdYXzNpbERYQXR2ZE00RGROaXRfZ3lHV2RHdXhWMVgyY0R5Ymw4Ukd2T3NzV3JvaGNnNGxsZVlJeUQwX1JFOHpwR0t5ZXAxUVpRd2JuVW40bUdIWDQyejdKenVJWG5FX2JKSkU4b0hwd3dKX3RpcGRPWDA4bHh0cWZZSm1zQ2xPSGplQUhHd1lkbzhmdEpzX181VlYxRG9YVGN0VVhlbmx30gHPAUFVX3lxTFBoNGxjZ1dLaGZzRmQwcC1Sek81YmxlRjMzUDNuaVhMT1U1d2dUN29LdnBGNW1zS0Q4YXJuekQ5NlgzNnNHTkhNQnd5TTZLU2c2ZzhaSDRxYS1HaVdKVV9QZEFOSURJTXNCOTk0dUtFb00xU1VHdGpYUXVqVk1fY3lBZk9XNExWbWFzdEEtLXVYd0xDd2hub0l3XzRQLUdzOVJ2R0ZMekplbkc3X2FzeGVlRnVwQUJlS3BrMWlpaVVhMHpubmxyTVctOU0zUEtRRQ?oc=5</guid>
     </item>
     <item>
-      <title>Alphabet Stock Decline &amp; 2026 AI Capex Strategy | Market Analysis - News and Statistics - indexbox.io</title>
+      <title>Alphabet Stock Decline &amp; 2026 AI Capex Strategy | Market Analysis - News and Statistics - IndexBox</title>
       <link>https://news.google.com/rss/articles/CBMipgFBVV95cUxPQllfYnQ1TTA3MkVaWTdRN1NNakxVNExfSXh3TG1EZ0U4YUwtR3BEbGZVemNtcjJ0d2R4REpuS1pieTNSLTdhU3JrQXhXUFhUMDVaYUNIcUhXajBhX0tIZ3pBejdpZjdaMGREOW9EYWhLTXJWanZDQzUxMUtaU2VBWlg0eW1yTmN0QmpxYUFmNld2Umd5ejhNRXJMQzFwbVAwMTBQbXRR?oc=5</link>
-      <description>Alphabet Stock Decline &amp; 2026 AI Capex Strategy | Market Analysis - News and Statistics  indexbox.io [Alphabet]</description>
-      <source url="https://aisight.fyi">indexbox.io</source>
+      <description>Alphabet Stock Decline &amp; 2026 AI Capex Strategy | Market Analysis - News and Statistics  IndexBox [Alphabet]</description>
+      <source url="https://aisight.fyi">IndexBox</source>
       <pubDate>Sun, 05 Apr 2026 12:00:00 GMT</pubDate>
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMipgFBVV95cUxPQllfYnQ1TTA3MkVaWTdRN1NNakxVNExfSXh3TG1EZ0U4YUwtR3BEbGZVemNtcjJ0d2R4REpuS1pieTNSLTdhU3JrQXhXUFhUMDVaYUNIcUhXajBhX0tIZ3pBejdpZjdaMGREOW9EYWhLTXJWanZDQzUxMUtaU2VBWlg0eW1yTmN0QmpxYUFmNld2Umd5ejhNRXJMQzFwbVAwMTBQbXRR?oc=5</guid>
     </item>
@@ -224,12 +272,12 @@
       <guid isPermaLink="false">https://thenextweb.com/news/microsoft-copilot-entertainment-only-disclaimer-adoption/</guid>
     </item>
     <item>
-      <title>1 artificial intelligence (AI) stock that could be worth a fortune by 2030 - msn.com</title>
-      <link>https://news.google.com/rss/articles/CBMi8wFBVV95cUxNYjZjeGxwS0o0SWdtclZudFFyVkZNTHQ1eVZfZUdkQ0tHdXdiMVlIVGVMd3pHZi1fQ1djM1VZaU84RV9yZ2dXMEhuaG9zMG1oUGpiWG1SckloRjlLcHU1S0M2endxMmJZQXhwdnlubUFkdnhWSlMzTHFCdmN3bEdHZGdBNmFZOVJ4TWZNV1p2eTBvVzNiN0RkZEE1cWhvS0xmbGtEVk9sUl9aaUZHam16WHdSaC1jN0ozTERfS2IyYkdqMjFVQk5qUS1sTjBZVmNFcDJIaG1iUktOS1U5Z0F4ZnJIcHFDWGpucHFFZk1LZUUtLTA?oc=5</link>
-      <description>1 artificial intelligence (AI) stock that could be worth a fortune by 2030  msn.com [Intel]</description>
-      <source url="https://aisight.fyi">msn.com</source>
+      <title>Women’s Health Market Could Hit $600B—Here’s What’s Driving Growth</title>
+      <link>https://ravoke.com/womens-health-market-growth-600b-opportunity/</link>
+      <description>Women’s health market could hit $600B as global investment, digital health, and menopause care trends drive innovation and growth in healthcare systems worldwide.</description>
+      <source url="https://aisight.fyi">Ravoke.com</source>
       <pubDate>Sun, 05 Apr 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi8wFBVV95cUxNYjZjeGxwS0o0SWdtclZudFFyVkZNTHQ1eVZfZUdkQ0tHdXdiMVlIVGVMd3pHZi1fQ1djM1VZaU84RV9yZ2dXMEhuaG9zMG1oUGpiWG1SckloRjlLcHU1S0M2endxMmJZQXhwdnlubUFkdnhWSlMzTHFCdmN3bEdHZGdBNmFZOVJ4TWZNV1p2eTBvVzNiN0RkZEE1cWhvS0xmbGtEVk9sUl9aaUZHam16WHdSaC1jN0ozTERfS2IyYkdqMjFVQk5qUS1sTjBZVmNFcDJIaG1iUktOS1U5Z0F4ZnJIcHFDWGpucHFFZk1LZUUtLTA?oc=5</guid>
+      <guid isPermaLink="false">https://ravoke.com/womens-health-market-growth-600b-opportunity/</guid>
     </item>
     <item>
       <title>​Beyond the Code: Reclaiming Human Agency in an AI-First World</title>
@@ -254,6 +302,14 @@
       <source url="https://aisight.fyi">CNBC</source>
       <pubDate>Sun, 05 Apr 2026 12:00:00 GMT</pubDate>
       <guid isPermaLink="false">https://www.cnbc.com/2026/04/05/ai-retail-start-ups-virtual-try-on-tech-margins.html</guid>
+    </item>
+    <item>
+      <title>Can orbital data centers help justify a massive valuation for SpaceX? | TechCrunch</title>
+      <link>https://techcrunch.com/2026/04/05/can-orbital-data-centers-help-justify-a-massive-valuation-for-spacex/</link>
+      <description>On the latest episode of TechCrunch’s Equity podcast, we debated Elon Musk&apos;s vision for data centers in space.</description>
+      <source url="https://aisight.fyi">TechCrunch</source>
+      <pubDate>Sun, 05 Apr 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://techcrunch.com/2026/04/05/can-orbital-data-centers-help-justify-a-massive-valuation-for-spacex/</guid>
     </item>
     <item>
       <title>The 1 Stat That Proves Nvidia Remains a Screaming Buy Below $200 - 24/7 Wall St.</title>
@@ -294,14 +350,6 @@
       <source url="https://aisight.fyi">Yahoo Finance</source>
       <pubDate>Sat, 04 Apr 2026 12:00:00 GMT</pubDate>
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMilgFBVV95cUxPQUJOX2xsa1ZENUhIc2JHRmtJNkRldTlDQm0wYUpvXzBLRVV5djhkOG1hWDVkeU1WU3daS1lYMXg0dzR0RzJELWMyaU9ibnhvZ1BQMU5xTjJzVWRrcWxkWDhIRVY1OW93aEN6RGdGZlBZUjNwY0U2Z0gtZExKdWFzejlWRGlaLUJ6OG1CUFBkVEIwOGlXaHc?oc=5</guid>
-    </item>
-    <item>
-      <title>1 Artificial Intelligence (AI) Stock That Could Be Worth a Fortune by 2030 - The Motley Fool</title>
-      <link>https://news.google.com/rss/articles/CBMimAFBVV95cUxORGRBYXRJSFp0eEVmcXkxWmJMV1dnM1NXek9Dd2tLZnBzUTJpSXB4Ti1ibjFlbEVaN0NNOTR6NGI0NEhiSlk2TUNGbHdWZDQ2aFlrdDJxY012SEwzSzNFYTYydHdtVXM4eERZbmxZQWQxaVBoWHduaWR2WkE5ZkI2dFp0a0F0bDNMVlo0bTc2QnE1Sm9RNTViaA?oc=5</link>
-      <description>1 Artificial Intelligence (AI) Stock That Could Be Worth a Fortune by 2030  The Motley Fool [Intel]</description>
-      <source url="https://aisight.fyi">The Motley Fool</source>
-      <pubDate>Sat, 04 Apr 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMimAFBVV95cUxORGRBYXRJSFp0eEVmcXkxWmJMV1dnM1NXek9Dd2tLZnBzUTJpSXB4Ti1ibjFlbEVaN0NNOTR6NGI0NEhiSlk2TUNGbHdWZDQ2aFlrdDJxY012SEwzSzNFYTYydHdtVXM4eERZbmxZQWQxaVBoWHduaWR2WkE5ZkI2dFp0a0F0bDNMVlo0bTc2QnE1Sm9RNTViaA?oc=5</guid>
     </item>
     <item>
       <title>GPT-5.4 Pro jumps to 150 IQ on MESNA Norway test as OpenAI breaks its own record</title>
@@ -352,60 +400,12 @@
       <guid isPermaLink="false">https://alltoc.com/world/what-caused-nvidias-20-drop-from-peak</guid>
     </item>
     <item>
-      <title>Microsoft to Invest $10 Billion in Japan on AI Infrastructure, Cybersecurity - WSJ</title>
-      <link>https://news.google.com/rss/articles/CBMitgNBVV95cUxPdk5QanJyb2Z0SFdCT0taWFhob2E1S0hXSUtMZ3lLc1RjcDRNb3JoYkdEN1VKTGhlQ2p0aGprMXRvUjFneG5SODNNYmI0aFZZcDdOa0Vpd0xDNElzV28taGRvai1oV0VkN2NjV1hwWmhaQkJ6Sk5NN09mSVNzRWp3YzVLalY1WmF6RkhaMUFfaUI4Rlpkd2RxUVpKNmRwTzllZEh4VGtDRGxPV0hhRmVQSDlUb0FIR1gwNlRZSi0xNEZLLXZhNjhUODVPU0I4OVloUWhxN18wQmlhQmJkaHFfUGd3WHlIRDU0alJlbTYxYkdzQWR4cllnb0ZwdzVZSEE0RzRkVF9zaGVXU3RjRW5tQ09CMGFMT01weUY4UEkzenR5NGJhNnNyRHljZVhmWnIxNy1hYUM4MjFnNTlHSG9JQ0lpbWpLdnVvbE4yUk5lMjdySlpJUXJmYkgyWnQ1V3JHQ2piLVdMbVozUWZTMVZCcVczQk1MTjdDRHNBdFdjdGhaTnVzaFNfMkVzNnAwT1NxMmkwTTI4VGNWM24xVFNnVTluYUxsTXBmN3JtdzlrV3Y3N0xDT1E?oc=5</link>
-      <description>Microsoft to Invest $10 Billion in Japan on AI Infrastructure, Cybersecurity  WSJ [Microsoft]</description>
-      <source url="https://aisight.fyi">WSJ</source>
+      <title>Microsoft deepens its commitment to Japan with $10 billion investment in AI infrastructure, cybersecurity, and workforce - Microsoft Source</title>
+      <link>https://news.google.com/rss/articles/CBMi9wFBVV95cUxPSmJJc1MtaElhWjBueGJuanlHTXo1aS0wMzc4a3VlYnNpWkt6WWVzajltc0FyMl91aGRTS19teE1hM0VnS0JkdkVzN3N0ZDNXNi03SEVXN2xCTThQSEw0TlUzc1RYY0k1YVRKNGdldWFpXzFTMF9lN2FnU25sTzFkUW5sMWxKU2tEc3VmUVNQMVhVMGVNZWdmYjQ0TmJTV0FQTm1JQVJ1d3E3YW1McmtPMUM1UDh1aDJlWUNJMUltcW40ZG1WMXJyRm9TRWpaWkZpamVMU24yeG9QcnNCSF9TYnBtb2NUZTJ5UFFWR1dvSG1CTFM3OEI4?oc=5</link>
+      <description>Microsoft deepens its commitment to Japan with $10 billion investment in AI infrastructure, cybersecurity, and workforce  Microsoft Source [Microsoft]</description>
+      <source url="https://aisight.fyi">Microsoft Source</source>
       <pubDate>Fri, 03 Apr 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMitgNBVV95cUxPdk5QanJyb2Z0SFdCT0taWFhob2E1S0hXSUtMZ3lLc1RjcDRNb3JoYkdEN1VKTGhlQ2p0aGprMXRvUjFneG5SODNNYmI0aFZZcDdOa0Vpd0xDNElzV28taGRvai1oV0VkN2NjV1hwWmhaQkJ6Sk5NN09mSVNzRWp3YzVLalY1WmF6RkhaMUFfaUI4Rlpkd2RxUVpKNmRwTzllZEh4VGtDRGxPV0hhRmVQSDlUb0FIR1gwNlRZSi0xNEZLLXZhNjhUODVPU0I4OVloUWhxN18wQmlhQmJkaHFfUGd3WHlIRDU0alJlbTYxYkdzQWR4cllnb0ZwdzVZSEE0RzRkVF9zaGVXU3RjRW5tQ09CMGFMT01weUY4UEkzenR5NGJhNnNyRHljZVhmWnIxNy1hYUM4MjFnNTlHSG9JQ0lpbWpLdnVvbE4yUk5lMjdySlpJUXJmYkgyWnQ1V3JHQ2piLVdMbVozUWZTMVZCcVczQk1MTjdDRHNBdFdjdGhaTnVzaFNfMkVzNnAwT1NxMmkwTTI4VGNWM24xVFNnVTluYUxsTXBmN3JtdzlrV3Y3N0xDT1E?oc=5</guid>
-    </item>
-    <item>
-      <title>Microsoft to invest $10 billion in Japan for AI and cyber defence expansion - Reuters</title>
-      <link>https://news.google.com/rss/articles/CBMiuwFBVV95cUxOS00wUDd0Y1YxQ1RaektWX1JPY0VDaEZNa0ZOczdCZWJKUVhvRjJlWWxqX3FyWnRwU1N3Z0NqMkdLbDdiZU9xa3Vxb1lBZ2pvWEJiMjJvX2Z3eExGVGx4SWpPeHkzb0FCTm9Hakg5ZTBXaEZYWFBuRGdaSkpMRklnTXRYM01ybW9BTm5BbG9xR0dCV1JIY2ZTa05CRWRmLWpfODNFajNUZDFyaFBEM0J1WE5xTnlpbDFsQUpN?oc=5</link>
-      <description>Microsoft to invest $10 billion in Japan for AI and cyber defence expansion  Reuters [Microsoft]</description>
-      <source url="https://aisight.fyi">Reuters</source>
-      <pubDate>Fri, 03 Apr 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiuwFBVV95cUxOS00wUDd0Y1YxQ1RaektWX1JPY0VDaEZNa0ZOczdCZWJKUVhvRjJlWWxqX3FyWnRwU1N3Z0NqMkdLbDdiZU9xa3Vxb1lBZ2pvWEJiMjJvX2Z3eExGVGx4SWpPeHkzb0FCTm9Hakg5ZTBXaEZYWFBuRGdaSkpMRklnTXRYM01ybW9BTm5BbG9xR0dCV1JIY2ZTa05CRWRmLWpfODNFajNUZDFyaFBEM0J1WE5xTnlpbDFsQUpN?oc=5</guid>
-    </item>
-    <item>
-      <title>Meta&apos;s Bay Area layoffs affect roughly 200 workers as company pours billions into AI infrastructure - Fox Business</title>
-      <link>https://news.google.com/rss/articles/CBMixAFBVV95cUxPNHRmNnVXS3NBel9QR1VFUTdtMklveGVqZlRvak1Iel9JdkRPdmZtMDRRV3RMUWQybllnRWhMbk1Tb3ppQm9maUVoUUJ0Z2Y5aF9KR2tmRjFyY2g4UkFGcXFack5QT1lsenRjb0I4TlE2R2RxRTVUMlJpS25EbzJxeVByekR2YXJFbWgwckFlaF9RNlVyVHJNbGpjd0FMN2k0OEhSOTFMeUVJWFVfVmNKT1JGSFpBb0wweHZMUFVyRmJYLUtB0gHKAUFVX3lxTE1NTGd5ZjNVb2FSVGZMcUVReHd6UERRU2NMcDBVTDhsRGtwNk1OcHJ1ZG1kbkNxLWtnODZ3Wkcxdi1yZmUyZUlLWVhnWU02TTZpay1rU00tUmZCM1RqeG51MzExc1JWVnh3ZDQ2bUs3cmFDbFhIQllsUmc4VXpYWlBqdk4yQTBnaWJVUm9EUTZfNHFVSEFXNzd5S09tNlR4b0VsSWVpSEhrNDZneGhIUW9NWlM5eC1qQ2RBWGNwYVlySlNNVUg1c2FFSXc?oc=5</link>
-      <description>Meta&apos;s Bay Area layoffs affect roughly 200 workers as company pours billions into AI infrastructure  Fox Business [Meta]</description>
-      <source url="https://aisight.fyi">Fox Business</source>
-      <pubDate>Fri, 03 Apr 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMixAFBVV95cUxPNHRmNnVXS3NBel9QR1VFUTdtMklveGVqZlRvak1Iel9JdkRPdmZtMDRRV3RMUWQybllnRWhMbk1Tb3ppQm9maUVoUUJ0Z2Y5aF9KR2tmRjFyY2g4UkFGcXFack5QT1lsenRjb0I4TlE2R2RxRTVUMlJpS25EbzJxeVByekR2YXJFbWgwckFlaF9RNlVyVHJNbGpjd0FMN2k0OEhSOTFMeUVJWFVfVmNKT1JGSFpBb0wweHZMUFVyRmJYLUtB0gHKAUFVX3lxTE1NTGd5ZjNVb2FSVGZMcUVReHd6UERRU2NMcDBVTDhsRGtwNk1OcHJ1ZG1kbkNxLWtnODZ3Wkcxdi1yZmUyZUlLWVhnWU02TTZpay1rU00tUmZCM1RqeG51MzExc1JWVnh3ZDQ2bUs3cmFDbFhIQllsUmc4VXpYWlBqdk4yQTBnaWJVUm9EUTZfNHFVSEFXNzd5S09tNlR4b0VsSWVpSEhrNDZneGhIUW9NWlM5eC1qQ2RBWGNwYVlySlNNVUg1c2FFSXc?oc=5</guid>
-    </item>
-    <item>
-      <title>Memory will consume 30% of hyperscaler AI data center spending this year, a 4X increase over 2023 — Nvidia gets preferential supply terms well below standard market rates, says analyst firm - Tom&apos;s Hardware</title>
-      <link>https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZ0J1M2plYkJGZUtoN3luOHZ1LXZfQ2ZGdklXWmNRWmVHaUs5aEl1SkJFZVhmQjZ5VEQ0NmtoZEgxZ3RqMnlxbUJGTFpBUTMyeVdNX1BEaE1KRENyajJUU0VSbHN4ZDlxemlqdzRNam5PV0ZiT0NMakF6NXNYa3c3eHR5a2k3XzFKektHN2F3dERwZWEyU3pERzFfeEgzOHhsM0JyVTVfUTFhWGs?oc=5</link>
-      <description>Memory will consume 30% of hyperscaler AI data center spending this year, a 4X increase over 2023 — Nvidia gets preferential supply terms well below standard market rates, says analyst firm  Tom&apos;s Hardware [Nvidia]</description>
-      <source url="https://aisight.fyi">Tom&apos;s Hardware</source>
-      <pubDate>Fri, 03 Apr 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZ0J1M2plYkJGZUtoN3luOHZ1LXZfQ2ZGdklXWmNRWmVHaUs5aEl1SkJFZVhmQjZ5VEQ0NmtoZEgxZ3RqMnlxbUJGTFpBUTMyeVdNX1BEaE1KRENyajJUU0VSbHN4ZDlxemlqdzRNam5PV0ZiT0NMakF6NXNYa3c3eHR5a2k3XzFKektHN2F3dERwZWEyU3pERzFfeEgzOHhsM0JyVTVfUTFhWGs?oc=5</guid>
-    </item>
-    <item>
-      <title>Oracle (ORCL): The AI Infrastructure Landlord of 2026 - FinancialContent</title>
-      <link>https://news.google.com/rss/articles/CBMivAFBVV95cUxOVzFpdUFuMGtBVlZfR0ZHRWF5ZmxKVjhFdmJNMEhLN2N6VkZGY3dSZGxfUWs2RW5CaVNhRHhpaUNPcXN2Q0FhU2NWaHBmd3VHdHBsZUJZdEZ1Zm0wOU4zNEtGemppUW5RZ3l6WmlPMXBtSDFxWGVxbHZKc1o1RHhEQm0zOGwwUHhnTGhXMFdyYmppZmpHSWFlTzVvUUtRbmF5OXppYWNIUlVWdW9na0hPQUhwcGNoYmJ1UkszNA?oc=5</link>
-      <description>Oracle (ORCL): The AI Infrastructure Landlord of 2026  FinancialContent [Oracle]</description>
-      <source url="https://aisight.fyi">FinancialContent</source>
-      <pubDate>Fri, 03 Apr 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMivAFBVV95cUxOVzFpdUFuMGtBVlZfR0ZHRWF5ZmxKVjhFdmJNMEhLN2N6VkZGY3dSZGxfUWs2RW5CaVNhRHhpaUNPcXN2Q0FhU2NWaHBmd3VHdHBsZUJZdEZ1Zm0wOU4zNEtGemppUW5RZ3l6WmlPMXBtSDFxWGVxbHZKc1o1RHhEQm0zOGwwUHhnTGhXMFdyYmppZmpHSWFlTzVvUUtRbmF5OXppYWNIUlVWdW9na0hPQUhwcGNoYmJ1UkszNA?oc=5</guid>
-    </item>
-    <item>
-      <title>Microsoft is spending billions on AI—but even NASA astronauts can’t escape Outlook headaches - Fortune</title>
-      <link>https://news.google.com/rss/articles/CBMisgFBVV95cUxPVENwcENzcE5EZ25TbjVMWmVmVmoxQUliVWxpd2ZfUjhLMG9LZHY2VnQxbmZpd3k1NlRIQkFlNTdSTzd3TmllZVV6UmR4VHRHaDJNRlpsOHlhSjBmVmZYVEdYOHdwWkFSZVZQSWplUFN1c09MWVliU3RoQlVjMTJ1U3lPZE1mMl8tbDBWdG5PejdLQ1o1aE5OeWFRVXlkUHdNNHBKNVZqSV91Q0VNQWlHSUNB?oc=5</link>
-      <description>Microsoft is spending billions on AI—but even NASA astronauts can’t escape Outlook headaches  Fortune [Microsoft]</description>
-      <source url="https://aisight.fyi">Fortune</source>
-      <pubDate>Fri, 03 Apr 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMisgFBVV95cUxPVENwcENzcE5EZ25TbjVMWmVmVmoxQUliVWxpd2ZfUjhLMG9LZHY2VnQxbmZpd3k1NlRIQkFlNTdSTzd3TmllZVV6UmR4VHRHaDJNRlpsOHlhSjBmVmZYVEdYOHdwWkFSZVZQSWplUFN1c09MWVliU3RoQlVjMTJ1U3lPZE1mMl8tbDBWdG5PejdLQ1o1aE5OeWFRVXlkUHdNNHBKNVZqSV91Q0VNQWlHSUNB?oc=5</guid>
-    </item>
-    <item>
-      <title>Hyperscalers Are ‘Scratching Their Heads’ with Rising Memory Costs, But NVIDIA Might Be the Only One Smiling</title>
-      <link>https://wccftech.com/hyperscalers-are-scratching-their-heads-with-rising-memory-costs/</link>
-      <description>The rising cost of memory has started to bite into the CapEx of major hyperscalers and their infrastructure buildouts, but NVIDIA enjoys an exclusive position in the supply chain. DRAM Contract Prices Have Increased Significantly In the Past Few Quarters, But… [Nvidia]</description>
-      <source url="https://aisight.fyi">Wccftech</source>
-      <pubDate>Fri, 03 Apr 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://wccftech.com/hyperscalers-are-scratching-their-heads-with-rising-memory-costs/</guid>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi9wFBVV95cUxPSmJJc1MtaElhWjBueGJuanlHTXo1aS0wMzc4a3VlYnNpWkt6WWVzajltc0FyMl91aGRTS19teE1hM0VnS0JkdkVzN3N0ZDNXNi03SEVXN2xCTThQSEw0TlUzc1RYY0k1YVRKNGdldWFpXzFTMF9lN2FnU25sTzFkUW5sMWxKU2tEc3VmUVNQMVhVMGVNZWdmYjQ0TmJTV0FQTm1JQVJ1d3E3YW1McmtPMUM1UDh1aDJlWUNJMUltcW40ZG1WMXJyRm9TRWpaWkZpamVMU24yeG9QcnNCSF9TYnBtb2NUZTJ5UFFWR1dvSG1CTFM3OEI4?oc=5</guid>
     </item>
   </channel>
 </rss>
