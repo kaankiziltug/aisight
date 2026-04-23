@@ -1,16 +1,5 @@
 [
   {
-    "title": "Microsoft expands AI footprint in Australia with $18 billion investment - CNBC",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaXdkUkRZVF9LblVKNGQ2cXpjeWFrQ19jNzNWNlRVQy1hc1NyZnphTHZjclJycWE5LU5LSm9OcE9FZVMtQm0wTDlZcXBzX2R0blJjWmtwRC0tV1hiSjNILTVrX1VWajF6eEowN3NuYjRKWFVYNVFOX1lIYUVMN2ltSVpjdFNEQXBKdzhMMzE1SmRoX3dYQy1ScGU0ZzYxd1RIQTlJdFJsVDdIN1nSAbABQVVfeXFMT2stNWM0ZTFOVW5sY1lEb3hObTBaRjFHOFhIMFh6d0xOQmN4X25QaGJlbF9LN05hbXkzSmpXTTktSEFxZHpCTXFzcnluaVJIOUpvY3ZISjFtZi01MXQ2emo2SnRtQlFCUF94REl5RDV6UThKc2pVU0ZXczRVUXFiZ29fbHpCVDF1SUJDczVNWGl6ZDFVRllJZ01uTkNfQjNYUGRGeFVTWWwxNTN6Q0ZnVDQ?oc=5",
-    "date": "2026-04-23",
-    "source": "CNBC",
-    "companies": [
-      "Microsoft"
-    ],
-    "summary": "Microsoft expands AI footprint in Australia with $18 billion investment  CNBC",
-    "relevanceScore": 0.82
-  },
-  {
     "title": "Tesla's $25 billion spending plan tests investor faith in unproven AI bets - Reuters",
     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRnRObUNiSVFjY2VMa3FfRHJJM2xPZmdKYmM1M0t5bjVzY0Ziakx6ZTZTbmtXcU1BbnUxS2VBcVFZYU5MNWRoUUdaNFVvVThMeGVMdnFOQlhMRHM0TGhzdzViazF2LTBFS0NPbXN5dWh0QXlCZG9rMml2TXZaU3NkdnVjOURYYjZlN1hkRDl3eXF6Wm1xOE5KaURHckNkT1RZS1QtY0hHZmE2Y1hNbDE1MjlIVVhoUjJJWmc3U3NiMDV6c2NzRHBrYklCMnV0SEFy?oc=5",
     "date": "2026-04-23",
@@ -19,6 +8,17 @@
       "Tesla"
     ],
     "summary": "Tesla's $25 billion spending plan tests investor faith in unproven AI bets  Reuters",
+    "relevanceScore": 0.82
+  },
+  {
+    "title": "Microsoft expands AI footprint in Australia with $18 billion investment - CNBC",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaXdkUkRZVF9LblVKNGQ2cXpjeWFrQ19jNzNWNlRVQy1hc1NyZnphTHZjclJycWE5LU5LSm9OcE9FZVMtQm0wTDlZcXBzX2R0blJjWmtwRC0tV1hiSjNILTVrX1VWajF6eEowN3NuYjRKWFVYNVFOX1lIYUVMN2ltSVpjdFNEQXBKdzhMMzE1SmRoX3dYQy1ScGU0ZzYxd1RIQTlJdFJsVDdIN1nSAbABQVVfeXFMT2stNWM0ZTFOVW5sY1lEb3hObTBaRjFHOFhIMFh6d0xOQmN4X25QaGJlbF9LN05hbXkzSmpXTTktSEFxZHpCTXFzcnluaVJIOUpvY3ZISjFtZi01MXQ2emo2SnRtQlFCUF94REl5RDV6UThKc2pVU0ZXczRVUXFiZ29fbHpCVDF1SUJDczVNWGl6ZDFVRllJZ01uTkNfQjNYUGRGeFVTWWwxNTN6Q0ZnVDQ?oc=5",
+    "date": "2026-04-23",
+    "source": "CNBC",
+    "companies": [
+      "Microsoft"
+    ],
+    "summary": "Microsoft expands AI footprint in Australia with $18 billion investment  CNBC",
     "relevanceScore": 0.82
   },
   {
@@ -66,6 +66,17 @@
     "relevanceScore": 0.72
   },
   {
+    "title": "Merck inks $1 billion AI drug development deal with Google Cloud - TechTarget",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWElNcnQxNTF4S2RWX3JlWllkb0lyN1o3VEFQamJXeGRHSk5YaV9ldFpmNWJLcHBYbnZGSm5oWnlaRFprNXVpSWx2U2QybVdwUEE3ejdZVEJidU5TSExjOU85cGNPZ25TUTBEQldiRFZzbTUtMFVGM2dDejdwVi1oQTVTam9tM0NkT2lSSUQxc3VNa3I1bjR0NnVBM1RSVzBfWlBVQkk2M0xzZnQ3c1R3cjA5TnVIWmctenRoa2l4akpSdw?oc=5",
+    "date": "2026-04-23",
+    "source": "TechTarget",
+    "companies": [
+      "Alphabet"
+    ],
+    "summary": "Merck inks $1 billion AI drug development deal with Google Cloud  TechTarget",
+    "relevanceScore": 0.72
+  },
+  {
     "title": "Microsoft Unveils A$25 Billion Australia AI Investment Through 2029 - TradingView",
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNM3c3c1k2TVl5NGZkQ2g4SUZqZHNxeThMSUhnUWV4aUZiNks0blFoR2wxLXB2QTBpZ0E1WGcyM1U2RWFtOHpkY3dlX2lqTzNxUWhuSGxXSGlGVXZiWFFGVko4VDlDVTlFLUs3VUJXNXVubC1qZXV6eFVMclluMWMxRm1RZWFZUTA0X0NrQ3dhWURZS2IteWdzMy0yMC1YNGtQemdBTmRVeXFvdmk1dlZ2RWhsZndkLVlzLUQydmxrTDM2VnFyVWc?oc=5",
     "date": "2026-04-23",
@@ -88,6 +99,17 @@
     "relevanceScore": 0.72
   },
   {
+    "title": "Samsung is preparing a $4 billion push in Asia to fortify its position in the global chip and AI war - ECOticias.com",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNaVc4OS1TNnFYWE9GaG53ay0tMFl3dE1OOGZuRkZUcm42RFhUM2JnWEo5eUdLLUc3SnJmWEZJVHBIWC10dEczVEJQQWt6SEN2eVhmaThucXhZNWlIQUJSYldGOXBGeTJDd1lMWUNqd0hNakJsZHhyWURrUHRlOXFYbk5JN3V4TUY5V1pxVHV4M3JBb1ZRMHhIM1FBTFpaU0Vnd3M3MlZfcmxfa1I2MkNvcjlwZUJfTmwxVVRvS1N3bXZIWVdsMXNhTlFpRlhhYXZ6?oc=5",
+    "date": "2026-04-23",
+    "source": "ECOticias.com",
+    "companies": [
+      "Samsung"
+    ],
+    "summary": "Samsung is preparing a $4 billion push in Asia to fortify its position in the global chip and AI war  ECOticias.com",
+    "relevanceScore": 0.72
+  },
+  {
     "title": "Tesla triples investments: $25 billion in AI by 2026 and chooses Intel to challenge Asia. Profits and revenues on - firstonline.info",
     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPbG00NzJzMndNZ0dXZkpZZmpuSUpHOEptSEtaaHZWVlhKTFpsM3R0R0ItaDhrN25xdGF1cVdSWktoUEpidlQ4OHBUekluNVVjMGFubTFVb1RTLTd1RFgteGZYR0Frb0R1aFM5cUZoQXJIV2ZMMXgxVGdvcGk4QU5CYzR5SUFsZ1o3VmxRNjhjTG1ZU25VV0NYSW45T25mRUR4bmtGZld3aG9DYXd2ektpWllqaHp5bnhKZjNENjBvbGZyazBBY05MLXptd1N6dkZrc2d1anNjeTZJaUduOE1yNA?oc=5",
     "date": "2026-04-23",
@@ -100,25 +122,25 @@
     "relevanceScore": 0.72
   },
   {
-    "title": "Samsung is preparing a $4 billion push in Asia to fortify its position in the global chip and AI war - ECOticias.com",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNaVc4OS1TNnFYWE9GaG53ay0tMFl3dE1OOGZuRkZUcm42RFhUM2JnWEo5eUdLLUc3SnJmWEZJVHBIWC10dEczVEJQQWt6SEN2eVhmaThucXhZNWlIQUJSYldGOXBGeTJDd1lMWUNqd0hNakJsZHhyWURrUHRlOXFYbk5JN3V4TUY5V1pxVHV4M3JBb1ZRMHhIM1FBTFpaU0Vnd3M3MlZfcmxfa1I2MkNvcjlwZUJfTmwxVVRvS1N3bXZIWVdsMXNhTlFpRlhhYXZ6?oc=5",
-    "date": "2026-04-23",
-    "source": "ECOticias.com",
-    "companies": [
-      "Samsung"
-    ],
-    "summary": "Samsung is preparing a $4 billion push in Asia to fortify its position in the global chip and AI war  ECOticias.com",
-    "relevanceScore": 0.72
-  },
-  {
     "title": "Microsoft announces $18B investment in Australia's AI infrastructure - Anadolu Ajansı",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRWJRMmswUWxyU3pBTzFaUFByS3FJVXNsNUNZc0w3Y21OQXBiYlItU2NhRDJwQ2pkdVdGTTdtbEljZG03alVpVVcyRjZ5aVBjckl5WUI5dENuM2Q2dWY0QlRZbDRBX1RYRmFPYVRicTlZU2lDN3FOMlFoTVhFZzVXYTRDbXlQRlkzdXhaaXFxSG5WMEp0U3hTUGRmWF9LeVNtUHdIUnNSVXhwUGRZeGdmdGlB?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRnFLb3dhRDJqeHpFdDdTUHVwemV3SU1Pc0lneW1QX0dWV01oUnU2Nm84X19YaHRwYloxdklXWmlibC0wQzRFc1luR0QyNDVwRjVCX2xidUhVMXRxeUJYTngxcXdNWlVyTTJFTzBFVVlLU0RTUzFyNXBaX3FLNmpUejFGMFRLUWFZYVdVZjBzbnRFVVpydlY0OFVwWW0xenNkNEhlMVI2TWRTR3pH?oc=5",
     "date": "2026-04-23",
     "source": "Anadolu Ajansı",
     "companies": [
       "Microsoft"
     ],
     "summary": "Microsoft announces $18B investment in Australia's AI infrastructure  Anadolu Ajansı",
+    "relevanceScore": 0.72
+  },
+  {
+    "title": "Microsoft bets big on AI in Australia with $18 billion investment - The Manila Times",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOX19JaWRnSVpQSWJlYm5Wc0tBU2Zsb2VuTFhlX0ZjeF9OTE1HdzNCQWZoQTZFNjBUbXJFVHh6cHhxQWFKeTZoaG5sbFR1MjQ1Tk90UEpZdks0SG5ma1ZBeU1pdUlJX3hBOTZlOFBMRXltclh2eElUSUM1Z2FrbGlfVXI2TVc2b1dmWmlTbEIxU3pLRGpVazNnRWJiUlhMdWVPVE0xeGtKZnpFZWNnS2o4RWpfa2N0eUVwdmFPNGxaMVlBMXFkTXNtOEUwZl9xalFLYldz0gHYAUFVX3lxTE4wdDhXc3otTlJfRGFITU9uUkNhaDZPVnRaZmYtdUhrbnZGTnU0dkx2NTBDT3J4a2dBZ0puczE4a3d3TjduUHdLblE1Y3JiUUh6bGwyU2tVWENFQTBPOVBQY24zMktrVDZlYmg4N1FWdWtiYTdHNXViNkI1THpKdjlEZmxGRTVMSEw1Rld2dXd2LTdBRXpHdGV2bF8yRkNxeGhZSFh5NWExR3dOOUVTd0xxd0NobDdrREJXNWhFVVEwM0l4eFJOMGNtUmFqT0hHLVd4WE9fUkt4OQ?oc=5",
+    "date": "2026-04-23",
+    "source": "The Manila Times",
+    "companies": [
+      "Microsoft"
+    ],
+    "summary": "Microsoft bets big on AI in Australia with $18 billion investment  The Manila Times",
     "relevanceScore": 0.72
   },
   {
@@ -133,6 +155,15 @@
     "relevanceScore": 0.72
   },
   {
+    "title": "Blackstone’s Schwarzman says AI data center portfolio can double from here as firm touts $150 billion in assets - Pensions & Investments",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTTBFUXNrZmY3eXg1YldQZ3k5OGt6ZHIwM2ZfQUFSd0d5aFQ4NDJLMVFOd3V1aGRPUW1saFphdmVJczJZOFlvT0VJS29RdnpQMlFyWUhLcmx1X3gwbHJ4VERTZDNzVU5panN4c0s0X2luMVVLb3AyRUNlUUlDQ2hucHJISV9KSUtXNEZ4LVZrblZkOFRReUpKM3ZtWERPaWJUWnc?oc=5",
+    "date": "2026-04-23",
+    "source": "Pensions & Investments",
+    "companies": [],
+    "summary": "Blackstone’s Schwarzman says AI data center portfolio can double from here as firm touts $150 billion in assets  Pensions & Investments",
+    "relevanceScore": 0.62
+  },
+  {
     "title": "Applied Digital signs $7.5 billion AI data center lease with US hyperscaler - Reuters",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWERocTM1dGVVOElOd0h5V3c5UkNJUWtyMTBqNEVIY2lLcGVJc2Q0UE5KbHdMNGlnVVdBTWJjcEp6VmVpcVRabXpHa2ZtVVd3MUF5cGJSRHc1YnVLa01LX1QxQkw4Y2NyREdNX25KOFdlcVBHMXF0R3FaSkN5QWYwRl84QmJCRklZYVRzOFhmQmNqQkZNZTdIUWZfcE5MbWJDaW42c0VlZ2FqbFNwS2xYOVVYMzFlSEFfYUE?oc=5",
     "date": "2026-04-23",
@@ -140,6 +171,17 @@
     "companies": [],
     "summary": "Applied Digital signs $7.5 billion AI data center lease with US hyperscaler  Reuters",
     "relevanceScore": 0.62
+  },
+  {
+    "title": "Microsoft Falls 4% as $110 Billion AI Bet Forces Historic Employee Buyout: What Investors Need to Know - 24/7 Wall St.",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPeVc2RGNCTlQ5U0wyZHAtOTZacndZMVhfRDF6bmp0N2FvQVJiazFqSHJjMUtCY2ZzTWpkV05QLWZnRjg1SmR6YXJKNEpmU3JIUzlrSUVBY1JzTUc1ZGozcjQzZ3AwZXlseTd0UUpZc20zSFNYampaMnJvWS0yZmtmVWQ2LUNfbTV4NXctQ1lxNUJ6bzc2YTNBajRQUXNNaHBURkl1eTA4OW9OaWRiTXZ3UUlUN0tHcmdSUnlicDVvem5vN3lpM0Vhb0dXZHNKVHNMNElSVkxrZlRZSmM?oc=5",
+    "date": "2026-04-23",
+    "source": "24/7 Wall St.",
+    "companies": [
+      "Microsoft"
+    ],
+    "summary": "Microsoft Falls 4% as $110 Billion AI Bet Forces Historic Employee Buyout: What Investors Need to Know  24/7 Wall St.",
+    "relevanceScore": 0.61
   },
   {
     "title": "Tesla raises capex to $25bn as Musk doubles down on AI bet - Automotive World",
@@ -153,17 +195,6 @@
     "relevanceScore": 0.61
   },
   {
-    "title": "Tesla to ramp capex to $25bn as AI push deepens despite strong Q1 cash flow - investingLive",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeVJFMTNfVTJBbEdBckUxd3FKcmFublJDenRmSmhvS2xQc0lickQ4aklXbXB1cXpxSEpuNjRxNC0weVF4NDhnUTFDblZDalZqVUxtVi1qSTZXdTYtSlBZZVM1cXNzcXVrcVFsUE5BSU90MTNGb2U5RjVhWVl3ZXota0xnNFZxMHJZaWVqX2Ewc1pMblhUU3dsMnp4V1d2X2hkdTJ0Uko5OTFITHRfbmYxcklWZ2FWeEhf0gG-AUFVX3lxTE91QUJ1LVRvR1pGUjV4Wml2X3E5YWJ3TU1ESC0xQ1h2RFpYVHdjRGhFazc2S2lVcmFZQ24ta0FfVGZCdUJTT1hvTUY2MlR4ZFRBcjJpa3A5RDhDMnBVcWNMRkFIbnZ0WjFFcjJlelFaSnJPMFM5eFhmVXBGdHBxLTEzUTJkYmJtd290cnhQN2V1TTFrYlZfZjhMRF9xVkdVd1Fpbzdsakg2OWpfS203UTJhREhxcjExVTRQaE1FNWc?oc=5",
-    "date": "2026-04-23",
-    "source": "investingLive",
-    "companies": [
-      "Tesla"
-    ],
-    "summary": "Tesla to ramp capex to $25bn as AI push deepens despite strong Q1 cash flow  investingLive",
-    "relevanceScore": 0.61
-  },
-  {
     "title": "Tesla Increases Capex to $25bn to Expand AI and Robotics - Let's Data Science",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV2FLZFlpd1lmMEM2OXViREE1aTlZRFo0QXBtZTFsSXpGUHVCdlJzYm8ycm9JRVRMNFVSbGVLYWdYRzhjcjRhLVdwV1J1bUkzX1hRRTJST25KczBwQVFvTUNKcXJUek5WODR5OE1MT0Q2MmFBTDc0QUlmVHZEX2w3d2tWMzVJSXZ2TXh5dFNVOHNMdXBjX3gzb2pKeVZFUQ?oc=5",
     "date": "2026-04-23",
@@ -172,6 +203,17 @@
       "Tesla"
     ],
     "summary": "Tesla Increases Capex to $25bn to Expand AI and Robotics  Let's Data Science",
+    "relevanceScore": 0.61
+  },
+  {
+    "title": "Tesla to ramp capex to $25bn as AI push deepens despite strong Q1 cash flow - investingLive",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeVJFMTNfVTJBbEdBckUxd3FKcmFublJDenRmSmhvS2xQc0lickQ4aklXbXB1cXpxSEpuNjRxNC0weVF4NDhnUTFDblZDalZqVUxtVi1qSTZXdTYtSlBZZVM1cXNzcXVrcVFsUE5BSU90MTNGb2U5RjVhWVl3ZXota0xnNFZxMHJZaWVqX2Ewc1pMblhUU3dsMnp4V1d2X2hkdTJ0Uko5OTFITHRfbmYxcklWZ2FWeEhf0gG-AUFVX3lxTE91QUJ1LVRvR1pGUjV4Wml2X3E5YWJ3TU1ESC0xQ1h2RFpYVHdjRGhFazc2S2lVcmFZQ24ta0FfVGZCdUJTT1hvTUY2MlR4ZFRBcjJpa3A5RDhDMnBVcWNMRkFIbnZ0WjFFcjJlelFaSnJPMFM5eFhmVXBGdHBxLTEzUTJkYmJtd290cnhQN2V1TTFrYlZfZjhMRF9xVkdVd1Fpbzdsakg2OWpfS203UTJhREhxcjExVTRQaE1FNWc?oc=5",
+    "date": "2026-04-23",
+    "source": "investingLive",
+    "companies": [
+      "Tesla"
+    ],
+    "summary": "Tesla to ramp capex to $25bn as AI push deepens despite strong Q1 cash flow  investingLive",
     "relevanceScore": 0.61
   },
   {
@@ -197,17 +239,6 @@
     "relevanceScore": 0.61
   },
   {
-    "title": "Microsoft to invest $18 billion in Australia in AI push By Reuters - Investing.com",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVjk4WWdmMVB1U0dVOWNZNG5pWWRvYkJkX2VoUWtXQVJ5WGExSlNVT1JwdGFHZGtFLWFPZDhqVmxZbWhZVFYxSTFvZnlTWV9ieWxQUUV1dl9qbVdrYnVUSnVLcVNSODM4dFk0YW1jZ292SkJQb2MtRGRoY2MyZkw3Zm9GdmRLc1RILXl6LXJzdTZFeGE5N2U4ZjIxT2VMOUdfLVpKV0xrQnRVZ1FaWGhaVQ?oc=5",
-    "date": "2026-04-23",
-    "source": "Investing.com",
-    "companies": [
-      "Microsoft"
-    ],
-    "summary": "Microsoft to invest $18 billion in Australia in AI push By Reuters  Investing.com",
-    "relevanceScore": 0.61
-  },
-  {
     "title": "Tesla boosts spending plan to $25 billion in AI, robotics push - Las Vegas Sun",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbzA3eWozSG1lclRObzhxejhfMHB0ZmpPYXBVUXlMZzhsb2hGTGZDXzJVN2xWaFlGN0o1TlFXbDdmNTYzdXVUZlNRU2VaVU1pbGRRWmZscnJyeFBWNlQ1c0JOMWdyTmZJNnk3WWM4V2Z6c2FmU042Y2RTNmxtQ2ltVXdwcFlVQXJnbVpadklVLXNNMGFadGdF?oc=5",
     "date": "2026-04-23",
@@ -216,6 +247,17 @@
       "Tesla"
     ],
     "summary": "Tesla boosts spending plan to $25 billion in AI, robotics push  Las Vegas Sun",
+    "relevanceScore": 0.61
+  },
+  {
+    "title": "Microsoft to invest $18 billion in Australia AI expansion By Investing.com - Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVlpaVmNGeVRrZkhIQnBFSUxDRkZxZjRvQVp3bGdTaUZOTjJ5T2FJWGV6M2N5RWRQb1c3RWlPd3dRdTgxeXQxUjdLdGpRcUh5YUt6TXJKcTdxenl1a1R1U1hwYW94SFY1NEc0ZXl0OFZTTklLUWJiZzRVOXh2LVZVRFhZTHhIbkpFNWhsREhVeWR1LWJHTS00LUFPUnRkemE0TWQzMHJxYW4zT1JDZUlvLXJQQQ?oc=5",
+    "date": "2026-04-23",
+    "source": "Investing.com",
+    "companies": [
+      "Microsoft"
+    ],
+    "summary": "Microsoft to invest $18 billion in Australia AI expansion By Investing.com  Investing.com",
     "relevanceScore": 0.61
   },
   {
@@ -241,17 +283,6 @@
     "relevanceScore": 0.61
   },
   {
-    "title": "To Strengthen AI Strategy, SoftBank Plans to Raise $10 Billion by Pledging OpenAI Shares as Collateral - NAI500",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVnY3WGpjMVZZcUF6bFZ0ME5pWEFYZkE4M1k4dHE1bHpnSUJFWFkweFlMNHNsNjN6TFpTXzRIajB5cmNMZEZnNjhmMndtMElLTkx5YVMyTWtrS1NqVmtVR294aHBNTnFDcDJuMmJGN2t1eXh6c3RreDNvVzlDVGNkek5vYUxfUl9aVzZGTTN0QnJkRkN2OUFxTkpYajROVTlBaVdZdllhekJvM2cySjBDcm8yUmhmT1p6UkdLZ0U0QUhIMkxsNHAwZGVNekJaZw?oc=5",
-    "date": "2026-04-23",
-    "source": "NAI500",
-    "companies": [
-      "OpenAI"
-    ],
-    "summary": "To Strengthen AI Strategy, SoftBank Plans to Raise $10 Billion by Pledging OpenAI Shares as Collateral  NAI500",
-    "relevanceScore": 0.61
-  },
-  {
     "title": "Microsoft plans record $25b Australia investment in AI push - AFR",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa2NnT0pMeG5YaWFDYjZPdEFZQjlhVXJsNG5GOVpIakJHN1BXaVpWRmRGNm0zWVJRQWxudHBydk9XeHRHM180VEFBbUl6WFR2bFlBWG43eWRLOUpTcDRBVDcybEZKRHR3UV9wcFU1VjJlbTlfVWc4VV9MSWlCQUxNeGNQdi03aUNjRXQtX2w3VG9kOENaRTljb2xWQVc5d1djOHlyeDRPUFA?oc=5",
     "date": "2026-04-23",
@@ -271,6 +302,17 @@
       "Microsoft"
     ],
     "summary": "Microsoft drops $18B on Australia AI infrastructure  The Tech Buzz",
+    "relevanceScore": 0.61
+  },
+  {
+    "title": "Meta Slashed 8,000 Jobs While Throwing $135 Billion at AI - Gadget Review",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPc1ZiaUl1RmlWcWtlR2RDLWl3RldPZ04xLWktRVRlR0g5eEF5bmtTalZOYUttV0owZ3FsTkN5U2VZRHVkaEJfU2NMZVZHaGI0dEYxeHl4cEtIbW1Fa0x0akxaOThnRmhLcFBERVJXS3lxV3JVeElVUnhYSENPS0o3M2pFSVFsOFg1bTdsOA?oc=5",
+    "date": "2026-04-23",
+    "source": "Gadget Review",
+    "companies": [
+      "Meta"
+    ],
+    "summary": "Meta Slashed 8,000 Jobs While Throwing $135 Billion at AI  Gadget Review",
     "relevanceScore": 0.61
   },
   {
@@ -307,6 +349,17 @@
     "relevanceScore": 0.61
   },
   {
+    "title": "Tesla Tests Investor Trust with $25B AI and Robotics Spending Plan - Global Banking & Finance Review®",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUm1TNlh3VjhHYmhmUTk3RHVoUjIyUnh4OGdacVR2UmVBb3FULURyZ2Z5akFYMGVaQUZQc0FlT2ZSTEgzUWlzZklWejQ5d3RlcVM4QkxKQXJhUEt3UzJMUkZiVmh2TjNQS1JsUFpjRm5ZV2toamhjNHR4SFJVNnNDME5fd0FMdG5EWE15NFh3NDktcUp2ZjJXNw?oc=5",
+    "date": "2026-04-23",
+    "source": "Global Banking & Finance Review®",
+    "companies": [
+      "Tesla"
+    ],
+    "summary": "Tesla Tests Investor Trust with $25B AI and Robotics Spending Plan  Global Banking & Finance Review®",
+    "relevanceScore": 0.61
+  },
+  {
     "title": "Tesla to boost spending to $25bn with focus on AI and robotics - The National",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQnY1LXVNMzZmOUtIRXZhbWdPWldkRWxrSEdFX0lDTDd1ckg0ZEdVVTZ2YkV4S3I0d1huWW9ESnpHS1FFSnlYdVl6WnN4VzJpa2RQbW1RUk8yTXdJOF9nSHAwX21wTUxKOFFXYzNRUU53WkktM1ZNV285a2c4cmVERlNtdE9oajdsdGZ0M1ZvRzYyY19VWEJkb1pZWGxjOEJTaDR3bS0tcDhfUGlhcVR2SXlyT3NOX0wtVFBDQ1hSNA?oc=5",
     "date": "2026-04-23",
@@ -318,14 +371,14 @@
     "relevanceScore": 0.61
   },
   {
-    "title": "Tesla Earnings Call Transcript: Capital Expenditure to Exceed $25 Billion This Year; Optimus May Become the Most Important Product in History - Moomoo",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdVpuUGhGQ2lYSV9XOTN0NTVmaW9HUUpTVmxYcnRiN1Jwd2Y4RkVROWFadzZUdXhOLVg1UDJZYnA5UDd5Qnp6WXV3ZW95NGl4bEtsR0pNNzJqWW5Ta0VOSE9MR2V0VnhESTFNWUZ3MHRrN3R5QTItWVFsZU5vdklWenR0NEh2UWJQUGlMQUoxNmVYWmptQ1BCMEczaEZlMDIzTEFaU1FGWERCSGJIUzl6bjNZVQ?oc=5",
+    "title": "Tesla Inc. (TSLA) - $25B Capital Expenditure Plan Tests Investor Conviction In High-Growth AI And Robotics Bets - Catalyst Event - Cổng thông tin điện tử Tỉnh Sơn La",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOOVNsTmlxVm90emJILUVvMWV5X2NRa2tJNm1rUHc0dVMwVUprem1OTzRZX1d5b182Y2FyQ2hXa3V0cktiTlFjVkNYbUl2ZWhvOXF5VjM5Yzc0d3o4d1BUdlBRVG1OdjJKc3A4Y2RpamxFYi14cndlenhJenJIbXU4RElxYnNyNEJIUS1nVDZoZmNqaU4zTUlBcDZRZHE1cnhTS0dFeFUzQ29RUldlM3Y4cDdXY2ozYVQtb3BBZFRkN2RYMWhNVU1DcklqLWtkRlBoSkZUR21GazdjVWc?oc=5",
     "date": "2026-04-23",
-    "source": "Moomoo",
+    "source": "Cổng thông tin điện tử Tỉnh Sơn La",
     "companies": [
       "Tesla"
     ],
-    "summary": "Tesla Earnings Call Transcript: Capital Expenditure to Exceed $25 Billion This Year; Optimus May Become the Most Important Product in History  Moomoo",
+    "summary": "Tesla Inc. (TSLA) - $25B Capital Expenditure Plan Tests Investor Conviction In High-Growth AI And Robotics Bets - Catalyst Event  Cổng thông tin điện tử Tỉnh Sơn La",
     "relevanceScore": 0.61
   },
   {
@@ -367,21 +420,23 @@
     "relevanceScore": 0.52
   },
   {
-    "title": "AI Infrastructure Expansion: 18.9 Million Incremental Truckloads Expected by 2031 - News and Statistics - IndexBox",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM1R0SnZuZjFUaG14U0VqZFkzZks2T2lSSmc3VElBbTNwM20tZFVnYk9wNEt1YWcxS1M1OHdISU16RFJaaERMXzdWZU9HWjlZZ2VUc2FQcFlUVzBiLUllZUdvYTZhZjRxX3lzazlXWGpzY3dKRWRGVHdXSG5pTW9GREs2QXh4eDVMU1JGNG0xQXF5dVd6WlZ3Z1dTZk5IY21PQ2w2M1F5ZUt6bWgx?oc=5",
-    "date": "2026-04-23",
-    "source": "IndexBox",
-    "companies": [],
-    "summary": "AI Infrastructure Expansion: 18.9 Million Incremental Truckloads Expected by 2031 - News and Statistics  IndexBox",
-    "relevanceScore": 0.52
-  },
-  {
     "title": "Total data center spending to surpass US$ 650 billion in 2026: Gartner - W.Media",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZjgyNlJYSHJOR0FiejZRYWpxU2lpX3p2T0M4QzZtZzVXWmctejJERmtpZnJkS0pNeC16VXFMei1vUG9fbXBqX3RDaG5jYVlaeDVKNWhka1gtYWlXLTNQYnQ4UVRnaEN5MmhyZ2FuOGNfNDVQMGlaQmhsWjJRdkdpNXpvenE4QXJtOHgxTzJB?oc=5",
     "date": "2026-04-23",
     "source": "W.Media",
     "companies": [],
     "summary": "Total data center spending to surpass US$ 650 billion in 2026: Gartner  W.Media",
+    "relevanceScore": 0.52
+  },
+  {
+    "title": "Alphabet Stock Edges Higher on New AI Chip Launches and Cloud Momentum Ahead of Q1 Earnings - International Business Times Australia",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQllDVmh0RG8yeHQwNFFmLTNPWExFa0h6MG9ZMkRKcVI2RVBtTTRKNlNLTVJNcFdaZGUwdWtnY0d6aWYzVWJfQmo0VDZvcnM5T3BYWG1nY2FxS29NR2xsWGxYUF85TWVEN0hTNHZBLW1VdXA0V1V3OGpPcHI3ZHVEa09qd29TUVJpMTlhZEtRZUJ2c0d0ZXdlRGFqd3pucnloZzdDZFFxenRQbVRjeTUyRVktTkswbVk?oc=5",
+    "date": "2026-04-23",
+    "source": "International Business Times Australia",
+    "companies": [
+      "Alphabet"
+    ],
+    "summary": "Alphabet Stock Edges Higher on New AI Chip Launches and Cloud Momentum Ahead of Q1 Earnings  International Business Times Australia",
     "relevanceScore": 0.52
   },
   {
@@ -407,14 +462,14 @@
     "relevanceScore": 0.51
   },
   {
-    "title": "Tesla to spend $25 billion in 2026 on AI, robotics and expansion - Storyboard18",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZjRMclNPdDVEOHN3V09DRGZNWENMVVdkR0Y0RURUWnF5MlFyaHI5ZmVNQXljMUN4NkFCbzZ4V2xzUnlNaDMzdVQ3Vjhpbk82QWJoZXFfNU4wa3VHTE01NUpHRE8tS2ZBbEtUbF9rZ3JKeWQ1VXNVcVFYb2l2SVZQUlFNT0lkN2xpX0REakhaSjJNaHU5SUw0Z2tZdnlVaTM3cGVkcGJsLVlESi0tdGF4R2ttZUstNmVR0gG-AUFVX3lxTE9sRjhDblV3MHBkVUJqeUg5akpic1doMm5iVkM0SFUtXzBmSXVVbm44djBVVTFQU1kwalFJWERRSWtaY3lhUHJZMFBQSDZGVlZETVhaS2Jjbm5RcG9pMGo2T1RyQTVnc3pyQldBNkROMGZWaEJKVGdUb3ZWaDl3UzZNYzhfQlhMb2NCWDdMX3Y5cUwzVFAwc0k2dlRjR0laMUdveFUweXlnSFF5ZWUtcTZhOE9KMXJjTWdpTWp2Q2c?oc=5",
+    "title": "Tesla’s stock drops on Elon Musk’s $25B AI bet: Here’s why investors are worried - New York Post",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZWotTDJrQjVuWVdzSTdCcjk1SmxHWWpmUEM2bTl1WmdlOVJIVUVZaGZPdW9kTTBmQXpGVmhteGlodzRIdzdTMU9kWEpZbEFUVnZOZWg4T0hGVTVYNUxXVGdyWTN1dlZsUkp1LXhuM0xic2xONVdUeGF5dVZ6Rk5QQ202TklWRFA5LTI2Qk5RMEJUaUR3MFdHQVZSTFRsZWxkLXdLVFFZa21BNWVrS3c?oc=5",
     "date": "2026-04-23",
-    "source": "Storyboard18",
+    "source": "New York Post",
     "companies": [
       "Tesla"
     ],
-    "summary": "Tesla to spend $25 billion in 2026 on AI, robotics and expansion  Storyboard18",
+    "summary": "Tesla’s stock drops on Elon Musk’s $25B AI bet: Here’s why investors are worried  New York Post",
     "relevanceScore": 0.51
   },
   {
@@ -429,6 +484,17 @@
     "relevanceScore": 0.51
   },
   {
+    "title": "Tesla to spend $25 billion in 2026 on AI, robotics and expansion - Storyboard18",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZjRMclNPdDVEOHN3V09DRGZNWENMVVdkR0Y0RURUWnF5MlFyaHI5ZmVNQXljMUN4NkFCbzZ4V2xzUnlNaDMzdVQ3Vjhpbk82QWJoZXFfNU4wa3VHTE01NUpHRE8tS2ZBbEtUbF9rZ3JKeWQ1VXNVcVFYb2l2SVZQUlFNT0lkN2xpX0REakhaSjJNaHU5SUw0Z2tZdnlVaTM3cGVkcGJsLVlESi0tdGF4R2ttZUstNmVR0gG-AUFVX3lxTE9sRjhDblV3MHBkVUJqeUg5akpic1doMm5iVkM0SFUtXzBmSXVVbm44djBVVTFQU1kwalFJWERRSWtaY3lhUHJZMFBQSDZGVlZETVhaS2Jjbm5RcG9pMGo2T1RyQTVnc3pyQldBNkROMGZWaEJKVGdUb3ZWaDl3UzZNYzhfQlhMb2NCWDdMX3Y5cUwzVFAwc0k2dlRjR0laMUdveFUweXlnSFF5ZWUtcTZhOE9KMXJjTWdpTWp2Q2c?oc=5",
+    "date": "2026-04-23",
+    "source": "Storyboard18",
+    "companies": [
+      "Tesla"
+    ],
+    "summary": "Tesla to spend $25 billion in 2026 on AI, robotics and expansion  Storyboard18",
+    "relevanceScore": 0.51
+  },
+  {
     "title": "Microsoft Spends Another $18 Billion in AI: MSFT Stock To Be Affected? - Watcher Guru",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaC1lRXNsQWp3TzBzMVpydHJ6WkNiVFpOQm8tRkdnajhhU1dpSWFzVWl1YVEzLTRhRXZ4ZVpTb3ZLVXU2M09VUWFNSHVZQU02WGdzTWp5UTc5TGtIVWxkYW1zcGdFcjVza1E2VTB6ckRMY2oxVHY5TXZXakhCYXA1V19MaXhnaklKR2VYdXV3a3liUXM4TlMtRw?oc=5",
     "date": "2026-04-23",
@@ -437,6 +503,17 @@
       "Microsoft"
     ],
     "summary": "Microsoft Spends Another $18 Billion in AI: MSFT Stock To Be Affected?  Watcher Guru",
+    "relevanceScore": 0.51
+  },
+  {
+    "title": "Tesla boosts spending plan to US$25 bil for AI, robot push - The Edge Singapore",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNU2lnV3JRQmEtUHVMUk9qSzZvMVBaZzd6QVRpVG5pZDR5TW9QNWo4eUZjdXFmaThIalJLdGMxdGdzdmQ1dXVEeFlqZ1JTeDNMaV9kN3liYWFQRFNCX0xqWEZTa2NTQ1I3cGJqN25fbGVsTDRkVU81NXQ5cHotQ2EteXhxRERscVFDSFFNTkJqREF4aEdsa0MwNXJPWEU0UXE0YW52ZjRXOGTSAa4BQVVfeXFMTXRUOFNVRW82VVZNOVAtTWtrZm9VRFZydXNyTzhyVTFsMkc1dnZlSGdvbUl0MlpYS2lnam1Oek5lMzk4RG1yVzU2ZVE3c2tVN1V2Vzg3VG9LNm1wckg2UFlxdVdnejN2S3RrekpiZ3h3QkJzSG1rQTBDY3FNa0NnbnRGcVhGLTZKQXpsYUpUWDM3Wmt3UjctVklKelBjeTd6Mnh4WS1PT3Q1MzFNM3Rn?oc=5",
+    "date": "2026-04-23",
+    "source": "The Edge Singapore",
+    "companies": [
+      "Tesla"
+    ],
+    "summary": "Tesla boosts spending plan to US$25 bil for AI, robot push  The Edge Singapore",
     "relevanceScore": 0.51
   },
   {
@@ -462,14 +539,45 @@
     "relevanceScore": 0.41
   },
   {
-    "title": "Tesla’s new $25-billion spending plan demands ‘leap of faith’ from investors - The Globe and Mail",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMUExTE8tdkwxTGFGSVd2ZmVHRGlCbVBnWm9XRmNzc1VkZElKcnU5YXRDckM2dXN2ejhiN0l4bFgwYkZzdGdNc0pDaGVvSDRaNkNJdmR5d3JhdU1Qb0k3X1JEcjIzY0V5ODhzRE1DOHRiV0dYcDNyM3lERkpJRjFVdHJjNEhHMUt0OEZ0NHVvWGpld3lmR2hTZFBtNlJUVURmbEFNTHBzRUQ3ckVw?oc=5",
+    "title": "Meta plans 10% layoffs as AI spending soars: source - France 24",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTDFyQ0ItY3BFNmZnZHpucjNWS19Icy1VZzI2NUVzRTZaX0gxeHBKOFA5YWlnNUpYNmxwdlBjeFBTNkZhQzlTdGZYQjVMclR5ak51eUpCWjVYaGN5SzdKb0dZcDU0UzhmQTZEUmtlbUpIRzVmZ28yUUxKOGhXU1J1RlhWNVh5S0c4TnYybU95NDV5LUQ4a1BpVk5RRFY?oc=5",
     "date": "2026-04-23",
-    "source": "The Globe and Mail",
+    "source": "France 24",
     "companies": [
-      "Tesla"
+      "Meta"
     ],
-    "summary": "Tesla’s new $25-billion spending plan demands ‘leap of faith’ from investors  The Globe and Mail",
+    "summary": "Meta plans 10% layoffs as AI spending soars: source  France 24",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "Microsoft Reshapes Workforce, Offering Buyouts to Nearly 9,000 Employees as It Pours Billions Into AI - inc.com",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB0a0RYb2s1Sm9NZHk0eWFaeUo5aFFXWExLVWJ2NWd4WW96Sy15VzZRXy1ZUTRfZ1owZXd4NjhzdkFxaUZCeXY0YmU0d0dqbTRQcW0zZWJkd09YUURCYVBjdE91TFJ1Q1NtemlxUU9WTzQxN0Q5bUJz?oc=5",
+    "date": "2026-04-23",
+    "source": "inc.com",
+    "companies": [
+      "Microsoft"
+    ],
+    "summary": "Microsoft Reshapes Workforce, Offering Buyouts to Nearly 9,000 Employees as It Pours Billions Into AI  inc.com",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "Meta Layoffs 2026: Company to Cut 8,000 Jobs in May as AI Spending Mounts - TechStock²",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUGxobDc4aWoyN2ZSSjNEWk5YZUhUd3g3aGdrM0dUeHBJS1ZLZWpjNFhVclpqQVB3RnAxekNBSjBCWlAyeVJLUGR5WE4zTTBITkdxWUljY3N2a3lyYkJuZEFLWmRfSHFZd0ZPSHNvSWVqbGt3amczb21HbW40SlFaVl9UWVBLc0hHSFduUFpSYmxna05CSWsw?oc=5",
+    "date": "2026-04-23",
+    "source": "TechStock²",
+    "companies": [
+      "Meta"
+    ],
+    "summary": "Meta Layoffs 2026: Company to Cut 8,000 Jobs in May as AI Spending Mounts  TechStock²",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "UnitedHealth Group Commits $1.5 Billion to AI as Q1 Results Beat Expectations - AIM Media House",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTHZwbmtFTXRYTEhINE1RZUlOay1fNVpPc3c1Q3NHVWVNUUhKeUlRT1ZweTNTQ20tR0N5RTlkeEhrTHJLRUNUMWtjUl9GT1E3Smh0S3R0emZtYnpjd3ZhVzI2MTRGWUcxb1h1VWllYXB2U0lXOHFmMzFzRGtzVHlUbHBxRm1jQkw2dE1QNHgtcDFzN1RjaHV3OW0xbnR1V3ZIZXpJTm4xUUo4bW0xRUE?oc=5",
+    "date": "2026-04-23",
+    "source": "AIM Media House",
+    "companies": [],
+    "summary": "UnitedHealth Group Commits $1.5 Billion to AI as Q1 Results Beat Expectations  AIM Media House",
     "relevanceScore": 0.41
   },
   {
@@ -493,6 +601,17 @@
       "Nvidia"
     ],
     "summary": "NVIDIA launches Ising AI model as Meta scales AI infrastructure  CoinGeek",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "Meta Cuts 8000 Jobs as AI Infrastructure Costs Pressure Big Tech - Koran Manado",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HemhlTmJzNkZtMlE4b215Zks4QXBlV3VKc0hiT3pFMnBzaVJZMk94T1czY19lQnpmTDFkVlB6SkdWd0VZSWVDYUdGSzRYd2VDS2FYdkpUekQyeDBPcEJCMmU5SlBwN3FMNGlzellwX2otSjZSMmc?oc=5",
+    "date": "2026-04-23",
+    "source": "Koran Manado",
+    "companies": [
+      "Meta"
+    ],
+    "summary": "Meta Cuts 8000 Jobs as AI Infrastructure Costs Pressure Big Tech  Koran Manado",
     "relevanceScore": 0.41
   },
   {
@@ -529,17 +648,6 @@
     "relevanceScore": 0.41
   },
   {
-    "title": "Analysts flag Capex and slower AI rollout as key risks for Tesla - Investing.com Nigeria",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTE5raHE0Ty0tcXBsZ015azRhd0RlQTNUcHRGYVZVX1g0Zk8zM0szZUJXUU5XeEtQVS1zZlBTaEZGaThSY0xuWGd6VktQalFXNVBRajJqVUcyTWptQ2U2X2dzNFdJMW53akx2WVZ2bmtXbzFxdVhxMThTcG1qQTJTN0gxcnRzdUgtRk9QZ2lqRXpFUHJyZi0yVTVybG5rWnRHRGVRcGNqcHVjNFhNaHNMS2pJVF85eG1IaVlTcw?oc=5",
-    "date": "2026-04-23",
-    "source": "Investing.com Nigeria",
-    "companies": [
-      "Tesla"
-    ],
-    "summary": "Analysts flag Capex and slower AI rollout as key risks for Tesla  Investing.com Nigeria",
-    "relevanceScore": 0.41
-  },
-  {
     "title": "Tesla bets big on AI with record capital expenditure plan - Latest news from Azerbaijan",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUl9Ld0ExQ05VVWh2WFFlRVpsRDFCVXhtSkE2V21jTjc0VG9fNXlscFZuMlJCQmR3MWVDZ01HdFR5YmdOTUJ6bXZDNGF0c2YzM3JCWURNYVl1b1ZSVUZwUHRuaVJ6MXppWnBQazRZdUdoczgzeFhuSlFxWE9xS3pCa1lUMGE?oc=5",
     "date": "2026-04-23",
@@ -551,14 +659,25 @@
     "relevanceScore": 0.41
   },
   {
-    "title": "Tesla Earnings Call: Capital Expenditure for 2026 Raised Beyond Expectations, AI5 Chip Tapeout Accelerated, 'Optimus to Be the Largest Product in History' - 富途牛牛",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPa3Y0djNHbEdtSUhCc3F0cTU1ME04QzV5SjY1M2dtVmItd2hlUUVYd2E3aUNna0VVandORzJFYnZNb0llZ3p1cEczZ3JYMzRucVpteTV5WkQ5aTZKMm1VSlRETXVDbnNaNXdxaWNBaVI0U1o1RFhjb1Bia2pmaUstZlhBNUZMaTFHZG9iMEZfbEFQV1pfd3lYVURSMVB3NkpRQko1Y3RrekN5MzNPUFFlc2xJZERnaWM?oc=5",
+    "title": "Tesla Continues Transformation Into Physical AI Champion With Capital Expenditure Ramp, Wedbush Says - marketscreener.com",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNYVpSbUpWTW9tWU9zbkQ3WnRFLTJ1Q0o3OE03NTgxb0dhbGpYYXlaajJKelJyUldqR3ptQm9KTUFnZ01Kd0xWRHJJVlE3UnJlbVFTY1lBUERNTndsWE13ZEZOcGNzSE9nNVc1ZENxUXJ6b1lFelptcXY4bnY1Y0l6V2Vlc0lLZGZKdkpDaGRrb1F2alpGTTlGalZJbXI0bGFYV29URnhpRkdiQUVRWElwV01ROUt2eXB0T0xzU0F0aDNadUxxeDlWdDVWa1IxQW9oUkhhWjZUUUZYQW8xcmRMNmpQVWw5Ums?oc=5",
     "date": "2026-04-23",
-    "source": "富途牛牛",
+    "source": "marketscreener.com",
     "companies": [
       "Tesla"
     ],
-    "summary": "Tesla Earnings Call: Capital Expenditure for 2026 Raised Beyond Expectations, AI5 Chip Tapeout Accelerated, 'Optimus to Be the Largest Product in History'  富途牛牛",
+    "summary": "Tesla Continues Transformation Into Physical AI Champion With Capital Expenditure Ramp, Wedbush Says  marketscreener.com",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "Analysts flag Capex and slower AI rollout as key risks for Tesla - Investing.com UK",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUU1VNGZIZHRlZ0syeUhmMmZtMGtkV2F0UjVIVTRSVWJwb2ZMUDdfUDh1UlU2TzY1R0ZLMVhBQWREdGxUMHFaRmswa1NkZldRRWlBVGJtWE1wYmtTSUlmMVVsc3pWbXVsQ2RMdUhUX2xFMmIwd2l2ZUREemlaNlYtQU1rWUtqSkNGNUZLTHIxSTdtR09WUVM3N2lGblp6RHJfZXdyS2I1WkRlc2dKX21QamtCQ1hRRml5RkliNw?oc=5",
+    "date": "2026-04-23",
+    "source": "Investing.com UK",
+    "companies": [
+      "Tesla"
+    ],
+    "summary": "Analysts flag Capex and slower AI rollout as key risks for Tesla  Investing.com UK",
     "relevanceScore": 0.41
   },
   {
@@ -602,12 +721,32 @@
     "relevanceScore": 0.31
   },
   {
+    "title": "Elon Musk's Tesla acquires of AI hardware company amid AI expansion - Austin American-Statesman",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOT3lHeWdsSGpUbWs0MVBpYm5wQTdtMVlFc2FDN1U0T0hQeklMT2x6VUQzRFdSY0RibXAtNzZQY1NXdWNBVk1xOEFSNDJUQXZ1RDZIUm5UMUVVODdEN1A1Tlp3VUVXRlBfVlp5dkpZdnRXRzh0U3pTVkNpMkZnUXExcGVR?oc=5",
+    "date": "2026-04-23",
+    "source": "",
+    "companies": [
+      "Tesla"
+    ],
+    "summary": "Elon Musk's Tesla acquires of AI hardware company amid AI expansion  Austin American-Statesman",
+    "relevanceScore": 0.31
+  },
+  {
     "title": "US tech giant claims $25b stake in Australian AI future - Yahoo Finance Australia",
     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9nQi1uMVR1VXdDdVZDd1JvX0R5TmEyb0k0M054cjlyZDl2NE14TFBwOG5hY1ltY3RnMzc1bUtoTUZkN1diVzM0V2ltVW1hUzVFRGRMTV9wa1lBY0ZSUWZMODBDOXJieDJpVS1oU21nSXh0OG9qR3dGd0xIRHZ6Zw?oc=5",
     "date": "2026-04-23",
     "source": "Yahoo Finance Australia",
     "companies": [],
     "summary": "US tech giant claims $25b stake in Australian AI future  Yahoo Finance Australia",
+    "relevanceScore": 0.31
+  },
+  {
+    "title": "Global IT spend to reach $6.31 trillion in 2026 amid data center rush - CIO Dive",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1NQlJSSl83elBZcTVJM3lzdFVJRG5QQ2doUmpBcWNGaVhkQ2tZa3kyM3c4b3pZUkQ0NEZVV0ZTdFlQMk1DRUp1VUMwWS1ncnIyTUlmTm5WTFJqSWtYeHpyakZDYzVYdUE5ZTNnV1hOODZDald6UVE?oc=5",
+    "date": "2026-04-23",
+    "source": "CIO Dive",
+    "companies": [],
+    "summary": "Global IT spend to reach $6.31 trillion in 2026 amid data center rush  CIO Dive",
     "relevanceScore": 0.31
   },
   {
@@ -631,6 +770,17 @@
     "relevanceScore": 0.31
   },
   {
+    "title": "Meta Cuts 10% of Workforce to Fund AI - Let's Data Science",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZWtlaV93dWI4QWdDcHV1b0E2NkVmYmNMMVVTekJyMllZM2JCM0NhM3dYTllkai02YXRpS0l3bmhzNm5IWFExeXh3OC1ESTFVMmZraDVsQkxJMGZpQ01keU1zdVVEYloxd3Etc2xobC1Sd1dmZGhUaTU3dm5XTmkwSS1uU1o?oc=5",
+    "date": "2026-04-23",
+    "source": "Let's Data Science",
+    "companies": [
+      "Meta"
+    ],
+    "summary": "Meta Cuts 10% of Workforce to Fund AI  Let's Data Science",
+    "relevanceScore": 0.31
+  },
+  {
     "title": "Applied Digital Announces New U.S. Based High Investment-Grade Hyperscaler Tenant at Delta Forge 1, a 430 MW AI Factory Campus - Applied Digital Corporation (APLD)",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNb0xkeS01eTBSNFhkd2J2Ync5WktZNEo4a0RhZG8wTGw1SVJmU2JkcGhobk4wSWY0UVJXWVVhVmdLTnRoNWxVcGZoTE02ZWlXRjBuNTNSaW5LQ3J6Uy1tZGc0ZEIwS1V2M2czSC1HcjZMbXZGZ0kwLW1uOG1EWlR0NlN1ZkNaeDJabmFpNEN5TDk1Ui1wVHB6WV9hQVNQTkpEV2l6aEZWQ3FtZUFKRGFsRVZ3?oc=5",
     "date": "2026-04-23",
@@ -649,12 +799,30 @@
     "relevanceScore": 0.21
   },
   {
+    "title": "Astera Labs Leads SMRF’s 21% Gain on AI Infrastructure - ETF Trends",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaUhCQzJIZmhkTjlHaXZwOUhQbzZDY0RmZU9ZeVZaalN6b19WVHppWU5zbUZSZzNhcGtWT2Fna29RZVBnaWVSWTVCcE91UnFmR1lhQmEyem50LUF6TlVRMU12cm5GRU5WTkZucmtXWG8zUGs4U2tudGdLMFF6QXJEcjJ0eWFzV0lrbGh4aWZscTFpNDdLa1JRN3ZlMlJaS0JlbVJlMlJhalRTMVFo?oc=5",
+    "date": "2026-04-23",
+    "source": "ETF Trends",
+    "companies": [],
+    "summary": "Astera Labs Leads SMRF’s 21% Gain on AI Infrastructure  ETF Trends",
+    "relevanceScore": 0.21
+  },
+  {
     "title": "PraCon’s PRADO AI seeks approval for private AI infrastructure in Mississippi - WAPT",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOemFxeW1Tbk92cEJxX1ExRWZHZVI4VFVTRW9kTzctNm9ZZkEzOHR3UU1pUk9VMzM3X1BtM2JHaHJXemstdjdsNFZRT0hsOF9vS1EtdWpUeDFWcThqVjh2eXJrVmRQWjFDaGxBeXRRdXdnNGVBMXNpV0FyWWdENFNrSmFHaTlrZ3pGVElUR2UzRGVvM1oyMUZ5dWdrX1pTazJTQXFlbjBXZ0hMalZLNGYtZ2dacUU?oc=5",
     "date": "2026-04-23",
     "source": "WAPT",
     "companies": [],
     "summary": "PraCon’s PRADO AI seeks approval for private AI infrastructure in Mississippi  WAPT",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "QuantumScape stock just transformed into an AI infrastructure play - TradingView",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPemFkYWF3V0pEbUZEbkx1NFF4emFCMWJvdkFGVXYyakVOSmtORUVLT1hwRDNxNUZQN2xRczlKcWdyalE1T0NEd2h3azBVVXdmUkJNLXl5ZGxhelI2S21TWVlrT21jdjRSOXhrb1R5LVprRmZYUUx2NWVOVXA1cnZtVXo4OHRMTlQ3MlA0NkRTbDAzSG9xUmhnS1VaNXdSVkI3MFhyTHNPelQ2ZWxMZjNsUXpSTlQtck9BbUF4M05OUVg?oc=5",
+    "date": "2026-04-23",
+    "source": "TradingView",
+    "companies": [],
+    "summary": "QuantumScape stock just transformed into an AI infrastructure play  TradingView",
     "relevanceScore": 0.21
   },
   {
@@ -667,6 +835,15 @@
     "relevanceScore": 0.21
   },
   {
+    "title": "MWYN Announces Formation of New Subsidiary, NexaCore Technologies, to Expand AI Computing and Infrastructure Services - ACCESS Newswire",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPLUVzMEMyNTgybXRwRXo1YWZ6RWxwWVVvMW9XNTVpT2V4MHFZZWh2WGFzTEpQUTMwLVZIeFFrOE1LVXAxUFoxWUY3TlA2cmhGRV9mTUhPVEpVaXl0bk1EMWFwZjg3U1FNVzVfT0x6VnRqa29ZYTFjUEIzSEl1UDRqMTdGWFJYYlVhX1l1RjBXOVF1ZUI1M0Rlck9ORmRXeS1YNl9rR1RudlFfOHB4a0QxQ284NEhWTXNpVFhQdXk5YUx5RTIyd19nd1RqRGFWZ2NSTVVSdFNkb2RVSEY4MElNZEhxTkU?oc=5",
+    "date": "2026-04-23",
+    "source": "ACCESS Newswire",
+    "companies": [],
+    "summary": "MWYN Announces Formation of New Subsidiary, NexaCore Technologies, to Expand AI Computing and Infrastructure Services  ACCESS Newswire",
+    "relevanceScore": 0.21
+  },
+  {
     "title": "Gorilla Technology Reinforces AI Infrastructure Leadership at GITEX AI Asia 2026 in Singapore - Nation Thailand",
     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1XWXhFdUhpUjZ0LTBLMnVJTDg0N1poZFZpUUs3a1BQeDBmRUhWRC02NHowOHdzSlRuNzhZdHNPZkE4VUIwRll3VC1fMVo1QWVRTXQ2QjdMcFB5OGpBXzA1anhuT21NQQ?oc=5",
     "date": "2026-04-23",
@@ -676,62 +853,47 @@
     "relevanceScore": 0.21
   },
   {
-    "title": "AI and memory boom propel global IT spending to jump 13.5% in 2026 - CHOSUNBIZ - Chosunbiz",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xZ01WdnlhTk96Rml6SXBQR3dYTlFmYllna2hnWVVqNmRxVzdHVkhpbjFRcHdXYTE4VWVCZF9yQmxNVGduWkFhcG55U01iak9LQkpNUjU0ZmpZc1hvck8ycjVHQjlHaDFoVFR2eXlGaDhQYmxHdUxFWVRn0gGOAUFVX3lxTE5yZkJKLVdLVjEwM3pTZWNNTUlBRERrWVVOZS05ZkN3YTl5dERscUZacHNRa3hSWmlmWkRHNTNaWVhHazc3WjZRSlo5amhVZUdKYTZyQmtqd0RseElDWmhhcE5hM09GekQ4QzNpMklUQWV1OGxjd29aQjJmTm1pWW1FRGNraGNVZjNlbHRsaXc?oc=5",
+    "title": "Dover’s 2026 Outlook Gets A Lift From AI Data Centers - Finimize",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNTU5QVhqZE0zOHRjN2pTMFVVWWJTSW91QXphaElsUk9MTW0zWHl0SWlSNkxtVjA4Y1JPWnRuRWc2bEYyRHBDTFl0WjE1S3NTNjZTMUh2eFVFWlc0T05ZWnJseWRkSEFOUk5mQWJScURQUEt0SzdpQU1MNVBPUmwzbFJFRUgzQ2Vr?oc=5",
     "date": "2026-04-23",
-    "source": "Chosunbiz",
+    "source": "Finimize",
     "companies": [],
-    "summary": "AI and memory boom propel global IT spending to jump 13.5% in 2026 - CHOSUNBIZ  Chosunbiz",
+    "summary": "Dover’s 2026 Outlook Gets A Lift From AI Data Centers  Finimize",
     "relevanceScore": 0.21
   },
   {
-    "title": "5 Top-Ranked AI Infrastructure Bigwigs for Sparkling Returns in 2026 - The Globe and Mail",
-    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQRHhoWFFUYXU0djgxWmpJNnJoMzRQS1JfMWpXRnFsUm5qNWd2THFOLUdqNTQyR2FGMWQ5eXNHazJTeE1JTGhvbE9OY0x6eDdXcmRKa3B2QV8wUm5BeFB3ZHQ4SWNVY09ZSWItQWN6aEZUVmZ5UGxDSFpCSGlUYldEUzdjM1pNSHFFNXF4bUJLRHJvMTR2cHVjYWp0akFTUFN2dnE4NkF2eHlDM1RIRW1yUUV5U2FmMy1aQW9PS0VvdTBTOEw2dnFRTVY3SnpQRFpoSVVmMW9IZ21uUnIxZURxdE1xMVRUdkky?oc=5",
+    "title": "Tesla Is About To Spend a Lot More on AI. Will the Rest of Big Tech Follow? - Investopedia",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOV2ZzTy1HUnU1U3hOMnBQOXRkQUR2b3ZlM2FLaWVheDh2ejhGblRoOFpuSEVQWjFsdHFreFRJSlRWeFNmVVhSLVpyOVVoQ1pZX0o1NjE3ZWZ0c2RTSEViR1J1bTE3X2lDWGEwSE8yV2ZUUk40cEdkMXBQcWVlbkhocUoxTHhBSkdwOWFmSG1wRzh2dzg5ejZkUG84QXdxZGpNMG5lZ2ExRWlpZ0doVkJ0UVpzdXJzZ0k?oc=5",
     "date": "2026-04-23",
-    "source": "The Globe and Mail",
-    "companies": [],
-    "summary": "5 Top-Ranked AI Infrastructure Bigwigs for Sparkling Returns in 2026  The Globe and Mail",
-    "relevanceScore": 0.21
+    "source": "Investopedia",
+    "companies": [
+      "Tesla"
+    ],
+    "summary": "Tesla Is About To Spend a Lot More on AI. Will the Rest of Big Tech Follow?  Investopedia",
+    "relevanceScore": 0.2
   },
   {
-    "title": "SpaceX Plans In-House GPU Manufacturing Amid Chip Supply Challenges - Global Banking & Finance Review®",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNalNWd0M4dENkMEZwX29YMjEtTEMxc3dQNzQ5dHQ0Q2pCY2ZpbEtwNzFKS2VJYWtmZGdrc24zc0xrdDFyOUFiRC1mWDA5RzB1amVWX1RfVklBeHd1Rk9Ua2daVE9xZGx5LUVNU1BGekFRVlZrYlhpOVQwdkM0Y0lKSk00cmFlNWxOeTJkbkhkR3AycWlIMnRqRldwM29FcDM0NXc?oc=5",
-    "date": "2026-04-23",
-    "source": "Global Banking & Finance Review®",
-    "companies": [],
-    "summary": "SpaceX Plans In-House GPU Manufacturing Amid Chip Supply Challenges  Global Banking & Finance Review®",
-    "relevanceScore": 0.21
-  },
-  {
-    "title": "SK hynix’s profit jumps on soaring prices of AI memory chips - Communications Today",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUDJCN0ZzdVN1STlzZWdfM25ma2VXR3MxZ1czVFVWOW1vUWVtbEpHNWhlSmhsSEo0djVIempKVjFnNzh6Q01vZWhZbGx5dS04eFpqMDBiSkkwUlRqQ1YwOE1veXA1dktBTGNxalA2cVR6LUNtcGE1aF9CcHUtNW5tZHp1ZE92LVN5OFFJcHZUdjE2RTdCVU14cTRqOVRhcms?oc=5",
-    "date": "2026-04-23",
-    "source": "Communications Today",
-    "companies": [],
-    "summary": "SK hynix’s profit jumps on soaring prices of AI memory chips  Communications Today",
-    "relevanceScore": 0.21
-  },
-  {
-    "title": "Sundar Pichai reaffirms $185 billion capex spending by Google in 2026 - The Economic Times",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSy04U0F3MnNnZTRTNlhYTkw2UjZGMVlsaVpjWkN6c3paZWo2bU9nb25oXzdyWFE0OHl3ZjFuZHNETGRnREpEczB4WldTVHdMS1B0X0pWb1JwV05ETVJZbnhiZlcwbllFQnRsTnNpd1Y1dkkyVG1mTUxtd3ZhV2NGN1QzbUl2QkVXVEgzZ0RYTlJpWUdKM0Z2V0l0X042Y29mWloxUml2NVV5ZU5kWFJmR0xsUXE4eXJ0ZjNabVZYYk9NbFJST1VpbjREVl9PY3lGWDFCMtIB2gFBVV95cUxORE5WVjlwaDZod19OMW1MbFNGRlVETW5pZDNFdWI1MjBZbXZ1V2s2QXZuX2h1WHloVlZOSlBhclEzNVhJMVZDR3BhYXh4cTk5UXpoT0x0Z0NmQWNvaUVvRWwwMDJPRVdNX2ZMc0V4MHJ4TUpWcFJjWWhhY1lHT0VtR1B3c0I0RGdlZ1NRYWJsWThnMFRyeldxZjRpRXVfQXg3WnJKS0hoeTZhUVd5akZQbzNUY0NzNl91V01SNmxoMTZUb0ExUGV2dV8xNVBDTXBPS1F5S0xRX3dXUQ?oc=5",
+    "title": "Sundar Pichai reaffirms $185 billion capex spending by Google in 2026",
+    "url": "https://economictimes.indiatimes.com/tech/technology/sundar-pichai-reaffirms-185-billion-capex-spending-by-google-in-2026/articleshow/130450916.cms",
     "date": "2026-04-22",
-    "source": "The Economic Times",
+    "source": "The Times of India",
+    "companies": [
+      "Intel",
+      "Alphabet"
+    ],
+    "summary": "Google plans a massive $185 billion investment in artificial intelligence infrastructure this year. CEO Sundar Pichai highlighted AI's growing role in software development and security. New platforms like Gemini Enterprise Agent and advanced chips like TPU 8t…",
+    "relevanceScore": 0.9
+  },
+  {
+    "title": "Pichai opens Cloud Next 2026 with $240B backlog, 750M Gemini users, and a plan to turn Search into an agent manager",
+    "url": "https://thenextweb.com/news/google-cloud-next-pichai-agentic-era-scale/",
+    "date": "2026-04-22",
+    "source": "The Next Web",
     "companies": [
       "Alphabet"
     ],
-    "summary": "Sundar Pichai reaffirms $185 billion capex spending by Google in 2026  The Economic Times",
-    "relevanceScore": 0.82
-  },
-  {
-    "title": "Vast Data raises $1B at $30B valuation as AI infrastructure demand accelerates",
-    "url": "https://siliconangle.com/2026/04/22/vast-data-raises-1b-30b-valuation-ai-infrastructure-demand-accelerates/",
-    "date": "2026-04-22",
-    "source": "SiliconANGLE News",
-    "companies": [
-      "Intel"
-    ],
-    "summary": "Vast Data Inc. today said it has raised about $1 billion in a late-stage Series F funding round that values the company at $30 billion amid growing demand for infrastructure to support artificial intelligence workloads. Founder and Chief Executive Renen Halla…",
-    "relevanceScore": 0.82
+    "summary": "Summary: Sundar Pichai opened Cloud Next 2026 with Google Cloud at $70 billion in annual revenue, 48% growth, a $240 billion backlog that doubled in a year, and $175-185 billion in planned capital expenditure. The Gemini app has 750 million monthly users, AI …",
+    "relevanceScore": 0.9
   },
   {
     "title": "Google puts $750 million behind the consultants it needs to close the cloud gap",
@@ -757,14 +919,14 @@
     "relevanceScore": 0.72
   },
   {
-    "title": "Robinhood’s venture fund buys $75 million of OpenAI stock in one of its biggest investments yet",
-    "url": "https://cryptobriefing.com/robinhood-ventures-investment-openai/",
+    "title": "VAST Data’s $30 billion valuation is a bet that the data layer is the real bottleneck in AI",
+    "url": "https://thenextweb.com/news/vast-data-1b-raise-30b-valuation-nvidia-ai-storage/",
     "date": "2026-04-22",
-    "source": "Crypto Briefing",
+    "source": "The Next Web",
     "companies": [
-      "OpenAI"
+      "Nvidia"
     ],
-    "summary": "Robinhood's investment in OpenAI democratizes access to transformative tech, potentially reshaping retail investment landscapes.\nThe post Robinhood’s venture fund buys $75 million of OpenAI stock in one of its biggest investments yet appeared first on Crypto …",
+    "summary": "Summary: VAST Data raised $1 billion in a Series F at a $30 billion valuation, more than tripling from $9.1 billion, with Drive Capital and Access Industries co-leading and Nvidia, Fidelity, and NEA participating. More than $500 million is secondary capital. …",
     "relevanceScore": 0.72
   },
   {
@@ -799,17 +961,6 @@
       "Tesla"
     ],
     "summary": "Tesla just increased its spending plan to $25B — here’s where the money is going  TechCrunch",
-    "relevanceScore": 0.61
-  },
-  {
-    "title": "Tesla posts $22.4 billion Q1 revenue, unveils $25 billion capex as Musk doubles down on AI, robotics - Firstpost",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWDB0WWlGcGxjb2JKZEhXVDM5OEdmY0VjamtEdkdpNFVocHptSlFUa3k4cTZHcDR1Ty1UWWtkeGVYbWZkckJjRmVadENzd2RoOVE1U1o1QTFoMm91a2RCTndibmxxSmhFYnJndXh0X1BHSWtmanpxM1l4UFFrRlN0M1RSY2FiYWFLdHhacmNBVUxxdWZIVVVJeGZCY01WX1Y1NDVrU29oV1BUaUJOMEEwLTAwSDhOUdIBuwFBVV95cUxQQVdXeGhxVWZILTRySV9RNWJFN2N4RHRfQ2JjdDdCVU1wajJaVWpadi1RWk1NTUxvbWJSOXRhbmNkRWtJbm1DV0Rhdm1qaFJocEtkZ1JsVlhkSjJadmlFdU04eDVjQVZkTWd1LWtsNHFVWDRSLS1rbmMxLXhCUnFnYjJzQmVJVk9KT0dLZUozb19VMF8zSFhyNU8wZ2xiS21fakkzbGRlcjhVRGNsTGpNdG53S2Z4dXh0cTIw?oc=5",
-    "date": "2026-04-22",
-    "source": "Firstpost",
-    "companies": [
-      "Tesla"
-    ],
-    "summary": "Tesla posts $22.4 billion Q1 revenue, unveils $25 billion capex as Musk doubles down on AI, robotics  Firstpost",
     "relevanceScore": 0.61
   },
   {
@@ -848,6 +999,183 @@
     "relevanceScore": 0.61
   },
   {
+    "title": "Tesla posts $22.4 billion Q1 revenue, unveils $25 billion capex as Musk doubles down on AI, robotics - Firstpost",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWDB0WWlGcGxjb2JKZEhXVDM5OEdmY0VjamtEdkdpNFVocHptSlFUa3k4cTZHcDR1Ty1UWWtkeGVYbWZkckJjRmVadENzd2RoOVE1U1o1QTFoMm91a2RCTndibmxxSmhFYnJndXh0X1BHSWtmanpxM1l4UFFrRlN0M1RSY2FiYWFLdHhacmNBVUxxdWZIVVVJeGZCY01WX1Y1NDVrU29oV1BUaUJOMEEwLTAwSDhOUdIBuwFBVV95cUxQQVdXeGhxVWZILTRySV9RNWJFN2N4RHRfQ2JjdDdCVU1wajJaVWpadi1RWk1NTUxvbWJSOXRhbmNkRWtJbm1DV0Rhdm1qaFJocEtkZ1JsVlhkSjJadmlFdU04eDVjQVZkTWd1LWtsNHFVWDRSLS1rbmMxLXhCUnFnYjJzQmVJVk9KT0dLZUozb19VMF8zSFhyNU8wZ2xiS21fakkzbGRlcjhVRGNsTGpNdG53S2Z4dXh0cTIw?oc=5",
+    "date": "2026-04-22",
+    "source": "Firstpost",
+    "companies": [
+      "Tesla"
+    ],
+    "summary": "Tesla posts $22.4 billion Q1 revenue, unveils $25 billion capex as Musk doubles down on AI, robotics  Firstpost",
+    "relevanceScore": 0.61
+  },
+  {
+    "title": "Maximizing Gemini: Google Cloud makes its bid to build the operating system for enterprise AI",
+    "url": "https://siliconangle.com/2026/04/22/maximizing-gemini-google-cloud-makes-bid-build-operating-system-enterprise-ai/",
+    "date": "2026-04-22",
+    "source": "SiliconANGLE News",
+    "companies": [
+      "Intel",
+      "Alphabet"
+    ],
+    "summary": "Google LLC has emerged as the only cloud “hyperscaler” with a leading frontier artificial intelligence large language model – Gemini – and today it issued a raft of announcements designed to capitalize on that current advantage. The search giant’s cloud unit …",
+    "relevanceScore": 0.52
+  },
+  {
+    "title": "AWS accelerates AI agent development in Amazon Bedrock AgentCore",
+    "url": "https://siliconangle.com/2026/04/22/aws-accelerates-ai-agent-development-amazon-bedrock-agentcore/",
+    "date": "2026-04-22",
+    "source": "SiliconANGLE News",
+    "companies": [
+      "Amazon",
+      "Intel"
+    ],
+    "summary": "Amazon Web Services Inc. said today it’s taking steps toward simplifying the creation of the underlying infrastructure for new autonomous artificial intelligence agents. With an update to its Amazon Bedrock AgentCore platform today, developers can access a ne…",
+    "relevanceScore": 0.52
+  },
+  {
+    "title": "Tesla lifts 2026 spending plans by a quarter as Musk funds AI and robotic dreams - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdG1nY0hsQks1UXZDNmhhLVY2cFg1TmRQeGlrM2M1QUpMUzdSel90UGJHYlhPQ1pzLW8ybkFLTVJmcjRNeHdvalUzYVU0T1lYUWpDSVBZMllPUjJGM1FPWW5PX3YyQzBkek9KdldBcDdiUWxZcEZrWlY1WVNjbU9wMFIwcWRTcV95WjlQN0FsV0hySk4zQzA1bGZ4NlRKV25TX25pbmc1bHE1dlJOVDRpeQ?oc=5",
+    "date": "2026-04-22",
+    "source": "Reuters",
+    "companies": [
+      "Tesla"
+    ],
+    "summary": "Tesla lifts 2026 spending plans by a quarter as Musk funds AI and robotic dreams  Reuters",
+    "relevanceScore": 0.51
+  },
+  {
+    "title": "Google Commits Massive AI CapEx as Bitcoin Rallies - Let's Data Science",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVTlNOFNfcWpqMV9JUFhpQ2JNR1h6MDJQUGlubm9qQlJGV0VqZTY3dnBrbkVCVll0QlVNeUJPQkEwX0Z2Mkp1c0pselpEUHJrWWxRcXpEVmp3WUZUTllTcWk4bnhwOERzNXNsOVE1VU41N2gtNkU1UDJnSXpQYkIzbjhKb1FZZzdqVldNYm1oUnozeV9tdXhR?oc=5",
+    "date": "2026-04-22",
+    "source": "Let's Data Science",
+    "companies": [
+      "Alphabet"
+    ],
+    "summary": "Google Commits Massive AI CapEx as Bitcoin Rallies  Let's Data Science",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "The AI economy runs on helium. The Iran war just created a $650 billion problem - Fortune",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1SLVRkVWdiLVYxeXloVGt5YUlRSUh6RTBMWTloVnBtcXRmX1VtYW5rWU9nVF9rUERLT3JIMFNSek53NmJIeC1UTUFMOUdvcTJ1c2xuVDNDR1JrdHVZbldTTHRsaWFCNUpQWnR5MHk3OG0yenk0REcwRXBpWQ?oc=5",
+    "date": "2026-04-22",
+    "source": "Fortune",
+    "companies": [],
+    "summary": "The AI economy runs on helium. The Iran war just created a $650 billion problem  Fortune",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "To Strengthen AI Strategy, SoftBank Plans to Raise $10 Billion by Pledging OpenAI Shares as Collateral - NAI500",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVnY3WGpjMVZZcUF6bFZ0ME5pWEFYZkE4M1k4dHE1bHpnSUJFWFkweFlMNHNsNjN6TFpTXzRIajB5cmNMZEZnNjhmMndtMElLTkx5YVMyTWtrS1NqVmtVR294aHBNTnFDcDJuMmJGN2t1eXh6c3RreDNvVzlDVGNkek5vYUxfUl9aVzZGTTN0QnJkRkN2OUFxTkpYajROVTlBaVdZdllhekJvM2cySjBDcm8yUmhmT1p6UkdLZ0U0QUhIMkxsNHAwZGVNekJaZw?oc=5",
+    "date": "2026-04-23",
+    "source": "NAI500",
+    "companies": [
+      "OpenAI"
+    ],
+    "summary": "To Strengthen AI Strategy, SoftBank Plans to Raise $10 Billion by Pledging OpenAI Shares as Collateral  NAI500",
+    "relevanceScore": 0.61
+  },
+  {
+    "title": "Tesla Earnings Call Transcript: Capital Expenditure to Exceed $25 Billion This Year; Optimus May Become the Most Important Product in History - Moomoo",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdVpuUGhGQ2lYSV9XOTN0NTVmaW9HUUpTVmxYcnRiN1Jwd2Y4RkVROWFadzZUdXhOLVg1UDJZYnA5UDd5Qnp6WXV3ZW95NGl4bEtsR0pNNzJqWW5Ta0VOSE9MR2V0VnhESTFNWUZ3MHRrN3R5QTItWVFsZU5vdklWenR0NEh2UWJQUGlMQUoxNmVYWmptQ1BCMEczaEZlMDIzTEFaU1FGWERCSGJIUzl6bjNZVQ?oc=5",
+    "date": "2026-04-23",
+    "source": "Moomoo",
+    "companies": [
+      "Tesla"
+    ],
+    "summary": "Tesla Earnings Call Transcript: Capital Expenditure to Exceed $25 Billion This Year; Optimus May Become the Most Important Product in History  Moomoo",
+    "relevanceScore": 0.61
+  },
+  {
+    "title": "AI Infrastructure Expansion: 18.9 Million Incremental Truckloads Expected by 2031 - News and Statistics - IndexBox",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM1R0SnZuZjFUaG14U0VqZFkzZks2T2lSSmc3VElBbTNwM20tZFVnYk9wNEt1YWcxS1M1OHdISU16RFJaaERMXzdWZU9HWjlZZ2VUc2FQcFlUVzBiLUllZUdvYTZhZjRxX3lzazlXWGpzY3dKRWRGVHdXSG5pTW9GREs2QXh4eDVMU1JGNG0xQXF5dVd6WlZ3Z1dTZk5IY21PQ2w2M1F5ZUt6bWgx?oc=5",
+    "date": "2026-04-23",
+    "source": "IndexBox",
+    "companies": [],
+    "summary": "AI Infrastructure Expansion: 18.9 Million Incremental Truckloads Expected by 2031 - News and Statistics  IndexBox",
+    "relevanceScore": 0.52
+  },
+  {
+    "title": "Tesla’s new $25-billion spending plan demands ‘leap of faith’ from investors - The Globe and Mail",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMUExTE8tdkwxTGFGSVd2ZmVHRGlCbVBnWm9XRmNzc1VkZElKcnU5YXRDckM2dXN2ejhiN0l4bFgwYkZzdGdNc0pDaGVvSDRaNkNJdmR5d3JhdU1Qb0k3X1JEcjIzY0V5ODhzRE1DOHRiV0dYcDNyM3lERkpJRjFVdHJjNEhHMUt0OEZ0NHVvWGpld3lmR2hTZFBtNlJUVURmbEFNTHBzRUQ3ckVw?oc=5",
+    "date": "2026-04-23",
+    "source": "The Globe and Mail",
+    "companies": [
+      "Tesla"
+    ],
+    "summary": "Tesla’s new $25-billion spending plan demands ‘leap of faith’ from investors  The Globe and Mail",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "Tesla Earnings Call: Capital Expenditure for 2026 Raised Beyond Expectations, AI5 Chip Tapeout Accelerated, 'Optimus to Be the Largest Product in History' - 富途牛牛",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPa3Y0djNHbEdtSUhCc3F0cTU1ME04QzV5SjY1M2dtVmItd2hlUUVYd2E3aUNna0VVandORzJFYnZNb0llZ3p1cEczZ3JYMzRucVpteTV5WkQ5aTZKMm1VSlRETXVDbnNaNXdxaWNBaVI0U1o1RFhjb1Bia2pmaUstZlhBNUZMaTFHZG9iMEZfbEFQV1pfd3lYVURSMVB3NkpRQko1Y3RrekN5MzNPUFFlc2xJZERnaWM?oc=5",
+    "date": "2026-04-23",
+    "source": "富途牛牛",
+    "companies": [
+      "Tesla"
+    ],
+    "summary": "Tesla Earnings Call: Capital Expenditure for 2026 Raised Beyond Expectations, AI5 Chip Tapeout Accelerated, 'Optimus to Be the Largest Product in History'  富途牛牛",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "AI and memory boom propel global IT spending to jump 13.5% in 2026 - CHOSUNBIZ - Chosunbiz",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xZ01WdnlhTk96Rml6SXBQR3dYTlFmYllna2hnWVVqNmRxVzdHVkhpbjFRcHdXYTE4VWVCZF9yQmxNVGduWkFhcG55U01iak9LQkpNUjU0ZmpZc1hvck8ycjVHQjlHaDFoVFR2eXlGaDhQYmxHdUxFWVRn0gGOAUFVX3lxTE5yZkJKLVdLVjEwM3pTZWNNTUlBRERrWVVOZS05ZkN3YTl5dERscUZacHNRa3hSWmlmWkRHNTNaWVhHazc3WjZRSlo5amhVZUdKYTZyQmtqd0RseElDWmhhcE5hM09GekQ4QzNpMklUQWV1OGxjd29aQjJmTm1pWW1FRGNraGNVZjNlbHRsaXc?oc=5",
+    "date": "2026-04-23",
+    "source": "Chosunbiz",
+    "companies": [],
+    "summary": "AI and memory boom propel global IT spending to jump 13.5% in 2026 - CHOSUNBIZ  Chosunbiz",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "5 Top-Ranked AI Infrastructure Bigwigs for Sparkling Returns in 2026 - The Globe and Mail",
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQRHhoWFFUYXU0djgxWmpJNnJoMzRQS1JfMWpXRnFsUm5qNWd2THFOLUdqNTQyR2FGMWQ5eXNHazJTeE1JTGhvbE9OY0x6eDdXcmRKa3B2QV8wUm5BeFB3ZHQ4SWNVY09ZSWItQWN6aEZUVmZ5UGxDSFpCSGlUYldEUzdjM1pNSHFFNXF4bUJLRHJvMTR2cHVjYWp0akFTUFN2dnE4NkF2eHlDM1RIRW1yUUV5U2FmMy1aQW9PS0VvdTBTOEw2dnFRTVY3SnpQRFpoSVVmMW9IZ21uUnIxZURxdE1xMVRUdkky?oc=5",
+    "date": "2026-04-23",
+    "source": "The Globe and Mail",
+    "companies": [],
+    "summary": "5 Top-Ranked AI Infrastructure Bigwigs for Sparkling Returns in 2026  The Globe and Mail",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "SpaceX Plans In-House GPU Manufacturing Amid Chip Supply Challenges - Global Banking & Finance Review®",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNalNWd0M4dENkMEZwX29YMjEtTEMxc3dQNzQ5dHQ0Q2pCY2ZpbEtwNzFKS2VJYWtmZGdrc24zc0xrdDFyOUFiRC1mWDA5RzB1amVWX1RfVklBeHd1Rk9Ua2daVE9xZGx5LUVNU1BGekFRVlZrYlhpOVQwdkM0Y0lKSk00cmFlNWxOeTJkbkhkR3AycWlIMnRqRldwM29FcDM0NXc?oc=5",
+    "date": "2026-04-23",
+    "source": "Global Banking & Finance Review®",
+    "companies": [],
+    "summary": "SpaceX Plans In-House GPU Manufacturing Amid Chip Supply Challenges  Global Banking & Finance Review®",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "SK hynix’s profit jumps on soaring prices of AI memory chips - Communications Today",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUDJCN0ZzdVN1STlzZWdfM25ma2VXR3MxZ1czVFVWOW1vUWVtbEpHNWhlSmhsSEo0djVIempKVjFnNzh6Q01vZWhZbGx5dS04eFpqMDBiSkkwUlRqQ1YwOE1veXA1dktBTGNxalA2cVR6LUNtcGE1aF9CcHUtNW5tZHp1ZE92LVN5OFFJcHZUdjE2RTdCVU14cTRqOVRhcms?oc=5",
+    "date": "2026-04-23",
+    "source": "Communications Today",
+    "companies": [],
+    "summary": "SK hynix’s profit jumps on soaring prices of AI memory chips  Communications Today",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "Vast Data raises $1B at $30B valuation as AI infrastructure demand accelerates",
+    "url": "https://siliconangle.com/2026/04/22/vast-data-raises-1b-30b-valuation-ai-infrastructure-demand-accelerates/",
+    "date": "2026-04-22",
+    "source": "SiliconANGLE News",
+    "companies": [
+      "Intel"
+    ],
+    "summary": "Vast Data Inc. today said it has raised about $1 billion in a late-stage Series F funding round that values the company at $30 billion amid growing demand for infrastructure to support artificial intelligence workloads. Founder and Chief Executive Renen Halla…",
+    "relevanceScore": 0.82
+  },
+  {
+    "title": "Robinhood’s venture fund buys $75 million of OpenAI stock in one of its biggest investments yet",
+    "url": "https://cryptobriefing.com/robinhood-ventures-investment-openai/",
+    "date": "2026-04-22",
+    "source": "Crypto Briefing",
+    "companies": [
+      "OpenAI"
+    ],
+    "summary": "Robinhood's investment in OpenAI democratizes access to transformative tech, potentially reshaping retail investment landscapes.\nThe post Robinhood’s venture fund buys $75 million of OpenAI stock in one of its biggest investments yet appeared first on Crypto …",
+    "relevanceScore": 0.72
+  },
+  {
     "title": "Robinhood Ventures Invests $75 Million in OpenAI, Offering Retail Traders Exposure",
     "url": "https://decrypt.co/365120/robinhood-ventures-invests-75-million-openai-giving-retail-traders-exposure",
     "date": "2026-04-22",
@@ -879,17 +1207,6 @@
     "relevanceScore": 0.52
   },
   {
-    "title": "Tesla lifts 2026 spending plans by a quarter as Musk funds AI and robotic dreams - Reuters",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdG1nY0hsQks1UXZDNmhhLVY2cFg1TmRQeGlrM2M1QUpMUzdSel90UGJHYlhPQ1pzLW8ybkFLTVJmcjRNeHdvalUzYVU0T1lYUWpDSVBZMllPUjJGM1FPWW5PX3YyQzBkek9KdldBcDdiUWxZcEZrWlY1WVNjbU9wMFIwcWRTcV95WjlQN0FsV0hySk4zQzA1bGZ4NlRKV25TX25pbmc1bHE1dlJOVDRpeQ?oc=5",
-    "date": "2026-04-22",
-    "source": "Reuters",
-    "companies": [
-      "Tesla"
-    ],
-    "summary": "Tesla lifts 2026 spending plans by a quarter as Musk funds AI and robotic dreams  Reuters",
-    "relevanceScore": 0.51
-  },
-  {
     "title": "Merck to partner with Google Cloud on AI initiatives - Reuters",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNX2xKSGxmOUFlY2FBdkRKT3A4UDlyOHp4YVNqZzh4VGozRnFaS2ppdlJrSTdJcXBpT3lMSTJmNzBIVlo0RE9XOTItTDV4WmVEWjM0N2t1b0p2U2w1bjRTM2lqeHVCdGtWODVjdnZvci1MQmE0UFFXSWVuRUpJREFHVnR1eExwOG1GTjhXd1h5blFDVlZaendvQU1UanV6enN2?oc=5",
     "date": "2026-04-22",
@@ -901,32 +1218,12 @@
     "relevanceScore": 0.51
   },
   {
-    "title": "Google Commits Massive AI CapEx as Bitcoin Rallies - Let's Data Science",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVTlNOFNfcWpqMV9JUFhpQ2JNR1h6MDJQUGlubm9qQlJGV0VqZTY3dnBrbkVCVll0QlVNeUJPQkEwX0Z2Mkp1c0pselpEUHJrWWxRcXpEVmp3WUZUTllTcWk4bnhwOERzNXNsOVE1VU41N2gtNkU1UDJnSXpQYkIzbjhKb1FZZzdqVldNYm1oUnozeV9tdXhR?oc=5",
-    "date": "2026-04-22",
-    "source": "Let's Data Science",
-    "companies": [
-      "Alphabet"
-    ],
-    "summary": "Google Commits Massive AI CapEx as Bitcoin Rallies  Let's Data Science",
-    "relevanceScore": 0.41
-  },
-  {
     "title": "DeepSeek Seeks $20 Billion Valuation as Tech Giants Weigh Investment - PYMNTS.com",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZlJvQk9qWUNFR01QbDVRN01vUFFVZUczM05XQ0FxY0EwX3g4cFpGMUJZdGJkM0U2YXdMZ2RaNzczU2lFa2FXYXBpdVRmTmZ3ZUhuTXMzS1MyOW15d1djNklzT0VMMjQyNDVTWUpKMkxpOU5wV1JNdDkzX0J1X3FnYXNsS1VNcmR4aU9vOXFySmlLcnRyUTQ4NjhsR2wzaU9vTHlMV0pXU0M2UGVPSGtWLS1QamlmcWpkeldnOQ?oc=5",
     "date": "2026-04-22",
     "source": "PYMNTS.com",
     "companies": [],
     "summary": "DeepSeek Seeks $20 Billion Valuation as Tech Giants Weigh Investment  PYMNTS.com",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "The AI economy runs on helium. The Iran war just created a $650 billion problem - Fortune",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1SLVRkVWdiLVYxeXloVGt5YUlRSUh6RTBMWTloVnBtcXRmX1VtYW5rWU9nVF9rUERLT3JIMFNSek53NmJIeC1UTUFMOUdvcTJ1c2xuVDNDR1JrdHVZbldTTHRsaWFCNUpQWnR5MHk3OG0yenk0REcwRXBpWQ?oc=5",
-    "date": "2026-04-22",
-    "source": "Fortune",
-    "companies": [],
-    "summary": "The AI economy runs on helium. The Iran war just created a $650 billion problem  Fortune",
     "relevanceScore": 0.41
   },
   {
@@ -2303,298 +2600,5 @@
     ],
     "summary": "Amazon Poised to Invest Another $25 Billion In Anthropic as AI Infrastructure Build-Out Ramps Up  Digital Music News",
     "relevanceScore": 0.72
-  },
-  {
-    "title": "Amazon To Invest Up To $25 Billion In AI Startup Anthropic. Why The Stock Is Rising. - Investor's Business Daily",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMUd1Sm05REtfUGJKNEJhRzlpUHZkNjg3eFZrWXE4Q3hyTjJOeGJody05dTJ2Y1NtMjVRUXVzNW5Eb1dIdlVoNWZ0SDZvNlN3ZE4zSlJLMWJ0eWw4WF9CX2xmNTJNTnBBVGpFTVE4WkowaFhiVlB0WGcwVS1WeGI0SnE3a0x2ZXBFS0NGUG1fSHNFOFJVR1ZzcjNTOHdEVG9Bd25OQWg2Vk80V3VodDM2WmRRbw?oc=5",
-    "date": "2026-04-21",
-    "source": "Investor's Business Daily",
-    "companies": [
-      "Amazon",
-      "Anthropic"
-    ],
-    "summary": "Amazon To Invest Up To $25 Billion In AI Startup Anthropic. Why The Stock Is Rising.  Investor's Business Daily",
-    "relevanceScore": 0.61
-  },
-  {
-    "title": "Amazon To Invest Up To $25 Billion In Anthropic As AI Partnership Deepens - Arise News",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONHJKQWlMbUxpTmN5THdldXExS2NmMDBOcnhHZUJtMTIxRDJtekpydEF0cUFTdjhmOXBabjV3MHk1U0VPY2k2WXBCbWQyNzVmMHdJdThLVF9Xc1dGN3UxcGp0YTlEbzFKMmFHNFk1OUZSeElqOE9EUWw1aWFJVm5DSWxITXg3SlQ0Y2pGamNwQ2FsTU1zbEJrMzln?oc=5",
-    "date": "2026-04-21",
-    "source": "Arise News",
-    "companies": [
-      "Amazon",
-      "Anthropic"
-    ],
-    "summary": "Amazon To Invest Up To $25 Billion In Anthropic As AI Partnership Deepens  Arise News",
-    "relevanceScore": 0.61
-  },
-  {
-    "title": "Tecto Data Centers Announces $2 Billion Investment Plan and Expands into Enterprise Market - jsa.net",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRTB4SGxJTFNYZnV1V2xOZmJseVFTTXRzVERBQnhMNVluenBqLUJodi00UFk3YlhWaUJHSE5xNnNGYTlfeVIzaEh6UDZZSG0yd2MwN1FkWmdPeDZRZlpMZUo3NnV6d1l5U2NCQXlmdk11SHU3VkJ2aXpEaWZrYnNORDZUTXhSaldIcGxDTW42Um8zSUpnaE9MQTVYUWZZWlVCYUt5SkJqeEttME5uX0p3?oc=5",
-    "date": "2026-04-21",
-    "source": "jsa.net",
-    "companies": [],
-    "summary": "Tecto Data Centers Announces $2 Billion Investment Plan and Expands into Enterprise Market  jsa.net",
-    "relevanceScore": 0.52
-  },
-  {
-    "title": "10 Must-Know Facts About Navitas Semiconductor: AI Power Chip Leader Surging in 2026",
-    "url": "https://www.ibtimes.com.au/10-must-know-facts-about-navitas-semiconductor-ai-power-chip-leader-surging-2026-1867190",
-    "date": "2026-04-21",
-    "source": "Ibtimes.com.au",
-    "companies": [
-      "Intel"
-    ],
-    "summary": "TORRANCE, Calif. — Navitas Semiconductor Corp. has emerged as one of the hottest names in the semiconductor sector in 2026, with its stock exploding higher amid intense interest in its gallium nitride and silicon carbide technologies for artificial intelligen…",
-    "relevanceScore": 0.52
-  },
-  {
-    "title": " Atlético-MG changes timetable and delays R$500m injection; why",
-    "url": "https://onefootball.com/en/news/atletico-mg-changes-timetable-and-delays-r500m-injection-why-42745513",
-    "date": "2026-04-21",
-    "source": "Onefootball.com",
-    "companies": [
-      "Meta"
-    ],
-    "summary": "Atlético-MG had to reschedule the date for receiving the R$ 500 million financial contribution promised by Rubens and Rafael Menin, the majority shareholders of the club’s SAF.The initial deadline ...",
-    "relevanceScore": 0.51
-  },
-  {
-    "title": "Offsite Data Center Power Infrastructure Market Opportunity Analysis and Forecast Report 2026-2035: Rapid Integration of AI Technologies Drives Escalating Computational Intensity & Energy Requirements",
-    "url": "https://www.globenewswire.com/news-release/2026/04/21/3277746/28124/en/Offsite-Data-Center-Power-Infrastructure-Market-Opportunity-Analysis-and-Forecast-Report-2026-2035-Rapid-Integration-of-AI-Technologies-Drives-Escalating-Computational-Intensity-En.html",
-    "date": "2026-04-21",
-    "source": "GlobeNewswire",
-    "companies": [],
-    "summary": "The off-site data center power infrastructure market is driven by AI adoption, cloud services, and 5G expansion. Key opportunities include microgrids for energy resilience. Challenges include high capital costs. North America leads the market, supported by ma…",
-    "relevanceScore": 0.42
-  },
-  {
-    "title": "Microsoft vs. Meta: Which AI Stock Is a Better Buy Headed Into Their Earnings Reports Next Week? - AOL.com",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5mUEhpTVZHOFBBU3ZLSUZKWGdyckQxTGNneGdyb3dwcTVBNThza2JOMFRXVFpPZ1ZGZFFJY0x6dnludkVseV90MTkyVmxkRVBwMFdLSGJTcUdkSFhOYW9VUXZnYVhVc1BzNUV2UUIxTk9wdFd4bkRNRS1B?oc=5",
-    "date": "2026-04-21",
-    "source": "AOL.com",
-    "companies": [
-      "Microsoft",
-      "Meta"
-    ],
-    "summary": "Microsoft vs. Meta: Which AI Stock Is a Better Buy Headed Into Their Earnings Reports Next Week?  AOL.com",
-    "relevanceScore": 0.31
-  },
-  {
-    "title": "Amazon and Anthropic Deepen Ties With Investment and Hardware Pact - PYMNTS.com",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNXEwUmRra3hRM3hpb09Fa0V3dGtKdm55NEszM3R3c09aa0dJLW8yTDF6a0hNbUJKQ0RFbUpHWEU3aWRMci1nTHlXeXdZS0NGNkJzQ253ODhrNG9kMDZDSTNxNlVCRndfN25mU2ZQMFJ4WkpkdUtZQmdJZlR5OUFqWTczY1k4Y2tIOFhjeXBjS0hQdFVrNEdsdUwxRUJ6Vk83TDBWd3pSYnlka2MtWk9DSzVrTnIzOE1hRHdDWHZB?oc=5",
-    "date": "2026-04-21",
-    "source": "PYMNTS.com",
-    "companies": [
-      "Amazon",
-      "Anthropic"
-    ],
-    "summary": "Amazon and Anthropic Deepen Ties With Investment and Hardware Pact  PYMNTS.com",
-    "relevanceScore": 0.31
-  },
-  {
-    "title": "Apple's CEO pick is a bet on hardware in the AI age",
-    "url": "https://www.businessinsider.com/apple-ceo-john-ternus-hardware-devices-ai-era-2026-4",
-    "date": "2026-04-21",
-    "source": "Business Insider",
-    "companies": [
-      "Apple"
-    ],
-    "summary": "Analysts say giving the top job to a hardware VP rather than the software one is part of Apple's strategy to dominate the devices space.",
-    "relevanceScore": 0.31
-  },
-  {
-    "title": "Iran War Will Drive Gulf Petrodollar Capital Flight To…Hollywood",
-    "url": "https://www.forbes.com/sites/arielcohen/2026/04/21/iran-war-will-drive-gulf-petrodollar-capital-flight-tohollywood/",
-    "date": "2026-04-21",
-    "source": "Forbes",
-    "companies": [
-      "ServiceNow"
-    ],
-    "summary": "The Iran War is pushing capital out of the Gulf States and to the strangest of places. Arab states now look to Hollywood as an investment shelter.",
-    "relevanceScore": 0.31
-  },
-  {
-    "title": "Increasing surplus will mean relentless pressure on Coalition to spend more",
-    "url": "https://www.irishtimes.com/business/economy/2026/04/21/increasing-surplus-will-mean-relentless-pressure-on-coalition-to-spend-more/",
-    "date": "2026-04-21",
-    "source": "The Irish Times",
-    "companies": [],
-    "summary": "State’s surplus is set to grow from €5 billion to €9 billion",
-    "relevanceScore": 0.31
-  },
-  {
-    "title": "OpenAI turns on cost-per-click ads inside ChatGPT",
-    "url": "http://digiday.com/marketing/openai-turns-on-cost-per-click-ads-inside-chatgpt/",
-    "date": "2026-04-21",
-    "source": "Digiday",
-    "companies": [
-      "OpenAI"
-    ],
-    "summary": "The move to introduce CPCs come as the platform looks to hire its first Advertising Marketing Science Lead.",
-    "relevanceScore": 0.31
-  },
-  {
-    "title": "OpenAI gets set to go public: can we entrust the financial markets with ChatGPT and AI?",
-    "url": "https://theconversation.com/openai-gets-set-to-go-public-can-we-entrust-the-financial-markets-with-chatgpt-and-ai-280943",
-    "date": "2026-04-21",
-    "source": "The Conversation Africa",
-    "companies": [
-      "OpenAI"
-    ],
-    "summary": "The prospect of a massive IPO for OpenAI is about more than just a cash injection, it poses a broader ethical question: is market-driven AI a “safe” bet?",
-    "relevanceScore": 0.31
-  },
-  {
-    "title": "SocGen's stock chief breaks down why physical assets are his highest conviction trade right now, and shares 4 ways to invest",
-    "url": "https://www.businessinsider.com/where-to-invest-now-physical-assets-metals-industrials-materials-gold-2026-4",
-    "date": "2026-04-21",
-    "source": "Business Insider",
-    "companies": [
-      "Meta",
-      "ServiceNow"
-    ],
-    "summary": "SocGen says the best investment opportunities right now are in commodities like metals and in stocks tied to demand for hard assets.",
-    "relevanceScore": 0.31
-  },
-  {
-    "title": "Charted: Compute Costs More Than Talent in AI - Visual Capitalist",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9jd2EtVGNPZV9TaUUxQTN3eDdCeTRTNXFtb3BXVDN1QVh4R0h0R0tjN3c3VUlTVWhkYVBtT1lvYWhra05OZDg5ZXFCWHd4Y2QxMjZMajFKdzItdm53eV90TWt1WHhyaElnOG11UUNNQjZKYUx0STJyRUdB?oc=5",
-    "date": "2026-04-21",
-    "source": "Visual Capitalist",
-    "companies": [],
-    "summary": "Charted: Compute Costs More Than Talent in AI  Visual Capitalist",
-    "relevanceScore": 0.21
-  },
-  {
-    "title": "The 'Behind-the-Scenes' AI Chip Stock Few Investors Know — But Every Hyperscaler Will Soon Need - 24/7 Wall St.",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSVgwMHN6eVNHdWNwWGx6X0gxNC03bHJCdnZsVjY2dW80X2poTkNUQTRkU2R5SEdueXRkNHkyRnlCWGZtdjBST1haaTkxTi0takNGZTctODZhY20zUmdlM25Iczg5MDF0NVY3THZBOEZLVnRHYVB0YnpmUVdWSVZ6eGZydHVtcUFXSnlQWVFkRnlpcFRSa2c5cF83QnZRc1paVWhCX0RDVUU5QkI0STEyOFFjSHcwZndoYmFYS1hzOFR1dUd0OFc4REIwMlBlUWJQ?oc=5",
-    "date": "2026-04-21",
-    "source": "24/7 Wall St.",
-    "companies": [],
-    "summary": "The 'Behind-the-Scenes' AI Chip Stock Few Investors Know — But Every Hyperscaler Will Soon Need  24/7 Wall St.",
-    "relevanceScore": 0.21
-  },
-  {
-    "title": "Cloud tech outages: how the EU plans to bolster its digital infrastructure",
-    "url": "https://theconversation.com/cloud-tech-outages-how-the-eu-plans-to-bolster-its-digital-infrastructure-280928",
-    "date": "2026-04-21",
-    "source": "The Conversation Africa",
-    "companies": [],
-    "summary": "Global digital infrastructure behind literally every modern service requiring data backup or authentification for example, is far more fragile than you’d think…",
-    "relevanceScore": 0.21
-  },
-  {
-    "title": "ENR FutureTech 2026 Announces Top Speaker Lineup for May 4-6 Return to San Francisco",
-    "url": "https://www.globenewswire.com/news-release/2026/04/21/3278188/0/en/ENR-FutureTech-2026-Announces-Top-Speaker-Lineup-for-May-4-6-Return-to-San-Francisco.html",
-    "date": "2026-04-21",
-    "source": "GlobeNewswire",
-    "companies": [
-      "Cisco"
-    ],
-    "summary": "35+ Contractors, Founders, and Investors Converge in San Francisco to Address AI, Reality Capture, and What's Actually Working in the Field 35+ Contractors, Founders, and Investors Converge in San Francisco to Address AI, Reality Capture, and What's Actually …",
-    "relevanceScore": 0.2
-  },
-  {
-    "title": "America’s ‘silent army’ of skilled tradespeople are retiring with no one to replace them—and the price tag could hit $1 trillion a year",
-    "url": "https://fortune.com/2026/04/21/america-silent-army-jll-report-skilled-trades-job-shortage-cost/",
-    "date": "2026-04-21",
-    "source": "Fortune",
-    "companies": [],
-    "summary": "The shortage of electricians, HVAC techs, and pipefitters could have catastrophic consequences for the economy, according to a new JLL report exclusively shared with Fortune.",
-    "relevanceScore": 0.2
-  },
-  {
-    "title": "Best Artificial Intelligence Stocks in India - Groww",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1FbDhLRVZJRS1qZ3BYTFZ4Tl8xdUMzWlhtTDAwQldYbHVOVTRQdnJLd0dLTHcwZjNPTEg3RVgxMGt6QjhyOTNXZl9wMWF2c1VXdnRyTGN4TXlUdUVYcjBvNFk1ajhJLWJVR0JLUlozVm40RXhj?oc=5",
-    "date": "2026-04-20",
-    "source": "Groww",
-    "companies": [
-      "Intel"
-    ],
-    "summary": "Best Artificial Intelligence Stocks in India  Groww",
-    "relevanceScore": 0.31
-  },
-  {
-    "title": "Apple stock slips as Tim Cook steps down after 15 years, John Ternus takes charge as new CEO",
-    "url": "https://economictimes.indiatimes.com/news/international/us/apple-stock-slips-as-tim-cook-steps-down-after-15-years-john-ternus-takes-charge-as-new-ceo/articleshow/130404610.cms",
-    "date": "2026-04-20",
-    "source": "The Times of India",
-    "companies": [
-      "Apple"
-    ],
-    "summary": "Apple stock dipped slightly after Tim Cook announced he will step down as CEO and move to a new role. John Ternus will take over leadership at the company. Investors are watching how this change will impact Apple’s future growth, products, and AI plans. The c…",
-    "relevanceScore": 0.31
-  },
-  {
-    "title": "Big Tech AI Spending Over Time - Voronoi by Visual Capitalist",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9Ja1ZVVkJUdXlJYjQ5WjJnYXFLbjAtSW1EUF9FMWdZWXRNUGZBcHFBSWRBR0hYMElZdEhSRVBmQmZ4VVVBMzVLTmxjM1NmUnhWbEx1MzFQMG5KaGlYYmRYX05aRjlBaVg5Yzg3WUZ4RTVrSUdMUGtfVko0a0Z2dw?oc=5",
-    "date": "2026-04-20",
-    "source": "Voronoi by Visual Capitalist",
-    "companies": [],
-    "summary": "Big Tech AI Spending Over Time  Voronoi by Visual Capitalist",
-    "relevanceScore": 0.21
-  },
-  {
-    "title": "Artificial Intelligence Stocks: The 10 Best AI Companies - U.S. News Money",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNHFZQW0zOUM3ZVhtZy1HVEZmbXBSdlFubi1OYWFjSktBMEdlaks0NU84UmJaSTlyMF9tZkU0dERkdURhTzN2VVd0RkFhem15Q21POEpacUllc3p2cnZpRjdMRzV4ell1WGx0enhHc29IaVdHNE9hWjFoRDczY1l6ckwzLUJ0WFp2aGx1SGJOTkpycVRReVN0YVA5c2ZDMGxT?oc=5",
-    "date": "2026-04-17",
-    "source": "U.S. News Money",
-    "companies": [
-      "Intel"
-    ],
-    "summary": "Artificial Intelligence Stocks: The 10 Best AI Companies  U.S. News Money",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "TSMC lifts revenue forecast, pledges more capital spending to meet AI chip demand - Reuters",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUmxNZ0N3R0hEZHl4N0FVYTFCUUxxaHJibVU2T1JaYkhKRnBzalh4dUxpVW90LTRvZkhLNUdra3M5QmRFMHYyN2VTOXBEdWoxc1VWR1Jpam5PRWdCamVEQWFJOVpnV0xXQ3I2MlRmek9sZVRwQkNOb3FtNWUyNkk0WmtxZXFwOS1qNzBlT1o0MlhGN0pVZ3VqMFhPS3VsT3dGVEZVT3puLUd2S0czTktyaGFjN2ZwSjlQTmVzcHc0R09IRTllQnBwek9oSk9BQQ?oc=5",
-    "date": "2026-04-16",
-    "source": "Reuters",
-    "companies": [
-      "TSMC"
-    ],
-    "summary": "TSMC lifts revenue forecast, pledges more capital spending to meet AI chip demand  Reuters",
-    "relevanceScore": 0.62
-  },
-  {
-    "title": "Alphabet Targets Higher AI Capex for 2026, Does This Make It a Buy? - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUkk1RmFvb0hCNlY3emt2XzBCR010YUlKRzRyeURDYWhLOGMxTlR3RllWczhRSEdIaEEtU0MyVmVoemZ2NEZWSld0UVB4YkR3WXVhaDFPQ1pBUGVYNHdHQlhfNG40TVZweVllX2NWTXhaaTJwZUFnR2dBeGV2NmM4bmN6bXh1UWRkY2ZOVGYtMHl1OWVBbWw4TlZQMDVXcXE3Nmpr?oc=5",
-    "date": "2026-04-16",
-    "source": "Yahoo Finance",
-    "companies": [
-      "Alphabet"
-    ],
-    "summary": "Alphabet Targets Higher AI Capex for 2026, Does This Make It a Buy?  Yahoo Finance",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "SK Hynix to Invest Nearly $13 Billion in AI Memory Plant to Meet Surging Demand - CXO Digitalpulse",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLVhaQ2pLaWVZaWpZdTZlU25lcG9rbGQwR0luR0JHNHVqQkdaak04SWctX29ERVpVQ1owNDV4SmY3VWthUHlhdTlMa0kySDZiSHhXNlN1SWJQclVfQnlBWXRhbmgtWDlPclZudW1ZZVZDcXphNXlhcnZFeHhGbUVRNS1MR0duRS1ocTBBMUNtZFZZWTM2cFFMdjNfUEhvVlMxS0VCTGpOOGZDMFFlSG5iNg?oc=5",
-    "date": "2026-04-22",
-    "source": "CXO Digitalpulse",
-    "companies": [],
-    "summary": "SK Hynix to Invest Nearly $13 Billion in AI Memory Plant to Meet Surging Demand  CXO Digitalpulse",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "Furiosa AI hires Nvidia veteran infrastructure expert - 매일경제",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5tQnBXeHFzT2RPMEhkVkEtcXRrYmJldy0tNzNsZ0JLTWVjVGxBLVNMUVZJaHEwYVViZ0pfRnBTcHNwQXFTMkwzeTVwRmhwakd3dFd3?oc=5",
-    "date": "2026-04-22",
-    "source": "매일경제",
-    "companies": [
-      "Nvidia"
-    ],
-    "summary": "Furiosa AI hires Nvidia veteran infrastructure expert  매일경제",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "NC AI, NHN Cloud Forge AI Infrastructure Alliance for Public, Financial Sectors - Seoul Economic Daily",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcWI1bDZObnJiWjRKeEMteHF4UTJSdVFGb0JKLUtzWGhuc1RUWVRNOTZibXhsYkNLWGkwRFBYUnJZMlAwX2QwMnZZUTBuTWxPMFZkZV80N2dkSHdiMHZmY1kxS0NlenBPSzhjSGpxRGVxRkdYSERfX29tMERZelBSblhkQ1FfeWstSFJXVFU5N1NrQlpzbmZGMzBENWc4M2hsTjVqTGFiWQ?oc=5",
-    "date": "2026-04-22",
-    "source": "Seoul Economic Daily",
-    "companies": [],
-    "summary": "NC AI, NHN Cloud Forge AI Infrastructure Alliance for Public, Financial Sectors  Seoul Economic Daily",
-    "relevanceScore": 0.32
   }
 ]
