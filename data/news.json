@@ -1,5 +1,315 @@
 [
   {
+    "title": "Microsoft forced to up AI spending by $25 billion to cover hardware price rises — says it 'remains confident in the return on these investments'",
+    "url": "https://www.techradar.com/pro/microsoft-forced-to-up-ai-spending-by-usd25-billion-to-cover-hardware-price-rises-says-it-remains-confident-in-the-return-on-these-investments",
+    "date": "2026-04-30",
+    "source": "TechRadar",
+    "companies": [
+      "Microsoft"
+    ],
+    "summary": "Microsoft expects a $190 billion capex in fiscal 2026, but around $25 billion of that is believed to come from rising costs.",
+    "relevanceScore": 0.9
+  },
+  {
+    "title": "Alphabet and Amazon outpace Meta in AI as Big Tech’s Q1 2026 earnings confirm cloud dominance",
+    "url": "https://thenextweb.com/news/alphabet-amazon-meta-q1-2026-earnings-ai-cloud/",
+    "date": "2026-04-30",
+    "source": "The Next Web",
+    "companies": [
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "ServiceNow"
+    ],
+    "summary": "Google Cloud grew 63%, AWS 28%. Meta raised its full-year capex guide to $125-$145 billion, sending its shares down 6% after hours. Combined 2026 AI spending across five hyperscalers is now on track to exceed $650 billion. The question hanging over Wednesday’…",
+    "relevanceScore": 0.9
+  },
+  {
+    "title": "Meta Tumbles 8% on $145 Billion CapEx Bombshell: Are AI Investments Spiraling Out of Control?",
+    "url": "https://247wallst.com/investing/2026/04/30/meta-tumbles-8-on-145-billion-capex-bombshell-are-ai-investments-spiraling-out-of-control/",
+    "date": "2026-04-30",
+    "source": "24/7 Wall St.",
+    "companies": [
+      "Meta"
+    ],
+    "summary": "Shares of Meta Platforms (NASDAQ:META) are down roughly 8% to $614 in early trading on Thursday, April 30, after the social media giant paired a Q1 FY2026...",
+    "relevanceScore": 0.82
+  },
+  {
+    "title": "Google, Microsoft, Meta, and Amazon capex spending to hit $725 billion in 2026, up 77% from last year — analyst says bear thesis is 'garbage'",
+    "url": "https://www.tomshardware.com/tech-industry/big-tech/big-techs-ai-spending-plans-reach-725-billion",
+    "date": "2026-04-30",
+    "source": "Tom's Hardware UK",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Meta",
+      "Alphabet"
+    ],
+    "summary": "Google, Amazon, Microsoft, and Meta collectively plan to spend $725 billion on capex in 2026, up 77% from last year's record $410 billion.",
+    "relevanceScore": 0.72
+  },
+  {
+    "title": "Global Business Analytics Market Set to Reach USD 176.14 Billion by 2032, Driven by AI Integration, Real-Time Insights, and Data-Driven Decision Making: - Verified Market Research",
+    "url": "https://www.globenewswire.com/news-release/2026/04/30/3285113/0/en/Global-Business-Analytics-Market-Set-to-Reach-USD-176-14-Billion-by-2032-Driven-by-AI-Integration-Real-Time-Insights-and-Data-Driven-Decision-Making-Verified-Market-Research.html",
+    "date": "2026-04-30",
+    "source": "GlobeNewswire",
+    "companies": [
+      "Intel"
+    ],
+    "summary": "Driven by exponential data generation, rapid cloud adoption, and the integration of AI-powered augmented analytics, the Global Business Analytics Market is transforming into a real-time, decision intelligence ecosystem enabling predictive, prescriptive, and a…",
+    "relevanceScore": 0.72
+  },
+  {
+    "title": "MARA bets $1.5 billion on Ohio power plant to anchor flagship AI campus",
+    "url": "https://cryptobriefing.com/mara-bets-1-5-billion-ohio-power-plant-anchor-flagship-ai-campus/",
+    "date": "2026-04-30",
+    "source": "Crypto Briefing",
+    "companies": [],
+    "summary": "MARA's investment in energy infrastructure highlights a strategic shift towards integrating AI and power resources, potentially reshaping industry dynamics.\nThe post MARA bets $1.5 billion on Ohio power plant to anchor flagship AI campus appeared first on Cry…",
+    "relevanceScore": 0.62
+  },
+  {
+    "title": "Amazon’s cloud sales are growing the most in 15 quarters. Investors sent the stock down on AI capex fears",
+    "url": "https://fortune.com/2026/04/30/amazon-earnings-cloud-sales-ai-capex-stock-falls/",
+    "date": "2026-04-30",
+    "source": "Fortune",
+    "companies": [
+      "Amazon"
+    ],
+    "summary": "“We’re in the middle of some of the biggest inflections of our lifetime, we’re well positioned to lead,\" CEO Andy Jassy said.",
+    "relevanceScore": 0.52
+  },
+  {
+    "title": "Alphabet's quarterly revenue tops expectations",
+    "url": "https://www.rte.ie/news/business/2026/0430/1571008-alphabet-quarterly-results/",
+    "date": "2026-04-30",
+    "source": "RTE",
+    "companies": [
+      "Alphabet",
+      "Intel"
+    ],
+    "summary": "Alphabet topped Wall Street estimates for quarterly revenue last night, as enterprise spending on artificial intelligence delivered the best quarter of reported growth for its cloud unit yet.",
+    "relevanceScore": 0.52
+  },
+  {
+    "title": "Samsung focuses on HBM as AI demand drives record quarterly profit",
+    "url": "https://economictimes.indiatimes.com/tech/information-tech/samsung-focuses-on-hbm-as-ai-demand-drives-record-quarterly-profit/articleshow/130635359.cms",
+    "date": "2026-04-30",
+    "source": "The Times of India",
+    "companies": [
+      "Samsung",
+      "Intel"
+    ],
+    "summary": "Samsung Electronics, on Thursday, announced its strategy to prioritize high-value memory products, specifically high-bandwidth memory (HBM) and server chips, as supply shortages triggered by the artificial intelligence boom are expected to persist for some ti…",
+    "relevanceScore": 0.52
+  },
+  {
+    "title": "Inside Big Tech’s March quarter earnings: Here’s all you need to know",
+    "url": "https://economictimes.indiatimes.com/tech/technology/inside-big-techs-march-quarter-earnings-heres-all-you-need-to-know/articleshow/130635041.cms",
+    "date": "2026-04-30",
+    "source": "The Times of India",
+    "companies": [
+      "Amazon",
+      "Alphabet",
+      "Microsoft",
+      "Meta"
+    ],
+    "summary": "Big Tech giants Alphabet, Microsoft, and Amazon reported strong earnings, driven by significant growth in cloud and AI services. While Meta Platforms also delivered solid results, its shares dipped after announcing increased capital expenditure. These compani…",
+    "relevanceScore": 0.52
+  },
+  {
+    "title": "Google shares hit all-time high on blowout earnings, market cap doubles to $4.4 trillion in just a year",
+    "url": "https://fortune.com/2026/04/30/google-shares-all-time-high-earnings/",
+    "date": "2026-04-30",
+    "source": "Fortune",
+    "companies": [
+      "Alphabet"
+    ],
+    "summary": "Alphabet revenue grew 81% to $62.6 billion and the market celebrated with the creation of $250 billion of shareholder wealth in one day.",
+    "relevanceScore": 0.51
+  },
+  {
+    "title": "CAT stock today: Caterpillar Inc share price rises after blockbuster first-quarter profit report. Should you buy now?",
+    "url": "https://economictimes.indiatimes.com/news/international/us/cat-stock-today-caterpillar-inc-share-price-rises-after-blockbuster-first-quarter-profit-report-should-you-buy-now/articleshow/130632815.cms",
+    "date": "2026-04-30",
+    "source": "The Times of India",
+    "companies": [
+      "ServiceNow"
+    ],
+    "summary": "CAT Stock: Caterpillar's overall ​revenue rose 22 per cent to $17.42 billion. Its core construction segment revenue jumped 38 per cent, while the power and energy segment revenue was up 22 per cent.",
+    "relevanceScore": 0.51
+  },
+  {
+    "title": "Meta tanks 10%, Alphabet climbs 5% as each company raises capex spend",
+    "url": "https://www.cnbc.com/2026/04/30/alphabet-meta-stock-ai-capex-spend.html",
+    "date": "2026-04-30",
+    "source": "CNBC",
+    "companies": [
+      "Alphabet",
+      "Meta"
+    ],
+    "summary": "Both Alphabet and Meta said they expect their capex to continue growing this year, but investors sent Alphabet's shares up, while Meta's stock slid.",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "Google Cloud is rebuilding the enterprise stack for the age of agents",
+    "url": "https://siliconangle.com/2026/04/30/google-cloud-bets-big-agentic-enterprise-stack-googlecloudnext/",
+    "date": "2026-04-30",
+    "source": "SiliconANGLE News",
+    "companies": [
+      "Alphabet"
+    ],
+    "summary": "Google Cloud is assembling an ambitious agentic enterprise stack it believes will close the gap between AI ambition and real business outcomes. But the transition from traditional, linear workflows to autonomous systems requires a shift in how organizations v…",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "Saudi Arabia $10.19 Bn Wearable Medical Devices Market Trends and Forecasts 2026-2035, Profiles of Apple, Garmin, Google, Medtronic, Omron Healthcare, Philips, Polar Electro, Samsung, Xiaomi",
+    "url": "https://www.globenewswire.com/news-release/2026/04/30/3285089/28124/en/Saudi-Arabia-10-19-Bn-Wearable-Medical-Devices-Market-Trends-and-Forecasts-2026-2035-Profiles-of-Apple-Garmin-Google-Medtronic-Omron-Healthcare-Philips-Polar-Electro-Samsung-Xiaomi.html",
+    "date": "2026-04-30",
+    "source": "GlobeNewswire",
+    "companies": [
+      "Samsung",
+      "Apple",
+      "Alphabet"
+    ],
+    "summary": "The Saudi Arabia wearable medical devices market offers growth opportunities driven by rising chronic diseases, healthcare innovations, and government support. Consumer-grade devices and strap/clip/bracelet wearables dominate, leveraging trends in telemedicin…",
+    "relevanceScore": 0.4
+  },
+  {
+    "title": "$455+ Bn GPU Server Market Trends and Forecasts, 2040 - Lucrative Opportunities in Expanding High-performance Computing Capabilities, AI-centric Investments, and Deploying Advanced GPUs",
+    "url": "https://www.globenewswire.com/news-release/2026/04/30/3285097/28124/en/455-Bn-GPU-Server-Market-Trends-and-Forecasts-2040-Lucrative-Opportunities-in-Expanding-High-performance-Computing-Capabilities-AI-centric-Investments-and-Deploying-Advanced-GPUs.html",
+    "date": "2026-04-30",
+    "source": "GlobeNewswire",
+    "companies": [],
+    "summary": "The GPU server market is poised for strong growth, driven by AI and ML adoption. Key opportunities lie in expanding high-performance computing capabilities, AI-centric investments, and deploying advanced GPUs in growing markets, especially Asia-Pacific. Colla…",
+    "relevanceScore": 0.32
+  },
+  {
+    "title": "How did Seagate quietly become one of 2026's hottest stock? The 130% surge nobody saw coming",
+    "url": "https://economictimes.indiatimes.com/news/international/us/how-did-seagate-quietly-become-one-of-2026s-hottest-stock-the-130-surge-nobody-saw-coming/articleshow/130635627.cms",
+    "date": "2026-04-30",
+    "source": "The Times of India",
+    "companies": [],
+    "summary": "Seagate STX stock analysis: Seagate Technology (STX) has experienced a remarkable 130% stock surge in 2026, becoming a standout performer in the market. This growth is fueled by a strategic shift towards AI infrastructure and data center demand, positioning t…",
+    "relevanceScore": 0.32
+  },
+  {
+    "title": "Amazon CEO on Now growth; Big Tech dials up AI spend",
+    "url": "https://economictimes.indiatimes.com/tech/newsletters/tech-top-5/amazon-ceo-on-now-growth-big-tech-dials-up-ai-spend/articleshow/130635273.cms",
+    "date": "2026-04-30",
+    "source": "The Times of India",
+    "companies": [
+      "Amazon",
+      "ServiceNow"
+    ],
+    "summary": "In India’s hypercompetitive quick commerce space, Amazon CEO Andy Jassy said Now is growing fast. This and more in today’s ETtech Top 5.",
+    "relevanceScore": 0.31
+  },
+  {
+    "title": "$48.34+ BN IoT in Agriculture Market Forecasts to 2034: Growing Impact of Changing Environmental and Climate Conditions on Crop Yield & Quality",
+    "url": "https://www.globenewswire.com/news-release/2026/04/30/3284975/0/en/48-34-BN-IoT-in-Agriculture-Market-Forecasts-to-2034-Growing-Impact-of-Changing-Environmental-and-Climate-Conditions-on-Crop-Yield-Quality.html",
+    "date": "2026-04-30",
+    "source": "GlobeNewswire",
+    "companies": [],
+    "summary": "IoT in agriculture market size is projected to reach USD 48.34 billion by 2034 from its value of USD 15.42 billion in 2024, at a CAGR of 12.10%...",
+    "relevanceScore": 0.31
+  },
+  {
+    "title": "Survey says no, American workers are not keen on Microsoft's AI",
+    "url": "https://www.theregister.com/2026/04/30/survey_us_workers_e7_ms_ai/",
+    "date": "2026-04-30",
+    "source": "Theregister.com",
+    "companies": [
+      "Microsoft"
+    ],
+    "summary": "Lock-in worries threaten to dampen the E7 launch party The Coalition for Fair Software Licensing has published research showing that US workers reckon Microsoft is using its productivity tools to lock their employers into the company's AI services.…",
+    "relevanceScore": 0.31
+  },
+  {
+    "title": "GenAI Is Rebuilding Search. And Google is Still Winning; Q1 2026 Search Revenue up 19% YoY.",
+    "url": "https://www.forrester.com/blogs/genai-is-rebuilding-search-and-google-is-still-winning-q1-2026-search-revenue-up-19-yoy/",
+    "date": "2026-04-30",
+    "source": "Forrester.com",
+    "companies": [
+      "Alphabet"
+    ],
+    "summary": "Every tech cycle needs a good funeral: a villain to bury and a hero to crown. In GenAI’s version of the story, kill advertising (again) and Google (search) is dead. The plot is tidy: GenAI replaces searching, ads become obsolete, and the web finally escapes t…",
+    "relevanceScore": 0.31
+  },
+  {
+    "title": "Morning Minute: Bitcoin Falls After Powell's Likely Final FOMC",
+    "url": "https://decrypt.co/366109/morning-minute-bitcoin-falls-after-powells-likely-final-fomc",
+    "date": "2026-04-30",
+    "source": "Decrypt",
+    "companies": [
+      "Meta"
+    ],
+    "summary": "No rate cuts are coming any time soon, Big Tech earnings gave AI bulls more to work with, and Meta is back in crypto payments with USDC creator payouts.",
+    "relevanceScore": 0.31
+  },
+  {
+    "title": "Jan Lane illuminates the cybersecurity illusion leaders can no longer afford",
+    "url": "https://thenextweb.com/news/cybersecurity-ai-threats-leadership-risk/",
+    "date": "2026-04-30",
+    "source": "The Next Web",
+    "companies": [
+      "ServiceNow"
+    ],
+    "summary": "Summary: AI-driven threats are accelerating as security stacks grow louder. Jan Lane argues that leadership clarity, AI integration, workforce awareness and diligence now determine cyber resilience. Rising cybersecurity budgets suggest preparedness, yet outco…",
+    "relevanceScore": 0.31
+  },
+  {
+    "title": "Here are the stock market's winners and losers of Big Tech's most critical earnings stretch",
+    "url": "https://www.businessinsider.com/big-tech-earnings-winners-losers-ai-capex-cloud-meta-goog-2026-4",
+    "date": "2026-04-30",
+    "source": "Business Insider",
+    "companies": [
+      "Amazon",
+      "Alphabet",
+      "Microsoft",
+      "Meta"
+    ],
+    "summary": "Meta, Alphabet, Amazon, and Microsoft reported earnings on Wednesday. Here's what drove the reaction from investors after the results.",
+    "relevanceScore": 0.2
+  },
+  {
+    "title": "The key takeaways from a massive day of tech earnings",
+    "url": "https://www.businessinsider.com/big-tech-earnings-meta-google-microsoft-amazon-newsletter-2026-4",
+    "date": "2026-04-30",
+    "source": "Business Insider",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Meta",
+      "Alphabet"
+    ],
+    "summary": "With four companies — Amazon, Google, Meta, and Microsoft —reporting in one day, there's a lot to unpack.",
+    "relevanceScore": 0.2
+  },
+  {
+    "title": "Samsung and SK hynix warn AI-driven memory shortages could last until 2027 and beyond, as HBM demand explodes — customers already reserving supply years ahead, while the wider DRAM market begins to tighten",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/samsung-and-sk-hynix-warn-ai-driven-memory-shortages-could-last-until-2027-and-beyond-as-hbm-demand-explodes-customers-already-reserving-supply-years-ahead-while-the-wider-dram-market-begins-to-tighten",
+    "date": "2026-04-30",
+    "source": "Tom's Hardware UK",
+    "companies": [
+      "Samsung"
+    ],
+    "summary": "Samsung and SK hynix warn that severe AI-driven memory shortages could persist through 2027 as exploding HBM demand overwhelms supply, tightens the broader DRAM market, and fuels record profits",
+    "relevanceScore": 0.2
+  },
+  {
+    "title": "Amazon: 8-K",
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001018724&type=8-K&dateb=&owner=include&count=5",
+    "date": "2026-04-29",
+    "source": "SEC EDGAR",
+    "companies": [
+      "Amazon"
+    ],
+    "summary": "Official SEC 8-K filing from Amazon on 2026-04-29. 8-K",
+    "relevanceScore": 0.3
+  },
+  {
     "title": "Google Cloud’s $460 Billion Backlog Turns Alphabet Into the AI Spending Winner - AD HOC NEWS",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOR0RPMUd4Rm5oUEMwTXV0RWNyOFBMUHBWR2JZYkpTSjhzOC11TXBWOGJESkc4ZmtLSTRSTlFjclA1WVdPN1pkZlVycDlSQWVFVGViMm5ycWNsWHp4UUpWMHZWRVh6NklCQi00SEFxMFpjc3lYRk5TbTg2NFItcEdjWUJoQkVIY3F3VV9qdlFqS25DTHF1VWxBdElreHZCVHUzSzR6UEpvdlVyNVJsRTZRTkh0THF3UVpNTW5yT09PdkhqdGFqSjR3TA?oc=5",
     "date": "2026-05-01",
@@ -254,20 +564,6 @@
     "relevanceScore": 0.21
   },
   {
-    "title": "Alphabet and Amazon outpace Meta in AI as Big Tech’s Q1 2026 earnings confirm cloud dominance",
-    "url": "https://thenextweb.com/news/alphabet-amazon-meta-q1-2026-earnings-ai-cloud/",
-    "date": "2026-04-30",
-    "source": "The Next Web",
-    "companies": [
-      "Amazon",
-      "Alphabet",
-      "Meta",
-      "ServiceNow"
-    ],
-    "summary": "Google Cloud grew 63%, AWS 28%. Meta raised its full-year capex guide to $125-$145 billion, sending its shares down 6% after hours. Combined 2026 AI spending across five hyperscalers is now on track to exceed $650 billion. The question hanging over Wednesday’…",
-    "relevanceScore": 0.9
-  },
-  {
     "title": "NVIDIA and Atlassian back Legora’s $600m Series D in a $50m extension that values the legal AI startup at $5.6 billion",
     "url": "https://thenextweb.com/news/egora-nvidia-atlassian-600m-series-d/",
     "date": "2026-04-30",
@@ -278,17 +574,6 @@
     ],
     "summary": "The Stockholm-founded company, which crossed $100m in ARR in 18 months, has now raised $866m in total, and Nvidia’s entry marks the chip giant’s first investment in legal tech. Legora has added $50 million to its Series D round, bringing the total to $600 mil…",
     "relevanceScore": 0.9
-  },
-  {
-    "title": "Meta Tumbles 8% on $145 Billion CapEx Bombshell: Are AI Investments Spiraling Out of Control? - 24/7 Wall St.",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdnN1QkllNWg2R2YteFlXejZJSXlfdXh2M09HTTFFbllld05BQ3ZBT3Z0aDBfS1pRSXVzck9qM3JwRGpJMmxLYzc0d2p3aVZGWEhXR1JQWXFtc1BySWlJZUN2NXhnRklJbmZuRWctcEFqTzhJMDF5NTdmTHAwWDFYVDVqakZvZEFRZl9TNHNNckVBenlSVlFrVFBOSnBjN29jb1BYSnh2THh5ay1GTm1wX3VKdE9NcU1QREtDZkY3WXhTZTZGbDhPY0tUSmVaUQ?oc=5",
-    "date": "2026-04-30",
-    "source": "24/7 Wall St.",
-    "companies": [
-      "Meta"
-    ],
-    "summary": "Meta Tumbles 8% on $145 Billion CapEx Bombshell: Are AI Investments Spiraling Out of Control?  24/7 Wall St.",
-    "relevanceScore": 0.82
   },
   {
     "title": "Meta raises $25 billion in bond sale after lifting AI spending plan - Reuters",
@@ -323,20 +608,6 @@
       "Alphabet"
     ],
     "summary": "Microsoft, Meta And Google Just Silenced AI Spending Critics In One Earnings Night As Big Tech Capex Swells To $725B  Stocktwits",
-    "relevanceScore": 0.72
-  },
-  {
-    "title": "Google, Microsoft, Meta, and Amazon capex spending to hit $725 billion in 2026, up 77% from last year — analyst says bear thesis is 'garbage' - Tom's Hardware",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQS03MWU4YWVzUHRkZTd5VVRoZGRhT1E4Y295VXdmdlQyRW5IbUFLZ3NaZm5XZkctUzRCZmtpa21Db1pmX3phR2ZMMlpaVlQ4TUpNYkFDTzBxYmdVNUZrdUp0VWNrQlh3YVRVd3hpWTI5R2RvNUVXVmNuUERnZmtzOXdRZHVHRzRZRUdFVjlXMnBzTTk0YWcyQ1FrN2ZwZw?oc=5",
-    "date": "2026-04-30",
-    "source": "Tom's Hardware",
-    "companies": [
-      "Amazon",
-      "Microsoft",
-      "Meta",
-      "Alphabet"
-    ],
-    "summary": "Google, Microsoft, Meta, and Amazon capex spending to hit $725 billion in 2026, up 77% from last year — analyst says bear thesis is 'garbage'  Tom's Hardware",
     "relevanceScore": 0.72
   },
   {
@@ -382,17 +653,6 @@
       "Meta"
     ],
     "summary": "Meta stock sinks after Q1 earnings as company raises 2026 AI spending forecast to $125 billion-$145 billion  Yahoo Finance",
-    "relevanceScore": 0.72
-  },
-  {
-    "title": "Microsoft forced to up AI spending by $25 billion to cover hardware price rises - TechRadar",
-    "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxONjNDMnN1UGY3RnZxbS00NF90YWpXMFpob1BNN0JWeVlndUEySjVEeW9nRFp4WHpxUFJZWlN6X29VZWJnWktTTHJqRmdGc2podmw0SXNYb3BRLXdRMkZHeVVnejJMN0dkZEpDVlA2RkhWcVQ3TWxvWlQ0cWJRQ093M1J5b1NiUXR6Z1BRQmpWQmZqNHBtSlpraVczM0tzMDRlRGZDdzVWTVU5MVl4aW5mOTkxeE1MOTkxeDdnWUdwMl9jeEZPSEo4LXc3YzROa2pKb3BROUJRQnRjcUFTNkdkUWxPRjBnblFlRUVJZ0Y3c3U5UE1yWUpuS2JuWFBZalZaTWc?oc=5",
-    "date": "2026-04-30",
-    "source": "TechRadar",
-    "companies": [
-      "Microsoft"
-    ],
-    "summary": "Microsoft forced to up AI spending by $25 billion to cover hardware price rises  TechRadar",
     "relevanceScore": 0.72
   },
   {
@@ -671,17 +931,6 @@
     "relevanceScore": 0.52
   },
   {
-    "title": "Amazon's cloud sales are growing the most in 15 quarters. Investors sent the stock down on AI capex fears - Fortune",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNS1lhVndyaWcydHg5OEgyU3I3YTBaVExnNV9OTXQyRnhKeDhsWnlLS29JYUQ2bXFmSHByYnpLWnlxc0dEZy02akY5anVrVDRKY1N0aE9kRzhSeVZCTFVqMkRYTFpETXF6RUkyOG1EckNTbjlhZXNBV3ZGMWhoVjlnWjNpMWR1Ulk?oc=5",
-    "date": "2026-04-30",
-    "source": "Fortune",
-    "companies": [
-      "Amazon"
-    ],
-    "summary": "Amazon's cloud sales are growing the most in 15 quarters. Investors sent the stock down on AI capex fears  Fortune",
-    "relevanceScore": 0.52
-  },
-  {
     "title": "The $725 Billion AI Spending Surge Is Missing The Real Bottleneck - Forbes",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcnlBRHVaNzNDTlZJN1JaRFZMZVVGV010WmZETmJ0c0VEbU1pZk4zUXBWMkhBTHlldDVSLS1Zc0tUSTd6WjFmTDR5YUpaSDM3OFNqNndwZGhXSEtLQkdaZENsR1lCZHFHZkhqQ1p2YlhST0Juc3o4cmFIRHZLVWlQdTcwLWpiZ3FXMVpfOElJVERWZWhtLS12R1pFRDFUV3ZmNkNpcWZFU01mLVNqT2R4Vm9iYmEtOWc?oc=5",
     "date": "2026-04-30",
@@ -737,18 +986,6 @@
     "source": "富途牛牛",
     "companies": [],
     "summary": "The 'AI investment battle' continues to rage on! The four major tech giants' expenditures are approaching $725 billion, injecting new fuel into the bull market for AI computing power.  富途牛牛",
-    "relevanceScore": 0.52
-  },
-  {
-    "title": "Alphabet's quarterly revenue tops expectations",
-    "url": "https://www.rte.ie/news/business/2026/0430/1571008-alphabet-quarterly-results/",
-    "date": "2026-04-30",
-    "source": "RTE",
-    "companies": [
-      "Alphabet",
-      "Intel"
-    ],
-    "summary": "Alphabet topped Wall Street estimates for quarterly revenue last night, as enterprise spending on artificial intelligence delivered the best quarter of reported growth for its cloud unit yet.",
     "relevanceScore": 0.52
   },
   {
@@ -1183,18 +1420,6 @@
     "relevanceScore": 0.52
   },
   {
-    "title": "Alphabet pops, Meta tanks as each company raises capex spend - CNBC",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNWdiZHJSZFlmQnN6V09rVGg3LTNUVEI2VV9WRE9JMkpDNDk4MEpudmx4VHFuR0loeFpUQ2pJczFqTzNJaEtGWnZlak5BNlBib1pkR3JRQXVRaE5lZXlIRjRvRG1LcEdxcDFhTFlhX0l6VDU4ak16d1VMMk1sa1A1R9IBgAFBVV95cUxPNWdiZHJSZFlmQnN6V09rVGg3LTNUVEI2VV9WRE9JMkpDNDk4MEpudmx4VHFuR0loeFpUQ2pJczFqTzNJaEtGWnZlak5BNlBib1pkR3JRQXVRaE5lZXlIRjRvRG1LcEdxcDFhTFlhX0l6VDU4ak16d1VMMk1sa1A1Rw?oc=5",
-    "date": "2026-04-30",
-    "source": "CNBC",
-    "companies": [
-      "Alphabet",
-      "Meta"
-    ],
-    "summary": "Alphabet pops, Meta tanks as each company raises capex spend  CNBC",
-    "relevanceScore": 0.41
-  },
-  {
     "title": "Meta’s AI Capex Reset Turns Supply Chain Into a Board-Level Constraint - Logistics Viewpoints",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVk1DNUplZ0NlYWhIaXRxYWRDN3RMVUdPcnh2VTdhVVAtYTZhSmJmR3gxVGxBLXAyMWhfVDdlM3JULVQ2Q0k2QXBaRTJsU0xtbXFQOXloNk9zZnMwWHhJblh2aEZRRmFLTkE5SE0wd2czdU15dDFoQmc3cnBRX2pmcUE0REpjd0JRTDUzN3hUNDhKclgtZkFJeWhBR1d5dzcyY3RxTmpYNjRTX3ROYk5oSmNBZw?oc=5",
     "date": "2026-04-30",
@@ -1442,17 +1667,6 @@
     ],
     "summary": "Alphabet, Amazon, & Microsoft Increase AI Spending as Quarterly Earnings Reflect Strong Momentum  Analytics Insight",
     "relevanceScore": 0.41
-  },
-  {
-    "title": "Google shares hit all-time high on blowout earnings, market cap doubles to $4.4 trillion in just a year - Fortune",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SM0E1ZXQ4QzRsVGxNOXBieFZPNWMxZ1V1Vmc3OHdlNGdmckpRNGZzM0lZMEpoNmtpdU9JbnFyQUNYb3NCMkxpTkZnTU03MWZlamp0MWtac1VmQndPbE1tcFJHOHhBVVI2eEo0aWpURUF6THJNd1lF?oc=5",
-    "date": "2026-04-30",
-    "source": "Fortune",
-    "companies": [
-      "Alphabet"
-    ],
-    "summary": "Google shares hit all-time high on blowout earnings, market cap doubles to $4.4 trillion in just a year  Fortune",
-    "relevanceScore": 0.4
   },
   {
     "title": "Chinese firms face pressure on AI investments as US peers’ spending soars - South China Morning Post",
@@ -2379,17 +2593,6 @@
     "relevanceScore": 0.61
   },
   {
-    "title": "Amazon Faces Defining Earnings Test As $200 Billion AI Bet Meets Investor Scrutiny - Tekedia",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPemhhdWdlQklDRFpqNHRSZ2V0NkdsSVVpWjlaellfMU5BUC1jM0NPdzdjdm5ocnkyazlJR3ZCYkhxQkZ4NU1UYkNKVmV1M1RfRVlhd21vbEM0Vm82VGl5MEkySUNPNldJUmRpcVhzRFJLTkpLdlNWNkRSalpEUEZILVFwOVUwREpWWjR1Ni1EdDFzSmszb0o2RXowbE13c3lKVmEzR2xOYmhKQQ?oc=5",
-    "date": "2026-04-29",
-    "source": "Tekedia",
-    "companies": [
-      "Amazon"
-    ],
-    "summary": "Amazon Faces Defining Earnings Test As $200 Billion AI Bet Meets Investor Scrutiny  Tekedia",
-    "relevanceScore": 0.61
-  },
-  {
     "title": "Meta Raises Capital Expenditure Forecast to Boost AI Investments - Global Banking & Finance Review",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWGo4elVTY2dYc1BIN2haQXd1N3FJYUFZM0J6MzRsWXNLVVJtcWpDOTlZZjJuMjB2RU5WQV9IbUFFOEVubzZ2RG53RE5sUDFnV0tkUGFhV3RWTUc5V0V1Unp5Vlc0MUp2aVloYmh5WTlMZVRoaE8tLTVVTDNmTFFZZEhCWm5SOTZQY3MxdDBIMk9VRDVZQTFuOURZSTdIdw?oc=5",
     "date": "2026-04-29",
@@ -2409,18 +2612,6 @@
       "Meta"
     ],
     "summary": "Meta raises capital expenditure forecast, doubling down on AI investment  The Globe and Mail",
-    "relevanceScore": 0.52
-  },
-  {
-    "title": "Amazon and Anthropic Deepen Multi-Billion Dollar AI Partnership to Scale Global Compute - TechAfrica News",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTXBVUHZVcUZkN3dTY1ZXRXZCZmNJbzgxYzRvQnlXRS1uVDBtRWFwS2R4YldmZ2o5SjJ4SGZIbFBoaS1mUDZ6dC1UTDlld2tSNHZMbXBMNENqOUpidGNPLXBJSEdSWnhOLUszWDhnb2JaV01KV1FOeEMtVUdyLTZlbXd3b2pTMmR2NTYxSjBkblY0YkRlaExDUDdVRmhrSUtwYlhOUXpfSFJKNC1GXzRuQmYzemh1VWo2RGluWGJIeDNLX1Vx?oc=5",
-    "date": "2026-04-29",
-    "source": "TechAfrica News",
-    "companies": [
-      "Amazon",
-      "Anthropic"
-    ],
-    "summary": "Amazon and Anthropic Deepen Multi-Billion Dollar AI Partnership to Scale Global Compute  TechAfrica News",
     "relevanceScore": 0.52
   },
   {
@@ -2451,174 +2642,5 @@
     "companies": [],
     "summary": "Gorilla Technology secures $2.8 billion AI infrastructure deal in India  Investing.com",
     "relevanceScore": 0.52
-  },
-  {
-    "title": "Meta lifts spending forecast, shares fall - Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNFNSQmtUam5teWJnNHNkcDVSSHVwbGl4d0luVzYwSUxaVnVpcVNmcW9LcXFGZ1IyWWxsZ1VPbmJ4N0FrR1ZXbkFfZG16cUJYQUFSdnhmdU95TUVXaUstaWF3M1drcXVDbHRjVlZVMTUwY3h0VnhhMVEycnRWbC1TNElfamZrNDlXQjNGbTg0dGN0MEN6ZDYwSDgtLUV6MW5HcXlDdlEtQmxJQQ?oc=5",
-    "date": "2026-04-29",
-    "source": "Reuters",
-    "companies": [
-      "Meta"
-    ],
-    "summary": "Meta lifts spending forecast, shares fall  Reuters",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "Meta raises AI capex forecast, stock drops despite Q1 earnings beat - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOFhva0pvSHh6STdib0toQWdua0U1eDJTUmlWdk9QOWRhVnNnSWxKWFhnX19vR2RsSnItYXROOHdtTERCcDFpZTZCRGlFdThVOXo4aEs2Z2EwSXd1aWJ5LXRwV18xOWdqa1FZbi1xSXNSS0xUT3hqSkRrVWsyZTY4Q2NEcWthR2xfRThPLVVjeWZJYXFMLV9PVXA4SDMtS1Z1OFB0QmtUOE9MZHJ1QlVpbWp3WQ?oc=5",
-    "date": "2026-04-29",
-    "source": "Yahoo Finance",
-    "companies": [
-      "Meta"
-    ],
-    "summary": "Meta raises AI capex forecast, stock drops despite Q1 earnings beat  Yahoo Finance",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "Meta Earnings Preview: AI Spending Faces Its Revenue Test - EBC Financial Group",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSlFrVlhweHNwekkyZW92d0QyUzNUSzUyWkgzMGVJZXEwLXFIYW83T3JMN2JsSUdSWkdWMzVZdWlBbUs2cHNmcWczcHNyVjJveTBDTFhtMFcwcG82RnBZMFJ1RGVvcDJvNVZyZlk5djhnNXdWbEgzTC11MTZsbjA4QnpQdXpqRWtvdkE?oc=5",
-    "date": "2026-04-29",
-    "source": "EBC Financial Group",
-    "companies": [
-      "Meta"
-    ],
-    "summary": "Meta Earnings Preview: AI Spending Faces Its Revenue Test  EBC Financial Group",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "Hightouch Raises $150 Million to Reinvent How Marketing Works Using AI - Business Wire",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMWdubGJEeXZPRGw2YVFjWWNFNFJpUnMxenV4LWdtcThneWIyZVh1ZEFaWlpaVm5jdWxwekhwb19FYmwyWmRtVmRjMTRMd0V2SG05czV0NE5oVERpTTd3WDdzeTE1WGJSVmgwVElZQ0Z0d0ZMWFA5a2tYQjB3Qi1VRjR2UEZXT0hMWlJCcE05ZkVZVkNzdGFRRVYxZU5ucUU3dnBwUTQ5WnRab21YQVdpM21JTmh5VExqVEFTR0lJRE1WUW1nakk2SQ?oc=5",
-    "date": "2026-04-29",
-    "source": "Business Wire",
-    "companies": [],
-    "summary": "Hightouch Raises $150 Million to Reinvent How Marketing Works Using AI  Business Wire",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "TexAmericas Center Unveils $3.5 Billion AI and Data Campus in Bowie County - Texarkana FYI",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWm8wWFRNUFJ3WmQ1d0hvSkRlR3BlbGd5X1p4aG42RXhLcmxvanJGa0xmRkJQX0U3NFlHN1pGZUdtTEVkMmxMUDJMb3JMWFRYS1hfYmVQLThnSGRpWFZzRUpuTXhlSkhLbTVIckdoRDJtM0hNdzNZd25aUklFWC1sTTZoSUJXazl1MW05cWhyS01CeE9WQjhNQmRYVHRmdENP?oc=5",
-    "date": "2026-04-29",
-    "source": "Texarkana FYI",
-    "companies": [],
-    "summary": "TexAmericas Center Unveils $3.5 Billion AI and Data Campus in Bowie County  Texarkana FYI",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "Cognizant to acquire Astreya for $600M to deepen AI infrastructure services - SiliconANGLE",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTjNaNFRqQ1dFdkpaT2hoX1pGUkxrQmU2akpYQkFzT1F1N0RhS1BWSnhNTHJhUHhob2RENXJiMDkxRW1UdmR5UDhYUmp1aTAtNDZzMUJSbHl2aDA4b0hScTdLeUJwWm1aZlpkY1BqVDAxUFNOV28wbkVxZ21YTURleC1qdDVZYVNCalc2dWcybndXakkzQ0VpZ1JFUFd3SUR3cVhF?oc=5",
-    "date": "2026-04-29",
-    "source": "SiliconANGLE",
-    "companies": [],
-    "summary": "Cognizant to acquire Astreya for $600M to deepen AI infrastructure services  SiliconANGLE",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "A $2.8B AI buildout in India adds 20,736 GPUs by Sept. 30 - Stock Titan",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRzVZOHBnem9fZ2ZNX3ViZUxGSnRfOTVGRldRZ3pQcGhtSjZkSHB0eUkxcXlwSkNIMDZ2bEpFV1Y3amtJdU9aeVNGUHVJMWgwYzRjVnp0Rk9tU20wOW1Tcjd5bmNVVXpkU2tqRlhKcDlCQ2hvb0lxa0lJWGEyTXJHT3RpT0thMGVsTG9XZFowNHUwUzRJbjhSTjU4ZVhpX0F6Wi1kd3NQajVObmhQOVE0?oc=5",
-    "date": "2026-04-29",
-    "source": "Stock Titan",
-    "companies": [],
-    "summary": "A $2.8B AI buildout in India adds 20,736 GPUs by Sept. 30  Stock Titan",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "Cognizant to buy Astreya for about $600 million - Reuters",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZ2ZwRzYwbmR0LS1hMTlYcHBqTUFIMElSNjBOcVJ0aGZ6aTBhVE91UlkxUkl1V0wxZ0N5S01kRk1FUmhDTnBiOUx4bEY1UmhQbDloakZabTgwclZmaDYta3dBNmdVcmM5RUpMMzBQWEg5VmpXTUdYcnJRVUkwN043OG9jX1Z5VWdFbldFcEo0WGwxcmt0YTNoUTZZWQ?oc=5",
-    "date": "2026-04-29",
-    "source": "Reuters",
-    "companies": [],
-    "summary": "Cognizant to buy Astreya for about $600 million  Reuters",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "LG and Nvidia Are Exploring a Partnership Around Robots, AI Infrastructure, and Mobility - Republic World",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZFU4T2RQcmJ0MTQwSXVLWjVUYVplc01uY0xFQ3ZxMUEtS1l5NlpNdURJQjBGay1XR3pKOUMtWE1OcXExU050NGE1OXExeXZxckZGeGRBYl9rWWxVQkMzeFR2Njh0YnJzRnRPX1c5a0NHdG5xU01xRnBkaXVzbEtpclhnUFpNU2xuT1V3djROOWtubW5TXzZRQlBlaGY4aFlHaWZmZUpSdUUxRzZLZng5dGt2OHVCbk9XcEM2X1Fn0gHDAUFVX3lxTE5Yazg1UGdudVQ1RnlqV1VhU2NnRE1QTzdYRlh3OEZKVEVMUUZFN2hoMGxMWF84X08xQlVrUFFZME1tU2hneW9HSDkzY2psWFJOM1hZWnJSdkpaSlFQVGZvTGVjMTQ4ZjVVR195c3UwRXp5bkhpUlBoR0ZQSHRkVEZySmlXU2RtTWRRaUlWYXkxbHNQYzE5MlB3VWhKeW5YLUEtOWpOSlpNdGhmMXBla3d1ckR3Mm12LTZ5LXBic0pjWkZZYw?oc=5",
-    "date": "2026-04-29",
-    "source": "Republic World",
-    "companies": [
-      "Nvidia"
-    ],
-    "summary": "LG and Nvidia Are Exploring a Partnership Around Robots, AI Infrastructure, and Mobility  Republic World",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "Cognizant (CTSH) Stock; Holds Firm After $600M AI Infrastructure Acquisition of Astreya - CoinCentral",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOelRoODA0a0ZqM0hsNFZMNDlkaUhWbkZ5UUdnSWc2bEg2aWVKel9VZUI4YXhXODN5OVJ2T3NLYWR4by1NdFJpeV9fdGJhQXBFTlZNc3ZER2drNlNZX2kyZjZmd1hWR1UxWjNrYzFjOEtoSVN1YjJ5TzBHM19lQm5peE03bHN1MWFCMHk0ZmJLWGZRWXA5QVBvWnNSZjJZQU5YNnp3clNJNFlObzhJ?oc=5",
-    "date": "2026-04-29",
-    "source": "CoinCentral",
-    "companies": [],
-    "summary": "Cognizant (CTSH) Stock; Holds Firm After $600M AI Infrastructure Acquisition of Astreya  CoinCentral",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "Cognizant Buys Astreya for $600M to Boost AI Infrastructure Services - Whalesbook",
-    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNODFvT2JnWUpNbUFOT04zRk9aaVlpcXZLbWpjUEhQQmNvcUkwOUZ6S0hUY2pKeDJzTmFzeEtXZGFncmlpcVhVaUJUbDFxU1lxTHhPZUl6X3lHbC14eFlLanBNLUtYMklIeUFmM2k5VFpfQ185S2VLazliMm9qUjEyMlJVQTB5TDhfTUhrYS1GQ3MtOHdZa3p4UmpfUzVXYUtJdV9EX1RtbElKckhCOGJvMnZXU3h6X1puaXZ5UmZOazk3ZEdyNVBxNF93VVprUENXQUFBSlgxcWVSMTQ?oc=5",
-    "date": "2026-04-29",
-    "source": "Whalesbook",
-    "companies": [],
-    "summary": "Cognizant Buys Astreya for $600M to Boost AI Infrastructure Services  Whalesbook",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "Cognizant To Buy AI Infrastructure Services Firm Astreya For About $600 Mn - BW Businessworld",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNLW9leGYtRzduUHR3R2FOMkUyTjVSLUZPdHl4Nm1OdEZrQm5TVVo2S05qVmVSQ05iX05vc21CeW9ZVnhuQk5XVmJpSmNEbHAxRG8zSVRlSTNLRGlna0sxenNYZTZiZ2pEY2lxM3E4Z0p0b1pqbmpFX3RMNDU1WUNfcTBsVXMzSzlhWTZ6dVcwTDJnQWozYmMtc2FrcEluSnJwQ2d2VDNPUHVaamJQWnlFVUV3Vmo4cXdO?oc=5",
-    "date": "2026-04-29",
-    "source": "BW Businessworld",
-    "companies": [],
-    "summary": "Cognizant To Buy AI Infrastructure Services Firm Astreya For About $600 Mn  BW Businessworld",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "AI Giants Anthropic and Open AI Supercharged Lobbying Spending Under Trump - Food & Water Watch",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNEdfQXhVWl95bTN4NEhwaWw5UHdlbnFGd1g2VlZDeDlta3lOaVp4UVUxdGFDZ090ZzZZSW5XZm5KdHVlWnQ1aEgwYVVpdG5WZ09BaFJ1ZFRwdXcxNUhGUmlZdVZxaXVtRXdpZi1QT2E3aHVoMVRZOTRuT05nUVBqVlY2b1ozZkJEVU5xZEY4dUkxYjE4a2ROVi1Dd0FiTkZlOWNhOE83OU9Da0RJdFdpbGFwSXIyUV9FSTlN?oc=5",
-    "date": "2026-04-29",
-    "source": "Food & Water Watch",
-    "companies": [
-      "Anthropic"
-    ],
-    "summary": "AI Giants Anthropic and Open AI Supercharged Lobbying Spending Under Trump  Food & Water Watch",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "Meta’s Louisiana AI campus is turning utility spending into an AI cost center - startupfortune.com",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRl9ZT2ZBUDMxS2xXWDI3d2JHWm1FV0lpQ1N4S3BhUUtpOENhVEZrNU5Ob3QyV1RDcUVNQTVGS0NYZFFBNnJTUzdMb2VOd2pGOUZyREp1bUl3b0pqMHlUUmktN0ttdlNTVXlQQkgwQVV5TTRrRUhZbDdqUkFNZm1JY3B0ZTZyNmlPZVNfbG5tY3p0dnVSVmhYcVZwX1BRWlhHZC1Oc3QwOA?oc=5",
-    "date": "2026-04-29",
-    "source": "startupfortune.com",
-    "companies": [
-      "Meta"
-    ],
-    "summary": "Meta’s Louisiana AI campus is turning utility spending into an AI cost center  startupfortune.com",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "Meta reports strong Q1 results and raised its AI spending - Rolling Out",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0yOTRpRWNMa0RXWTlFNlBFLWZXdThXeTFJUmhRcFQtYlVfemM4TkplTFU2anMyZ25xMVpXWnpfTXlzN3JwbnFwdTJJalBWVlp2YkZKR3hDY0RTVF9aMUduaW9TZldFbEEtWXl2dGt1bTJBd2M?oc=5",
-    "date": "2026-04-29",
-    "source": "Rolling Out",
-    "companies": [
-      "Meta"
-    ],
-    "summary": "Meta reports strong Q1 results and raised its AI spending  Rolling Out",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "AI power-gear spending in US surging up to $65B - Communications Today",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQckwxNE80T2t6RzFQVnpza21BVTBkQWlSc2Qxdkt6dzU5aWRXc01mV09MSmh3SllEYmlyN25ZcWNKNmpXOVBKdzZaMU01OUJ4cGN5eWZFUE52SEVBY0JTcGRhQWVzbzY0MzRPcmtHRTZzM0taeXZwb3VhUWNUck9uVnJWVklFRnlXcVRwanNn?oc=5",
-    "date": "2026-04-29",
-    "source": "Communications Today",
-    "companies": [],
-    "summary": "AI power-gear spending in US surging up to $65B  Communications Today",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "Meta lifts capital expenditure forecast, doubling down on AI push - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQUI3aVFUT3FmdER2OVNLVHFrMEgzd0xEYldQam93YjhicGhjcnQ4TXUxUUxYXzlOdnhjTDB0UnlVVFJQckRRWF9YeUhROE5lb29QVmdqYVptb1Q1Vi1kbUtha0QwMlZ0LVpTbDVLUzlrMjJnWFcweDhpbDFuRllFUndyR3ctVUpZbHQ1NG5IaGtMV3VmRHVTWGdWUEJMQUtKWUgyUkVEbjZVQkY4?oc=5",
-    "date": "2026-04-29",
-    "source": "Yahoo Finance",
-    "companies": [
-      "Meta"
-    ],
-    "summary": "Meta lifts capital expenditure forecast, doubling down on AI push  Yahoo Finance",
-    "relevanceScore": 0.41
   }
 ]
