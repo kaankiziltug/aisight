@@ -11,13 +11,26 @@
     "relevanceScore": 0.82
   },
   {
-    "title": "'Magnificent 7' earnings rush reveals AI spending surge, with hyperscaler capex set to reach $725 billion in 2026 - AOL.com",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSUxaZ2VRNkdZZ3VLNURLcndoTk1OTjJZWGg3dWdSNmd5UVhjQ1l6bEZSZHVBNGVnWnV3RE41dlFQUW1CbXFHUDVGc05pNDAyN19nMHNWc3lYcm9fdEVJRWtVMHB5NW9zcEc3REo3cmlMR1Q1elN2Y3hZMkYyZml5dzgwU0I?oc=5",
+    "title": "Alphabet Boosts 2026 AI Capital Spending to 190 Billion Dollars - HarianBasis.co",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB6cTlLSEZjMWxTa3VQT0RPUy1jTmhEelJOQnQxM0FqM05nd2RnVWtHZFJUXzB3eTdFbFJIbFFTSVZTai0wSDl4LUIxM01ZazdsMDExcm43dWs4bC1oSnNxc2pXbXlqb2VRTkJYcjJscHBobF91b2pnUHdR?oc=5",
     "date": "2026-05-03",
-    "source": "AOL.com",
-    "companies": [],
-    "summary": "'Magnificent 7' earnings rush reveals AI spending surge, with hyperscaler capex set to reach $725 billion in 2026  AOL.com",
-    "relevanceScore": 0.62
+    "source": "HarianBasis.co",
+    "companies": [
+      "Alphabet"
+    ],
+    "summary": "Alphabet Boosts 2026 AI Capital Spending to 190 Billion Dollars  HarianBasis.co",
+    "relevanceScore": 0.72
+  },
+  {
+    "title": "Jim Chanos Warns AI Capex To Boost S&P 500 EPS Estimates - Meta Platforms (NASDAQ:META) - Benzinga",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZlZWZnZISUwxMmRUTk90SUNQb0RXQmEzWUJ3ampZT081VExNY1djZG1kQXBvbEI3QWw4Q1Q4VlNPdV9PWWktY09qTWVTX05sNzhnNWNwNFEtRzkzdVJJZlVUSWlVc094ZHRRVHk5bmRmbXdVSGZxaWhoWFJISzZjQ0JFcm1rT2NUV2tMakVqSHBockdRMDk3TDVYSUc0dWFqWVB4aGRUYlBkM0RWQk04?oc=5",
+    "date": "2026-05-03",
+    "source": "Benzinga",
+    "companies": [
+      "Meta"
+    ],
+    "summary": "Jim Chanos Warns AI Capex To Boost S&P 500 EPS Estimates - Meta Platforms (NASDAQ:META)  Benzinga",
+    "relevanceScore": 0.41
   },
   {
     "title": "The $700 Billion Spending Cycle That Will Define AIQ’s Next 12 Months - 24/7 Wall St.",
@@ -46,6 +59,17 @@
     "source": "digitimes",
     "companies": [],
     "summary": "CSP capex push toward US$700B as AI race intensifies, but ASIC demand timing remains uncertain  digitimes",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "Forbes 2026 AI 50 List | Top Artificial Intelligence Companies - Forbes",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5uUGIzcFRTdFZwdkxZTnpHdUpfVmhCQ21iczlSQjJrMnlSa19sYzB4S2JuVC1wSWo1UFhRWnlpVWtrb0NIN1RmS2Nn?oc=5",
+    "date": "2026-05-03",
+    "source": "Forbes",
+    "companies": [
+      "Intel"
+    ],
+    "summary": "Forbes 2026 AI 50 List | Top Artificial Intelligence Companies  Forbes",
     "relevanceScore": 0.41
   },
   {
@@ -87,6 +111,17 @@
     "relevanceScore": 0.41
   },
   {
+    "title": "From Underdog to AI Infrastructure Leader: Is AMD Poised for Growth in 2026? - TradingKey",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbWxzMHh1Tl9nTlVIcmRpeXB2Nk9jYlVlMGNlTFduY2k0Q2pJSW1hd01CblFNaDFfSzFFRWI0T3UyRjZrdXlXMTA2aUxXVVNvVTFqT2dRa2dzN2dRT1l3TVBsb2t1UkJDekNfZnVKZ2p3T3dfbWwyOEtxcHFndWczYjNEQlpVelFzUUU1UldVbTUzZGhCZjlld3hTMFUxU0Z4NzFEbThTWnhqeVlDbGh4RWVHX3BzcGxBQ1EyX2NWSy1PSWZMbi0xSkJB?oc=5",
+    "date": "2026-05-03",
+    "source": "TradingKey",
+    "companies": [
+      "AMD"
+    ],
+    "summary": "From Underdog to AI Infrastructure Leader: Is AMD Poised for Growth in 2026?  TradingKey",
+    "relevanceScore": 0.41
+  },
+  {
     "title": "KKR & Co. Raises Over $10B for Helix: A Major Push into AI Infrastructure Development - BBN Times",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZm5LZVhPV2kzOWg1Ynh0NmJvdjZTelZqbWI5R1QxOEZtRm1uUkJFQ0VCRnBNeUxWZWgtMjNrM01kM3c5MXRxWWhWQTlKRUx1LWNhamRBM25QenZZNTZJbkZGOUMydHE2MmlDMzk0aW02TTk1TGlWalhwTzMxTUd0SmRfM1NoWlI0ZVc0SUZENUUwQVI4YS1LQllIcVdoMldSbUhPdW10dHVyeWcwWGNzSkdNVjhJQQ?oc=5",
     "date": "2026-05-03",
@@ -105,15 +140,6 @@
     "relevanceScore": 0.41
   },
   {
-    "title": "$725 Billion and Counting: Why the AI Gusher Is Just Getting Started - InvestorPlace",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcTU1M0t1Ry1JRWtCMGhkWUg4aFJPNDJ4SkJwOXhqZmN3Szd0ZWNmcmRqWDBPUFNEdGE3VTRNbXJkbEpiV3ZXRURBSWtoekhMSktnbWNzRWEyLUd4dWhkLWw4bGd5Vmpvd0xrTy15bmZidHVZaldBUUwtRTdBMTRyc19lWlNsQkVCd0lIUHV4Ylctd0JnM2pXUlJNdE9kaXRJLXN3bkJPc2pBU3o5Q20xeGVjLWhPWndHU0JyS0Zxcw?oc=5",
-    "date": "2026-05-03",
-    "source": "InvestorPlace",
-    "companies": [],
-    "summary": "$725 Billion and Counting: Why the AI Gusher Is Just Getting Started  InvestorPlace",
-    "relevanceScore": 0.41
-  },
-  {
     "title": "Meta Trading AI Spending For Jobs And Testing Long‑Term Returns - simplywall.st",
     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNT0NKOUVmaXJ5d1hHZGtmeFF1WEVsWmQzc2RiTzR4cVUtQWpmNkwzMUZKX1JLYzg5ZkprTnQ1NlY1UVRLTmhPMGpESURHWi1rekhpT1FVcGUzTnRSREpEU2hrTWhnNzdPTHlrVFZDNlZnYzYtb0pNam14NnVXQTBzMUxzWkIzUWtSZmxEenF4YjNFSWR3MUpHSUl2VW4zWGNaM296c2NyaHU5TmtQZGlTSFJlYjJ1ZTRLdXhrTWdtRWtlVDc2R3JJRHZ30gHPAUFVX3lxTE4zMHhuQWZNVmd0RHFYcm9pQW1FWWo4UmFNclEteXlFVENYZWN0Q2F1YnFiVHU0SHhTb1Fub3AwcVpSc2RLSmNJSWRoN1BGRk91TDVBelAyeVVRR0xJWW5feGljZUhZWjFZRjNBVDRQYWpLSlp4NW1xOEJ4c3lIa2FfRTlWU1JvUGJKR1BjWjZEa3owY3RwbkVNbVNVOEZ1ZGpnc1ZDY1NSV25zanVYWEd2bUFFQlhkckUyVGtsdGNGTmNoNW1CQ1pLYXFkOFEtcw?oc=5",
     "date": "2026-05-03",
@@ -122,6 +148,15 @@
       "Meta"
     ],
     "summary": "Meta Trading AI Spending For Jobs And Testing Long‑Term Returns  simplywall.st",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "$725 Billion and Counting: Why the AI Gusher Is Just Getting Started - InvestorPlace",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcTU1M0t1Ry1JRWtCMGhkWUg4aFJPNDJ4SkJwOXhqZmN3Szd0ZWNmcmRqWDBPUFNEdGE3VTRNbXJkbEpiV3ZXRURBSWtoekhMSktnbWNzRWEyLUd4dWhkLWw4bGd5Vmpvd0xrTy15bmZidHVZaldBUUwtRTdBMTRyc19lWlNsQkVCd0lIUHV4Ylctd0JnM2pXUlJNdE9kaXRJLXN3bkJPc2pBU3o5Q20xeGVjLWhPWndHU0JyS0Zxcw?oc=5",
+    "date": "2026-05-03",
+    "source": "InvestorPlace",
+    "companies": [],
+    "summary": "$725 Billion and Counting: Why the AI Gusher Is Just Getting Started  InvestorPlace",
     "relevanceScore": 0.41
   },
   {
@@ -134,12 +169,12 @@
     "relevanceScore": 0.32
   },
   {
-    "title": "Neocloud Providers Iren and Nebius Lead AI Infrastructure Growth - HarianBasis.co",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBfTnkxa2hyOWhqQVl3ZHFvNFhIbWZJTWZNbFhIZmRzUHJLMkRMeVZpbDZlWkNJU01BQ0twWlNPOFdMbXRtZmdoSmxLWlNpNjh0b2p3NXdSbVNMSnlZckVOSUF2RFdGY1NsZHVXLU1tdFZRUk5HTnVCc0dB?oc=5",
+    "title": "Tech Layoffs Surge as AI Infrastructure Spending Forces Headcount Cuts Across Big Tech - Benzinga",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNGZVMmt6ZGc3NEhWd2s4d180dmlWbHRWS2FMU3IzM2xZQVNGTFBIN2hmR2tDb1Q2WUU4Vm9lb1M0SHRsSnFlTmF5Z1NQbzlXWVl6dk1jYmVlYTFvMjdJUkJiM1lGZUl5V3JxZS04akxISWxPVnU3VGJ3Nk9yaGcxMVktUjMwWkFIZWlzNGR5VHl3WVFyMWRhMkkyaVVEd28?oc=5",
     "date": "2026-05-03",
-    "source": "HarianBasis.co",
+    "source": "Benzinga",
     "companies": [],
-    "summary": "Neocloud Providers Iren and Nebius Lead AI Infrastructure Growth  HarianBasis.co",
+    "summary": "Tech Layoffs Surge as AI Infrastructure Spending Forces Headcount Cuts Across Big Tech  Benzinga",
     "relevanceScore": 0.32
   },
   {
@@ -165,12 +200,12 @@
     "relevanceScore": 0.31
   },
   {
-    "title": "Big tech bets big on AI spending: ETFs to win - MSN",
-    "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxObm55bGgwQURZZ25NY1NJOEptQXFXUFRNVlZrUGxsdER2RzlKeXRZY3pZbi1sSnF0QlJQMVQxMlNGRXFGNDRrSW50NTdtWjVGTkJkblM5Z0ZlbTdmczhFYmpXWkxtTF9nblZWQWlSbzB6bVY4VmgxSm4wNTc1ZWZ6Sm5BYmppeVpMd0h2SXRxRU42Qk5ZWEljWDM2YndJRVJ1aGlGRDdGckNVNnJMbVFWVFJ4clRxM1E4Tjk2RTFPakFVUWNZMjMwU05PZDRROU5zYUVxeG5veUZPc3lZWWNPVF9oYVVHS09yVDFrRDB0V1RsN2MxUXh2WVhWTG4wZmVBMWJfX1l1YzBQX2E3TEdDU0pjUmt6aEpEMUkyaXpFeGdUdFI1NF9HSVQ2cXFTakE?oc=5",
+    "title": "AI capex boom warps Nasdaq as hyperscalers take over, Bitcoin seen as hedge by Wall Street veteran - MSN",
+    "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNWmJ0V3g4VnFmaDFvYlN6V2tsMHBtUmR3NXZ5MjdmYm9SSVZ6WGo0XzVzbmJ0V05xYmN0ZHl0RG5zSEt2OWlIcUYzT3VmZERoaWhNSXZoOWxjb2huWnh2a2xRbVpCcTZnc1JtQ2FETm1xM2VFblNTTUE1TjBHUFZCUk1iazNpNkdONkpabDNQcmRGNC1LUzN1NThDa3Z2NmRGWU1JQk9xNnQ1OGlXSEFvYTcxT0VfUkpmN1BZYkE5NFF1WlRZQTNmeWdqMkFXN3YyMllTSmFTRVJlVkZEX0VVLWE5dUM2S20zcU5rbzR0MGJ4aFI0dFdzdXN6ZGswXzRMQXVZdzFR?oc=5",
     "date": "2026-05-03",
     "source": "MSN",
     "companies": [],
-    "summary": "Big tech bets big on AI spending: ETFs to win  MSN",
+    "summary": "AI capex boom warps Nasdaq as hyperscalers take over, Bitcoin seen as hedge by Wall Street veteran  MSN",
     "relevanceScore": 0.21
   },
   {
@@ -183,12 +218,12 @@
     "relevanceScore": 0.21
   },
   {
-    "title": "Big Tech pours billions into AI while thousands pack their bags - The Economic Times",
-    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPU0xRSWVvMWRVQXR1c0I2QmRPeEQ4X2ZNNHZKVlN0Mzc2bmpXVGhfZWJ1Q09wZ1AyV290Q21DcmdtQmNMcW5BRnRqdmdmXzk3MUVZUHZOSkMxSlgzMFBhX1hzTVlBdmZuWndLOXZEaVplMGRMd25DemZmZEZEM3FoTXZadEVmd1MwVWdmdC0wQ2lNQ0R3RG9PalN0Q2dzeUhJSWpGWnR6ZTdjdE5QUzZ6QWJ0U1pWNmVGVWhPbUQ1LVZIZzdpdzBXN3RGZVRQNGF4SUl3bkhqUk1pVDhQRS1z0gHkAUFVX3lxTE1oY2tYWkkxZ3JSNVVkbnoyU2ljdnhHRU13amhWYldQLVRrM0s2Y255b3VLYW1MRE5FdVNIZzROVmlPaEJoV3RKN1ZUaEpuZ2FTSXBEcDRGLUstWVFiOUJJQmFGZWxLc3pFblc1aUROVjZfSlcybjVIRjlBRHQ4V2E3QXBaRk1ZYnltYkxKXzBkalB2SzZHWnBzY2tjLUZWendzRGw3X1o5dVRxT2xhZ25UNnFtc0hZOEpTMklJQ0hDZlBHb2E1NEtsREZWZDdranNBZWJZN0xvb1Z4TEpmM1ZCTm9HTQ?oc=5",
+    "title": "Cipher Digital Shifts From Bitcoin Mining To AI Infrastructure With Tech Giants - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRHBwUGFvUjlZTVJLWTc3MFNaOXI0LS1jeDB5Vm1EZlJoMzl5ZVYyeC15S1RodGFMbk9MR0kxajdQQ3AzUlpjQVJSRmw5dFFCYl9CVkcyWE1VTmZwbi1LSjB6UmI4VXVlNl9xY1l3dnhGU2NYNWc4SGJTdklacEQ2c19pZV9ZYVc1eWpHTS03MTdNLXpWRnEyX2M1SHJzaVFFZU5RcVpUaHM?oc=5",
     "date": "2026-05-03",
-    "source": "The Economic Times",
+    "source": "Yahoo Finance",
     "companies": [],
-    "summary": "Big Tech pours billions into AI while thousands pack their bags  The Economic Times",
+    "summary": "Cipher Digital Shifts From Bitcoin Mining To AI Infrastructure With Tech Giants  Yahoo Finance",
     "relevanceScore": 0.21
   },
   {
@@ -201,21 +236,21 @@
     "relevanceScore": 0.21
   },
   {
-    "title": "Cipher Digital Shifts From Bitcoin Mining To AI Infrastructure With Tech Giants - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRHBwUGFvUjlZTVJLWTc3MFNaOXI0LS1jeDB5Vm1EZlJoMzl5ZVYyeC15S1RodGFMbk9MR0kxajdQQ3AzUlpjQVJSRmw5dFFCYl9CVkcyWE1VTmZwbi1LSjB6UmI4VXVlNl9xY1l3dnhGU2NYNWc4SGJTdklacEQ2c19pZV9ZYVc1eWpHTS03MTdNLXpWRnEyX2M1SHJzaVFFZU5RcVpUaHM?oc=5",
-    "date": "2026-05-03",
-    "source": "Yahoo Finance",
-    "companies": [],
-    "summary": "Cipher Digital Shifts From Bitcoin Mining To AI Infrastructure With Tech Giants  Yahoo Finance",
-    "relevanceScore": 0.21
-  },
-  {
     "title": "DayOne Launches Inaugural Tech & AI Career Expo in Thailand, Showcasing Commitment to Digital Infrastructure and Talent - ANTARA News",
     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQY1BkclNPMFhrbWpxTWJ3cDlOWjk4dDB0MGRMdWZLejJfanJiRlFkbGNNSE15YXJWaDlsanpsdk1qSTJyaXNuY1ZuRFlFSGJ3M1FJWTNPaFUtOXJSNnRvcnppbHlhZHEtbmVLX0dXajFwM2pjdXZUSFBReG5fSzBvbmVSaDVLSlZQVmxhbTdWUXpLOGNFZmJzYmkwS2VzZGNXa2w3SWZ6bTRqSUpiT3ZIUFFYUnZfOVRDQXBQVXFESV9WNGNtWGtQMjA2V2cyY29NN0xXOVJfVkZGdUVMQldKMzR1Tmo0dWNiZEHSAe8BQVVfeXFMUDFfT0ZPTGFVNURHejRNSGQ4QWFucWpyV0lSS2c2WGJIOFRFeXpQdThmZWNYRURMM0VfdmhlcWE1OWJfdzlselJjdzE3UlFSOHplQ0szS3lKem43T1RZb1VqXzRyeWdPbEV0YXc3SlJXSTR3RGd4bG5uUnQ0b084WXR3a1QwN285c1dkVldsZ01VT295YldvMlVqdWV4WF9zSUljU1BWSG10MU8tWENqcHRBZGc3eWJEUUFxZi1DNzFuQ0h2RU03eVJYQmxmVk1xS0ZnNXdvbWlodmllcHZSZUF5Qml5SkJkNXFYa2JubG8?oc=5",
     "date": "2026-05-03",
     "source": "ANTARA News",
     "companies": [],
     "summary": "DayOne Launches Inaugural Tech & AI Career Expo in Thailand, Showcasing Commitment to Digital Infrastructure and Talent  ANTARA News",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "Behind the Trillion-Dollar Capital Expenditure, AI Moves from Storytelling to a Heavy Asset War - Bitget",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBFV0ZLOElXVTVJbFJuUEkyQnNCd1ZtOGtTVEczczJMenZ2ZldKSHZpOXE0QUEzd2ZXVXcwSnN4WlFPdXk0UXRSSHVyN1BXMW1OOXUxWEoxRDJXT2tfNS1DZUY2dw?oc=5",
+    "date": "2026-05-03",
+    "source": "Bitget",
+    "companies": [],
+    "summary": "Behind the Trillion-Dollar Capital Expenditure, AI Moves from Storytelling to a Heavy Asset War  Bitget",
     "relevanceScore": 0.21
   },
   {
@@ -228,6 +263,24 @@
     "relevanceScore": 0.21
   },
   {
+    "title": "John Whelan: Can Ireland make most of big tech's huge AI spending splurge? - Irish Examiner",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBCM21xZnB5VDI5alJrMVdjODM4Tm55cFBEbWNLblUxTmlJOFJnNlZmNWhWaGNvUGZjcmUzUk4tY2swcGIyRTVlWHNBTjhKdGk1djdYSlZxX3BXYXhfZWFDVHJEb1UxbUhCLTAtVVNTb2UxYUxWWU04?oc=5",
+    "date": "2026-05-03",
+    "source": "Irish Examiner",
+    "companies": [],
+    "summary": "John Whelan: Can Ireland make most of big tech's huge AI spending splurge?  Irish Examiner",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "Big Tech pours billions into AI while thousands pack their bags - The Economic Times",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPU0xRSWVvMWRVQXR1c0I2QmRPeEQ4X2ZNNHZKVlN0Mzc2bmpXVGhfZWJ1Q09wZ1AyV290Q21DcmdtQmNMcW5BRnRqdmdmXzk3MUVZUHZOSkMxSlgzMFBhX1hzTVlBdmZuWndLOXZEaVplMGRMd25DemZmZEZEM3FoTXZadEVmd1MwVWdmdC0wQ2lNQ0R3RG9PalN0Q2dzeUhJSWpGWnR6ZTdjdE5QUzZ6QWJ0U1pWNmVGVWhPbUQ1LVZIZzdpdzBXN3RGZVRQNGF4SUl3bkhqUk1pVDhQRS1z0gHkAUFVX3lxTE1oY2tYWkkxZ3JSNVVkbnoyU2ljdnhHRU13amhWYldQLVRrM0s2Y255b3VLYW1MRE5FdVNIZzROVmlPaEJoV3RKN1ZUaEpuZ2FTSXBEcDRGLUstWVFiOUJJQmFGZWxLc3pFblc1aUROVjZfSlcybjVIRjlBRHQ4V2E3QXBaRk1ZYnltYkxKXzBkalB2SzZHWnBzY2tjLUZWendzRGw3X1o5dVRxT2xhZ25UNnFtc0hZOEpTMklJQ0hDZlBHb2E1NEtsREZWZDdranNBZWJZN0xvb1Z4TEpmM1ZCTm9HTQ?oc=5",
+    "date": "2026-05-03",
+    "source": "The Economic Times",
+    "companies": [],
+    "summary": "Big Tech pours billions into AI while thousands pack their bags  The Economic Times",
+    "relevanceScore": 0.21
+  },
+  {
     "title": "Is Meta Platforms Stock a Buy on Its Pullback? - AOL.com",
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSmlCRGFfNnpvVUk1NWdQb2d3SlFmMHJGa0xDdUJENk5YUTAtLXB4YzFGQ1N5bkJYNTdsYThEWkpLeUNfTEhlSkpfZGVwc0Y4elhhVV9RN1kxLVRyQnU4LVI3QTljREc4ZDVlQ0JEMkNOYkpIU0stdmVlUWstRmRaX3praw?oc=5",
     "date": "2026-05-03",
@@ -236,6 +289,18 @@
       "Meta"
     ],
     "summary": "Is Meta Platforms Stock a Buy on Its Pullback?  AOL.com",
+    "relevanceScore": 0.2
+  },
+  {
+    "title": "The Biggest Reason Microsoft's Earnings Report Was a Disappointment - AOL.com",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUXl1ajZReFpQRUktRlZYR1kwd19LUkRqOTI3bUYycl9LS2NIMXZrWHp1R1NwSmpmclJQaG04ZDhKMnlROEFxSWx5OU9sYTRMWV9uN1ZEcnM4UHROR20xbDlCVnlVa0t4RmJndl84eDEycmZOLUlON3JpQk5DR0I0VVRJNzlfS2ItYzhSVHJn?oc=5",
+    "date": "2026-05-03",
+    "source": "AOL.com",
+    "companies": [
+      "Microsoft",
+      "SAP"
+    ],
+    "summary": "The Biggest Reason Microsoft's Earnings Report Was a Disappointment  AOL.com",
     "relevanceScore": 0.2
   },
   {
@@ -263,18 +328,6 @@
     "relevanceScore": 0.2
   },
   {
-    "title": "Oracle (ORCL) Bets $50 Billion on AI Infrastructure as OpenAI Miss Clouds the Investment Case - AlphaStreet",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMTdqckt3OExnMmY0cE1HUk9SaU5mNS1OMDZKbXllOHh6VHZtSjRoaElIbGNBMWJDNkV0Wm05NkJWd2VSeTVuc2FoRjVVdkpUYWlIYTVBMFBDMjBQRk92TEZydUI4NmRNV3dVWFNEejhSZzJObWo4OTBxUkh1emFnRHoyMW1zZ1NaQmdkRVZyRXNya1YwcUR6NG41V09RRmpPQXJLemVCYlAyNFVJMDFYakllQllxZ1UwQzdpRdIBvAFBVV95cUxPMTdqckt3OExnMmY0cE1HUk9SaU5mNS1OMDZKbXllOHh6VHZtSjRoaElIbGNBMWJDNkV0Wm05NkJWd2VSeTVuc2FoRjVVdkpUYWlIYTVBMFBDMjBQRk92TEZydUI4NmRNV3dVWFNEejhSZzJObWo4OTBxUkh1emFnRHoyMW1zZ1NaQmdkRVZyRXNya1YwcUR6NG41V09RRmpPQXJLemVCYlAyNFVJMDFYakllQllxZ1UwQzdpRQ?oc=5",
-    "date": "2026-05-02",
-    "source": "AlphaStreet",
-    "companies": [
-      "Oracle",
-      "OpenAI"
-    ],
-    "summary": "Oracle (ORCL) Bets $50 Billion on AI Infrastructure as OpenAI Miss Clouds the Investment Case  AlphaStreet",
-    "relevanceScore": 0.9
-  },
-  {
     "title": "Meta buys humanoid robot startup Assured Robot Intelligence as 8,000 job cuts loom",
     "url": "https://www.livemint.com/companies/news/meta-acquires-humanoid-robot-startup-assured-robot-intelligence-weeks-after-announcing-8-000-layoffs-11777692898608.html",
     "date": "2026-05-02",
@@ -287,15 +340,48 @@
     "relevanceScore": 0.82
   },
   {
-    "title": "AI Marketing Industry Growth: How Artificial Intelligence is Driving an $82 Billion Market by 2030",
-    "url": "https://parwaaz-psdf.com.pk/ai-marketing-industry-growth-how-artificial-intelligence-is-driving-an-82-billion-market/",
+    "title": "Nvidia built the AI engine. Alphabet is building the car, the road, and the toll booth. The market is pricing accordingly.",
+    "url": "https://thenextweb.com/news/alphabet-overtake-nvidia-market-cap-mag-seven/",
     "date": "2026-05-02",
-    "source": "Parwaaz-psdf.com.pk",
+    "source": "The Next Web",
     "companies": [
-      "Intel"
+      "Alphabet",
+      "Nvidia"
     ],
-    "summary": "AI Marketing Industry Growth: How Artificial Intelligence is Driving an $82 Billion Market by 2030parwaaz-psdf.com.pk",
+    "summary": "On Thursday, Alphabet’s share price rose nearly 10 per cent after the company reported first-quarter revenue of $109.9 billion, a 22 per cent increase year over year that beat analyst estimates by almost $3 billion. Google Cloud crossed $20 billion in quarter…",
     "relevanceScore": 0.72
+  },
+  {
+    "title": "AI data center spending rushes toward $800 billion - MSN",
+    "url": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxPS3hiUnp2c0tqeld4RjlGamptWW5ocEtJMnBlRlZRdi1vQzQ5emg3MG1jckJCRjJXa0RpeXhNTDhmc0ppYkVCOWgybEZtX2FzRTdMNEFURkwtMkgtdjVBX25zeDhLUXlvbUMtZVdDWk81T05Gbms2YkFncVlXc0hwOEJGbnp4V3pyT2RLaW5wdnJwbzlBRnV4ZnBDd1N1NjdFYWx0NTBjQTZDU3hoSkxQWnNyQkpLdERpdWNJSnE0Z1ZJUEhuMjFVTHZwRTEweXBUa21KNnRydWtsTXhSU0ZmNjdxMzVlQmRnd2ZhSWhEWXVPTzJDYzJMN1VkSHRETGtnbERPQm8xMkVyb2JQdnA5ZVNETU5kUHRMSktZSWxVMEdQSXRvZUdRT3RINEdKZXUyUFJTWEg0Y1MxQldQcTRva0hrdUpVSHZ0Yjh4NkpxUEVFU0VtX2pPYUJqaHdlRUl1cWZtMFlQTWluQQ?oc=5",
+    "date": "2026-05-02",
+    "source": "MSN",
+    "companies": [],
+    "summary": "AI data center spending rushes toward $800 billion  MSN",
+    "relevanceScore": 0.62
+  },
+  {
+    "title": "The Shocking Similarity Between Micron and Nvidia as AI Turns Memory Into a Goldmine",
+    "url": "https://247wallst.com/investing/2026/05/02/the-shocking-similarity-between-micron-and-nvidia-as-ai-turns-memory-into-a-goldmine/",
+    "date": "2026-05-02",
+    "source": "24/7 Wall St.",
+    "companies": [
+      "Nvidia"
+    ],
+    "summary": "Nvidia (NASDAQ:NVDA) led the first wave of AI enthusiasm with its powerful GPUs. Investors piled in as data centers raced to secure chips that could train...",
+    "relevanceScore": 0.62
+  },
+  {
+    "title": "In the PR battle for AI data centers, tech giants got a blue-collar ally",
+    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/in-the-pr-battle-for-ai-data-centers-tech-giants-got-a-blue-collar-ally/articleshow/130720114.cms",
+    "date": "2026-05-02",
+    "source": "The Times of India",
+    "companies": [
+      "Intel",
+      "ServiceNow"
+    ],
+    "summary": "American construction unions are now key players in building the nation's artificial intelligence infrastructure. They are partnering with major tech companies on massive data center projects. This collaboration is creating numerous construction jobs and boos…",
+    "relevanceScore": 0.62
   },
   {
     "title": "AI Data Center Boom Drives $65 Billion Power Equipment Demand Amid Supply Chain Constraints",
@@ -305,6 +391,17 @@
     "companies": [],
     "summary": "A report from Wood Mackenzie projects that U.S. spending on power generation equipment for data centers could reach $65 billion by 2030, more than triple the $20 billion recorded in 2025, according to a ZeroHedge analysis of the report [1]. Data center capaci…",
     "relevanceScore": 0.62
+  },
+  {
+    "title": "Big Tech is shelling out up to $1 million for new hires who will never have to write a line of code",
+    "url": "https://fortune.com/article/big-tech-million-dollar-communications-jobs-ai-anthropic-openai-netflix/",
+    "date": "2026-05-02",
+    "source": "Fortune",
+    "companies": [
+      "ServiceNow"
+    ],
+    "summary": "Tech companies are paying up to $1.2 million for senior communications roles because explaining AI is now a strategic asset.",
+    "relevanceScore": 0.61
   },
   {
     "title": "Tech Talk: Quarterly earnings spotlight AI spending vs. cloud revenue as Microsoft, Amazon, Meta, Alphabet face Wall Street pressure - MyNorthwest.com",
@@ -348,17 +445,6 @@
     "relevanceScore": 0.52
   },
   {
-    "title": "Meta’s Reality Labs reports $4B Q1 loss amid AI strategy shift",
-    "url": "https://cryptobriefing.com/metas-reality-labs-reports-4b-q1-loss-amid-ai-strategy-shift/",
-    "date": "2026-05-02",
-    "source": "Crypto Briefing",
-    "companies": [
-      "Meta"
-    ],
-    "summary": "Meta's financial strain and AI strategy shift highlight challenges in maintaining tech leadership amid US-China competition and investor skepticism.\nThe post Meta’s Reality Labs reports $4B Q1 loss amid AI strategy shift appeared first on Crypto Briefing.",
-    "relevanceScore": 0.51
-  },
-  {
     "title": "AI spending boom soars but no returns for big tech giants, warns Jefferies’ Chris Wood",
     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/ai-spending-boom-soars-but-no-returns-for-big-tech-giants-warns-jefferies-chris-wood/articleshow/130713359.cms",
     "date": "2026-05-02",
@@ -368,34 +454,23 @@
     "relevanceScore": 0.5
   },
   {
-    "title": "Forbes 2026 AI 50 List | Top Artificial Intelligence Companies - Forbes",
-    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5uUGIzcFRTdFZwdkxZTnpHdUpfVmhCQ21iczlSQjJrMnlSa19sYzB4S2JuVC1wSWo1UFhRWnlpVWtrb0NIN1RmS2Nn?oc=5",
-    "date": "2026-05-02",
-    "source": "Forbes",
-    "companies": [
-      "Intel"
-    ],
-    "summary": "Forbes 2026 AI 50 List | Top Artificial Intelligence Companies  Forbes",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "From Underdog to AI Infrastructure Leader: Is AMD Poised for Growth in 2026? - TradingKey",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbWxzMHh1Tl9nTlVIcmRpeXB2Nk9jYlVlMGNlTFduY2k0Q2pJSW1hd01CblFNaDFfSzFFRWI0T3UyRjZrdXlXMTA2aUxXVVNvVTFqT2dRa2dzN2dRT1l3TVBsb2t1UkJDekNfZnVKZ2p3T3dfbWwyOEtxcHFndWczYjNEQlpVelFzUUU1UldVbTUzZGhCZjlld3hTMFUxU0Z4NzFEbThTWnhqeVlDbGh4RWVHX3BzcGxBQ1EyX2NWSy1PSWZMbi0xSkJB?oc=5",
-    "date": "2026-05-02",
-    "source": "TradingKey",
-    "companies": [
-      "AMD"
-    ],
-    "summary": "From Underdog to AI Infrastructure Leader: Is AMD Poised for Growth in 2026?  TradingKey",
-    "relevanceScore": 0.41
-  },
-  {
     "title": "AI infrastructure firm Nebius buys Eigen AI for $643m - Tech in Asia",
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTkhtZ2RDM3JKa01lMzRQOFhyTl9jWXgzNnFNaHFqWjJwNEM0ZHZBNUF5T0dqTGdnT19pYUZUT2gzaGlaNnpKVTZjVHVIXzBPX3ZaMVRSMHVWOWVKTEo1aGY4dk82VDBTUTMycDN5MGs0eTRhcmRvQWRsZmk5a3VOTWYzX3hja2s?oc=5",
     "date": "2026-05-02",
     "source": "Tech in Asia",
     "companies": [],
     "summary": "AI infrastructure firm Nebius buys Eigen AI for $643m  Tech in Asia",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "Mark Zuckerberg Says Meta Layoffs Are Being Driven By Soaring AI Spending, Warns More Job Cuts May Follow: 'I Wish That I Can Tell You...' - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZ3luWXBKbERWVDlfdThMY0pwOVpGdkJzMzMwRU1VcVpDeTBUdkFSSWJwZDZXY2NPVXRQWkw2WVJxQ3lqVGM4NEt3dUswak9zZkI2M0pxSndyYjhNa1liTXZISUlMaXFFNVc2R3R4aGZ5MFhfOE1SOHZLVnVYb2Y5S1pfVFdGQ2V5WGswa25tXzZabUQ5ekFPXzVhRWw2R1I4TXlkQg?oc=5",
+    "date": "2026-05-02",
+    "source": "Yahoo Finance",
+    "companies": [
+      "Meta"
+    ],
+    "summary": "Mark Zuckerberg Says Meta Layoffs Are Being Driven By Soaring AI Spending, Warns More Job Cuts May Follow: 'I Wish That I Can Tell You...'  Yahoo Finance",
     "relevanceScore": 0.41
   },
   {
@@ -412,6 +487,17 @@
     "relevanceScore": 0.41
   },
   {
+    "title": "Intel Stock 2026 Outlook Mixed as Turnaround Hopes Clash with Execution Risks",
+    "url": "https://www.ibtimes.com.au/intel-stock-2026-outlook-mixed-turnaround-hopes-clash-execution-risks-1868018",
+    "date": "2026-05-02",
+    "source": "Ibtimes.com.au",
+    "companies": [
+      "Intel"
+    ],
+    "summary": "NEW YORK — Intel Corp. stock presents a complex investment case in 2026, with analysts divided on whether to buy or sell shares of the semiconductor giant as it pursues a high-stakes turnaround amid fierce competition and shifting industry dynamics. The compa…",
+    "relevanceScore": 0.41
+  },
+  {
     "title": "Nvidia Stock 2026 Outlook Strong Buy Signals Dominate as AI Demand Fuels Optimism",
     "url": "https://www.ibtimes.com.au/nvidia-stock-2026-outlook-strong-buy-signals-dominate-ai-demand-fuels-optimism-1868009",
     "date": "2026-05-02",
@@ -421,6 +507,18 @@
       "Nvidia"
     ],
     "summary": "NEW YORK — Nvidia Corp. enters the heart of 2026 as one of the market's most compelling stories, with Wall Street analysts overwhelmingly recommending investors buy shares amid explosive artificial intelligence demand, robust earnings growth and a dominant po…",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "Samsung Electronics vs TSMC Stock 2026: Which to Buy in Booming AI Semiconductor Market?",
+    "url": "https://www.ibtimes.com.au/samsung-electronics-vs-tsmc-stock-2026-which-buy-booming-ai-semiconductor-market-1868021",
+    "date": "2026-05-02",
+    "source": "Ibtimes.com.au",
+    "companies": [
+      "TSMC",
+      "Samsung"
+    ],
+    "summary": "NEW YORK — Investors weighing Samsung Electronics against Taiwan Semiconductor Manufacturing Co. (TSMC) in 2026 face a classic semiconductor showdown: TSMC's ironclad dominance in advanced foundry services fueled by insatiable AI demand versus Samsung's aggre…",
     "relevanceScore": 0.41
   },
   {
@@ -435,27 +533,15 @@
     "relevanceScore": 0.41
   },
   {
-    "title": "Intel Stock 2026 Outlook Mixed as Turnaround Hopes Clash with Execution Risks",
-    "url": "https://www.ibtimes.com.au/intel-stock-2026-outlook-mixed-turnaround-hopes-clash-execution-risks-1868018",
+    "title": "What’s Next For Sony Group Corp (SONY) and Honda Motor As Morgan Stanley Touts $22B Opportunity?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/next-sony-group-corp-sony-183045104.html",
     "date": "2026-05-02",
-    "source": "Ibtimes.com.au",
+    "source": "Yahoo Entertainment",
     "companies": [
-      "Intel"
+      "ServiceNow"
     ],
-    "summary": "NEW YORK — Intel Corp. stock presents a complex investment case in 2026, with analysts divided on whether to buy or sell shares of the semiconductor giant as it pursues a high-stakes turnaround amid fierce competition and shifting industry dynamics. The compa…",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "Samsung Electronics vs TSMC Stock 2026: Which to Buy in Booming AI Semiconductor Market?",
-    "url": "https://www.ibtimes.com.au/samsung-electronics-vs-tsmc-stock-2026-which-buy-booming-ai-semiconductor-market-1868021",
-    "date": "2026-05-02",
-    "source": "Ibtimes.com.au",
-    "companies": [
-      "TSMC",
-      "Samsung"
-    ],
-    "summary": "NEW YORK — Investors weighing Samsung Electronics against Taiwan Semiconductor Manufacturing Co. (TSMC) in 2026 face a classic semiconductor showdown: TSMC's ironclad dominance in advanced foundry services fueled by insatiable AI demand versus Samsung's aggre…",
-    "relevanceScore": 0.41
+    "summary": "Sony Group Corp (NYSE:SONY) is one of the best Japanese stocks to buy right now. On April 17, Reuters reported that Sony Group Corp (NYSE:SONY) and its...",
+    "relevanceScore": 0.4
   },
   {
     "title": "Goldman Sachs Partner: \"AI narrative\" dominates the market, but don't forget \"cloud giants have used 100% of their cash flow for capital expenditures\" - Bitget",
@@ -478,15 +564,26 @@
     "relevanceScore": 0.31
   },
   {
-    "title": "Google and Meta reveal uneven investor patience for AI",
-    "url": "https://www.irishtimes.com/your-money/2026/05/02/google-and-meta-reveal-uneven-investor-patience-for-ai/",
+    "title": "'It took 9 seconds': tech founder outlines how rogue Claude-powered AI tool wiped entire company database and backups",
+    "url": "https://www.techradar.com/pro/it-took-9-seconds-tech-founder-outlines-how-rogue-claude-powered-ai-tool-wiped-entire-company-database-and-backups-but-says-theres-no-such-thing-as-bad-publicity",
     "date": "2026-05-02",
-    "source": "The Irish Times",
+    "source": "TechRadar",
     "companies": [
-      "Alphabet",
+      "Amazon",
+      "Anthropic"
+    ],
+    "summary": "Cursor AI agent deleted a production database and backups in nine seconds, exposing serious flaws in API design and backup isolation",
+    "relevanceScore": 0.31
+  },
+  {
+    "title": "Meta stock price prediction drops despite strong earnings from tech giants",
+    "url": "https://cryptobriefing.com/meta-stock-price-prediction-drops-despite-strong-earnings-from-tech-giants/",
+    "date": "2026-05-02",
+    "source": "Crypto Briefing",
+    "companies": [
       "Meta"
     ],
-    "summary": "Alphabet’s shares rose sharply, while Meta’s lost almost a tenth of their value following release of financial results this week",
+    "summary": "Despite robust earnings, market skepticism about Meta's short-term stock potential highlights challenges in translating AI gains into immediate value.\nThe post Meta stock price prediction drops despite strong earnings from tech giants appeared first on Crypto…",
     "relevanceScore": 0.31
   },
   {
@@ -501,35 +598,21 @@
     "relevanceScore": 0.31
   },
   {
-    "title": "Anthropic’s most powerful AI model just exposed a crisis in corporate governance. Here’s the framework every CEO needs.",
-    "url": "https://fortune.com/2026/05/02/agentic-ai-governance-framework-banking-healthcare-retail-supply-chain-yale-celi-sonnenfeld/",
-    "date": "2026-05-02",
-    "source": "Fortune",
-    "companies": [
-      "Anthropic"
-    ],
-    "summary": "Yale's Jeffrey Sonnenfeld and colleagues argue that Claude Mythos will break enterprise deployment in ways that cannot be undone—without key fixes.",
-    "relevanceScore": 0.31
-  },
-  {
-    "title": "The company that built TikTok’s algorithm is now designing drugs for diseases pharma called undruggable",
-    "url": "https://thenextweb.com/news/bytedance-anew-labs-ai-drug-discovery/",
-    "date": "2026-05-02",
-    "source": "The Next Web",
-    "companies": [
-      "ByteDance",
-      "ServiceNow"
-    ],
-    "summary": "The company that built TikTok’s recommendation algorithm, the system that predicts with unsettling accuracy what a person wants to watch next, is now using a related class of AI to predict how molecules will behave inside a human body. ByteDance’s drug discov…",
-    "relevanceScore": 0.31
-  },
-  {
     "title": "Tech giants ramp up AI spending, but returns remain uncertain - Indiatimes",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdHJXZVktOHZzSjVidnpvX29FS0Z4c1hqaDRwY1VFbVd1V2ljWVpCdmJweTRTX1hmQXdoRG0wNlFjaGNodnlBVXkwbzNyZVNRTmMzWXJKTThMMFlxWURUR3FkeDhjSlR5RzQxU2xkSGRYdXMtM2R2eW1HT3RkNlByS1VXYkxHLTNfTjdtWkFDaC1fa0xmdmZUYWFzZllZT1hiVjNkME1QUkpGUm53NmxDRFh5eGV1WEFRMEZua1ZCWVV1ZjdkX2NKUw?oc=5",
     "date": "2026-05-02",
     "source": "Indiatimes",
     "companies": [],
     "summary": "Tech giants ramp up AI spending, but returns remain uncertain  Indiatimes",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "Jim Cramer’s Opinion on 21 Stocks: Oklo, AST SpaceMobile, and Others",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-opinion-21-stocks-165936273.html",
+    "date": "2026-05-02",
+    "source": "Yahoo Entertainment",
+    "companies": [],
+    "summary": "In this article, we will look at the stocks Jim Cramer highlighted, as he discussed the massive AI infrastructure buildout. The host of CNBC’s Mad Money said...",
     "relevanceScore": 0.21
   },
   {
@@ -551,45 +634,36 @@
     "relevanceScore": 0.21
   },
   {
-    "title": "Building trades unions emerge as a key ally of tech giants in push for AI data centers",
-    "url": "https://www.news4jax.com/business/2026/05/02/building-trades-unions-emerge-as-a-key-ally-of-tech-giants-in-push-for-ai-data-centers/",
+    "title": "Crowd shrinks as Berkshire Hathaway’s new CEO leads the annual meeting for the first time Saturday",
+    "url": "https://apnews.com/article/berkshire-hathaway-warren-buffett-meeting-greg-abel-f0799a04e40a7eaf81c9fd5dac0aa95e",
     "date": "2026-05-02",
-    "source": "WJXT News4JAX",
-    "companies": [],
-    "summary": "Building trades unions emerge as a key ally of tech giants in push for AI data centersnews4jax.com",
-    "relevanceScore": 0.21
-  },
-  {
-    "title": "Meta layoffs: More cuts possible after 10% workforce reduction on May 20",
-    "url": "https://economictimes.indiatimes.com/tech/technology/meta-layoffs-more-cuts-possible-after-10-workforce-reduction-on-may-20/articleshow/130713979.cms",
-    "date": "2026-05-02",
-    "source": "The Times of India",
+    "source": "Associated Press",
     "companies": [
-      "Meta"
+      "ServiceNow"
     ],
-    "summary": "Meta's chief people officer indicated that further layoffs are possible, despite upcoming cuts set to impact 10% of its global workforce. While the business remains strong, changing priorities and fierce competition necessitate ongoing cost management. The co…",
+    "summary": "New CEO Greg Abel led the Berkshire Hathaway annual meeting in Omaha, Nebraska, for the first time, with Warren Buffett now chairman.",
     "relevanceScore": 0.2
   },
   {
-    "title": "Tesla Stock 2026 Buy or Sell Debate Heats Up as Analysts Split on EV Giant Future",
-    "url": "https://www.ibtimes.com.au/tesla-stock-2026-buy-sell-debate-heats-analysts-split-ev-giant-future-1868004",
+    "title": "Why Zero UI Will Redefine Experience Design",
+    "url": "https://bradenkelley.com/2026/05/why-zero-ui-will-redefine-experience-design/",
     "date": "2026-05-02",
-    "source": "Ibtimes.com.au",
+    "source": "Bradenkelley.com",
     "companies": [
-      "Tesla"
+      "Intel"
     ],
-    "summary": "NEW YORK — As Tesla Inc. navigates a pivotal year in 2026, investors face a sharp divide over whether to buy or sell shares of the electric vehicle pioneer, with Wall Street analysts issuing a consensus \"Hold\" rating amid softening deliveries, intensifying co…",
+    "summary": "The Invisible Interface LAST UPDATED: May 2, 2026 at 9:13 AM GUEST POST from Art Inteligencia I. Introduction: The End of the Glass Slab The Screen Fatigue Phenomenon: We have reached a point of peak saturation with traditional displays. Our lives are current…",
     "relevanceScore": 0.2
   },
   {
-    "title": "Blackstone’s Steve Schwarzman built a program to teach young leaders about China. It’s harder to get into than Harvard",
-    "url": "https://fortune.com/2026/05/02/schwarzman-scholars-blackstone-china-tsinghua-university/",
+    "title": "Alphabet stock hits record high after strong Q1 earnings, US-Iran ceasefire",
+    "url": "https://cryptobriefing.com/alphabet-stock-hits-record-high-after-strong-q1-earnings-us-iran-ceasefire/",
     "date": "2026-05-02",
-    "source": "Fortune",
+    "source": "Crypto Briefing",
     "companies": [
-      "Anthropic"
+      "Alphabet"
     ],
-    "summary": "Inspired by the Rhodes Scholar program, Schwarzman's philanthropic initiative brings students in their early-to-mid-20s to spend a year immersed in understanding how China works.",
+    "summary": "Alphabet's financial success and geopolitical stability may shift market dynamics, impacting tech leadership and investor confidence.\nThe post Alphabet stock hits record high after strong Q1 earnings, US-Iran ceasefire appeared first on Crypto Briefing.",
     "relevanceScore": 0.2
   },
   {
@@ -598,12 +672,10 @@
     "date": "2026-05-01",
     "source": "Barron's",
     "companies": [
-      "Microsoft",
-      "Alphabet",
-      "ServiceNow"
+      "Alphabet"
     ],
-    "summary": "Google Is the Only Big Tech Company Making Its AI Spending Work  Barron's\nAI boom: Big Tech capital expenditures now seen topping $1 trillion in 2027  CNBC\nMag 7 Capex Explosion: AI Infrastructure Stocks Could Win Big  Seeking Alpha\nBig Tech’s AI payback might be coming into view  Financial Times\nSkyrocketing component prices push Big Tech capex to record $725 billion — Microsoft alone attributes $25 billion of AI budget to increased memory and chip costs  Tom's Hardware\nWhy Big Tech's $700 bill",
-    "relevanceScore": 0.9
+    "summary": "Google Is the Only Big Tech Company Making Its AI Spending Work  Barron's\nAI could take capex to $1Tn in CY27  Investing.com\nMag 7 Capex Explosion: AI Infrastructure Stocks Could Win Big  Seeking Alpha",
+    "relevanceScore": 0.82
   },
   {
     "title": "Skyrocketing component prices push Big Tech capex to record $725 billion — Microsoft alone attributes $25 billion of AI budget to increased memory and chip costs - Tom's Hardware",
@@ -630,37 +702,6 @@
     ],
     "summary": "Big Tech capex ranked: What Alphabet, Amazon, Apple, Meta, and Microsoft are spending as AI investment surges  Fast Company",
     "relevanceScore": 0.62
-  },
-  {
-    "title": "$190 Billion Is a ‘Rational Investment’? Why AI Spending Is Skyrocketing | Analysis - TheWrap",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcU1IV3c1aW9ySzZYWmFCWTBKSWk4eHpjcVJXVlFHcHBveEwzY3QwLVBWNVRvMHJBTzVNX1JZb3FvdnpWUFVuN1p4Z3hWdTNSRTU0MGlnWkd2anp1dU9YNG1yOERZdUtaMnBCUmVDcThsTFJVSl9aVXZKWHhYaFd4R2lRbEE2emhIVWx2WW56TVdrY1I2cUpOSw?oc=5",
-    "date": "2026-05-01",
-    "source": "TheWrap",
-    "companies": [],
-    "summary": "$190 Billion Is a ‘Rational Investment’? Why AI Spending Is Skyrocketing | Analysis  TheWrap",
-    "relevanceScore": 0.62
-  },
-  {
-    "title": "US Stock Market: Meta raises $25 billion via bond sale to fund AI expansion - The Economic Times",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWnA4WDgxZi1meGRic3JLUFVSeTktSzljamU1MWFRQ0dvZVdqa1VUWFBVV05KUUtCem1GVFJ4VTJFMWR0UjJLT3NSM05lTG81RFhZclEyLXYxUzk5aHpfeEx6aXVneTNmSjQ1Z3VKejExQ0szd3pzOUZQS2NnMmlERkZJNGgyZFVBRXoxNTI3MHFQM004Q01IckdmVHVhODlCQkpFRTUtR2xWd3ZXSkJjQTdhTUtJZHJMZVFWUVYzYndUT2tHYVcwOHZNYmEtQU1KeDJ1bHV0UDNTRDlKQU1VNkZDZnTSAeoBQVVfeXFMUE5qVzRFWnkwTzZnWFV2VjQ0Z3VYVG9ZVjZ5a0ZIcElDWWhKRHhHMU1Na3N0a1Q1NlFqYVJnTkp4dXUyU2otSEY4cWdrN0RrSWtaU1dEWUc1bHRablY4WHJQUzYtdmxxV3R3Y0ZvRm5aczhVQkR0U01ZOS1TOVg4YndFNlFJeUVFcnhuSkIwaWptX3NLUmI5YjcwakJtN2UwWVd3RWdHMVBwQ2hMVXpTVWw2VUhFbVF5cVJMYWRBTTlaSVhYQ3R1dlRKTXZNM3YtSk1NMFQ4anE5WUxVMGJONEszck1XdG5ZUDhn?oc=5",
-    "date": "2026-05-01",
-    "source": "The Economic Times",
-    "companies": [
-      "Meta"
-    ],
-    "summary": "US Stock Market: Meta raises $25 billion via bond sale to fund AI expansion  The Economic Times",
-    "relevanceScore": 0.61
-  },
-  {
-    "title": "The question nobody asked Zuckerberg",
-    "url": "https://thenextweb.com/news/meta-ai-spending-child-safety-lawsuits/",
-    "date": "2026-05-01",
-    "source": "The Next Web",
-    "companies": [
-      "Meta"
-    ],
-    "summary": "Mark Zuckerberg’s earnings call on Wednesday was about AI. It was about the $125 billion to $145 billion Meta plans to spend on capital expenditure in 2026. It was about Llama models and recommendation engines and the advertising systems that generate $56 bil…",
-    "relevanceScore": 0.61
   },
   {
     "title": "Hyperscalers Hit $700 Billion in 2026 AI Spending Plans - 24/7 Wall St.",
@@ -692,17 +733,6 @@
     "relevanceScore": 0.52
   },
   {
-    "title": "What are AI data centres? Inside the infrastructure powering the next wave of artificial intelligence - Storyboard18",
-    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNdnFrNTF5aHN5dmd2LVo4YmZYTVdmVmV4cDJuc2FhQm9HUGlvQWZ2bnp2cGtHWnJpTFBrWnY3TUlGOXdGckVvQVpnTDdvLUJTVVVmR2xyUFozRnl6dHRFQ0VjUHB4NmJPRWQzWk1VTDZRLW15WjMwc0NRTDZJMTFDZmJnemFnNl9mcm1GNnVyWDVhU1phVzd0ZnowVFdWOVQ4d2RNaWxKUGcxY280MVZfUjVIZGxxOWVUQ2dTR3MtYllNNmV6YVJ6R2ZpQld0anVPSVU5ZnplN1dnUlNJSDBkRHZkZ2E2eTDSAewBQVVfeXFMUExJXzljNWJaY3QyT0wyOUhiWkhiQWYzcWt2QXdOQ2pkVkNzdUx2b0VzdTJGMTU1c2ZKZ29aYWNXbDNWTG9WLXVuUHVFY29CbGowS3VZTGxKdjRCdC1kaG11a0pSTlBZX25yNHFMemVQSGJTWWhKT0lfNmhOX0RnR1NiZ1lQOV9yYXdXdElrbTdYOHk0WnhlSnF5Z09sRWtIc01kNGp5ZmxoeEJlc1M5RmJocGMwTHVKUS1ON0FjSDF5LXJTazN3OTU4ZFY3Y1d4UjBQNVFKNzJ2UDltUHZCUkoxSVpiUWEtcFl4OHc?oc=5",
-    "date": "2026-05-01",
-    "source": "Storyboard18",
-    "companies": [
-      "Intel"
-    ],
-    "summary": "What are AI data centres? Inside the infrastructure powering the next wave of artificial intelligence  Storyboard18",
-    "relevanceScore": 0.52
-  },
-  {
     "title": "Meta links layoffs to rising AI compute spending - Let's Data Science",
     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOLXpFOFlLRjdETFpYNTFRSjJPVEpmdmhHcDVrT3NVNmZhYlA2SktaN0JHTnVMUU1ITUJxQ0FCcnFSX2JDYm9Fc1ljdXdmLUVSLWVrX1BENVNkQkNscHdpc2o5OWpfV21Wd1FmU29ibmhsaXFZaGFZR0w1bUlKMGVTQ1ZyM0tpVEtjSnlzMUUxOEpoMEdO?oc=5",
     "date": "2026-05-01",
@@ -714,24 +744,35 @@
     "relevanceScore": 0.52
   },
   {
-    "title": "Mag 7 Capex Explosion: AI Infrastructure Stocks Could Win Big - Seeking Alpha",
-    "url": "https://slashdot.org/firehose.pl?op=view&amp;id=183094398",
+    "title": "Amazon vs. Microsoft and the Great AI Capex Divergence - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOS3hCNGhxYUdkclBXeElOVmtxejgwME1OWDJ5ZGQybWZ4SUtQY0E1SHJtRjZvWE85QmZDYldWUExVM1Q5c1lOWmRzQWxMV2hmQm5TN3V1c09Ub3V0Nm5fc0RmelRlb2RmWjRxYUUxNGpyaGVDWDFlODY0blZvQVJGQzlVOXB1RjVjNVhIWGxyLTZKZ2lLTnU4UjQyanFRQQ?oc=5",
     "date": "2026-05-01",
-    "source": "Slashdot.org",
-    "companies": [],
-    "summary": "Mag 7 Capex Explosion: AI Infrastructure Stocks Could Win BigSeeking Alpha A.I. Spending Sets a Record, With No End in SightThe New York Times The AI earnings bonanza is splitting investorsYahoo Finance Big Tech earnings test record stock market rally as AI s…",
-    "relevanceScore": 0.42
-  },
-  {
-    "title": "Amazon vs. Microsoft and the Great AI Capex Divergence - 24/7 Wall St.",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNc2g0RFNHRWVNeDBjZHRQX0oxaW84MHZJZVE2U05PNnpkc0pJZGF3Uks2VGFmRmdCUldleWpEeENQUXJfTHltT2U2MnFNUjNKR0I1RU82NFk3VHd6RjgzZVUxQjVmYUMwWUtoQ2RrdFd6RDA4X3pzdDJSODdicjR2OU5wbkxVM2pYRjBIckc0TjRuVHRQOTlNU0tOV3JCZw?oc=5",
-    "date": "2026-05-01",
-    "source": "24/7 Wall St.",
+    "source": "Yahoo Finance",
     "companies": [
       "Amazon",
       "Microsoft"
     ],
-    "summary": "Amazon vs. Microsoft and the Great AI Capex Divergence  24/7 Wall St.",
+    "summary": "Amazon vs. Microsoft and the Great AI Capex Divergence  Yahoo Finance",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "Zuckerberg links AI spending surge to looming 8,000 Meta layoffs - MSN",
+    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPUC14blVkcUVfa21BLU1ieWRsdGpEVUtNMER3azFBdHFLT0FlZ1NneGhQcUlEc2NsU2R0bTJ0akgyOTljc2k1b1BtRGN4bmdteXJxVjJDdGNxQ3E0OXBnS0JkNmxkbF9zb2xSMWRfRjlmMWszZHFQVEd0Q3JxSWFtdkltUXdQUmJEOW1tSHNfNXZ5Z0lKUlFLYU1wTnFMSkdnNHNMOWNJSVZ0bEkzYlZQMFlkODNxajBlMHlxRHJ3Y21PVkgtZDBoVURvY25qUDlEYWYtNTd2bEtLMm1UT0VDMDU2S1BPY0lIY0JRZWY4dTJ5anlaVUk3MkRn?oc=5",
+    "date": "2026-05-01",
+    "source": "MSN",
+    "companies": [
+      "Meta"
+    ],
+    "summary": "Zuckerberg links AI spending surge to looming 8,000 Meta layoffs  MSN",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "Why Big Tech's $700 billion AI splurge is misleading - Business Insider",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeGh1dXEyVGw0aTR3d1NTTm9NaUdjUEtQbnVTMHVMQWZTSzJnai01YUw4dy1NRkYtcS1hMzFkOE9YNEhwN3NPOUw4c2hpZ3RDRnE5eUY1bmM1N3ZVbDVHUzVpWGlqeE9GMDRuTHBjSHJCb2JkeExCVzBjWnZpWk1aellHbGVUNGdYZHA3aDBGallRalJib2lwRQ?oc=5",
+    "date": "2026-05-01",
+    "source": "Business Insider",
+    "companies": [],
+    "summary": "Why Big Tech's $700 billion AI splurge is misleading  Business Insider",
     "relevanceScore": 0.41
   },
   {
@@ -786,21 +827,33 @@
     "relevanceScore": 0.41
   },
   {
-    "title": "Why Big Tech's $700 billion AI splurge is misleading - Business Insider",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeGh1dXEyVGw0aTR3d1NTTm9NaUdjUEtQbnVTMHVMQWZTSzJnai01YUw4dy1NRkYtcS1hMzFkOE9YNEhwN3NPOUw4c2hpZ3RDRnE5eUY1bmM1N3ZVbDVHUzVpWGlqeE9GMDRuTHBjSHJCb2JkeExCVzBjWnZpWk1aellHbGVUNGdYZHA3aDBGallRalJib2lwRQ?oc=5",
-    "date": "2026-05-01",
-    "source": "Business Insider",
-    "companies": [],
-    "summary": "Why Big Tech's $700 billion AI splurge is misleading  Business Insider",
-    "relevanceScore": 0.41
-  },
-  {
     "title": "Jefferies flags risks as AI capex surges to $725B - MSN",
     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNLUIwNWozb1RBT3BmZ1dkb0VSVHRKME9ZUVU0SFVFdjFTZzNPTjN5OGRkNXl1dTBYTFkzSWRFTG9TbHJ4emYyVktHdWxJSndYN1FUcHBPdm85VVN6bW1DLXFZc3o3YWMxcFhRSjFHelJ4WVVNZVRRZVN5dTF1M2FFSmQzRi1Cb0g5QXh5YWlOY2tXeU1PWGYyOWZ1eXcxS3MwNzh6ZDhIN0RnM3Q1aVlFMGIwMkY2RFNIS1BHYXU5ZVhST25wbW9odS1POXdRVzZRRDA1MXZR?oc=5",
     "date": "2026-05-01",
     "source": "MSN",
     "companies": [],
     "summary": "Jefferies flags risks as AI capex surges to $725B  MSN",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "Meta sinks, Alphabet jumps as AI capex gap widens - MSN",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZjVuTUJTdjlfMmJuLURqUGNBcjRPUlBkeEZvNHZWMG93Z040YXgtYXNCYnpWbG5NNG96aG5uSmVHWDd0S0NhQ0ZaZDFELTk3UUpiUnNpMmxCMDZfXzZ5SUgzUE1qQkotZkpuSlFpaEFlaXM3MzJTcTMwSWV0VThCQzlYM01ZMjlCSkFxMTZtRHZHVVQ1MWQxYVJneUVQOEFyUkRPVlRGRnpfYzJESkhSazU4S2l4VDcyMWpGQTBvOHltNkYtWGc4T0s4Tnlia1NoNVNTQ25iQ3pXQUdvcFlZZHV3YXQ?oc=5",
+    "date": "2026-05-01",
+    "source": "MSN",
+    "companies": [
+      "Alphabet",
+      "Meta"
+    ],
+    "summary": "Meta sinks, Alphabet jumps as AI capex gap widens  MSN",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "Bank of America sees AI capex topping $1T by 2027 - MSN",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSEJjcnB5NnczaUx4eVY5SkNiT21KM1VsYlJPWnJJZ0tBU19Tb3U1bHVqNHg1bDYxbGlaTV9hdm1CYTU0aDI2U3ZEamFQcXh5STRhQUNYcUhoMXl3VURJZzFBUEl6aElRay1EU0JMM3BKRVYzeUFLajVlTExpWWJHZjNOX0l4RWpZckU3NWZQRzZPWmtOZEQwTnNDLWo4N2doSTRsR2J1U1JySmR2bHlFZTFEZ0ZKVzJUR2hCNXVuUE54Ui1PNU40b1VONlpNR2NLbnVuRnFB?oc=5",
+    "date": "2026-05-01",
+    "source": "MSN",
+    "companies": [],
+    "summary": "Bank of America sees AI capex topping $1T by 2027  MSN",
     "relevanceScore": 0.41
   },
   {
@@ -842,12 +895,12 @@
     "relevanceScore": 0.32
   },
   {
-    "title": "Mag 7 Capex Surge Boosts AI Infrastructure Stocks - Let's Data Science",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeU5wV3RuUUM5WU42Q3lnaHR4d2FjWmlxcW1aT1FOampPTm5FbHl0SmIyV3JSYzN2VXJoYktRbGRJd2lBcDRFWkY4NVpqTUgzbXBkLWJSMFc0SHEtM21rNmNhMVJMNVRYUE5nQmszRlNkc3ZGUmE0NGtIUEZMNUlCSzdYSE1MTE5xaVZRTHM4aThWV0hpbXc?oc=5",
+    "title": "Analysis: Hyperscaler Earnings Show AI Demand Outrunning Infrastructure - Data Center Knowledge",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOV3g0Z2lnOTh4bHRqN2RQN1RiYmo4dUFhcThzU1Rhc0hkaUN3OUp2MFNYV1N1RjZqYVhXNUhGZjRqSGgwTEc4b2FXXzZuRFYyM2JpM1NyVXVyaGJUNGJqZEYxM3VZNnhzR2hKRWp5enVOUVBiVG1yT2RlUy1fenJXR2U2MHdNN2JDcGg1V2d0MXpQR2k4VkVzclBfYjBZNXdBcHRiZHpZeldoUGJWQTRvbERVUG0tRHpfTEZj?oc=5",
     "date": "2026-05-01",
-    "source": "Let's Data Science",
+    "source": "Data Center Knowledge",
     "companies": [],
-    "summary": "Mag 7 Capex Surge Boosts AI Infrastructure Stocks  Let's Data Science",
+    "summary": "Analysis: Hyperscaler Earnings Show AI Demand Outrunning Infrastructure  Data Center Knowledge",
     "relevanceScore": 0.32
   },
   {
@@ -860,12 +913,12 @@
     "relevanceScore": 0.32
   },
   {
-    "title": "Analysis: Hyperscaler Earnings Show AI Demand Outrunning Infrastructure - Data Center Knowledge",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOV3g0Z2lnOTh4bHRqN2RQN1RiYmo4dUFhcThzU1Rhc0hkaUN3OUp2MFNYV1N1RjZqYVhXNUhGZjRqSGgwTEc4b2FXXzZuRFYyM2JpM1NyVXVyaGJUNGJqZEYxM3VZNnhzR2hKRWp5enVOUVBiVG1yT2RlUy1fenJXR2U2MHdNN2JDcGg1V2d0MXpQR2k4VkVzclBfYjBZNXdBcHRiZHpZeldoUGJWQTRvbERVUG0tRHpfTEZj?oc=5",
+    "title": "Mag 7 Capex Surge Boosts AI Infrastructure Stocks - Let's Data Science",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeU5wV3RuUUM5WU42Q3lnaHR4d2FjWmlxcW1aT1FOampPTm5FbHl0SmIyV3JSYzN2VXJoYktRbGRJd2lBcDRFWkY4NVpqTUgzbXBkLWJSMFc0SHEtM21rNmNhMVJMNVRYUE5nQmszRlNkc3ZGUmE0NGtIUEZMNUlCSzdYSE1MTE5xaVZRTHM4aThWV0hpbXc?oc=5",
     "date": "2026-05-01",
-    "source": "Data Center Knowledge",
+    "source": "Let's Data Science",
     "companies": [],
-    "summary": "Analysis: Hyperscaler Earnings Show AI Demand Outrunning Infrastructure  Data Center Knowledge",
+    "summary": "Mag 7 Capex Surge Boosts AI Infrastructure Stocks  Let's Data Science",
     "relevanceScore": 0.32
   },
   {
@@ -962,6 +1015,195 @@
     "relevanceScore": 0.21
   },
   {
+    "title": "Big Tech Bets Big on AI Spending: ETFs to Win - The Globe and Mail",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVzJ4UDZ1cnlWOXI2REMwR0JKR0I2MUxLa1NoUTR6dTdCZGpaTHZONmZYeXBOTUxUMF9yNWJuWDN1emRDYjRvOGFRdmdDYlV4R2hOM2tHLTVWWmlQMUplWDNoRUUyX0laY0J0cUNqR0dtY0dVNXVEakxiTTRIRXp3VHhLS0tlZ1A4cE9aRUhTazlPTWRrYS03UW16MURqVXNYUm93R0Zqc1ZqNzdYUWJ0OS1TcjBpMGxNdEQ5aU9OMXdnS2FUb3ZFTw?oc=5",
+    "date": "2026-05-01",
+    "source": "The Globe and Mail",
+    "companies": [],
+    "summary": "Big Tech Bets Big on AI Spending: ETFs to Win  The Globe and Mail",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "'Magnificent 7' earnings rush reveals AI spending surge, with hyperscaler capex set to reach $725 billion in 2026 - AOL.com",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSUxaZ2VRNkdZZ3VLNURLcndoTk1OTjJZWGg3dWdSNmd5UVhjQ1l6bEZSZHVBNGVnWnV3RE41dlFQUW1CbXFHUDVGc05pNDAyN19nMHNWc3lYcm9fdEVJRWtVMHB5NW9zcEc3REo3cmlMR1Q1elN2Y3hZMkYyZml5dzgwU0I?oc=5",
+    "date": "2026-05-03",
+    "source": "AOL.com",
+    "companies": [],
+    "summary": "'Magnificent 7' earnings rush reveals AI spending surge, with hyperscaler capex set to reach $725 billion in 2026  AOL.com",
+    "relevanceScore": 0.62
+  },
+  {
+    "title": "Neocloud Providers Iren and Nebius Lead AI Infrastructure Growth - HarianBasis.co",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBfTnkxa2hyOWhqQVl3ZHFvNFhIbWZJTWZNbFhIZmRzUHJLMkRMeVZpbDZlWkNJU01BQ0twWlNPOFdMbXRtZmdoSmxLWlNpNjh0b2p3NXdSbVNMSnlZckVOSUF2RFdGY1NsZHVXLU1tdFZRUk5HTnVCc0dB?oc=5",
+    "date": "2026-05-03",
+    "source": "HarianBasis.co",
+    "companies": [],
+    "summary": "Neocloud Providers Iren and Nebius Lead AI Infrastructure Growth  HarianBasis.co",
+    "relevanceScore": 0.32
+  },
+  {
+    "title": "Big tech bets big on AI spending: ETFs to win - MSN",
+    "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxObm55bGgwQURZZ25NY1NJOEptQXFXUFRNVlZrUGxsdER2RzlKeXRZY3pZbi1sSnF0QlJQMVQxMlNGRXFGNDRrSW50NTdtWjVGTkJkblM5Z0ZlbTdmczhFYmpXWkxtTF9nblZWQWlSbzB6bVY4VmgxSm4wNTc1ZWZ6Sm5BYmppeVpMd0h2SXRxRU42Qk5ZWEljWDM2YndJRVJ1aGlGRDdGckNVNnJMbVFWVFJ4clRxM1E4Tjk2RTFPakFVUWNZMjMwU05PZDRROU5zYUVxeG5veUZPc3lZWWNPVF9oYVVHS09yVDFrRDB0V1RsN2MxUXh2WVhWTG4wZmVBMWJfX1l1YzBQX2E3TEdDU0pjUmt6aEpEMUkyaXpFeGdUdFI1NF9HSVQ2cXFTakE?oc=5",
+    "date": "2026-05-03",
+    "source": "MSN",
+    "companies": [],
+    "summary": "Big tech bets big on AI spending: ETFs to win  MSN",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "Oracle (ORCL) Bets $50 Billion on AI Infrastructure as OpenAI Miss Clouds the Investment Case - AlphaStreet",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMTdqckt3OExnMmY0cE1HUk9SaU5mNS1OMDZKbXllOHh6VHZtSjRoaElIbGNBMWJDNkV0Wm05NkJWd2VSeTVuc2FoRjVVdkpUYWlIYTVBMFBDMjBQRk92TEZydUI4NmRNV3dVWFNEejhSZzJObWo4OTBxUkh1emFnRHoyMW1zZ1NaQmdkRVZyRXNya1YwcUR6NG41V09RRmpPQXJLemVCYlAyNFVJMDFYakllQllxZ1UwQzdpRdIBvAFBVV95cUxPMTdqckt3OExnMmY0cE1HUk9SaU5mNS1OMDZKbXllOHh6VHZtSjRoaElIbGNBMWJDNkV0Wm05NkJWd2VSeTVuc2FoRjVVdkpUYWlIYTVBMFBDMjBQRk92TEZydUI4NmRNV3dVWFNEejhSZzJObWo4OTBxUkh1emFnRHoyMW1zZ1NaQmdkRVZyRXNya1YwcUR6NG41V09RRmpPQXJLemVCYlAyNFVJMDFYakllQllxZ1UwQzdpRQ?oc=5",
+    "date": "2026-05-02",
+    "source": "AlphaStreet",
+    "companies": [
+      "Oracle",
+      "OpenAI"
+    ],
+    "summary": "Oracle (ORCL) Bets $50 Billion on AI Infrastructure as OpenAI Miss Clouds the Investment Case  AlphaStreet",
+    "relevanceScore": 0.9
+  },
+  {
+    "title": "AI Marketing Industry Growth: How Artificial Intelligence is Driving an $82 Billion Market by 2030",
+    "url": "https://parwaaz-psdf.com.pk/ai-marketing-industry-growth-how-artificial-intelligence-is-driving-an-82-billion-market/",
+    "date": "2026-05-02",
+    "source": "Parwaaz-psdf.com.pk",
+    "companies": [
+      "Intel"
+    ],
+    "summary": "AI Marketing Industry Growth: How Artificial Intelligence is Driving an $82 Billion Market by 2030parwaaz-psdf.com.pk",
+    "relevanceScore": 0.72
+  },
+  {
+    "title": "Meta’s Reality Labs reports $4B Q1 loss amid AI strategy shift",
+    "url": "https://cryptobriefing.com/metas-reality-labs-reports-4b-q1-loss-amid-ai-strategy-shift/",
+    "date": "2026-05-02",
+    "source": "Crypto Briefing",
+    "companies": [
+      "Meta"
+    ],
+    "summary": "Meta's financial strain and AI strategy shift highlight challenges in maintaining tech leadership amid US-China competition and investor skepticism.\nThe post Meta’s Reality Labs reports $4B Q1 loss amid AI strategy shift appeared first on Crypto Briefing.",
+    "relevanceScore": 0.51
+  },
+  {
+    "title": "Google and Meta reveal uneven investor patience for AI",
+    "url": "https://www.irishtimes.com/your-money/2026/05/02/google-and-meta-reveal-uneven-investor-patience-for-ai/",
+    "date": "2026-05-02",
+    "source": "The Irish Times",
+    "companies": [
+      "Alphabet",
+      "Meta"
+    ],
+    "summary": "Alphabet’s shares rose sharply, while Meta’s lost almost a tenth of their value following release of financial results this week",
+    "relevanceScore": 0.31
+  },
+  {
+    "title": "Anthropic’s most powerful AI model just exposed a crisis in corporate governance. Here’s the framework every CEO needs.",
+    "url": "https://fortune.com/2026/05/02/agentic-ai-governance-framework-banking-healthcare-retail-supply-chain-yale-celi-sonnenfeld/",
+    "date": "2026-05-02",
+    "source": "Fortune",
+    "companies": [
+      "Anthropic"
+    ],
+    "summary": "Yale's Jeffrey Sonnenfeld and colleagues argue that Claude Mythos will break enterprise deployment in ways that cannot be undone—without key fixes.",
+    "relevanceScore": 0.31
+  },
+  {
+    "title": "The company that built TikTok’s algorithm is now designing drugs for diseases pharma called undruggable",
+    "url": "https://thenextweb.com/news/bytedance-anew-labs-ai-drug-discovery/",
+    "date": "2026-05-02",
+    "source": "The Next Web",
+    "companies": [
+      "ByteDance",
+      "ServiceNow"
+    ],
+    "summary": "The company that built TikTok’s recommendation algorithm, the system that predicts with unsettling accuracy what a person wants to watch next, is now using a related class of AI to predict how molecules will behave inside a human body. ByteDance’s drug discov…",
+    "relevanceScore": 0.31
+  },
+  {
+    "title": "Meta layoffs: More cuts possible after 10% workforce reduction on May 20",
+    "url": "https://economictimes.indiatimes.com/tech/technology/meta-layoffs-more-cuts-possible-after-10-workforce-reduction-on-may-20/articleshow/130713979.cms",
+    "date": "2026-05-02",
+    "source": "The Times of India",
+    "companies": [
+      "Meta"
+    ],
+    "summary": "Meta's chief people officer indicated that further layoffs are possible, despite upcoming cuts set to impact 10% of its global workforce. While the business remains strong, changing priorities and fierce competition necessitate ongoing cost management. The co…",
+    "relevanceScore": 0.2
+  },
+  {
+    "title": "Tesla Stock 2026 Buy or Sell Debate Heats Up as Analysts Split on EV Giant Future",
+    "url": "https://www.ibtimes.com.au/tesla-stock-2026-buy-sell-debate-heats-analysts-split-ev-giant-future-1868004",
+    "date": "2026-05-02",
+    "source": "Ibtimes.com.au",
+    "companies": [
+      "Tesla"
+    ],
+    "summary": "NEW YORK — As Tesla Inc. navigates a pivotal year in 2026, investors face a sharp divide over whether to buy or sell shares of the electric vehicle pioneer, with Wall Street analysts issuing a consensus \"Hold\" rating amid softening deliveries, intensifying co…",
+    "relevanceScore": 0.2
+  },
+  {
+    "title": "Blackstone’s Steve Schwarzman built a program to teach young leaders about China. It’s harder to get into than Harvard",
+    "url": "https://fortune.com/2026/05/02/schwarzman-scholars-blackstone-china-tsinghua-university/",
+    "date": "2026-05-02",
+    "source": "Fortune",
+    "companies": [
+      "Anthropic"
+    ],
+    "summary": "Inspired by the Rhodes Scholar program, Schwarzman's philanthropic initiative brings students in their early-to-mid-20s to spend a year immersed in understanding how China works.",
+    "relevanceScore": 0.2
+  },
+  {
+    "title": "$190 Billion Is a ‘Rational Investment’? Why AI Spending Is Skyrocketing | Analysis - TheWrap",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcU1IV3c1aW9ySzZYWmFCWTBKSWk4eHpjcVJXVlFHcHBveEwzY3QwLVBWNVRvMHJBTzVNX1JZb3FvdnpWUFVuN1p4Z3hWdTNSRTU0MGlnWkd2anp1dU9YNG1yOERZdUtaMnBCUmVDcThsTFJVSl9aVXZKWHhYaFd4R2lRbEE2emhIVWx2WW56TVdrY1I2cUpOSw?oc=5",
+    "date": "2026-05-01",
+    "source": "TheWrap",
+    "companies": [],
+    "summary": "$190 Billion Is a ‘Rational Investment’? Why AI Spending Is Skyrocketing | Analysis  TheWrap",
+    "relevanceScore": 0.62
+  },
+  {
+    "title": "US Stock Market: Meta raises $25 billion via bond sale to fund AI expansion - The Economic Times",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWnA4WDgxZi1meGRic3JLUFVSeTktSzljamU1MWFRQ0dvZVdqa1VUWFBVV05KUUtCem1GVFJ4VTJFMWR0UjJLT3NSM05lTG81RFhZclEyLXYxUzk5aHpfeEx6aXVneTNmSjQ1Z3VKejExQ0szd3pzOUZQS2NnMmlERkZJNGgyZFVBRXoxNTI3MHFQM004Q01IckdmVHVhODlCQkpFRTUtR2xWd3ZXSkJjQTdhTUtJZHJMZVFWUVYzYndUT2tHYVcwOHZNYmEtQU1KeDJ1bHV0UDNTRDlKQU1VNkZDZnTSAeoBQVVfeXFMUE5qVzRFWnkwTzZnWFV2VjQ0Z3VYVG9ZVjZ5a0ZIcElDWWhKRHhHMU1Na3N0a1Q1NlFqYVJnTkp4dXUyU2otSEY4cWdrN0RrSWtaU1dEWUc1bHRablY4WHJQUzYtdmxxV3R3Y0ZvRm5aczhVQkR0U01ZOS1TOVg4YndFNlFJeUVFcnhuSkIwaWptX3NLUmI5YjcwakJtN2UwWVd3RWdHMVBwQ2hMVXpTVWw2VUhFbVF5cVJMYWRBTTlaSVhYQ3R1dlRKTXZNM3YtSk1NMFQ4anE5WUxVMGJONEszck1XdG5ZUDhn?oc=5",
+    "date": "2026-05-01",
+    "source": "The Economic Times",
+    "companies": [
+      "Meta"
+    ],
+    "summary": "US Stock Market: Meta raises $25 billion via bond sale to fund AI expansion  The Economic Times",
+    "relevanceScore": 0.61
+  },
+  {
+    "title": "The question nobody asked Zuckerberg",
+    "url": "https://thenextweb.com/news/meta-ai-spending-child-safety-lawsuits/",
+    "date": "2026-05-01",
+    "source": "The Next Web",
+    "companies": [
+      "Meta"
+    ],
+    "summary": "Mark Zuckerberg’s earnings call on Wednesday was about AI. It was about the $125 billion to $145 billion Meta plans to spend on capital expenditure in 2026. It was about Llama models and recommendation engines and the advertising systems that generate $56 bil…",
+    "relevanceScore": 0.61
+  },
+  {
+    "title": "What are AI data centres? Inside the infrastructure powering the next wave of artificial intelligence - Storyboard18",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNdnFrNTF5aHN5dmd2LVo4YmZYTVdmVmV4cDJuc2FhQm9HUGlvQWZ2bnp2cGtHWnJpTFBrWnY3TUlGOXdGckVvQVpnTDdvLUJTVVVmR2xyUFozRnl6dHRFQ0VjUHB4NmJPRWQzWk1VTDZRLW15WjMwc0NRTDZJMTFDZmJnemFnNl9mcm1GNnVyWDVhU1phVzd0ZnowVFdWOVQ4d2RNaWxKUGcxY280MVZfUjVIZGxxOWVUQ2dTR3MtYllNNmV6YVJ6R2ZpQld0anVPSVU5ZnplN1dnUlNJSDBkRHZkZ2E2eTDSAewBQVVfeXFMUExJXzljNWJaY3QyT0wyOUhiWkhiQWYzcWt2QXdOQ2pkVkNzdUx2b0VzdTJGMTU1c2ZKZ29aYWNXbDNWTG9WLXVuUHVFY29CbGowS3VZTGxKdjRCdC1kaG11a0pSTlBZX25yNHFMemVQSGJTWWhKT0lfNmhOX0RnR1NiZ1lQOV9yYXdXdElrbTdYOHk0WnhlSnF5Z09sRWtIc01kNGp5ZmxoeEJlc1M5RmJocGMwTHVKUS1ON0FjSDF5LXJTazN3OTU4ZFY3Y1d4UjBQNVFKNzJ2UDltUHZCUkoxSVpiUWEtcFl4OHc?oc=5",
+    "date": "2026-05-01",
+    "source": "Storyboard18",
+    "companies": [
+      "Intel"
+    ],
+    "summary": "What are AI data centres? Inside the infrastructure powering the next wave of artificial intelligence  Storyboard18",
+    "relevanceScore": 0.52
+  },
+  {
+    "title": "Mag 7 Capex Explosion: AI Infrastructure Stocks Could Win Big - Seeking Alpha",
+    "url": "https://slashdot.org/firehose.pl?op=view&amp;id=183094398",
+    "date": "2026-05-01",
+    "source": "Slashdot.org",
+    "companies": [],
+    "summary": "Mag 7 Capex Explosion: AI Infrastructure Stocks Could Win BigSeeking Alpha A.I. Spending Sets a Record, With No End in SightThe New York Times The AI earnings bonanza is splitting investorsYahoo Finance Big Tech earnings test record stock market rally as AI s…",
+    "relevanceScore": 0.42
+  },
+  {
     "title": "Wall Street was wrong on AI spending - Curzio Research",
     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAtZHA2cFh5VGJ0WWFncExXd3R1c0V5bWU1cGJLSXhzaEFkZ2xQSVhwRE84SXhSbkRpcGlheGJkOHdUWl9qWWw5VHhEdm5TMmFFRG9tQnAzOGN1elRyRFh3Vk81SlBtc1J4bG5GdV96XzZxenNIR0o4?oc=5",
     "date": "2026-05-01",
@@ -1014,15 +1256,6 @@
     "companies": [],
     "summary": "Marvell: AI Infrastructure Exposure Is Driving Scalable Earnings Growth  Seeking Alpha",
     "relevanceScore": 0.21
-  },
-  {
-    "title": "AI data center spending rushes toward $800 billion - MSN",
-    "url": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxPS3hiUnp2c0tqeld4RjlGamptWW5ocEtJMnBlRlZRdi1vQzQ5emg3MG1jckJCRjJXa0RpeXhNTDhmc0ppYkVCOWgybEZtX2FzRTdMNEFURkwtMkgtdjVBX25zeDhLUXlvbUMtZVdDWk81T05Gbms2YkFncVlXc0hwOEJGbnp4V3pyT2RLaW5wdnJwbzlBRnV4ZnBDd1N1NjdFYWx0NTBjQTZDU3hoSkxQWnNyQkpLdERpdWNJSnE0Z1ZJUEhuMjFVTHZwRTEweXBUa21KNnRydWtsTXhSU0ZmNjdxMzVlQmRnd2ZhSWhEWXVPTzJDYzJMN1VkSHRETGtnbERPQm8xMkVyb2JQdnA5ZVNETU5kUHRMSktZSWxVMEdQSXRvZUdRT3RINEdKZXUyUFJTWEg0Y1MxQldQcTRva0hrdUpVSHZ0Yjh4NkpxUEVFU0VtX2pPYUJqaHdlRUl1cWZtMFlQTWluQQ?oc=5",
-    "date": "2026-05-02",
-    "source": "MSN",
-    "companies": [],
-    "summary": "AI data center spending rushes toward $800 billion  MSN",
-    "relevanceScore": 0.62
   },
   {
     "title": "Meta Acquires Robotics AI Firm as $145bn Capex, 8,000 Job Cuts Loom - outlookbusiness.com",
@@ -1177,29 +1410,6 @@
     "relevanceScore": 0.52
   },
   {
-    "title": "Zuckerberg links AI spending surge to looming 8,000 Meta layoffs - MSN",
-    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPUC14blVkcUVfa21BLU1ieWRsdGpEVUtNMER3azFBdHFLT0FlZ1NneGhQcUlEc2NsU2R0bTJ0akgyOTljc2k1b1BtRGN4bmdteXJxVjJDdGNxQ3E0OXBnS0JkNmxkbF9zb2xSMWRfRjlmMWszZHFQVEd0Q3JxSWFtdkltUXdQUmJEOW1tSHNfNXZ5Z0lKUlFLYU1wTnFMSkdnNHNMOWNJSVZ0bEkzYlZQMFlkODNxajBlMHlxRHJ3Y21PVkgtZDBoVURvY25qUDlEYWYtNTd2bEtLMm1UT0VDMDU2S1BPY0lIY0JRZWY4dTJ5anlaVUk3MkRn?oc=5",
-    "date": "2026-05-01",
-    "source": "MSN",
-    "companies": [
-      "Meta"
-    ],
-    "summary": "Zuckerberg links AI spending surge to looming 8,000 Meta layoffs  MSN",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "Meta sinks, Alphabet jumps as AI capex gap widens - MSN",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZjVuTUJTdjlfMmJuLURqUGNBcjRPUlBkeEZvNHZWMG93Z040YXgtYXNCYnpWbG5NNG96aG5uSmVHWDd0S0NhQ0ZaZDFELTk3UUpiUnNpMmxCMDZfXzZ5SUgzUE1qQkotZkpuSlFpaEFlaXM3MzJTcTMwSWV0VThCQzlYM01ZMjlCSkFxMTZtRHZHVVQ1MWQxYVJneUVQOEFyUkRPVlRGRnpfYzJESkhSazU4S2l4VDcyMWpGQTBvOHltNkYtWGc4T0s4Tnlia1NoNVNTQ25iQ3pXQUdvcFlZZHV3YXQ?oc=5",
-    "date": "2026-05-01",
-    "source": "MSN",
-    "companies": [
-      "Alphabet",
-      "Meta"
-    ],
-    "summary": "Meta sinks, Alphabet jumps as AI capex gap widens  MSN",
-    "relevanceScore": 0.41
-  },
-  {
     "title": "Meta lifts capital expenditure forecast, doubling down on AI push - The Economic Times",
     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObnZ1bUdkTTJoVndnbzVQZWNlVmtmVHNKQm42VC1NRXZ6RWZzcFdfVWF5a1otRDJKX2k5R2dnVkl1Ql8xLTVGRjB2aDE5dFNYdkxLLXdaWUNWemx2Z2hQNE9fc1pNNmw2SkdVcDBBdUNiRnl5X2h4UzdEazNVU2NpWFVFMmE5clFENE5kWENEU1NnS0lPNkhuOG5rMGdiSV9yUWZCSHd0UDlDanBGRnpaWlhSekp0QnFVUTVUT1ZoVmdqSDc1YXZTRGNmZ2NEM25Rb04wOUlheTXSAd4BQVVfeXFMUFhEbWxhY0NvTEN5MTFCNmlXUlVpV0M2NEJ2MUthOHlwdFg3dlBFN21CR2M2cVg2YVdYbUVJRzlOUHdYUzZZNGZneUJocWR1cVM2cE9ST0ZSdGFGMS1sdmpYcHFaQmxUX3Y3eURpNmR3Y0VwMGpnelFya3VOT09EVk5FLW9DaDZCbXhxZzIzYXloX0VkQmIxcUlSU1ljX0cwUkNCOGVLRlAyYlVsTzVXUjNOaFlhRl92cmFiNnRiT1Z3VEx0VGs4YlE1eW0tUlF5aS1vbnJmTnN4anVaTHpn?oc=5",
     "date": "2026-05-01",
@@ -1209,15 +1419,6 @@
     ],
     "summary": "Meta lifts capital expenditure forecast, doubling down on AI push  The Economic Times",
     "relevanceScore": 0.41
-  },
-  {
-    "title": "Big Tech Bets Big on AI Spending: ETFs to Win - The Globe and Mail",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVzJ4UDZ1cnlWOXI2REMwR0JKR0I2MUxLa1NoUTR6dTdCZGpaTHZONmZYeXBOTUxUMF9yNWJuWDN1emRDYjRvOGFRdmdDYlV4R2hOM2tHLTVWWmlQMUplWDNoRUUyX0laY0J0cUNqR0dtY0dVNXVEakxiTTRIRXp3VHhLS0tlZ1A4cE9aRUhTazlPTWRrYS03UW16MURqVXNYUm93R0Zqc1ZqNzdYUWJ0OS1TcjBpMGxNdEQ5aU9OMXdnS2FUb3ZFTw?oc=5",
-    "date": "2026-05-01",
-    "source": "The Globe and Mail",
-    "companies": [],
-    "summary": "Big Tech Bets Big on AI Spending: ETFs to Win  The Globe and Mail",
-    "relevanceScore": 0.21
   },
   {
     "title": "SoftBank Group’s Roze Spin Off Puts AI Infrastructure In Focus - simplywall.st",
@@ -1819,15 +2020,6 @@
     "relevanceScore": 0.41
   },
   {
-    "title": "Bank of America sees AI capex topping $1T by 2027 - MSN",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSEJjcnB5NnczaUx4eVY5SkNiT21KM1VsYlJPWnJJZ0tBU19Tb3U1bHVqNHg1bDYxbGlaTV9hdm1CYTU0aDI2U3ZEamFQcXh5STRhQUNYcUhoMXl3VURJZzFBUEl6aElRay1EU0JMM3BKRVYzeUFLajVlTExpWWJHZjNOX0l4RWpZckU3NWZQRzZPWmtOZEQwTnNDLWo4N2doSTRsR2J1U1JySmR2bHlFZTFEZ0ZKVzJUR2hCNXVuUE54Ui1PNU40b1VONlpNR2NLbnVuRnFB?oc=5",
-    "date": "2026-05-01",
-    "source": "MSN",
-    "companies": [],
-    "summary": "Bank of America sees AI capex topping $1T by 2027  MSN",
-    "relevanceScore": 0.41
-  },
-  {
     "title": "ChatGPT OpenAI Elon Musk trial: From calling Artificial Intelligence firm charity to existential crisis, key takeaways from Tesla boss' testimony",
     "url": "https://economictimes.indiatimes.com/news/international/us/chatgpt-openai-elon-musk-trial-from-calling-artificial-intelligence-firm-charity-to-existential-crisis-key-takeaways-from-tesla-boss-testimony/articleshow/130675705.cms",
     "date": "2026-05-01",
@@ -2423,205 +2615,5 @@
     ],
     "summary": "Microsoft lifts 2026 AI spend by $25 billion to cover component price rises  theregister.com",
     "relevanceScore": 0.61
-  },
-  {
-    "title": "Meta’s $135 Billion AI Budget Could Buy Ford, GM and Chrysler Combined - 24/7 Wall St.",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYjZCc0UtUUtFSGZhb1hiakdKcUNRNzhlSDVzNTVGSU15X1RIVXJiZnZ4SEtaQnpaV2NqT3pYOEFoYkhwc1pXdVVfWWRZT2lULXhUUGxCS0ZnRFBfOWdVU2ZYUW5IUnFqRzJVZDE0VjlBUDNkZUc1MnBHUXRHdURwUXlxTlVSd19ieWNxaWhFbnFnR0paeVV2YzBtRVNKcFNjVEEtR1hZYjNFbWZCSmR3VA?oc=5",
-    "date": "2026-04-30",
-    "source": "24/7 Wall St.",
-    "companies": [
-      "Meta"
-    ],
-    "summary": "Meta’s $135 Billion AI Budget Could Buy Ford, GM and Chrysler Combined  24/7 Wall St.",
-    "relevanceScore": 0.61
-  },
-  {
-    "title": "Meta Could Spend $145 Billion This Year Due to AI - Gizmodo",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOT2gxOGU4eGo0Znd2bFBDWFFWRkp2TXQ5ZnJJWFdkTGJvX3pvcnBLdVJyWTVOdkpYQnBzTHJkcUpUZlh2dzB2Y1hScUZPV3RtNXpjUUpfc1Q5MENsNk9MZUJSY25FYV9uVXZKNFZ3aVJ0WDA1NDZkV3BYNTAzOTNYUVVOeklqZw?oc=5",
-    "date": "2026-04-30",
-    "source": "Gizmodo",
-    "companies": [
-      "Meta"
-    ],
-    "summary": "Meta Could Spend $145 Billion This Year Due to AI  Gizmodo",
-    "relevanceScore": 0.61
-  },
-  {
-    "title": "Meta: Heavy AI Capex and Uncertain Monetization Keep Rating at Hold as Price Target Trimmed to $720 from $730 - TipRanks",
-    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQRXBidDVwUllUZEt1RWlfbVVRRUR0LXVYUC1SLXpYNXBIUUtJdFBlcWNsY1d6ai16b1hhMjhNZzFWLUpHNVllOXFDNmVrdUpRMzlXUEFjSUx5dno0Y0ZuWS1NdzJ2UTNqdExxc0p3eVZZWmVzR2tJVXQ5MkJFNW9VWk5nSmdmZkREdU5ERDc2WjBHYUxCQ1NfWTBlMUN0X3daTExqMkVZbm12YTQ4c2lSelNKaG5tWGs5Y3JkZENQa3kxQ0pLbzlFcnRLY3hqY190eEFZSXduLVNlckJKTTdhQlVVOTNTRVRSbTdGOEhR?oc=5",
-    "date": "2026-04-30",
-    "source": "TipRanks",
-    "companies": [
-      "Meta"
-    ],
-    "summary": "Meta: Heavy AI Capex and Uncertain Monetization Keep Rating at Hold as Price Target Trimmed to $720 from $730  TipRanks",
-    "relevanceScore": 0.61
-  },
-  {
-    "title": "Meta Stock Loses $175 Billion After AI Expense Estimate Shakes Shareholders - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQTRkZFpSWUZVanlGeE1wZUk5SUNHT2xqeVZjVk83MFdQTlFwWkFfT1JMQU1tS0ZLSkh3Qk1UdkI0TFd5eUgwWEJ4Si1JWWtJT3ktOTRSNmRwSWE3MHppY3lpbDVJODBuMWVDZGx0Yzhjdzc5eUpfNTR5NElYQnhuUnVZdHY3NktfOVRqUjM5cmNFd3JuTk81WA?oc=5",
-    "date": "2026-04-30",
-    "source": "Yahoo Finance",
-    "companies": [
-      "Meta"
-    ],
-    "summary": "Meta Stock Loses $175 Billion After AI Expense Estimate Shakes Shareholders  Yahoo Finance",
-    "relevanceScore": 0.61
-  },
-  {
-    "title": "Amazon, Microsoft, Google, Meta plan $710B AI investment by 2026",
-    "url": "https://cryptobriefing.com/amazon-microsoft-google-meta-plan-710b-ai-investment-by-2026/",
-    "date": "2026-04-30",
-    "source": "Crypto Briefing",
-    "companies": [
-      "Amazon",
-      "Microsoft",
-      "Meta",
-      "Alphabet"
-    ],
-    "summary": "The $710B AI investment by tech giants may reshape global tech leadership, intensifying U.S.-China competition and impacting market dynamics.\nThe post Amazon, Microsoft, Google, Meta plan $710B AI investment by 2026 appeared first on Crypto Briefing.",
-    "relevanceScore": 0.61
-  },
-  {
-    "title": "Big Tech’s $700 billion spending on AI this year is called the ‘greatest capital misallocation in history’ - MarketWatch",
-    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMDJYZmRoeWxWSURXekNyMTVnNXZ0aDg1V3p2eTJjckU1QmxuUzFXQzdWZFZwM2tyVG9JbG9tTWV0cDRIUDBGWEozbmVFTVR3STVLbXFiTWpoRm9FbHl0TFhtS29OMXl6Y3M2azYybnlBS0piNkJQWXZHR1cyZ1JnczAxajdpTm9feVNIbUwtN0R3LUhyalhOVzVsRHk3aHo0OF9KOHA0N21CUmZaVzZQNjhTalNjcGRyblJKZlJ1dk1wWWQ2LVBVQmhUX29jbUppVHBsakdsa1lmZG5jdUE?oc=5",
-    "date": "2026-04-30",
-    "source": "MarketWatch",
-    "companies": [],
-    "summary": "Big Tech’s $700 billion spending on AI this year is called the ‘greatest capital misallocation in history’  MarketWatch",
-    "relevanceScore": 0.52
-  },
-  {
-    "title": "Amazon's cloud sales are growing the most in 15 quarters. Investors sent the stock down on AI capex fears - Fortune",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNS1lhVndyaWcydHg5OEgyU3I3YTBaVExnNV9OTXQyRnhKeDhsWnlLS29JYUQ2bXFmSHByYnpLWnlxc0dEZy02akY5anVrVDRKY1N0aE9kRzhSeVZCTFVqMkRYTFpETXF6RUkyOG1EckNTbjlhZXNBV3ZGMWhoVjlnWjNpMWR1Ulk?oc=5",
-    "date": "2026-04-30",
-    "source": "Fortune",
-    "companies": [
-      "Amazon"
-    ],
-    "summary": "Amazon's cloud sales are growing the most in 15 quarters. Investors sent the stock down on AI capex fears  Fortune",
-    "relevanceScore": 0.52
-  },
-  {
-    "title": "Major energy firm makes $1.5 billion move into AI infrastructure - thestreet.com",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQlVCemdqUUdoX1NfcFpaa05SeTBpOTRmTW5CNTh1UjZPcHh0OEhEWFI4U0I3Wi1NOWhxbWFQLTRqbjRvc3oyQ3RRclIwV3B2VzJPVThkak8zdWc1TDMzTy1hVEZNZjZJZ1Jza2ZieG4yX3JYNGNCc2t3dDc1WHA5V0M4UUQ0UlB6XzR2T2s4TzE1XzZYMjNGLWhvUXU5ZlhSbTBZQlZWNTBwUQ?oc=5",
-    "date": "2026-04-30",
-    "source": "thestreet.com",
-    "companies": [],
-    "summary": "Major energy firm makes $1.5 billion move into AI infrastructure  thestreet.com",
-    "relevanceScore": 0.52
-  },
-  {
-    "title": "Canadian co-founded Featherless AI secures $20 million USD to build open-source AI infrastructure - BetaKit",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNX0xldDAwQ1pLUm1uSHBSRVU0aGZzR1NKMDNBZGQ2T2VIV2VMeExfbzhRR0JuRFE2U2lUcFpTZ3U4VG54THhna19aT1BMQmg0M0J4LS14RmxPdjhKSEJKTlc2NFpFLXpGU3V4RmY4WXhQU1lsdHdmd1NsNXlYN0ZzaENSN0lteF9uY0g3UEJHSUpEQmVLcU5mVDNGOVliWHU3N3d6OEx2VGFWclBpSHhaeXZJc2czaUtn?oc=5",
-    "date": "2026-04-30",
-    "source": "BetaKit",
-    "companies": [],
-    "summary": "Canadian co-founded Featherless AI secures $20 million USD to build open-source AI infrastructure  BetaKit",
-    "relevanceScore": 0.52
-  },
-  {
-    "title": "Samsung’s chip profit soars 48-fold on AI spending - Taipei Times",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBQZlBSZWNYYndVV3VhV0pNcG5KZHpNYmZ1NFZZbUpCNDI2bGxKdTZnd1YtRmt2RWlNRWtsYnBDd1lrU2N0X1JMTEMwZmZDQzRxZFpPRm5YSXhGZEh6N3ZxV09PQUpBRUtFeFJrN0I0Z0NYeTdqN1E?oc=5",
-    "date": "2026-04-30",
-    "source": "Taipei Times",
-    "companies": [
-      "Samsung"
-    ],
-    "summary": "Samsung’s chip profit soars 48-fold on AI spending  Taipei Times",
-    "relevanceScore": 0.52
-  },
-  {
-    "title": "The 'AI investment battle' continues to rage on! The four major tech giants' expenditures are approaching $725 billion, injecting new fuel into the bull market for AI computing power. - 富途牛牛",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYk1mOEJjQ3IycjIzaDk0SFVOVHdiS2JIdHotS05remhGMTlLd3NZMjduSnc1N3RwWTFMVmh5blpOaWhjNWdyeGVsWDRMQ2R2eWdsMXBnNmViY3ZaYjdNQnRaOVB2RkxOeVZWSnpNYWhxZ0c1U09pOVV6d2lvNndzb1lHR040TnY0NExSOFRnZ21pWkdZLWhlZkV2UQ?oc=5",
-    "date": "2026-04-30",
-    "source": "富途牛牛",
-    "companies": [],
-    "summary": "The 'AI investment battle' continues to rage on! The four major tech giants' expenditures are approaching $725 billion, injecting new fuel into the bull market for AI computing power.  富途牛牛",
-    "relevanceScore": 0.52
-  },
-  {
-    "title": "Investors still trust Google more than Meta when it comes to spending their money on AI - CNBC",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYVptcXRPZ1E4ZGlTQ20teF8tMjFNZVQwc0JPbnJNdG16emxLZ2lTVzFabTF2VjlGeENza2V1WnE5eDhkQ2ppNEhCeU1WT1EyblRuZkRhM0RJSkFQekl1RnN5RlozWklFLXVLMnNCWHBpSFdfQWNha3ZiSVA5ZkVCTllBbWhISk02TXJndjdvazMxOGhTVWNFcy1ibWtaX1BjUjV2RnpB0gGrAUFVX3lxTE9BTEo5dE1UbTg1dk1INENCWWk0V3dLaVFhTHpUMHR0WUxZSVlJRFphRG9pVXpFWEdmeFBBbmh0ZlY5QWdCcmRySXRleld2Sm1Tem9LS3dLOFpnY1JUc3hISlZnVFYyRk5BM1dXWmJtanNOQ0FQMDVzZ0c4Vm0wekt5VTZ2Vi1YUVIyXzhES3JnMmwySTRLS1hwcUxrUjBNV3hmSU01QTRqdzlzQQ?oc=5",
-    "date": "2026-04-30",
-    "source": "CNBC",
-    "companies": [
-      "Meta",
-      "Alphabet"
-    ],
-    "summary": "Investors still trust Google more than Meta when it comes to spending their money on AI  CNBC",
-    "relevanceScore": 0.51
-  },
-  {
-    "title": "Amazon’s cloud business is surging — and so is its capital spending - TechCrunch",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYjE3M1JHemhsV1RHUEFUdExCNlMtZUdQYl9RUW5iTFFZSDU5SURBLUlZWDkzWmt5alZHcXp3Sm9vYUJweEhRMmNMTUZFMWt0SFR0aEgtbXk4QkxoQlBQc2tTQXlUcmNVbVR5dmFjWEFSN3daZmxYOUd2UzE3MFVHaU05cDhQTml3dXJjb1ZDZlhzZGotdUdwM1djRk1ZeGtK?oc=5",
-    "date": "2026-04-30",
-    "source": "TechCrunch",
-    "companies": [
-      "Amazon"
-    ],
-    "summary": "Amazon’s cloud business is surging — and so is its capital spending  TechCrunch",
-    "relevanceScore": 0.51
-  },
-  {
-    "title": "Alphabet and Amazon outpace Meta in AI as Big Tech’s Q1 2026 earnings confirm cloud dominance",
-    "url": "https://thenextweb.com/news/alphabet-amazon-meta-q1-2026-earnings-ai-cloud/",
-    "date": "2026-04-30",
-    "source": "The Next Web",
-    "companies": [
-      "Amazon",
-      "Alphabet",
-      "Meta",
-      "ServiceNow"
-    ],
-    "summary": "Google Cloud grew 63%, AWS 28%. Meta raised its full-year capex guide to $125-$145 billion, sending its shares down 6% after hours. Combined 2026 AI spending across five hyperscalers is now on track to exceed $650 billion. The question hanging over Wednesday’…",
-    "relevanceScore": 0.9
-  },
-  {
-    "title": "MARA bets $1.5 billion on Ohio power plant to anchor flagship AI campus",
-    "url": "https://cryptobriefing.com/mara-bets-1-5-billion-ohio-power-plant-anchor-flagship-ai-campus/",
-    "date": "2026-04-30",
-    "source": "Crypto Briefing",
-    "companies": [],
-    "summary": "MARA's investment in energy infrastructure highlights a strategic shift towards integrating AI and power resources, potentially reshaping industry dynamics.\nThe post MARA bets $1.5 billion on Ohio power plant to anchor flagship AI campus appeared first on Cry…",
-    "relevanceScore": 0.62
-  },
-  {
-    "title": "Alphabet's quarterly revenue tops expectations",
-    "url": "https://www.rte.ie/news/business/2026/0430/1571008-alphabet-quarterly-results/",
-    "date": "2026-04-30",
-    "source": "RTE",
-    "companies": [
-      "Alphabet",
-      "Intel"
-    ],
-    "summary": "Alphabet topped Wall Street estimates for quarterly revenue last night, as enterprise spending on artificial intelligence delivered the best quarter of reported growth for its cloud unit yet.",
-    "relevanceScore": 0.52
-  },
-  {
-    "title": "Samsung focuses on HBM as AI demand drives record quarterly profit",
-    "url": "https://economictimes.indiatimes.com/tech/information-tech/samsung-focuses-on-hbm-as-ai-demand-drives-record-quarterly-profit/articleshow/130635359.cms",
-    "date": "2026-04-30",
-    "source": "The Times of India",
-    "companies": [
-      "Samsung",
-      "Intel"
-    ],
-    "summary": "Samsung Electronics, on Thursday, announced its strategy to prioritize high-value memory products, specifically high-bandwidth memory (HBM) and server chips, as supply shortages triggered by the artificial intelligence boom are expected to persist for some ti…",
-    "relevanceScore": 0.52
-  },
-  {
-    "title": "Inside Big Tech’s March quarter earnings: Here’s all you need to know",
-    "url": "https://economictimes.indiatimes.com/tech/technology/inside-big-techs-march-quarter-earnings-heres-all-you-need-to-know/articleshow/130635041.cms",
-    "date": "2026-04-30",
-    "source": "The Times of India",
-    "companies": [
-      "Amazon",
-      "Alphabet",
-      "Microsoft",
-      "Meta"
-    ],
-    "summary": "Big Tech giants Alphabet, Microsoft, and Amazon reported strong earnings, driven by significant growth in cloud and AI services. While Meta Platforms also delivered solid results, its shares dipped after announcing increased capital expenditure. These compani…",
-    "relevanceScore": 0.52
   }
 ]
