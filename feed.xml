@@ -5,8 +5,16 @@
     <link>https://aisight.fyi</link>
     <description>Latest news and data on AI infrastructure spending across 38 companies. Updated 3x daily from SEC filings and earnings calls.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 May 2026 16:47:09 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 21:03:26 GMT</lastBuildDate>
     <atom:link href="https://aisight.fyi/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Nvidia backs Israeli AI unicorn Decart in $300 million funding round at $4 billion valuation - CTech</title>
+      <link>https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zN3p3ZC1sS2stcVpuRkZyM1Q3M2kwbGxpSUdkb1g1bC1GS2ljVEdFQlV5VWJFeHVQWlRURW9tMlhoVWxpbHg0N0w1YmpsTHZZUHhmaWI0Q1gyamNORDhwYjlJV1Q3Vmlk?oc=5</link>
+      <description>Nvidia backs Israeli AI unicorn Decart in $300 million funding round at $4 billion valuation  CTech [Nvidia]</description>
+      <source url="https://aisight.fyi">CTech</source>
+      <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zN3p3ZC1sS2stcVpuRkZyM1Q3M2kwbGxpSUdkb1g1bC1GS2ljVEdFQlV5VWJFeHVQWlRURW9tMlhoVWxpbHg0N0w1YmpsTHZZUHhmaWI0Q1gyamNORDhwYjlJV1Q3Vmlk?oc=5</guid>
+    </item>
     <item>
       <title>Edge Inference Chip Startup SiMa.ai Raising at $1.4 Billion Valuation - The Information</title>
       <link>https://news.google.com/rss/articles/CBMiugFBVV95cUxQeERkQjhxMERaemNZbi1RbXhuLW00VERGMmlNT29yMmEtOElIcktjQ0hWNkYzU1RGUWt5bG5lb1lzTFhCLWlrdVN6OVlmblBIN2dZaWc4eUxmMzNUbnh0Sm5jRGxDT1JzSXlQNVVSVHJ5aDFBMF9BMVJXTEc5eFk5MnRtSmhOQ2xkRWxzX3czbHpzQkxZNEQzb3J0SThNajVvMjZNNGxSekR2WEFPQ1FBbjVCcUxCXy0yNnc?oc=5</link>
@@ -14,6 +22,14 @@
       <source url="https://aisight.fyi">The Information</source>
       <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiugFBVV95cUxQeERkQjhxMERaemNZbi1RbXhuLW00VERGMmlNT29yMmEtOElIcktjQ0hWNkYzU1RGUWt5bG5lb1lzTFhCLWlrdVN6OVlmblBIN2dZaWc4eUxmMzNUbnh0Sm5jRGxDT1JzSXlQNVVSVHJ5aDFBMF9BMVJXTEc5eFk5MnRtSmhOQ2xkRWxzX3czbHpzQkxZNEQzb3J0SThNajVvMjZNNGxSekR2WEFPQ1FBbjVCcUxCXy0yNnc?oc=5</guid>
+    </item>
+    <item>
+      <title>This Nvidia-Backed Company Just Entered an $800 Billion Agentic AI Market. Does This Make the $14 Stock a No-Brainer Buy? - The Motley Fool</title>
+      <link>https://news.google.com/rss/articles/CBMimAFBVV95cUxQVDlHUHlTM3pKOW56UGlWTEZhUFc0X1prNkJ6OHFoMTYzd0U3MFRWeUFkUGZ3eV9fNDdJOEU5TWZ4UlFRRE9GMHc3R1NfVldxbDVFY2MtNHlfQXF5WEdEaHNxVGlZVnZ6Q0hhWjgxSHJ4NDN4Z1FkZ2pKMHF2LW9nbXhBZElzOTRHQlNJVXhNcFRMS2NOZlhfdQ?oc=5</link>
+      <description>This Nvidia-Backed Company Just Entered an $800 Billion Agentic AI Market. Does This Make the $14 Stock a No-Brainer Buy?  The Motley Fool [Nvidia]</description>
+      <source url="https://aisight.fyi">The Motley Fool</source>
+      <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMimAFBVV95cUxQVDlHUHlTM3pKOW56UGlWTEZhUFc0X1prNkJ6OHFoMTYzd0U3MFRWeUFkUGZ3eV9fNDdJOEU5TWZ4UlFRRE9GMHc3R1NfVldxbDVFY2MtNHlfQXF5WEdEaHNxVGlZVnZ6Q0hhWjgxSHJ4NDN4Z1FkZ2pKMHF2LW9nbXhBZElzOTRHQlNJVXhNcFRMS2NOZlhfdQ?oc=5</guid>
     </item>
     <item>
       <title>Hive Digital subsidiary plans 320 megawatt AI data centre near Toronto in $3.5 billion investment - Yahoo! Finance Canada</title>
@@ -24,12 +40,36 @@
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiigFBVV95cUxQa2h6N2U5TVd1RnljU3ZpTXB0cE50eFR5cUp1N0REUzdnVUlnN1VFbWJPTGlvTTZkMFFQTEFDbHhqSk00WUN5cF9IT0U5WG1YWU9vSWdvVlBRMU1yWUxtVm0tbGRrSjBhTEhHQzVrRGZoMmNjSG5zWFJ2dUkxVWtYUm9JelhjMmg1OXc?oc=5</guid>
     </item>
     <item>
-      <title>Nvidia Eyes Lead Investment in Indian AI Startup Simplismart Amid Growing Infrastructure Push - CXO Digitalpulse</title>
-      <link>https://news.google.com/rss/articles/CBMixAFBVV95cUxNdVNrMFJlTzY4eXl6NXFPTHNyc0EzcVk2eS1MZmdGRU9Xcm1kUzJfZTl0aTBGVTJXaFhGTjllTzZ5SzZmZE1GZVJGdGc5WHJTcU5fQ1VoMjZpZEw2Ykt4aTk2VW0xR1VjX3hud1pnbWZ6clhTQTZyeHphYWN0TlR3RkhNc0NuT2xLS2J3VHBUVjNVRzFteVhpYXM2OVM1MjBWSVd1Wk5tUXVndGNLalEzSkdKZFdtNGNxdTNXTXZwT2NUb196?oc=5</link>
-      <description>Nvidia Eyes Lead Investment in Indian AI Startup Simplismart Amid Growing Infrastructure Push  CXO Digitalpulse [Nvidia]</description>
-      <source url="https://aisight.fyi">CXO Digitalpulse</source>
+      <title>Is AI Infrastructure Spending Heading for an Even Bigger Boom? What ARM, Shift4, SpaceX, and Anthropic Just Told Us - The Motley Fool</title>
+      <link>https://news.google.com/rss/articles/CBMilwFBVV95cUxNOEV5TnJfckxHTGs3T3F2SDN4UDVfb0J5OXp3bHpHTzU2RF9zNmZtUC1ZS3o1RUtKRk9sSHhWLV9HVENTeDdUWk1CTWM0SWFITURaaUpVeWJNVXo3N0ZhLXFDbzNlOGZ1TlUtSXNxLWdmQUFoWHAtd0JOYkVpOWtyaW04d0hwc1hsQVY4NWFycVNoVjFGOWFB?oc=5</link>
+      <description>Is AI Infrastructure Spending Heading for an Even Bigger Boom? What ARM, Shift4, SpaceX, and Anthropic Just Told Us  The Motley Fool [Anthropic]</description>
+      <source url="https://aisight.fyi">The Motley Fool</source>
       <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMixAFBVV95cUxNdVNrMFJlTzY4eXl6NXFPTHNyc0EzcVk2eS1MZmdGRU9Xcm1kUzJfZTl0aTBGVTJXaFhGTjllTzZ5SzZmZE1GZVJGdGc5WHJTcU5fQ1VoMjZpZEw2Ykt4aTk2VW0xR1VjX3hud1pnbWZ6clhTQTZyeHphYWN0TlR3RkhNc0NuT2xLS2J3VHBUVjNVRzFteVhpYXM2OVM1MjBWSVd1Wk5tUXVndGNLalEzSkdKZFdtNGNxdTNXTXZwT2NUb196?oc=5</guid>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMilwFBVV95cUxNOEV5TnJfckxHTGs3T3F2SDN4UDVfb0J5OXp3bHpHTzU2RF9zNmZtUC1ZS3o1RUtKRk9sSHhWLV9HVENTeDdUWk1CTWM0SWFITURaaUpVeWJNVXo3N0ZhLXFDbzNlOGZ1TlUtSXNxLWdmQUFoWHAtd0JOYkVpOWtyaW04d0hwc1hsQVY4NWFycVNoVjFGOWFB?oc=5</guid>
+    </item>
+    <item>
+      <title>AI infrastructure firm SQream enters insolvency process as losses top $100 million - CTech</title>
+      <link>https://news.google.com/rss/articles/CBMiaEFVX3lxTE9aRVBjbm45dU9kSlFYbWFralpIcV90eU5nOUMwZDJ5a3NSU1lyYTh0WHlhVkpxVDhkcEhPT3BGbEpfN1daZFpzSHBNWTUyeUIxVjFuVUJvX3VZMlpNaFZlZXpsaTdOMVY3?oc=5</link>
+      <description>AI infrastructure firm SQream enters insolvency process as losses top $100 million  CTech</description>
+      <source url="https://aisight.fyi">CTech</source>
+      <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiaEFVX3lxTE9aRVBjbm45dU9kSlFYbWFralpIcV90eU5nOUMwZDJ5a3NSU1lyYTh0WHlhVkpxVDhkcEhPT3BGbEpfN1daZFpzSHBNWTUyeUIxVjFuVUJvX3VZMlpNaFZlZXpsaTdOMVY3?oc=5</guid>
+    </item>
+    <item>
+      <title>Gradiant Raises Series E at $2 Billion Valuation as AI Infrastructure Drives Industrial Water Demand - citybiz</title>
+      <link>https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZTBtVl9DRnJkMXN1dmFWenlmaUZJUWU1ZjJxbVN4MnBtbUxoRXBZbERYdF9NRTFtTmNhSXR2MVpzYjZiNDBhMk9LQ1BQMTFxTjRXS1UtVDRBWjlXakh2NkZCdFpSaHpsbTgyNGdfbEVGRXAwNk4zTHd6NVk2QmE1eTM5a21vWVBEUWF0M25FUFN5MFl1UmkyVnNrTlc1eVVCcUFKMWNTUTJIamJta2Y3dDJkRy1PVWZWVXMxbTdMQndxSnN1RGM0ekMwZGVDcG4xUThvcQ?oc=5</link>
+      <description>Gradiant Raises Series E at $2 Billion Valuation as AI Infrastructure Drives Industrial Water Demand  citybiz</description>
+      <source url="https://aisight.fyi">citybiz</source>
+      <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZTBtVl9DRnJkMXN1dmFWenlmaUZJUWU1ZjJxbVN4MnBtbUxoRXBZbERYdF9NRTFtTmNhSXR2MVpzYjZiNDBhMk9LQ1BQMTFxTjRXS1UtVDRBWjlXakh2NkZCdFpSaHpsbTgyNGdfbEVGRXAwNk4zTHd6NVk2QmE1eTM5a21vWVBEUWF0M25FUFN5MFl1UmkyVnNrTlc1eVVCcUFKMWNTUTJIamJta2Y3dDJkRy1PVWZWVXMxbTdMQndxSnN1RGM0ekMwZGVDcG4xUThvcQ?oc=5</guid>
+    </item>
+    <item>
+      <title>Gradiant: $2 Billion Valuation Reached With Series E Financing To Expand AI And Industrial Water Infrastructure - Pulse 2.0</title>
+      <link>https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZnpyTUt5eklUOTU2U2FyZjNiQWk0dDBJZXVDM19rU3BYOUQ5ZkRGUkpab3BjUTVpR0NnVVIybVhIaG9QRmFFYXdNQzVUcGlKbjF3S0pWRk5jczBvRy1qeHVlUGNsOVF5c0RHek9wdHVyanpWMkx6QmN5dnBIYWJwc21yYnBpZ3pMTEpjdUtoV2tPbDROYXFTZW9GLWdjRzBSakl5Z3AxY2ZoZFlRZVdsNDFMNFVDQU0yYU0yQzF0Z2JOVlhMYjNxQdIBzgFBVV95cUxQYWxoTzR4d3lkMXU3N2lBdGJJakt1Z0hzQjU4U2xYcGZfSmZrTWFhYUViTXJsNEMyQTg5NnUyNlVjN2pmZy1PaVZwbWZCa2tkYVVwLWRqbEJ3NkZJX1VLYlE5d1oyZWxkVUtNUFlqVEJLbHpKeGlYSWtfeXBFanVYZWVPWTVXY2N2S1NEVFk1SS1ZRUZNLWRCWEJxYlRCbXJId2I4T2k3UEIyNm1LZlI0ZzZyek1uUXVsZWxYa05uT3JjUzV0TTJvY3gzR0t1QQ?oc=5</link>
+      <description>Gradiant: $2 Billion Valuation Reached With Series E Financing To Expand AI And Industrial Water Infrastructure  Pulse 2.0</description>
+      <source url="https://aisight.fyi">Pulse 2.0</source>
+      <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZnpyTUt5eklUOTU2U2FyZjNiQWk0dDBJZXVDM19rU3BYOUQ5ZkRGUkpab3BjUTVpR0NnVVIybVhIaG9QRmFFYXdNQzVUcGlKbjF3S0pWRk5jczBvRy1qeHVlUGNsOVF5c0RHek9wdHVyanpWMkx6QmN5dnBIYWJwc21yYnBpZ3pMTEpjdUtoV2tPbDROYXFTZW9GLWdjRzBSakl5Z3AxY2ZoZFlRZVdsNDFMNFVDQU0yYU0yQzF0Z2JOVlhMYjNxQdIBzgFBVV95cUxQYWxoTzR4d3lkMXU3N2lBdGJJakt1Z0hzQjU4U2xYcGZfSmZrTWFhYUViTXJsNEMyQTg5NnUyNlVjN2pmZy1PaVZwbWZCa2tkYVVwLWRqbEJ3NkZJX1VLYlE5d1oyZWxkVUtNUFlqVEJLbHpKeGlYSWtfeXBFanVYZWVPWTVXY2N2S1NEVFk1SS1ZRUZNLWRCWEJxYlRCbXJId2I4T2k3UEIyNm1LZlI0ZzZyek1uUXVsZWxYa05uT3JjUzV0TTJvY3gzR0t1QQ?oc=5</guid>
     </item>
     <item>
       <title>NVIDIA Corporation (NVDA) Fell on Concerns Over the Sustainability of AI Infrastructure Capital Expenditure - Yahoo Finance</title>
@@ -40,12 +80,20 @@
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMipAFBVV95cUxPWXBZaExTRTBYTlppZFZPQjhPd2VyT1NuTFRrVmZiZTBxQmU5VUl0bUlfYkFyOWZoZXNZMHdFaW44YXFVV0pGNXhzbmNYbWRuWkt2QWN2TVdiQ0w3WUphdW9fam5BSWtLLUd2Z1ZTVjBTVGdlSnVQNDcxRFJsal9oQW9ValVoUE4wZzBDVF9UUDFOdGhaWVNsMXJrUFFFS2prOXlxWA?oc=5</guid>
     </item>
     <item>
-      <title>Micron’s AI Memory Engine Roars Ahead With Record Sales and New DDR5, but $25 Billion Capex Plan G - AD HOC NEWS</title>
-      <link>https://news.google.com/rss/articles/CBMixgFBVV95cUxPWExjZGY3QUMxcFVBcGhvc0wzMm9kNTZwOEhuX2ZKWDg0cEJoajZVNkhyWFNNTmRGdG9yaWUzbmhNV1NxX2FpRGhNV0hOOFlQZVgwTTlNVFUybkhUckJCSThlb3l1NlVTcEFOVnZOV3N4bTIxejlLLXEtU1I2ZElMRTloWG9vUDNTd2FOUlk3SWZUdnZKbGFaS1BMRlF2NGlaZzNuNHZZWXRldDl4MXJLRW1vUlBZQ3ExeTRkWmMyNmFRU09QalE?oc=5</link>
-      <description>Micron’s AI Memory Engine Roars Ahead With Record Sales and New DDR5, but $25 Billion Capex Plan G  AD HOC NEWS</description>
-      <source url="https://aisight.fyi">AD HOC NEWS</source>
+      <title>Rivian&apos;s Robotics Company Is Now Worth More Than $3 Billion. Investors Could Benefit in 2 Important Ways. - The Motley Fool</title>
+      <link>https://news.google.com/rss/articles/CBMilwFBVV95cUxORjZyTGN2VHFlSTluWUtidXJidm9NcFBNMGZZMU1oNVpPc2U3RVY0bVVMNkVhNXRXNS1jN2tWSXVEZDVfblYyYVhSQlJ0MzRIUUZYV1JENHhkSWhHcXEwVlpIVUJEdW12OTR6dkNmZUMzMVFYVUdYU3NhbWRnV1N0bGJHdnptNHYtZ0dtNHRvSldSLUFGOGsw?oc=5</link>
+      <description>Rivian&apos;s Robotics Company Is Now Worth More Than $3 Billion. Investors Could Benefit in 2 Important Ways.  The Motley Fool [ServiceNow]</description>
+      <source url="https://aisight.fyi">The Motley Fool</source>
       <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMixgFBVV95cUxPWExjZGY3QUMxcFVBcGhvc0wzMm9kNTZwOEhuX2ZKWDg0cEJoajZVNkhyWFNNTmRGdG9yaWUzbmhNV1NxX2FpRGhNV0hOOFlQZVgwTTlNVFUybkhUckJCSThlb3l1NlVTcEFOVnZOV3N4bTIxejlLLXEtU1I2ZElMRTloWG9vUDNTd2FOUlk3SWZUdnZKbGFaS1BMRlF2NGlaZzNuNHZZWXRldDl4MXJLRW1vUlBZQ3ExeTRkWmMyNmFRU09QalE?oc=5</guid>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMilwFBVV95cUxORjZyTGN2VHFlSTluWUtidXJidm9NcFBNMGZZMU1oNVpPc2U3RVY0bVVMNkVhNXRXNS1jN2tWSXVEZDVfblYyYVhSQlJ0MzRIUUZYV1JENHhkSWhHcXEwVlpIVUJEdW12OTR6dkNmZUMzMVFYVUdYU3NhbWRnV1N0bGJHdnptNHYtZ0dtNHRvSldSLUFGOGsw?oc=5</guid>
+    </item>
+    <item>
+      <title>Microsoft (MSFT) Shows Why AI Capex Does Not Automatically Break Free Cash Flow - AlphaStreet</title>
+      <link>https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOG9PYmxJMDZvX285emtZLWFBeF8xY19yM1RTN25CQ1J5YUUzLV9heE81Vi16ODVNSUpfZ05JMTZvMlpCYVBvZ3NnWUxYSy1HUHJYWEdMaWFnSnB1SFg3WjRfV0NQVU9ZbVpsQ0NhMkZveFFUN192blZaX2ZDMlNGQVBCbFo1b3B2UjY2eWREV3E1eWh4cFRueGhNUWNjNGRwNVlyNHNCeXgtb2PSAasBQVVfeXFMTjhvT2JsSTA2b19vOXprWS1hQXhfMWNfcjNUUzduQkNSeWFFMy1fYXhPNVYtejg1TUlKX2dOSTE2bzJaQmFQb2dzZ1lMWEstR1ByWFhHTGlhZ0pwdUhYN1o0X1dDUFVPWW1abENDYTJGb3hRVDdfdm5WWl9mQzJTRkFQQmxaNW9wdlI2NnlkRFdxNXloeHBUbnhoTVFjYzRkcDVZcjRzQnl4LW9j?oc=5</link>
+      <description>Microsoft (MSFT) Shows Why AI Capex Does Not Automatically Break Free Cash Flow  AlphaStreet [Microsoft]</description>
+      <source url="https://aisight.fyi">AlphaStreet</source>
+      <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOG9PYmxJMDZvX285emtZLWFBeF8xY19yM1RTN25CQ1J5YUUzLV9heE81Vi16ODVNSUpfZ05JMTZvMlpCYVBvZ3NnWUxYSy1HUHJYWEdMaWFnSnB1SFg3WjRfV0NQVU9ZbVpsQ0NhMkZveFFUN192blZaX2ZDMlNGQVBCbFo1b3B2UjY2eWREV3E1eWh4cFRueGhNUWNjNGRwNVlyNHNCeXgtb2PSAasBQVVfeXFMTjhvT2JsSTA2b19vOXprWS1hQXhfMWNfcjNUUzduQkNSeWFFMy1fYXhPNVYtejg1TUlKX2dOSTE2bzJaQmFQb2dzZ1lMWEstR1ByWFhHTGlhZ0pwdUhYN1o0X1dDUFVPWW1abENDYTJGb3hRVDdfdm5WWl9mQzJTRkFQQmxaNW9wdlI2NnlkRFdxNXloeHBUbnhoTVFjYzRkcDVZcjRzQnl4LW9j?oc=5</guid>
     </item>
     <item>
       <title>Meta cuts 8,000 jobs amid AI investment push - Let&apos;s Data Science</title>
@@ -64,12 +112,36 @@
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSjFFSExYT1FsSkdZNnc1ZHljVXA3VUhVbjF2bmwxejNJRklhNUYwYnUzTi0tcVR2N3M1Nnd2Um5tOFFSblRFM1M5RUhoU085S0RseGRHSzVPbXBJU2l6VlR5dHBhUnRyWnBvU0pqTURCM284MnphekZqVzZBOWkwWDFHbUhiU3pT?oc=5</guid>
     </item>
     <item>
+      <title>Microsoft Rides on Enterprise AI Advancements: More Upside Ahead? - Zacks Investment Research</title>
+      <link>https://news.google.com/rss/articles/CBMipwFBVV95cUxQSGZlM0dpLUR3RWZyVTRWY1E5Z2Y2QjBpWXoxRS1yeXhzek10Rnh4aU00OWtYZWVldjVsbUo0REpRS0FQZ0cxRUtLdzRQMWVLMkVmVU12UnBVSWh1aGViZWVXejZBaHQxQ093bXVIdHcteDBEazVURHBMcjBBZHNwTFlROVNKX29taDRDTndXd2NCVFgyclhwUWJoWHlhdFZMbzNjSmREaw?oc=5</link>
+      <description>Microsoft Rides on Enterprise AI Advancements: More Upside Ahead?  Zacks Investment Research [Microsoft]</description>
+      <source url="https://aisight.fyi">Zacks Investment Research</source>
+      <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMipwFBVV95cUxQSGZlM0dpLUR3RWZyVTRWY1E5Z2Y2QjBpWXoxRS1yeXhzek10Rnh4aU00OWtYZWVldjVsbUo0REpRS0FQZ0cxRUtLdzRQMWVLMkVmVU12UnBVSWh1aGViZWVXejZBaHQxQ093bXVIdHcteDBEazVURHBMcjBBZHNwTFlROVNKX29taDRDTndXd2NCVFgyclhwUWJoWHlhdFZMbzNjSmREaw?oc=5</guid>
+    </item>
+    <item>
       <title>Forbes 2026 AI 50 List | Top Artificial Intelligence Companies - Forbes</title>
       <link>https://news.google.com/rss/articles/CBMiSkFVX3lxTE5uUGIzcFRTdFZwdkxZTnpHdUpfVmhCQ21iczlSQjJrMnlSa19sYzB4S2JuVC1wSWo1UFhRWnlpVWtrb0NIN1RmS2Nn?oc=5</link>
       <description>Forbes 2026 AI 50 List | Top Artificial Intelligence Companies  Forbes [Intel]</description>
       <source url="https://aisight.fyi">Forbes</source>
       <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiSkFVX3lxTE5uUGIzcFRTdFZwdkxZTnpHdUpfVmhCQ21iczlSQjJrMnlSa19sYzB4S2JuVC1wSWo1UFhRWnlpVWtrb0NIN1RmS2Nn?oc=5</guid>
+    </item>
+    <item>
+      <title>Exclusive | Startup Makes Switching AI Chips Easier—and Nvidia Is a New Investor - WSJ</title>
+      <link>https://news.google.com/rss/articles/CBMipwFBVV95cUxPQzEzU191bU5EM3BOX3JESTlYZWRYY3FRVmNfcDBNNGJ6MW9qMXoxeWFKbmFrSmxZRUJXUzFzRWozNjRRSklIMTJLRzFNMXNzSjMwMmlIYXhrLU04MmpmV3dxd3Z1NGtsNTkweWd3cUZZOEhBWklIM1lUSFJyVHB4TzZLQnd1YUtPVlptYnQ5dW5UTi0yc1hRN2dnSktIdzc5bjFnYlhMUQ?oc=5</link>
+      <description>Exclusive | Startup Makes Switching AI Chips Easier—and Nvidia Is a New Investor  WSJ [Nvidia]</description>
+      <source url="https://aisight.fyi">WSJ</source>
+      <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMipwFBVV95cUxPQzEzU191bU5EM3BOX3JESTlYZWRYY3FRVmNfcDBNNGJ6MW9qMXoxeWFKbmFrSmxZRUJXUzFzRWozNjRRSklIMTJLRzFNMXNzSjMwMmlIYXhrLU04MmpmV3dxd3Z1NGtsNTkweWd3cUZZOEhBWklIM1lUSFJyVHB4TzZLQnd1YUtPVlptYnQ5dW5UTi0yc1hRN2dnSktIdzc5bjFnYlhMUQ?oc=5</guid>
+    </item>
+    <item>
+      <title>EU Selects EQT to Manage New €5 Billion Technology Fund - Bloomberg.com</title>
+      <link>https://news.google.com/rss/articles/CBMiowFBVV95cUxPcEJXTVlHbk42bnh2OW14M1Z0RnRyZ2tyS3NxVFR0MEtzMmpVU2pOdEtPeUdnSlhpaWZWb1RhYk16SHNKdi1vOXNRMTRjMXVGOXQwZno0T1dRV3RwNFFkWFltckE3Sm90SUZ5VlJ6NjNBVHp3UVpvOTlZdXo4Q2V5QnhvMERzdXdGVlpYN3Z4ZTlaVGxBelVCSTNJWm8ydFdhdkRB?oc=5</link>
+      <description>EU Selects EQT to Manage New €5 Billion Technology Fund  Bloomberg.com</description>
+      <source url="https://aisight.fyi">Bloomberg.com</source>
+      <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiowFBVV95cUxPcEJXTVlHbk42bnh2OW14M1Z0RnRyZ2tyS3NxVFR0MEtzMmpVU2pOdEtPeUdnSlhpaWZWb1RhYk16SHNKdi1vOXNRMTRjMXVGOXQwZno0T1dRV3RwNFFkWFltckE3Sm90SUZ5VlJ6NjNBVHp3UVpvOTlZdXo4Q2V5QnhvMERzdXdGVlpYN3Z4ZTlaVGxBelVCSTNJWm8ydFdhdkRB?oc=5</guid>
     </item>
     <item>
       <title>HIVE buys $58 million Toronto plot for AI facility; shares climb - CoinDesk</title>
@@ -86,6 +158,38 @@
       <source url="https://aisight.fyi">Africa Business Communities</source>
       <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMitgFBVV95cUxQclNKdDN0OWp3aWgxUTlsMEo4ZGczSlN2eGItOXhVZFZVNDZMcUppSDJ4V1hBQk5jZ3kyWkNNSlJqalpYdnlISG5EQmdvT3d1LXdLS1ozSTV2SEFkVExpeFU0QU5BMFZ4WEQxT0FzYlNWQ1hRSENodDRZM2hOOG9qV3ZCLUxDSGxhVXRCZTd1WGFJSTBtbzludU5HelpqV25jX2RoQWY2aEJNVzctSmwweHh6emdYUQ?oc=5</guid>
+    </item>
+    <item>
+      <title>At SAP and Palantir, Agentic AI Making ‘Software’ Obsolete - Cloud Wars</title>
+      <link>https://news.google.com/rss/articles/CBMiogFBVV95cUxPTEZldVp2YzBSREJEXzFzSjhtdEcyX3ZscHd6Qml1V2pSSXEzeVhkQXdYcHZMSVQxTHZ1Z0c3THRhYnBOUTNkZm9LcVNHVzVveldmZzlNTk9hT0ZXSnZteUJ2OVYyREZ0cmFRd0ZsSW9remxvMXZsWkVNTnEtWE4yX3FDUFA5RFVsS2x0Z0R6cUNGNC1pdGdzMzRhcFBQSVhWdVE?oc=5</link>
+      <description>At SAP and Palantir, Agentic AI Making ‘Software’ Obsolete  Cloud Wars [Palantir, SAP]</description>
+      <source url="https://aisight.fyi">Cloud Wars</source>
+      <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiogFBVV95cUxPTEZldVp2YzBSREJEXzFzSjhtdEcyX3ZscHd6Qml1V2pSSXEzeVhkQXdYcHZMSVQxTHZ1Z0c3THRhYnBOUTNkZm9LcVNHVzVveldmZzlNTk9hT0ZXSnZteUJ2OVYyREZ0cmFRd0ZsSW9remxvMXZsWkVNTnEtWE4yX3FDUFA5RFVsS2x0Z0R6cUNGNC1pdGdzMzRhcFBQSVhWdVE?oc=5</guid>
+    </item>
+    <item>
+      <title>Dell AI Factory gets rack-scale infrastructure refresh - TechTarget</title>
+      <link>https://news.google.com/rss/articles/CBMiswFBVV95cUxPWDhjT2paMmlpNFJ6NGJWUGgxQUg1b2ljbXFRNjMwNi1zbGkxXzN0djl5UGRHQ2lkQURrQlJKaWpUTUVNSEJLLWJHeVFqNnFxZlZXYXNSRDBKWDlJMVVBZWxsWURvYnprNGJNRmFiRDNJR25ya0J0clByODdWR1ZiOXV4YWIzakZwZ0Y0VUxyV1lfNTlfSmV5NDFVNl9sZ3lDdGNoLXQ5U1dlYVczWTVnUFRwcw?oc=5</link>
+      <description>Dell AI Factory gets rack-scale infrastructure refresh  TechTarget [Dell Technologies]</description>
+      <source url="https://aisight.fyi">TechTarget</source>
+      <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiswFBVV95cUxPWDhjT2paMmlpNFJ6NGJWUGgxQUg1b2ljbXFRNjMwNi1zbGkxXzN0djl5UGRHQ2lkQURrQlJKaWpUTUVNSEJLLWJHeVFqNnFxZlZXYXNSRDBKWDlJMVVBZWxsWURvYnprNGJNRmFiRDNJR25ya0J0clByODdWR1ZiOXV4YWIzakZwZ0Y0VUxyV1lfNTlfSmV5NDFVNl9sZ3lDdGNoLXQ5U1dlYVczWTVnUFRwcw?oc=5</guid>
+    </item>
+    <item>
+      <title>Sygaldry Raises $139M for Quantum AI Infrastructure - AI Insider</title>
+      <link>https://news.google.com/rss/articles/CBMic0FVX3lxTE56dm9jM2lUZExVRGhCN3BfUlFNenluMlBIemRqTWYweklFckhaUWY2WHFPc0RVcVRqNHJoYjcxT1J0d2NWTVhSRmxLeVhRMGFrN0xIMjZ2QjBrQjY2LVh0bGM4OExoQ0ZpYlItRVhDeWY1TmM?oc=5</link>
+      <description>Sygaldry Raises $139M for Quantum AI Infrastructure  AI Insider</description>
+      <source url="https://aisight.fyi">AI Insider</source>
+      <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMic0FVX3lxTE56dm9jM2lUZExVRGhCN3BfUlFNenluMlBIemRqTWYweklFckhaUWY2WHFPc0RVcVRqNHJoYjcxT1J0d2NWTVhSRmxLeVhRMGFrN0xIMjZ2QjBrQjY2LVh0bGM4OExoQ0ZpYlItRVhDeWY1TmM?oc=5</guid>
+    </item>
+    <item>
+      <title>Dell bets on Nvidia-based AI factory to expand operations infrastructure - 디지털투데이</title>
+      <link>https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSmhlS3NiYkR0dDlSSWczWEY1LTVYWTVNMy1rZzlqWG1iSEc5a05rQ21BY3BJMmxLZGhSRVZfMjZBMTFsWDJhMS1GMXVDUE1CeVRfSnpJbXkzSmxkb0hyNjFIUE53Rmo1cTR6Mm9RVmt3YlVKSzVNS0kxRndTMGdjY1R2Zk1Pc2ZGUEdhdnU0RFl2YVktLWVkTkh2OXFkaVBTcEFxLUZlY052RHlibWhNOTJCdkFkUDM4?oc=5</link>
+      <description>Dell bets on Nvidia-based AI factory to expand operations infrastructure  디지털투데이 [Nvidia, Dell Technologies]</description>
+      <source url="https://aisight.fyi">디지털투데이</source>
+      <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSmhlS3NiYkR0dDlSSWczWEY1LTVYWTVNMy1rZzlqWG1iSEc5a05rQ21BY3BJMmxLZGhSRVZfMjZBMTFsWDJhMS1GMXVDUE1CeVRfSnpJbXkzSmxkb0hyNjFIUE53Rmo1cTR6Mm9RVmt3YlVKSzVNS0kxRndTMGdjY1R2Zk1Pc2ZGUEdhdnU0RFl2YVktLWVkTkh2OXFkaVBTcEFxLUZlY052RHlibWhNOTJCdkFkUDM4?oc=5</guid>
     </item>
     <item>
       <title>Meta Expands AI Infrastructure Following Surge in Q1 Revenue - AsatuNews.co.id</title>
@@ -120,20 +224,20 @@
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiiwJBVV95cUxORE83YnB5MG5sVGZjWjJudHRBMWNwMWFPNmxtN21CN21uRjRCeUplWnRraUZldHlOYnY2ZFZuZzVNTTdPNGFzSXJscnRQNEtKYktIWTlaS2o1ZjJlVnphQjIxT0VQN1ZCZG5HUnNqcWVIUi1JMC1CbFlLT3AtVjNSN2NWcU5TMkpQclljdHQ4MzhTeEdNeUthRlFJWjQ1eXRKVVlrRlBnOElqMzcyNGFod1dnVDZ4aUoyUkRHTWdmSHJadlUxZ09GR2ptU2tjSG5vdi01NF80ZFZJbVhPX0oxTUdDMUdZS3lkZzRFVDdVY1hBS0N5VlVUVGFUdnVGMVpGQVNjd1NWcTQxbEE?oc=5</guid>
     </item>
     <item>
-      <title>HSBC’s $4 billion China bet: is clean tech entering a new boom? - TradingView</title>
-      <link>https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRS1KR2pldWU2NWhkUnBLY21hcGhQcVRpRGJBMmY2YmNJR2h5ZEhBUGNOOXVsdnV3Z2psM0NnZ0U3OWVPbnliT2pIaFowOUlXTGN0enVlclJERmc0LUFfZG1YVHVwZnZoVVZZOEc3RC1pdkhZQUx2WVhTZWFPLXQtTVRMaTBDZXBUNng5R0dPaEpXZklOU2RoWkZKN1g0YXg5ck94MTZwSkFOdGhXSGFiTGJfOVlhOTNC?oc=5</link>
-      <description>HSBC’s $4 billion China bet: is clean tech entering a new boom?  TradingView</description>
-      <source url="https://aisight.fyi">TradingView</source>
+      <title>Land, Energy, Water for Data Centers Are &apos;Non-Negotiable Prerequisites&apos; for AI Infrastructure: WEF - sociable.co</title>
+      <link>https://news.google.com/rss/articles/CBMi8wFBVV95cUxNamIzcnlaRnd4RHg0MklJV3NnT1lUWXVYX2lzTlRwaWlzLWM0QjJ5d3Z4VTR5VkdLa2pRUFBwS3djUXRleWd4YW1TQTJJampPS2NrV01UOVFGTU40YTFod2dkUmtobjMxVzJQM19iQmRyQmwwdTVJN3poWkdDOWt5U01Tblo5SlZaRjBZSjMySDhUanBadlhxbldFdGpucjNpbi04c05jRF93VWJyc2lJc1hfeXR2RWZ5NmZfblJYMWtsWVBIMTJIcWc1cVdocTJUNW1KdkkyLUtnUEdlUGk1M2c0LXFUOUZGbVpWODJQcXNxLUk?oc=5</link>
+      <description>Land, Energy, Water for Data Centers Are &apos;Non-Negotiable Prerequisites&apos; for AI Infrastructure: WEF  sociable.co</description>
+      <source url="https://aisight.fyi">sociable.co</source>
       <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRS1KR2pldWU2NWhkUnBLY21hcGhQcVRpRGJBMmY2YmNJR2h5ZEhBUGNOOXVsdnV3Z2psM0NnZ0U3OWVPbnliT2pIaFowOUlXTGN0enVlclJERmc0LUFfZG1YVHVwZnZoVVZZOEc3RC1pdkhZQUx2WVhTZWFPLXQtTVRMaTBDZXBUNng5R0dPaEpXZklOU2RoWkZKN1g0YXg5ck94MTZwSkFOdGhXSGFiTGJfOVlhOTNC?oc=5</guid>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi8wFBVV95cUxNamIzcnlaRnd4RHg0MklJV3NnT1lUWXVYX2lzTlRwaWlzLWM0QjJ5d3Z4VTR5VkdLa2pRUFBwS3djUXRleWd4YW1TQTJJampPS2NrV01UOVFGTU40YTFod2dkUmtobjMxVzJQM19iQmRyQmwwdTVJN3poWkdDOWt5U01Tblo5SlZaRjBZSjMySDhUanBadlhxbldFdGpucjNpbi04c05jRF93VWJyc2lJc1hfeXR2RWZ5NmZfblJYMWtsWVBIMTJIcWc1cVdocTJUNW1KdkkyLUtnUEdlUGk1M2c0LXFUOUZGbVpWODJQcXNxLUk?oc=5</guid>
     </item>
     <item>
-      <title>5 Artificial Intelligence (AI) Stocks That Have More Than Doubled This Year and Can Still Go Higher - The Motley Fool</title>
-      <link>https://news.google.com/rss/articles/CBMimAFBVV95cUxPVXJvTVR5eFhkTUUzSHNCN2xyNHpzSzVKVG0tU3c1b2hSSGF5Yi1SSG8zb2UtcGlRbWNPN1VfTF8xeTJ0ZnhOdDE3Z0g4U1BWcHZqNG9aYXVranltb2hIUDRiWFQ3bEM2MGtuT19xY1lneGVtLVpyZ2JRemRxc0UzcERXVEVKV0pZY3loRkFVVElVZFRDRzdheQ?oc=5</link>
-      <description>5 Artificial Intelligence (AI) Stocks That Have More Than Doubled This Year and Can Still Go Higher  The Motley Fool [Intel]</description>
-      <source url="https://aisight.fyi">The Motley Fool</source>
+      <title>VZ vs. CLS: Which Tech Infrastructure Stock Is a Better Buy Now? - TradingView</title>
+      <link>https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMEF6RFlicHloQ3dRR25adklWdHNjNms0SDE2QkFrajhQaEV1VXNVMWVrb3JEN2FBTVJ1R1FEa2ZRMnB0VGV4TGNMYmtzTjZIdjVGeE5sbEdXM0lrTmdsUnRSc20tNnJBZUx0QS1iVGJtWC1Hc0swZTdqUXkzdDVuZThFRnJFMldxbXZCalhmV1R6TkFfb3FuS2JRU0Qta25VZEZRZVlqZGJkeHp6b0RnMTVpVTdmWk93?oc=5</link>
+      <description>VZ vs. CLS: Which Tech Infrastructure Stock Is a Better Buy Now?  TradingView [ServiceNow]</description>
+      <source url="https://aisight.fyi">TradingView</source>
       <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMimAFBVV95cUxPVXJvTVR5eFhkTUUzSHNCN2xyNHpzSzVKVG0tU3c1b2hSSGF5Yi1SSG8zb2UtcGlRbWNPN1VfTF8xeTJ0ZnhOdDE3Z0g4U1BWcHZqNG9aYXVranltb2hIUDRiWFQ3bEM2MGtuT19xY1lneGVtLVpyZ2JRemRxc0UzcERXVEVKV0pZY3loRkFVVElVZFRDRzdheQ?oc=5</guid>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMEF6RFlicHloQ3dRR25adklWdHNjNms0SDE2QkFrajhQaEV1VXNVMWVrb3JEN2FBTVJ1R1FEa2ZRMnB0VGV4TGNMYmtzTjZIdjVGeE5sbEdXM0lrTmdsUnRSc20tNnJBZUx0QS1iVGJtWC1Hc0swZTdqUXkzdDVuZThFRnJFMldxbXZCalhmV1R6TkFfb3FuS2JRU0Qta25VZEZRZVlqZGJkeHp6b0RnMTVpVTdmWk93?oc=5</guid>
     </item>
     <item>
       <title>Auddia’s parking-lot AI plan points to $29B LT350 benchmark - Stock Titan</title>
@@ -152,12 +256,28 @@
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi7gFBVV95cUxQcUVLbll1M29XZFByMGh1RDA1WE9aOUljMjVZX0toaUMxZGNtMFlQelBhS1pocnVjbUtETzY3V0pMWDRFMGo5aE5WaHdEUjU1MGllS1BGY3c2YVNzdnh3T0dLN3JqY1h4M0pGbTZUd0JMTTM3M1UyQkVLOXk5aEVKQUtuTDhSXzNFNV9QaFZOblIyeFdkX2pxSkJDazQxY21UdkRGaXpSZXFTVEx2aU96aFlQaG1Rd2hscVdYd1RwU19QcXZ0SG1UaUtzTEpWUkNhMWxHeEhmTV9saWdVTGZ1R0RWUnJXdGQxMGtoWG1R?oc=5</guid>
     </item>
     <item>
+      <title>5 Artificial Intelligence (AI) Stocks That Have More Than Doubled This Year and Can Still Go Higher - The Motley Fool</title>
+      <link>https://news.google.com/rss/articles/CBMimAFBVV95cUxPVXJvTVR5eFhkTUUzSHNCN2xyNHpzSzVKVG0tU3c1b2hSSGF5Yi1SSG8zb2UtcGlRbWNPN1VfTF8xeTJ0ZnhOdDE3Z0g4U1BWcHZqNG9aYXVranltb2hIUDRiWFQ3bEM2MGtuT19xY1lneGVtLVpyZ2JRemRxc0UzcERXVEVKV0pZY3loRkFVVElVZFRDRzdheQ?oc=5</link>
+      <description>5 Artificial Intelligence (AI) Stocks That Have More Than Doubled This Year and Can Still Go Higher  The Motley Fool [Intel]</description>
+      <source url="https://aisight.fyi">The Motley Fool</source>
+      <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMimAFBVV95cUxPVXJvTVR5eFhkTUUzSHNCN2xyNHpzSzVKVG0tU3c1b2hSSGF5Yi1SSG8zb2UtcGlRbWNPN1VfTF8xeTJ0ZnhOdDE3Z0g4U1BWcHZqNG9aYXVranltb2hIUDRiWFQ3bEM2MGtuT19xY1lneGVtLVpyZ2JRemRxc0UzcERXVEVKV0pZY3loRkFVVElVZFRDRzdheQ?oc=5</guid>
+    </item>
+    <item>
       <title>AI’s Natural Gas Boom Hits Reality Check as Data Center Builds Slip - Natural Gas Intelligence</title>
       <link>https://news.google.com/rss/articles/CBMiogFBVV95cUxPblg3ME5oa3Iwb0Vwa09hWFhNU2xVUGNrXy1sTG13Tk5nUWpqTVp3dl81aXFkM3U0OU5JUndzRXd3S3N6M3g0STh1dlZuMVdURzgyLW9URC0wQ2RNTXZLR25xUzlfOWJLNDlyMG9uQVpuR2FPZXdGYTBnU1JTR2hEMXlUZXNZSENkaVlBdzdLYlhMZkk5S3ladnp1dXJnNjBpcGc?oc=5</link>
       <description>AI’s Natural Gas Boom Hits Reality Check as Data Center Builds Slip  Natural Gas Intelligence [Intel]</description>
       <source url="https://aisight.fyi">Natural Gas Intelligence</source>
       <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiogFBVV95cUxPblg3ME5oa3Iwb0Vwa09hWFhNU2xVUGNrXy1sTG13Tk5nUWpqTVp3dl81aXFkM3U0OU5JUndzRXd3S3N6M3g0STh1dlZuMVdURzgyLW9URC0wQ2RNTXZLR25xUzlfOWJLNDlyMG9uQVpuR2FPZXdGYTBnU1JTR2hEMXlUZXNZSENkaVlBdzdLYlhMZkk5S3ladnp1dXJnNjBpcGc?oc=5</guid>
+    </item>
+    <item>
+      <title>Broadcom stock (US11135F1012): AI demand keeps the spotlight on results - AD HOC NEWS</title>
+      <link>https://news.google.com/rss/articles/CBMixgFBVV95cUxPVVVraFlQdGMtZEd4M2xlaWVIU083enFvc2E2b0RDaDNDeGNYRlpyNkdIbklPdmJYSTB5alZoSF9Ya2ZZMlExM2ZKZDZITGpzUVhCd016aTV6d1kxcndUdjZIX0ZuYU9BYzh1RWNwRm5OcXdFcXBhZ0JIbHBNUmpxMVNTQnpQWFZjX0hpVTlpYTJsdFJxVXNZdEk2WG1leURVUGJDU2RyYnYza0N3M1gyaExaZExPOFNNektaVkRESG1GX19FNVE?oc=5</link>
+      <description>Broadcom stock (US11135F1012): AI demand keeps the spotlight on results  AD HOC NEWS [Broadcom]</description>
+      <source url="https://aisight.fyi">AD HOC NEWS</source>
+      <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMixgFBVV95cUxPVVVraFlQdGMtZEd4M2xlaWVIU083enFvc2E2b0RDaDNDeGNYRlpyNkdIbklPdmJYSTB5alZoSF9Ya2ZZMlExM2ZKZDZITGpzUVhCd016aTV6d1kxcndUdjZIX0ZuYU9BYzh1RWNwRm5OcXdFcXBhZ0JIbHBNUmpxMVNTQnpQWFZjX0hpVTlpYTJsdFJxVXNZdEk2WG1leURVUGJDU2RyYnYza0N3M1gyaExaZExPOFNNektaVkRESG1GX19FNVE?oc=5</guid>
     </item>
     <item>
       <title>Nvidia Earnings Preview: AI Trade Caution Grows - Gotrade</title>
@@ -176,12 +296,20 @@
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSXNseUdWdmlWRHlNUk44cF9sdUxONGY3bFpYeXd2dkY5NjhrWURlb0JVSFd2Tlh3V0duWmpNcXpVb2J0dUJ5aHFOYlowM2pSdEE2bUlZOHBPUC1GemJlWjM1MWZILTZaSDMxdlNxUlZCRUUzMklRbzRtajZRd0d0UV9Zak1XWlVZQ1lyYWlDVEV2Z3Zvbk95b3I3M3RHMXUwYUZTRWRiT18wdw?oc=5</guid>
     </item>
     <item>
-      <title>Europe’s AI future at risk as soaring power costs push data centers abroad - TradingView</title>
-      <link>https://news.google.com/rss/articles/CBMiywFBVV95cUxNU25wZkhoLTg4bTNUaDV6VHdBeHlnYzQzYk5iVEFLUXlXWjZxT2tlREZuZTJmZkxMWVFqaEhjN3JBUHdYRTZfbC1NNElDR1FFTE4zMzZ5OHMxV3VCOXFxbTVlX1Zsai1JT191OXNpck1LT3c5M3h0LTdsVktGYkp4TEZUZ0xHbHVPcURNQ0JhZXNfMXNvTGZDekNLMmtOWkk0VXVRSG1HZkZrMVgzcnZtV0owR1R0M1ZHT2kxeHh3VUdSVTFWQjJRNk1LTQ?oc=5</link>
-      <description>Europe’s AI future at risk as soaring power costs push data centers abroad  TradingView</description>
-      <source url="https://aisight.fyi">TradingView</source>
+      <title>3 Canadian Stocks That Could Win Big From AI Spending - The Globe and Mail</title>
+      <link>https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVU95R2ZOODhqUHZ3XzE3eThIam9BcEtMWWlOR1MxNlFQTWNuTVc0LUxSYjQ0RGJfNWppeGNjWWVOUlpBeTgxMzUzV3JZNHRIMmpuUUZ6NmNfa25YY0g2a2FLRjIyX0p3S1BYZnJYUWJ5cWlDcGMtQjdhYmt2Z1MyXzl1Uk5CdGduY0Rzc1ZfWlItZlQyOU9FTWZwYzBhb2FmYWdEaXJUOFdRdC1oTHltSG1nY0lYWm1SdVVfd2ZOLWpBbWo1SVJidERHaHQwX2tHUnZGWTRR?oc=5</link>
+      <description>3 Canadian Stocks That Could Win Big From AI Spending  The Globe and Mail</description>
+      <source url="https://aisight.fyi">The Globe and Mail</source>
       <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiywFBVV95cUxNU25wZkhoLTg4bTNUaDV6VHdBeHlnYzQzYk5iVEFLUXlXWjZxT2tlREZuZTJmZkxMWVFqaEhjN3JBUHdYRTZfbC1NNElDR1FFTE4zMzZ5OHMxV3VCOXFxbTVlX1Zsai1JT191OXNpck1LT3c5M3h0LTdsVktGYkp4TEZUZ0xHbHVPcURNQ0JhZXNfMXNvTGZDekNLMmtOWkk0VXVRSG1HZkZrMVgzcnZtV0owR1R0M1ZHT2kxeHh3VUdSVTFWQjJRNk1LTQ?oc=5</guid>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVU95R2ZOODhqUHZ3XzE3eThIam9BcEtMWWlOR1MxNlFQTWNuTVc0LUxSYjQ0RGJfNWppeGNjWWVOUlpBeTgxMzUzV3JZNHRIMmpuUUZ6NmNfa25YY0g2a2FLRjIyX0p3S1BYZnJYUWJ5cWlDcGMtQjdhYmt2Z1MyXzl1Uk5CdGduY0Rzc1ZfWlItZlQyOU9FTWZwYzBhb2FmYWdEaXJUOFdRdC1oTHltSG1nY0lYWm1SdVVfd2ZOLWpBbWo1SVJidERHaHQwX2tHUnZGWTRR?oc=5</guid>
+    </item>
+    <item>
+      <title>Europe’s AI future at risk as soaring power costs push data centers abroad - Invezz</title>
+      <link>https://news.google.com/rss/articles/CBMisgFBVV95cUxNM3RheW1tQzZJOEMtXzljdjlKTTFKNnBZNHdnOUFlWnRfYVVZS28yWFN2MURVMW9LYjctNFFiNlNEelFldVNHS2JldXBmUXJndmN5NmE0dHEwY2hHQllJRWo4WXJHNWJrRzJsWmkxd0tDY3FEYkhyQ2l3WXhCSGFETzRCQklVREtRanVrOWFiQnBNQ1lhT1VVR3dVTnNXVUZYcmNfRHhjX2E0VWhzT3NHV19B?oc=5</link>
+      <description>Europe’s AI future at risk as soaring power costs push data centers abroad  Invezz</description>
+      <source url="https://aisight.fyi">Invezz</source>
+      <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMisgFBVV95cUxNM3RheW1tQzZJOEMtXzljdjlKTTFKNnBZNHdnOUFlWnRfYVVZS28yWFN2MURVMW9LYjctNFFiNlNEelFldVNHS2JldXBmUXJndmN5NmE0dHEwY2hHQllJRWo4WXJHNWJrRzJsWmkxd0tDY3FEYkhyQ2l3WXhCSGFETzRCQklVREtRanVrOWFiQnBNQ1lhT1VVR3dVTnNXVUZYcmNfRHhjX2E0VWhzT3NHV19B?oc=5</guid>
     </item>
     <item>
       <title>Europe&apos;s AI sovereignty gap laid bare at Brussels cloud summit - Euractiv</title>
@@ -208,20 +336,12 @@
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMivwFBVV95cUxNYm1TVW5OOHUxdWVtMFdvc3FZRzRjMzRXcFhmQ183M3pVTzZac0JiRmNBUVlENEpKdzQwcWJnVklyRmJlSm9pTFBYbllEUlYzYmNpajdIbUtQNjhhWTZ3VEFESlZUN3pTeVNnNUpDMzVBc3lTV1JxaDJTVk5ldTdVVXItQ3EyaU1lbV9aR1d3aG5faVQ2RWl5T2ozRlVNQ2pPZHNfaUh4Z3F3eDBKeGZLUS1LS1YydkhFeTBobUp4OA?oc=5</guid>
     </item>
     <item>
-      <title>Hive Digital Technologies adds 320 MW AI data center - Cryptopolitan</title>
-      <link>https://news.google.com/rss/articles/CBMiekFVX3lxTFA5V3hBc09SYXQ4TlpNZUphUDJpMVZxdWVNeHBUWExWSFF4d3ozaXBIUW90YmRqeTZDblBFR2dsWTRZN3NjNEozVVotanFMTUVzT2tnbGJDcC03V0FHem14d2x1d1F2dUhHdHdZeXB3cFJyamxhYUlla3Zn?oc=5</link>
-      <description>Hive Digital Technologies adds 320 MW AI data center  Cryptopolitan</description>
-      <source url="https://aisight.fyi">Cryptopolitan</source>
+      <title>HIVE Digital Technologies plans 320 MW AI infrastructure project in Canada - TradingView</title>
+      <link>https://news.google.com/rss/articles/CBMi1AFBVV95cUxNOXJMT0lXTXRyRnJKUzQyRVd6S2tMY05xOEtJY1Mwb3Q1aHdqMVZoWWZsYWRFdHhZOGYxMkxfanNOaHY3bDdTa0NqNVl6VTdybjhFQjJva1J0d1AzLW5NOVNHM09TMW1HX1JsNFpkc3U2c016U2NBYW9UOWtsMGpzOUxFMEtlbWoyZXhHeWd2NFFoaVd3Qkd4ZnZweEtidEFuUnY1NURiR3Z2X0U2Z2t6X0paRFBmeUJPdnZaaURBZmZHVGhyb1dNdGQ2aDFjSm9HRjRHMg?oc=5</link>
+      <description>HIVE Digital Technologies plans 320 MW AI infrastructure project in Canada  TradingView</description>
+      <source url="https://aisight.fyi">TradingView</source>
       <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiekFVX3lxTFA5V3hBc09SYXQ4TlpNZUphUDJpMVZxdWVNeHBUWExWSFF4d3ozaXBIUW90YmRqeTZDblBFR2dsWTRZN3NjNEozVVotanFMTUVzT2tnbGJDcC03V0FHem14d2x1d1F2dUhHdHdZeXB3cFJyamxhYUlla3Zn?oc=5</guid>
-    </item>
-    <item>
-      <title>HIVE&apos;s BUZZ HPC Announces 320 MW Sovereign AI Infrastructure in Greater Toronto Area - The Globe and Mail</title>
-      <link>https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVE1mZlJhUUJSOXVoRnU2RHBVdTZlT2tyME5KZVJjX18zXzg2VHJmM2pEdjlDLUY4aV9ESkk1SkxjY2ZZWmVCZnlzUVRhOGpoRDRwaHJwdjRhcUJWZDVNZ1lqQXJVM2V2aUZDQ2xUQWM4X1VkTHZsN3NJWWFsUDZsRktwLVlaa3piOEhmb2oyaWkycHRoS2d5X01DNFd2R3c1b0RrZEVKazB1d0Z0T1hiWllPMF9OVkM2a2NXUDNOa3oxVDFjekZ3VDhxcVBjdFNuR2RBaU5IWVNyaTNaMUxzZ0Fsay1RNktWYVd1Umcxb05kdEc5dmh4RQ?oc=5</link>
-      <description>HIVE&apos;s BUZZ HPC Announces 320 MW Sovereign AI Infrastructure in Greater Toronto Area  The Globe and Mail</description>
-      <source url="https://aisight.fyi">The Globe and Mail</source>
-      <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVE1mZlJhUUJSOXVoRnU2RHBVdTZlT2tyME5KZVJjX18zXzg2VHJmM2pEdjlDLUY4aV9ESkk1SkxjY2ZZWmVCZnlzUVRhOGpoRDRwaHJwdjRhcUJWZDVNZ1lqQXJVM2V2aUZDQ2xUQWM4X1VkTHZsN3NJWWFsUDZsRktwLVlaa3piOEhmb2oyaWkycHRoS2d5X01DNFd2R3c1b0RrZEVKazB1d0Z0T1hiWllPMF9OVkM2a2NXUDNOa3oxVDFjekZ3VDhxcVBjdFNuR2RBaU5IWVNyaTNaMUxzZ0Fsay1RNktWYVd1Umcxb05kdEc5dmh4RQ?oc=5</guid>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi1AFBVV95cUxNOXJMT0lXTXRyRnJKUzQyRVd6S2tMY05xOEtJY1Mwb3Q1aHdqMVZoWWZsYWRFdHhZOGYxMkxfanNOaHY3bDdTa0NqNVl6VTdybjhFQjJva1J0d1AzLW5NOVNHM09TMW1HX1JsNFpkc3U2c016U2NBYW9UOWtsMGpzOUxFMEtlbWoyZXhHeWd2NFFoaVd3Qkd4ZnZweEtidEFuUnY1NURiR3Z2X0U2Z2t6X0paRFBmeUJPdnZaaURBZmZHVGhyb1dNdGQ2aDFjSm9HRjRHMg?oc=5</guid>
     </item>
     <item>
       <title>The AI infrastructure window is open. Africa shouldn’t watch this one close. - TechCabal</title>
@@ -232,12 +352,36 @@
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMihwFBVV95cUxQNlFGVjc0dUFaMlJ3OVJvdEE0WnJDUk5jeV9EclczSEZjb3lIZGdlelBTRTJJY1lCOWZtMnY1RmZjbzhCSUdTTkRBS2lGanFYQ2dCN250SWpVekxxRWNJWk5TcXotcUY5d1ZxdW9mOU5xZGhWNW1oQmFQSUstZW50UXczUjQyRlk?oc=5</guid>
     </item>
     <item>
+      <title>HIVE&apos;s BUZZ HPC Announces 320 MW Sovereign AI Infrastructure in Greater Toronto Area - The Globe and Mail</title>
+      <link>https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVE1mZlJhUUJSOXVoRnU2RHBVdTZlT2tyME5KZVJjX18zXzg2VHJmM2pEdjlDLUY4aV9ESkk1SkxjY2ZZWmVCZnlzUVRhOGpoRDRwaHJwdjRhcUJWZDVNZ1lqQXJVM2V2aUZDQ2xUQWM4X1VkTHZsN3NJWWFsUDZsRktwLVlaa3piOEhmb2oyaWkycHRoS2d5X01DNFd2R3c1b0RrZEVKazB1d0Z0T1hiWllPMF9OVkM2a2NXUDNOa3oxVDFjekZ3VDhxcVBjdFNuR2RBaU5IWVNyaTNaMUxzZ0Fsay1RNktWYVd1Umcxb05kdEc5dmh4RQ?oc=5</link>
+      <description>HIVE&apos;s BUZZ HPC Announces 320 MW Sovereign AI Infrastructure in Greater Toronto Area  The Globe and Mail</description>
+      <source url="https://aisight.fyi">The Globe and Mail</source>
+      <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVE1mZlJhUUJSOXVoRnU2RHBVdTZlT2tyME5KZVJjX18zXzg2VHJmM2pEdjlDLUY4aV9ESkk1SkxjY2ZZWmVCZnlzUVRhOGpoRDRwaHJwdjRhcUJWZDVNZ1lqQXJVM2V2aUZDQ2xUQWM4X1VkTHZsN3NJWWFsUDZsRktwLVlaa3piOEhmb2oyaWkycHRoS2d5X01DNFd2R3c1b0RrZEVKazB1d0Z0T1hiWllPMF9OVkM2a2NXUDNOa3oxVDFjekZ3VDhxcVBjdFNuR2RBaU5IWVNyaTNaMUxzZ0Fsay1RNktWYVd1Umcxb05kdEc5dmh4RQ?oc=5</guid>
+    </item>
+    <item>
       <title>Jabil stock (US46612W1036): AI infrastructure boom meets valuation and insider selling debate - AD HOC NEWS</title>
       <link>https://news.google.com/rss/articles/CBMixAFBVV95cUxOUEFvQ1FMWEdQNHpmS0JoWUtkQy1odU1MR2FPSmRIS2U5U09sRjNPZU1ZZHdDOFdRSHptVXktdjZIN1ZNWk1zcENNNExfUFVjdTBLOEZ5ZEtPNUZCanJZeHRSWENMMmdwRnRTOUp3OTZEWXRXREJGREJTU3V5Q2VKQk9TX0JIY2ctRll0Z0t4SkwtSWx4TklVeVdQcEVSUy1FQ2FmQ0pXbFJReEwtemxEVml4dklkQkFxeEQ1RzBENlhIMjFU?oc=5</link>
       <description>Jabil stock (US46612W1036): AI infrastructure boom meets valuation and insider selling debate  AD HOC NEWS</description>
       <source url="https://aisight.fyi">AD HOC NEWS</source>
       <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMixAFBVV95cUxOUEFvQ1FMWEdQNHpmS0JoWUtkQy1odU1MR2FPSmRIS2U5U09sRjNPZU1ZZHdDOFdRSHptVXktdjZIN1ZNWk1zcENNNExfUFVjdTBLOEZ5ZEtPNUZCanJZeHRSWENMMmdwRnRTOUp3OTZEWXRXREJGREJTU3V5Q2VKQk9TX0JIY2ctRll0Z0t4SkwtSWx4TklVeVdQcEVSUy1FQ2FmQ0pXbFJReEwtemxEVml4dklkQkFxeEQ1RzBENlhIMjFU?oc=5</guid>
+    </item>
+    <item>
+      <title>3 ASX stocks that could win big from the AI infrastructure boom - The Motley Fool Australia</title>
+      <link>https://news.google.com/rss/articles/CBMioAFBVV95cUxNYzlfQ3YwNDlwVmthYU8tdXlOZ0w3VTV0NFZ0Ylp4ZDRlSTJnR2YzRHRQdEY5Yk9JNDNkc2h5NE4zaEJFUlFoVWVpVU9wNm9mM2U0SmRnSE5yT0VJZDU2X2tyNEhVb3hXZ055LTQ5dnJ1blI5Q0FXZEphMmpaZDJrc2pSc0dBZjlOVEltUWhBZzdhWWwyNEJ3a2E0RFRVMjJx?oc=5</link>
+      <description>3 ASX stocks that could win big from the AI infrastructure boom  The Motley Fool Australia</description>
+      <source url="https://aisight.fyi">The Motley Fool Australia</source>
+      <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMioAFBVV95cUxNYzlfQ3YwNDlwVmthYU8tdXlOZ0w3VTV0NFZ0Ylp4ZDRlSTJnR2YzRHRQdEY5Yk9JNDNkc2h5NE4zaEJFUlFoVWVpVU9wNm9mM2U0SmRnSE5yT0VJZDU2X2tyNEhVb3hXZ055LTQ5dnJ1blI5Q0FXZEphMmpaZDJrc2pSc0dBZjlOVEltUWhBZzdhWWwyNEJ3a2E0RFRVMjJx?oc=5</guid>
+    </item>
+    <item>
+      <title>Vertiv shares slide ahead of AI data center update - TechStock²</title>
+      <link>https://news.google.com/rss/articles/CBMioAFBVV95cUxNal9jUDhydi1uRFR0dUY2T3pDaWlMVGNGdWxOMjZBTkotT0ZZZ0VrSzBQVjJCSWRqQUFjV3VxMFhlR0p3V2preGtnZDhVay1ZM3lsSk9NalV3dWVseENKclFaSE9uOFJUYjU2V3g0M2RwUzFpZkVrRWQ4UjgzRHFibWw1RHRITVBBdWY5ZUo3VWxhaVZBd2NzMVJKSTUwNWx5?oc=5</link>
+      <description>Vertiv shares slide ahead of AI data center update  TechStock²</description>
+      <source url="https://aisight.fyi">TechStock²</source>
+      <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMioAFBVV95cUxNal9jUDhydi1uRFR0dUY2T3pDaWlMVGNGdWxOMjZBTkotT0ZZZ0VrSzBQVjJCSWRqQUFjV3VxMFhlR0p3V2preGtnZDhVay1ZM3lsSk9NalV3dWVseENKclFaSE9uOFJUYjU2V3g0M2RwUzFpZkVrRWQ4UjgzRHFibWw1RHRITVBBdWY5ZUo3VWxhaVZBd2NzMVJKSTUwNWx5?oc=5</guid>
     </item>
     <item>
       <title>Riot Platforms’ AI spending puts pressure on Bitcoin investors - TechStock²</title>
@@ -256,159 +400,12 @@
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMijgJBVV95cUxNVG0tdWpDMUs3Y3RKSDRHLUgyNnhwSWRXY05kT3lTZmdNWUVKX2lqZWRXdm5lRFhtaWx3aVA3X2FzMmh6ZVVFWkZzY3RjWG5POXJHV0pJQVZxcDU4OGxPOE9GajF5ZGxBTmh2azIybzUyMmJ6Tm5VdUthMllDbUR0SjVYRmdnTkQwOHV4SWZ6UWlwMm15LThOc3R3V1BOYWxTaVM1QkpLc2JNQVZDSklHZGt3QlBicjcwSEg2Yy1tYnNHN1NySjJKY3JIdUtpWTAteFVsNGM4aUlTa3ljZ1JLS0NLQmp5aUh3ejBlR1JoeGl5QTVpSDlvYk05bUc4ZWVtdEVYSkdpaVVYU25SWXfSAZMCQVVfeXFMTWJhSnIwTDBfS1VGNVdiQVpDSC1pbmxiUTJib1ZTZmZ6QzFYQ3BWaVNlQ0F1NkNNYVZZVm5EWXk0QVBWOXNBXzVadEItR0JSb1RDUHM3TWR3eFVxcENFRXRxQUFGRXpDbGFFcG5MQlRHdFVUa0ZHcll5VUVISE5TQ3JZa2dXdEE3N2hJb1Z5NVE4MS1Cc3ZHaVhMOVpIbk1zOEI4ZjNoNzRsTXVrblB4WVVhVHRBOHQ4cEp2QktuZ3ZJTF9oLWZSbEZSc19maWQyaWxBbnNaeWFUUHJfTjM5WVp1blFaaVo4MmRra3lwUWNVV0dIcHhMcGN2cUhFWERHWU5hVTRVRzNubkRrbTlaX21pZms?oc=5</guid>
     </item>
     <item>
-      <title>SK Hynix Reinvents Its Story: Record Capex and a NAND Surge Turn a Memory Maker Into an AI Infrastru - AD HOC NEWS</title>
-      <link>https://news.google.com/rss/articles/CBMiywFBVV95cUxNR190cHNjMjNEa1dOSjVBU0FUR01iUVp0bDZwQ2dRMXBtZU9ZUlFZSHJuSXpUVVBzZ1pMWERtOXdVZ1hvWlBrU2hTSzcwb2dGTVJvYnBITndKLVRtbEZYaFJSTUFGbVJfWjljUW44SU1fVEFkcGEyTUlqaHZoRlZFQTB3VzVaaHJMamZDc1dCSnMzWk41Zzg0YllWMDBoT25oZE5WUWduWktsb3lZd0psb3lvWlZ4ejhSN3ZscGlLVHN1Wjd0M3Zha2Q1RQ?oc=5</link>
-      <description>SK Hynix Reinvents Its Story: Record Capex and a NAND Surge Turn a Memory Maker Into an AI Infrastru  AD HOC NEWS</description>
-      <source url="https://aisight.fyi">AD HOC NEWS</source>
-      <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiywFBVV95cUxNR190cHNjMjNEa1dOSjVBU0FUR01iUVp0bDZwQ2dRMXBtZU9ZUlFZSHJuSXpUVVBzZ1pMWERtOXdVZ1hvWlBrU2hTSzcwb2dGTVJvYnBITndKLVRtbEZYaFJSTUFGbVJfWjljUW44SU1fVEFkcGEyTUlqaHZoRlZFQTB3VzVaaHJMamZDc1dCSnMzWk41Zzg0YllWMDBoT25oZE5WUWduWktsb3lZd0psb3lvWlZ4ejhSN3ZscGlLVHN1Wjd0M3Zha2Q1RQ?oc=5</guid>
-    </item>
-    <item>
       <title>What Is Cisco Systems? A Beginner&apos;s Guide to CSCO Business and Stock Value - TradingKey</title>
       <link>https://news.google.com/rss/articles/CBMivAFBVV95cUxOTlFCRFdUSm44QjQxSlhuSmY3WWN4eVZiSDVibW85bHdoUzh2Q3dxcXdQYjZuUXd3b2FRZHZFT0RoQlhnX0NhcFd2S2dRT3B6NkdfcVZReFVWbFkwdFJpalpncERid3N1ZTRaQXFONmd3ZlNwMDVuazJFNVNUWnVRcmFOejFKLVZYQ0FaN0tuaGZHM3ZEX0RnQW51Umh2RWdKN3kwbXEwRS0wVnIwekc5VmUtdFZWU0FrR3JmNQ?oc=5</link>
       <description>What Is Cisco Systems? A Beginner&apos;s Guide to CSCO Business and Stock Value  TradingKey [Cisco]</description>
       <source url="https://aisight.fyi">TradingKey</source>
       <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMivAFBVV95cUxOTlFCRFdUSm44QjQxSlhuSmY3WWN4eVZiSDVibW85bHdoUzh2Q3dxcXdQYjZuUXd3b2FRZHZFT0RoQlhnX0NhcFd2S2dRT3B6NkdfcVZReFVWbFkwdFJpalpncERid3N1ZTRaQXFONmd3ZlNwMDVuazJFNVNUWnVRcmFOejFKLVZYQ0FaN0tuaGZHM3ZEX0RnQW51Umh2RWdKN3kwbXEwRS0wVnIwekc5VmUtdFZWU0FrR3JmNQ?oc=5</guid>
-    </item>
-    <item>
-      <title>Tencent’s First-Quarter Profit Jumps 21% as Capex Tops USD4.4 Billion on AI Spending - Yicai Global</title>
-      <link>https://news.google.com/rss/articles/CBMisAFBVV95cUxPR0xkSlRWYlg4ZmZGWFE4dU1iQTVOcWFXaXRTb3d5TW9IWlI0dlRzejU0NnYxY2phNmZZdWRlckZpaExPb0NoQ2lGUGdiNXVFaE9oaFhyZUd2TVAwOF9FcUhxQ1ZwN0FQZTRyWjB1dDMya0dBR0tfa1hKVlRCaThzZVNYYW9lam5raUxIeXlMdXJ2ZC1xWG1heVBMUnJVWFlYVXhoSG4xdHoxNUFPc2lmQg?oc=5</link>
-      <description>Tencent’s First-Quarter Profit Jumps 21% as Capex Tops USD4.4 Billion on AI Spending  Yicai Global [Tencent]</description>
-      <source url="https://aisight.fyi">Yicai Global</source>
-      <pubDate>Sun, 17 May 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMisAFBVV95cUxPR0xkSlRWYlg4ZmZGWFE4dU1iQTVOcWFXaXRTb3d5TW9IWlI0dlRzejU0NnYxY2phNmZZdWRlckZpaExPb0NoQ2lGUGdiNXVFaE9oaFhyZUd2TVAwOF9FcUhxQ1ZwN0FQZTRyWjB1dDMya0dBR0tfa1hKVlRCaThzZVNYYW9lam5raUxIeXlMdXJ2ZC1xWG1heVBMUnJVWFlYVXhoSG4xdHoxNUFPc2lmQg?oc=5</guid>
-    </item>
-    <item>
-      <title>NVIDIA Stock Plunges 4.4% as AI Demand Fears Trigger Sharp Sell-Off in Tech Giant</title>
-      <link>https://www.ibtimes.com.au/nvidia-shares-plunge-ai-spending-concerns-1869007</link>
-      <description>NVIDIA shares fell over 4% amid concerns about AI spending slowdowns and high valuations, wiping out $250 billion in market value. Analysts see this as a market reassessment rather than a fundamental shift. [Nvidia]</description>
-      <source url="https://aisight.fyi">Ibtimes.com.au</source>
-      <pubDate>Sun, 17 May 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://www.ibtimes.com.au/nvidia-shares-plunge-ai-spending-concerns-1869007</guid>
-    </item>
-    <item>
-      <title>Palantir PLTR Stock Hits Fresh Highs as AI Government Contracts Drive Momentum</title>
-      <link>https://www.ibtimes.com.au/palantir-technologies-ai-expansion-market-cap-1869022</link>
-      <description>Palantir Technologies&apos; shares rose, pushing its market cap over $300 billion, driven by AI contracts with government and commercial clients, solidifying its position in the AI sector. [Palantir]</description>
-      <source url="https://aisight.fyi">Ibtimes.com.au</source>
-      <pubDate>Sun, 17 May 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://www.ibtimes.com.au/palantir-technologies-ai-expansion-market-cap-1869022</guid>
-    </item>
-    <item>
-      <title>Eclipse Ventures turns $6.5M Cerebras investment into $2.5B windfall</title>
-      <link>https://cryptobriefing.com/eclipse-ventures-cerebras-investment-windfall/</link>
-      <description>Eclipse Ventures&apos; success underscores the growing investor appetite for AI infrastructure, highlighting a shift from software to hardware focus.
-The post Eclipse Ventures turns $6.5M Cerebras investment into $2.5B windfall appeared first on Crypto Briefing.</description>
-      <source url="https://aisight.fyi">Crypto Briefing</source>
-      <pubDate>Sun, 17 May 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://cryptobriefing.com/eclipse-ventures-cerebras-investment-windfall/</guid>
-    </item>
-    <item>
-      <title>For Eclipse, the $2.5B Cerebras win is just the start of realizing its physical-world thesis | TechCrunch</title>
-      <link>https://techcrunch.com/2026/05/17/for-eclipse-the-2-5b-cerebras-win-is-just-the-start-of-realizing-its-physical-world-thesis/</link>
-      <description>Investing in the real world was lonely for Lior Susan 10 years ago. Now his firm finds itself at the center of the tech world&apos;s action. [ServiceNow]</description>
-      <source url="https://aisight.fyi">TechCrunch</source>
-      <pubDate>Sun, 17 May 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://techcrunch.com/2026/05/17/for-eclipse-the-2-5b-cerebras-win-is-just-the-start-of-realizing-its-physical-world-thesis/</guid>
-    </item>
-    <item>
-      <title>Top Wall Street analysts suggest these 3 stocks for their long-term prospects</title>
-      <link>https://www.cnbc.com/2026/05/17/top-analysts-suggest-these-3-stocks-for-their-long-term-prospects.html</link>
-      <description>Robust spending and strong demand for AI infrastructure have reinforced analysts&apos; confidence in several stocks after earnings season.</description>
-      <source url="https://aisight.fyi">CNBC</source>
-      <pubDate>Sun, 17 May 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://www.cnbc.com/2026/05/17/top-analysts-suggest-these-3-stocks-for-their-long-term-prospects.html</guid>
-    </item>
-    <item>
-      <title>Nebius: Massive AI Moat Meets A $25B CapEx Test (NASDAQ:NBIS) - Seeking Alpha</title>
-      <link>https://news.google.com/rss/articles/CBMijAFBVV95cUxOSmtIMEItU010cWpaMTA0SGZ0aTN3ZnQyRGVWUEI2SWt0Z1RNNVJpdVlSLVRjOGtYZFRLMEVtcFRyYXRtVmVEdTlsX0lHSkJ1bjNpSEJDSzE3bWpYS1pDYTZ2WWc4RjQxbDdqOHRQNWpITG00Ums5Ulpsd0hlU0F0REdVaUlxUUZ4MGxZUA?oc=5</link>
-      <description>Nebius: Massive AI Moat Meets A $25B CapEx Test (NASDAQ:NBIS)  Seeking Alpha</description>
-      <source url="https://aisight.fyi">Seeking Alpha</source>
-      <pubDate>Sun, 17 May 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMijAFBVV95cUxOSmtIMEItU010cWpaMTA0SGZ0aTN3ZnQyRGVWUEI2SWt0Z1RNNVJpdVlSLVRjOGtYZFRLMEVtcFRyYXRtVmVEdTlsX0lHSkJ1bjNpSEJDSzE3bWpYS1pDYTZ2WWc4RjQxbDdqOHRQNWpITG00Ums5Ulpsd0hlU0F0REdVaUlxUUZ4MGxZUA?oc=5</guid>
-    </item>
-    <item>
-      <title>Here’s Why Amazon (AMZN) Might Be the Ultimate Hard-Asset and AI Infrastructure Stock - AOL.com</title>
-      <link>https://news.google.com/rss/articles/CBMif0FVX3lxTE5jczFzMUFqUmFpQXBma1FGNXE1VkdHUFEwR1JiR3Z3dUxaSUNyUGZHbVl4eG1WdHk4WEl2amozZmRVLVQ2ZkNxZE5PNFBMbEt6WmpzRTV3aXpRTDktWWVQV0g3b0tOU1FnaFVpU3FHWlhWTDlpbFRfUVFrMXAwMTQ?oc=5</link>
-      <description>Here’s Why Amazon (AMZN) Might Be the Ultimate Hard-Asset and AI Infrastructure Stock  AOL.com [Amazon]</description>
-      <source url="https://aisight.fyi">AOL.com</source>
-      <pubDate>Sun, 17 May 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMif0FVX3lxTE5jczFzMUFqUmFpQXBma1FGNXE1VkdHUFEwR1JiR3Z3dUxaSUNyUGZHbVl4eG1WdHk4WEl2amozZmRVLVQ2ZkNxZE5PNFBMbEt6WmpzRTV3aXpRTDktWWVQV0g3b0tOU1FnaFVpU3FHWlhWTDlpbFRfUVFrMXAwMTQ?oc=5</guid>
-    </item>
-    <item>
-      <title>Dell Technologies Inc stock (US2441991054): focus on AI infrastructure after latest earnings - AD HOC NEWS</title>
-      <link>https://news.google.com/rss/articles/CBMixAFBVV95cUxQZjhoenRQbWcwczhua0pqNjBmNElfSWRwU0x4YzRFRzdyQkNPQ3JNdy14UkRWYWR3UWxVME9nV1NsSlc0NHBzNkphd2VITWk4Q0NTUkQwZ0QzV0lkZUp3UnJhbVBla29hYVc5OXIwS1BZZHZKaTdxQVBLVHhmRGNGdWxEWm5WVGNybWpwN0x6cGlLM1hRVFJiU3o5b3NOOWUzcWRIUDZYMVBPbTJyVmRMa1AyV0t6cEJhUVVXUFpRNkUzWU5G?oc=5</link>
-      <description>Dell Technologies Inc stock (US2441991054): focus on AI infrastructure after latest earnings  AD HOC NEWS [Dell Technologies]</description>
-      <source url="https://aisight.fyi">AD HOC NEWS</source>
-      <pubDate>Sun, 17 May 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMixAFBVV95cUxQZjhoenRQbWcwczhua0pqNjBmNElfSWRwU0x4YzRFRzdyQkNPQ3JNdy14UkRWYWR3UWxVME9nV1NsSlc0NHBzNkphd2VITWk4Q0NTUkQwZ0QzV0lkZUp3UnJhbVBla29hYVc5OXIwS1BZZHZKaTdxQVBLVHhmRGNGdWxEWm5WVGNybWpwN0x6cGlLM1hRVFJiU3o5b3NOOWUzcWRIUDZYMVBPbTJyVmRMa1AyV0t6cEJhUVVXUFpRNkUzWU5G?oc=5</guid>
-    </item>
-    <item>
-      <title>India–US Trade Tensions Cloud Modi’s Solar Energy and AI Ambitions</title>
-      <link>https://www.fairobserver.com/world-news/india-news/india-us-trade-tensions-cloud-modis-solar-energy-and-ai-ambitions/</link>
-      <description>The India–US bilateral trade agreement, announced in February, was expected to be finalized by April this year. However, the deadline has now passed without an agreement, as the Trump administration’s unpredictable tariff policy has rendered the original term… [ServiceNow]</description>
-      <source url="https://aisight.fyi">Fair Observer</source>
-      <pubDate>Sun, 17 May 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://www.fairobserver.com/world-news/india-news/india-us-trade-tensions-cloud-modis-solar-energy-and-ai-ambitions/</guid>
-    </item>
-    <item>
-      <title>Berkshire Hathaway buys into Google parent Alphabet in landmark 13F filing</title>
-      <link>https://cryptobriefing.com/berkshire-hathaway-alphabet-google-13f-filing/</link>
-      <description>Berkshire&apos;s investment in Alphabet signals a strategic shift towards tech diversification, potentially influencing other investors&apos; tech allocations.
-The post Berkshire Hathaway buys into Google parent Alphabet in landmark 13F filing appeared first on Crypto … [Alphabet]</description>
-      <source url="https://aisight.fyi">Crypto Briefing</source>
-      <pubDate>Sun, 17 May 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://cryptobriefing.com/berkshire-hathaway-alphabet-google-13f-filing/</guid>
-    </item>
-    <item>
-      <title>LiveRamp Announces Fourth Quarter and Fiscal Year 2026 Results</title>
-      <link>https://www.globenewswire.com/news-release/2026/05/17/3296257/0/en/LiveRamp-Announces-Fourth-Quarter-and-Fiscal-Year-2026-Results.html</link>
-      <description>Q4 Revenue up 9% year-over-yearQ4 Annual Recurring Revenue up 8% year-over-yearQ4 Subscription Net Retention improved to 107%FY26 record annual Operating Cash Flow of $168 million and Share Repurchases of $194 million</description>
-      <source url="https://aisight.fyi">GlobeNewswire</source>
-      <pubDate>Sun, 17 May 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://www.globenewswire.com/news-release/2026/05/17/3296257/0/en/LiveRamp-Announces-Fourth-Quarter-and-Fiscal-Year-2026-Results.html</guid>
-    </item>
-    <item>
-      <title>Nvidia boosts S&amp;P 500 earnings growth with strong AI sales</title>
-      <link>https://cryptobriefing.com/nvidia-sp500-earnings-ai-sales/</link>
-      <description>Nvidia&apos;s dominance highlights market fragility, as its performance heavily influences both S&amp;P 500 earnings and AI-related crypto assets.
-The post Nvidia boosts S&amp;P 500 earnings growth with strong AI sales appeared first on Crypto Briefing. [Nvidia]</description>
-      <source url="https://aisight.fyi">Crypto Briefing</source>
-      <pubDate>Sun, 17 May 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://cryptobriefing.com/nvidia-sp500-earnings-ai-sales/</guid>
-    </item>
-    <item>
-      <title>AI startups can succeed in Massachusetts. This billion-dollar deal shows why. - The Boston Globe</title>
-      <link>https://news.google.com/rss/articles/CBMioAFBVV95cUxObjFlQ3FibTNKRkNVenZ2eXpueTIxcjRqY1JYWS1uamhESmttWDFJQnM5Qnk5VUhUeEY5NlB4S2pzQURCZlMyeTIyN1ZVcEdtRVdUQlRmQ09pV1VVQ1FDbzc5cVZCNlk4NTIwbndSaUFFNXIwSlljRjE3aldJWHdJVHZXRXF6ZlJmVnBvc3F1LWItUy05a1B5VUVka3BtT3JI?oc=5</link>
-      <description>AI startups can succeed in Massachusetts. This billion-dollar deal shows why.  The Boston Globe</description>
-      <source url="https://aisight.fyi">The Boston Globe</source>
-      <pubDate>Sun, 17 May 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMioAFBVV95cUxObjFlQ3FibTNKRkNVenZ2eXpueTIxcjRqY1JYWS1uamhESmttWDFJQnM5Qnk5VUhUeEY5NlB4S2pzQURCZlMyeTIyN1ZVcEdtRVdUQlRmQ09pV1VVQ1FDbzc5cVZCNlk4NTIwbndSaUFFNXIwSlljRjE3aldJWHdJVHZXRXF6ZlJmVnBvc3F1LWItUy05a1B5VUVka3BtT3JI?oc=5</guid>
-    </item>
-    <item>
-      <title>Why Advisors Are Betting on AI Infrastructure Over Apps - The Daily Upside</title>
-      <link>https://news.google.com/rss/articles/CBMitwFBVV95cUxPbUhrTUZZWllBQWVYODg0aDIzSy03c3FVZnpZUUJZNVFPZGhBMk05QmRKU3FmbnlWWC10Z2YzMi0wbVRSSTc2bDlsSG94NTZ1LUR5VUw1c2pkeGcwcHJIZ3RTbnhacmowbWNJMjZkY1ZDVE9qN2tHaFJzZXI2VmZiU3JRQjRsQ09XSTAxWk9xWnVvbV9iS3Bkb2ZST3V5SE54eXpvbS1Td2tpeFdQMWllRDdhekVNT2c?oc=5</link>
-      <description>Why Advisors Are Betting on AI Infrastructure Over Apps  The Daily Upside</description>
-      <source url="https://aisight.fyi">The Daily Upside</source>
-      <pubDate>Sun, 17 May 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMitwFBVV95cUxPbUhrTUZZWllBQWVYODg0aDIzSy03c3FVZnpZUUJZNVFPZGhBMk05QmRKU3FmbnlWWC10Z2YzMi0wbVRSSTc2bDlsSG94NTZ1LUR5VUw1c2pkeGcwcHJIZ3RTbnhacmowbWNJMjZkY1ZDVE9qN2tHaFJzZXI2VmZiU3JRQjRsQ09XSTAxWk9xWnVvbV9iS3Bkb2ZST3V5SE54eXpvbS1Td2tpeFdQMWllRDdhekVNT2c?oc=5</guid>
-    </item>
-    <item>
-      <title>Big Tech Wants To Turn Suburbs Into AI Infrastructure - MITechNews</title>
-      <link>https://news.google.com/rss/articles/CBMijAFBVV95cUxNZl9qS1BqOVBZYVgtNWp4U1lHQzJvajJneFBiUUdXTmIwald2WGJtb0JlOENFaG9md1c2eUZwa3VLMkYzdmFOMFM1MTNQSW9qUTgweXc0UDBidUp4UEI0OEVRRG53N0E3SkR0Q0xtZTJ0YzhGQ1V4eGd1UEZ1cVAxUWtLblBJQTNnNkJtVw?oc=5</link>
-      <description>Big Tech Wants To Turn Suburbs Into AI Infrastructure  MITechNews</description>
-      <source url="https://aisight.fyi">MITechNews</source>
-      <pubDate>Sun, 17 May 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMijAFBVV95cUxNZl9qS1BqOVBZYVgtNWp4U1lHQzJvajJneFBiUUdXTmIwald2WGJtb0JlOENFaG9md1c2eUZwa3VLMkYzdmFOMFM1MTNQSW9qUTgweXc0UDBidUp4UEI0OEVRRG53N0E3SkR0Q0xtZTJ0YzhGQ1V4eGd1UEZ1cVAxUWtLblBJQTNnNkJtVw?oc=5</guid>
-    </item>
-    <item>
-      <title>AI-fueled momentum rally risks fading as history signals softer S&amp;P 500 returns ahead: Report</title>
-      <link>https://www.thehindubusinessline.com/info-tech/ai-fueled-momentum-rally-risks-fading-as-history-signals-softer-sp-500-returns-ahead-report/article70990004.ece</link>
-      <description>A downturn in AI capex or a spike in equity and bond volatility could trigger a &quot;catch down&quot; reversal, while an improved macro outlook might instead spark a catch-up rally in laggards</description>
-      <source url="https://aisight.fyi">BusinessLine</source>
-      <pubDate>Sun, 17 May 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://www.thehindubusinessline.com/info-tech/ai-fueled-momentum-rally-risks-fading-as-history-signals-softer-sp-500-returns-ahead-report/article70990004.ece</guid>
     </item>
   </channel>
 </rss>
