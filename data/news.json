@@ -1,11 +1,20 @@
 [
   {
-    "title": "Argentum AI Signs $2.5 Billion Deal for 300MW AI Data Center Deployment in Europe - The Fast Mode",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdTJiYy1IclFRNG1GazB0MEctRGZ5M3hIT3JpbGZNSEl2aFlNZUg3c3lnckNQSURUcWFHZ2R3OUJOM3g3UlVDWHBHTXNnX2ZycDZDZFR1bWJuQlYtWVl3am9LZ0tBOW9HZk5hblVGQTNkZnRDUEFZc1RsQU40dVRUTHJHX0R5MVNyb1h2d0pIdFFjWnhDSXg5RzV3M3U2cml3el9RQUgyaWRYR3NPVDRlMDdtdFZfRE1fV1dCazdCMS1nMC15cWYwV0RWYkNBZGpv?oc=5",
+    "title": "Edge Inference Chip Startup SiMa.ai Raising at $1.4 Billion Valuation - The Information",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeERkQjhxMERaemNZbi1RbXhuLW00VERGMmlNT29yMmEtOElIcktjQ0hWNkYzU1RGUWt5bG5lb1lzTFhCLWlrdVN6OVlmblBIN2dZaWc4eUxmMzNUbnh0Sm5jRGxDT1JzSXlQNVVSVHJ5aDFBMF9BMVJXTEc5eFk5MnRtSmhOQ2xkRWxzX3czbHpzQkxZNEQzb3J0SThNajVvMjZNNGxSekR2WEFPQ1FBbjVCcUxCXy0yNnc?oc=5",
     "date": "2026-05-18",
-    "source": "The Fast Mode",
+    "source": "The Information",
     "companies": [],
-    "summary": "Argentum AI Signs $2.5 Billion Deal for 300MW AI Data Center Deployment in Europe  The Fast Mode",
+    "summary": "Edge Inference Chip Startup SiMa.ai Raising at $1.4 Billion Valuation  The Information",
+    "relevanceScore": 0.62
+  },
+  {
+    "title": "Hive Digital subsidiary plans 320 megawatt AI data centre near Toronto in $3.5 billion investment - Yahoo! Finance Canada",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQa2h6N2U5TVd1RnljU3ZpTXB0cE50eFR5cUp1N0REUzdnVUlnN1VFbWJPTGlvTTZkMFFQTEFDbHhqSk00WUN5cF9IT0U5WG1YWU9vSWdvVlBRMU1yWUxtVm0tbGRrSjBhTEhHQzVrRGZoMmNjSG5zWFJ2dUkxVWtYUm9JelhjMmg1OXc?oc=5",
+    "date": "2026-05-18",
+    "source": "Yahoo! Finance Canada",
+    "companies": [],
+    "summary": "Hive Digital subsidiary plans 320 megawatt AI data centre near Toronto in $3.5 billion investment  Yahoo! Finance Canada",
     "relevanceScore": 0.52
   },
   {
@@ -20,6 +29,17 @@
     "relevanceScore": 0.52
   },
   {
+    "title": "NVIDIA Corporation (NVDA) Fell on Concerns Over the Sustainability of AI Infrastructure Capital Expenditure - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWXBZaExTRTBYTlppZFZPQjhPd2VyT1NuTFRrVmZiZTBxQmU5VUl0bUlfYkFyOWZoZXNZMHdFaW44YXFVV0pGNXhzbmNYbWRuWkt2QWN2TVdiQ0w3WUphdW9fam5BSWtLLUd2Z1ZTVjBTVGdlSnVQNDcxRFJsal9oQW9ValVoUE4wZzBDVF9UUDFOdGhaWVNsMXJrUFFFS2prOXlxWA?oc=5",
+    "date": "2026-05-18",
+    "source": "Yahoo Finance",
+    "companies": [
+      "Nvidia"
+    ],
+    "summary": "NVIDIA Corporation (NVDA) Fell on Concerns Over the Sustainability of AI Infrastructure Capital Expenditure  Yahoo Finance",
+    "relevanceScore": 0.52
+  },
+  {
     "title": "Micron’s AI Memory Engine Roars Ahead With Record Sales and New DDR5, but $25 Billion Capex Plan G - AD HOC NEWS",
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWExjZGY3QUMxcFVBcGhvc0wzMm9kNTZwOEhuX2ZKWDg0cEJoajZVNkhyWFNNTmRGdG9yaWUzbmhNV1NxX2FpRGhNV0hOOFlQZVgwTTlNVFUybkhUckJCSThlb3l1NlVTcEFOVnZOV3N4bTIxejlLLXEtU1I2ZElMRTloWG9vUDNTd2FOUlk3SWZUdnZKbGFaS1BMRlF2NGlaZzNuNHZZWXRldDl4MXJLRW1vUlBZQ3ExeTRkWmMyNmFRU09QalE?oc=5",
     "date": "2026-05-18",
@@ -29,16 +49,66 @@
     "relevanceScore": 0.52
   },
   {
-    "title": "Anthropic, a generative artificial intelligence (AI) company, has started to attract about $30 billi.. - 매일경제",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9XeHBWS1JWNjUxNHJmS21WaVdld0ZHbHpWV0lUcUkxWmlxbVotNHloU25mTjlhb0ZkQld2bkx5T29uZEp3Y3pfZTQ4UQ?oc=5",
+    "title": "Meta cuts 8,000 jobs amid AI investment push - Let's Data Science",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUWJUMWZtVjNFUndNNVBIY0o3Y2ZzTEh5MEMzckplOXUySDRrNmpZX2tnODhPdGhQQ1pTc2ZzNVpMY3dhRVo1bWxHSHd2ZXA2Yy1hTE93dm8waktrbVFYZ0lGWmxQc1V2TFRvS01KdzlZNzI1X3ZjeVdJMmNnanZ0UnRxRmRYRDAxSEZ6YTN3?oc=5",
     "date": "2026-05-18",
-    "source": "매일경제",
+    "source": "Let's Data Science",
     "companies": [
-      "Intel",
-      "Anthropic"
+      "Meta"
     ],
-    "summary": "Anthropic, a generative artificial intelligence (AI) company, has started to attract about $30 billi..  매일경제",
-    "relevanceScore": 0.51
+    "summary": "Meta cuts 8,000 jobs amid AI investment push  Let's Data Science",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "Nvidia Earnings Ahead: AI Chip Sector on Watch - Gotrade",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSjFFSExYT1FsSkdZNnc1ZHljVXA3VUhVbjF2bmwxejNJRklhNUYwYnUzTi0tcVR2N3M1Nnd2Um5tOFFSblRFM1M5RUhoU085S0RseGRHSzVPbXBJU2l6VlR5dHBhUnRyWnBvU0pqTURCM284MnphekZqVzZBOWkwWDFHbUhiU3pT?oc=5",
+    "date": "2026-05-18",
+    "source": "Gotrade",
+    "companies": [
+      "Nvidia"
+    ],
+    "summary": "Nvidia Earnings Ahead: AI Chip Sector on Watch  Gotrade",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "Forbes 2026 AI 50 List | Top Artificial Intelligence Companies - Forbes",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5uUGIzcFRTdFZwdkxZTnpHdUpfVmhCQ21iczlSQjJrMnlSa19sYzB4S2JuVC1wSWo1UFhRWnlpVWtrb0NIN1RmS2Nn?oc=5",
+    "date": "2026-05-18",
+    "source": "Forbes",
+    "companies": [
+      "Intel"
+    ],
+    "summary": "Forbes 2026 AI 50 List | Top Artificial Intelligence Companies  Forbes",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "HIVE buys $58 million Toronto plot for AI facility; shares climb - CoinDesk",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOGl1TjRsdVBENjNmcE8xSFVpRWRDbzBEajRzM3ZSQ2hkdW9JYTVJbUdSS2tSNnBYQVV3Nk5KbjVLSGtLb2phS2d5eXY1Vm4xVFJRc3pWTzlDQzNabzk0YU5tVUJ6OGM3RHlxS0dGNVdJSDdqVFFLRFlhb3VEMjF5WGFnQ2RjZE5LU0k3cmRzM1ZQbGpZRmVWdDVtdWhHZ1NOYXJiM2tqN2VaNDNzb0ZR?oc=5",
+    "date": "2026-05-18",
+    "source": "CoinDesk",
+    "companies": [],
+    "summary": "HIVE buys $58 million Toronto plot for AI facility; shares climb  CoinDesk",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "Africa data center construction market to reach $4.58 billion by 2031 - Africa Business Communities",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQclNKdDN0OWp3aWgxUTlsMEo4ZGczSlN2eGItOXhVZFZVNDZMcUppSDJ4V1hBQk5jZ3kyWkNNSlJqalpYdnlISG5EQmdvT3d1LXdLS1ozSTV2SEFkVExpeFU0QU5BMFZ4WEQxT0FzYlNWQ1hRSENodDRZM2hOOG9qV3ZCLUxDSGxhVXRCZTd1WGFJSTBtbzludU5HelpqV25jX2RoQWY2aEJNVzctSmwweHh6emdYUQ?oc=5",
+    "date": "2026-05-18",
+    "source": "Africa Business Communities",
+    "companies": [],
+    "summary": "Africa data center construction market to reach $4.58 billion by 2031  Africa Business Communities",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "Meta Expands AI Infrastructure Following Surge in Q1 Revenue - AsatuNews.co.id",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcVZBalFmaVMzSW53SE5MYVQ4LTluR2ZpWkFWRWU5d2JGVjFMdEFDcmhJc2REaW1xRk5VMjgyNy0xWUF1Smp2bm5vdkQxNm1NSzhFNmlscHc4ZUFPNjNLZmd6VHJYTlU1ZzctRWVoTUJYSW52c05VRmUxSFVUN0hiNE93?oc=5",
+    "date": "2026-05-18",
+    "source": "AsatuNews.co.id",
+    "companies": [
+      "Meta"
+    ],
+    "summary": "Meta Expands AI Infrastructure Following Surge in Q1 Revenue  AsatuNews.co.id",
+    "relevanceScore": 0.41
   },
   {
     "title": "AI market awaits Nvidia earnings as chip giant’s results test the rally’s strength - ynetnews",
@@ -52,13 +122,13 @@
     "relevanceScore": 0.41
   },
   {
-    "title": "Africa data center construction market to reach $4.58 billion by 2031 - Africa Business Communities",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQclNKdDN0OWp3aWgxUTlsMEo4ZGczSlN2eGItOXhVZFZVNDZMcUppSDJ4V1hBQk5jZ3kyWkNNSlJqalpYdnlISG5EQmdvT3d1LXdLS1ozSTV2SEFkVExpeFU0QU5BMFZ4WEQxT0FzYlNWQ1hRSENodDRZM2hOOG9qV3ZCLUxDSGxhVXRCZTd1WGFJSTBtbzludU5HelpqV25jX2RoQWY2aEJNVzctSmwweHh6emdYUQ?oc=5",
+    "title": "HIVE Advances Major AI Infrastructure Investment in Ontario - GuruFocus",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYjZVVktpTEYyZXZRQlBfUGxMOEdVUDlQQmYwdjNzN2Z4dkdFVlYyNXVrRnRpOV9CTkpwZ1NqQ01TU3IwSFFJdFVfYUVzcHVxaGMxSGtNS0JQem15c1JvQzFoS1JoeFBMV3o0Z2VuRGZCdjJzS1BBWkF2cXphSkJGREVjRGJVaHNkMHBCOUw4b0FXX0RrS1IzUTZsYzJDdVE?oc=5",
     "date": "2026-05-18",
-    "source": "Africa Business Communities",
+    "source": "GuruFocus",
     "companies": [],
-    "summary": "Africa data center construction market to reach $4.58 billion by 2031  Africa Business Communities",
-    "relevanceScore": 0.41
+    "summary": "HIVE Advances Major AI Infrastructure Investment in Ontario  GuruFocus",
+    "relevanceScore": 0.32
   },
   {
     "title": "Korean power infrastructure firms expand globally as demand rises from AI data centers, grid renewals - Korea JoongAng Daily",
@@ -70,21 +140,23 @@
     "relevanceScore": 0.32
   },
   {
-    "title": "China Accelerates National AI Compute Grid to Turn Computing Power Into Public Infrastructure - CXO Digitalpulse",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWkZVemhqSXUycHFmcHYyUmJMc3Jhb0lyQUY2TnVnSlNOMlZELVQ2REdNSjNLWlgtQk01Z3JvZXpsbW5DcWZMM3pKbnoySWtZc0tveUFVSjNZaVZldnRBelFmWTE5LW45bDBOMFIweC0zY3hPMVJydWp2R2pzX0NZckFHWF84RVFESFBzSGdUSzBzUnlLQXRvSGFpeWpoRzRDcVBuSHhrSmJnMWI2S2Y4R1dxVkRYVlBmWXVSNlROdzRCSE1k?oc=5",
+    "title": "HSBC’s $4 billion China bet: is clean tech entering a new boom? - TradingView",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRS1KR2pldWU2NWhkUnBLY21hcGhQcVRpRGJBMmY2YmNJR2h5ZEhBUGNOOXVsdnV3Z2psM0NnZ0U3OWVPbnliT2pIaFowOUlXTGN0enVlclJERmc0LUFfZG1YVHVwZnZoVVZZOEc3RC1pdkhZQUx2WVhTZWFPLXQtTVRMaTBDZXBUNng5R0dPaEpXZklOU2RoWkZKN1g0YXg5ck94MTZwSkFOdGhXSGFiTGJfOVlhOTNC?oc=5",
     "date": "2026-05-18",
-    "source": "CXO Digitalpulse",
+    "source": "TradingView",
     "companies": [],
-    "summary": "China Accelerates National AI Compute Grid to Turn Computing Power Into Public Infrastructure  CXO Digitalpulse",
-    "relevanceScore": 0.32
+    "summary": "HSBC’s $4 billion China bet: is clean tech entering a new boom?  TradingView",
+    "relevanceScore": 0.31
   },
   {
-    "title": "Publicis Groupe expands AI ambitions with $2.2B LiveRamp buyout - MEXC",
-    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5jWWt4RjFNTDBXb1pVOFF3WmVVTlpzdE1JaWlwSnEtc1F2cGVpT2dxTFVrZzJHVGRtc2hTd3B4V1Y0WG9scWNWOQ?oc=5",
+    "title": "5 Artificial Intelligence (AI) Stocks That Have More Than Doubled This Year and Can Still Go Higher - The Motley Fool",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVXJvTVR5eFhkTUUzSHNCN2xyNHpzSzVKVG0tU3c1b2hSSGF5Yi1SSG8zb2UtcGlRbWNPN1VfTF8xeTJ0ZnhOdDE3Z0g4U1BWcHZqNG9aYXVranltb2hIUDRiWFQ3bEM2MGtuT19xY1lneGVtLVpyZ2JRemRxc0UzcERXVEVKV0pZY3loRkFVVElVZFRDRzdheQ?oc=5",
     "date": "2026-05-18",
-    "source": "MEXC",
-    "companies": [],
-    "summary": "Publicis Groupe expands AI ambitions with $2.2B LiveRamp buyout  MEXC",
+    "source": "The Motley Fool",
+    "companies": [
+      "Intel"
+    ],
+    "summary": "5 Artificial Intelligence (AI) Stocks That Have More Than Doubled This Year and Can Still Go Higher  The Motley Fool",
     "relevanceScore": 0.31
   },
   {
@@ -97,12 +169,81 @@
     "relevanceScore": 0.31
   },
   {
+    "title": "Eco Wave Power U.S. Joins NVIDIA Inception Program to Advance AI-Driven Renewable Energy Infrastructure - PR Newswire",
+    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQcUVLbll1M29XZFByMGh1RDA1WE9aOUljMjVZX0toaUMxZGNtMFlQelBhS1pocnVjbUtETzY3V0pMWDRFMGo5aE5WaHdEUjU1MGllS1BGY3c2YVNzdnh3T0dLN3JqY1h4M0pGbTZUd0JMTTM3M1UyQkVLOXk5aEVKQUtuTDhSXzNFNV9QaFZOblIyeFdkX2pxSkJDazQxY21UdkRGaXpSZXFTVEx2aU96aFlQaG1Rd2hscVdYd1RwU19QcXZ0SG1UaUtzTEpWUkNhMWxHeEhmTV9saWdVTGZ1R0RWUnJXdGQxMGtoWG1R?oc=5",
+    "date": "2026-05-18",
+    "source": "PR Newswire",
+    "companies": [
+      "Nvidia"
+    ],
+    "summary": "Eco Wave Power U.S. Joins NVIDIA Inception Program to Advance AI-Driven Renewable Energy Infrastructure  PR Newswire",
+    "relevanceScore": 0.31
+  },
+  {
+    "title": "AI’s Natural Gas Boom Hits Reality Check as Data Center Builds Slip - Natural Gas Intelligence",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPblg3ME5oa3Iwb0Vwa09hWFhNU2xVUGNrXy1sTG13Tk5nUWpqTVp3dl81aXFkM3U0OU5JUndzRXd3S3N6M3g0STh1dlZuMVdURzgyLW9URC0wQ2RNTXZLR25xUzlfOWJLNDlyMG9uQVpuR2FPZXdGYTBnU1JTR2hEMXlUZXNZSENkaVlBdzdLYlhMZkk5S3ladnp1dXJnNjBpcGc?oc=5",
+    "date": "2026-05-18",
+    "source": "Natural Gas Intelligence",
+    "companies": [
+      "Intel"
+    ],
+    "summary": "AI’s Natural Gas Boom Hits Reality Check as Data Center Builds Slip  Natural Gas Intelligence",
+    "relevanceScore": 0.31
+  },
+  {
+    "title": "Nvidia Earnings Preview: AI Trade Caution Grows - Gotrade",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPY0NCM1Z2U2M0VmRYNGlEbURKOXIwZThHeTB3Nl95VnBHQWpqRmg3NUVVdDlJc3hHcE1qQm5kby02MVBvX01ZUDBwV0xQSHpFX2pIckdwcWNyUE9iT0R4bHRuYjZLT0tLeDlUODJfci1uVTZmV0tLZ0ptclVoX2ZBdVdR?oc=5",
+    "date": "2026-05-18",
+    "source": "Gotrade",
+    "companies": [
+      "Nvidia"
+    ],
+    "summary": "Nvidia Earnings Preview: AI Trade Caution Grows  Gotrade",
+    "relevanceScore": 0.31
+  },
+  {
     "title": "This Is the Only AI ETF You Need to Hold During the Capex Boom - 24/7 Wall St.",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSXNseUdWdmlWRHlNUk44cF9sdUxONGY3bFpYeXd2dkY5NjhrWURlb0JVSFd2Tlh3V0duWmpNcXpVb2J0dUJ5aHFOYlowM2pSdEE2bUlZOHBPUC1GemJlWjM1MWZILTZaSDMxdlNxUlZCRUUzMklRbzRtajZRd0d0UV9Zak1XWlVZQ1lyYWlDVEV2Z3Zvbk95b3I3M3RHMXUwYUZTRWRiT18wdw?oc=5",
     "date": "2026-05-18",
     "source": "24/7 Wall St.",
     "companies": [],
     "summary": "This Is the Only AI ETF You Need to Hold During the Capex Boom  24/7 Wall St.",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "Europe’s AI future at risk as soaring power costs push data centers abroad - TradingView",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNU25wZkhoLTg4bTNUaDV6VHdBeHlnYzQzYk5iVEFLUXlXWjZxT2tlREZuZTJmZkxMWVFqaEhjN3JBUHdYRTZfbC1NNElDR1FFTE4zMzZ5OHMxV3VCOXFxbTVlX1Zsai1JT191OXNpck1LT3c5M3h0LTdsVktGYkp4TEZUZ0xHbHVPcURNQ0JhZXNfMXNvTGZDekNLMmtOWkk0VXVRSG1HZkZrMVgzcnZtV0owR1R0M1ZHT2kxeHh3VUdSVTFWQjJRNk1LTQ?oc=5",
+    "date": "2026-05-18",
+    "source": "TradingView",
+    "companies": [],
+    "summary": "Europe’s AI future at risk as soaring power costs push data centers abroad  TradingView",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "Europe's AI sovereignty gap laid bare at Brussels cloud summit - Euractiv",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWmpJSXVmSmtBSzNQN2w4SjFzWmpWMkpXOWdWcEdHdTlGM3FZQmdVdjNyckZON25XSk5hMGVBNHZtNXg1OXlhWW9LVHV2dzJ1c2lmLWdWY2VITGhpRk5mTE1CLXpNY01OeVBrZGpqZV82RmxvVFpXb3V3MkgzZGhqOXRHN0FFaE96T01VT05ocERkbHBtNHZV?oc=5",
+    "date": "2026-05-18",
+    "source": "Euractiv",
+    "companies": [],
+    "summary": "Europe's AI sovereignty gap laid bare at Brussels cloud summit  Euractiv",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "HIVE subsidiary BUZZ launches major AI infrastructure project in Toronto - thestreet.com",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPM0M0SDE1Z193UHdvaVZBX1ZsNDZnLTkxX0NkNGJGbGJGOE8wb09qYXBoREtzOXp3SGNPa1o2VlZ5UDZMY3JsXzZZeEpNMW4xN2xRWFNzM3JCcEdZMncwWW5oeDdXS3VKNXJWQi1CX2ViT3V6bjhZVlhPcUgxSU9XTnh6dUVkTTBwRkxld29GeUMxZ1NTZ0VXOF9jSU1JMnRrOFFEUWk3bmpfSVIwMlFlaVRKQWVCYms?oc=5",
+    "date": "2026-05-18",
+    "source": "thestreet.com",
+    "companies": [],
+    "summary": "HIVE subsidiary BUZZ launches major AI infrastructure project in Toronto  thestreet.com",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "Diebold Nixdorf Appoints Raj Singh CIO to Drive AI and Infrastructure Modernization - citybiz",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYm1TVW5OOHUxdWVtMFdvc3FZRzRjMzRXcFhmQ183M3pVTzZac0JiRmNBUVlENEpKdzQwcWJnVklyRmJlSm9pTFBYbllEUlYzYmNpajdIbUtQNjhhWTZ3VEFESlZUN3pTeVNnNUpDMzVBc3lTV1JxaDJTVk5ldTdVVXItQ3EyaU1lbV9aR1d3aG5faVQ2RWl5T2ozRlVNQ2pPZHNfaUh4Z3F3eDBKeGZLUS1LS1YydkhFeTBobUp4OA?oc=5",
+    "date": "2026-05-18",
+    "source": "citybiz",
+    "companies": [],
+    "summary": "Diebold Nixdorf Appoints Raj Singh CIO to Drive AI and Infrastructure Modernization  citybiz",
     "relevanceScore": 0.21
   },
   {
@@ -115,12 +256,48 @@
     "relevanceScore": 0.21
   },
   {
+    "title": "HIVE's BUZZ HPC Announces 320 MW Sovereign AI Infrastructure in Greater Toronto Area - The Globe and Mail",
+    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVE1mZlJhUUJSOXVoRnU2RHBVdTZlT2tyME5KZVJjX18zXzg2VHJmM2pEdjlDLUY4aV9ESkk1SkxjY2ZZWmVCZnlzUVRhOGpoRDRwaHJwdjRhcUJWZDVNZ1lqQXJVM2V2aUZDQ2xUQWM4X1VkTHZsN3NJWWFsUDZsRktwLVlaa3piOEhmb2oyaWkycHRoS2d5X01DNFd2R3c1b0RrZEVKazB1d0Z0T1hiWllPMF9OVkM2a2NXUDNOa3oxVDFjekZ3VDhxcVBjdFNuR2RBaU5IWVNyaTNaMUxzZ0Fsay1RNktWYVd1Umcxb05kdEc5dmh4RQ?oc=5",
+    "date": "2026-05-18",
+    "source": "The Globe and Mail",
+    "companies": [],
+    "summary": "HIVE's BUZZ HPC Announces 320 MW Sovereign AI Infrastructure in Greater Toronto Area  The Globe and Mail",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "The AI infrastructure window is open. Africa shouldn’t watch this one close. - TechCabal",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNlFGVjc0dUFaMlJ3OVJvdEE0WnJDUk5jeV9EclczSEZjb3lIZGdlelBTRTJJY1lCOWZtMnY1RmZjbzhCSUdTTkRBS2lGanFYQ2dCN250SWpVekxxRWNJWk5TcXotcUY5d1ZxdW9mOU5xZGhWNW1oQmFQSUstZW50UXczUjQyRlk?oc=5",
+    "date": "2026-05-18",
+    "source": "TechCabal",
+    "companies": [],
+    "summary": "The AI infrastructure window is open. Africa shouldn’t watch this one close.  TechCabal",
+    "relevanceScore": 0.21
+  },
+  {
     "title": "Jabil stock (US46612W1036): AI infrastructure boom meets valuation and insider selling debate - AD HOC NEWS",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUEFvQ1FMWEdQNHpmS0JoWUtkQy1odU1MR2FPSmRIS2U5U09sRjNPZU1ZZHdDOFdRSHptVXktdjZIN1ZNWk1zcENNNExfUFVjdTBLOEZ5ZEtPNUZCanJZeHRSWENMMmdwRnRTOUp3OTZEWXRXREJGREJTU3V5Q2VKQk9TX0JIY2ctRll0Z0t4SkwtSWx4TklVeVdQcEVSUy1FQ2FmQ0pXbFJReEwtemxEVml4dklkQkFxeEQ1RzBENlhIMjFU?oc=5",
     "date": "2026-05-18",
     "source": "AD HOC NEWS",
     "companies": [],
     "summary": "Jabil stock (US46612W1036): AI infrastructure boom meets valuation and insider selling debate  AD HOC NEWS",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "Riot Platforms’ AI spending puts pressure on Bitcoin investors - TechStock²",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPU3hma1hEX19Bc0R5WFZYWkVNZWMzb0d0Um83WVhwT000LXpCMllLaTJoMUxMdVNRMVQwV0VWbDFrSTRKRFNSQzJSaldQMkFaeWlONjgteFVWT0l3NklaUWgxMzhhM2JMaWxzY3hlRFBOZHhLOEFvTlhsZ0tCbnJNUnNGWmZEc3V3aENnaW1nQzdwdi15U1liTmQ2aw?oc=5",
+    "date": "2026-05-18",
+    "source": "TechStock²",
+    "companies": [],
+    "summary": "Riot Platforms’ AI spending puts pressure on Bitcoin investors  TechStock²",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "US Stock Market: AI boom and consumer spending trends take center stage as earnings season nears key test - The Economic Times",
+    "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNVG0tdWpDMUs3Y3RKSDRHLUgyNnhwSWRXY05kT3lTZmdNWUVKX2lqZWRXdm5lRFhtaWx3aVA3X2FzMmh6ZVVFWkZzY3RjWG5POXJHV0pJQVZxcDU4OGxPOE9GajF5ZGxBTmh2azIybzUyMmJ6Tm5VdUthMllDbUR0SjVYRmdnTkQwOHV4SWZ6UWlwMm15LThOc3R3V1BOYWxTaVM1QkpLc2JNQVZDSklHZGt3QlBicjcwSEg2Yy1tYnNHN1NySjJKY3JIdUtpWTAteFVsNGM4aUlTa3ljZ1JLS0NLQmp5aUh3ejBlR1JoeGl5QTVpSDlvYk05bUc4ZWVtdEVYSkdpaVVYU25SWXfSAZMCQVVfeXFMTWJhSnIwTDBfS1VGNVdiQVpDSC1pbmxiUTJib1ZTZmZ6QzFYQ3BWaVNlQ0F1NkNNYVZZVm5EWXk0QVBWOXNBXzVadEItR0JSb1RDUHM3TWR3eFVxcENFRXRxQUFGRXpDbGFFcG5MQlRHdFVUa0ZHcll5VUVISE5TQ3JZa2dXdEE3N2hJb1Z5NVE4MS1Cc3ZHaVhMOVpIbk1zOEI4ZjNoNzRsTXVrblB4WVVhVHRBOHQ4cEp2QktuZ3ZJTF9oLWZSbEZSc19maWQyaWxBbnNaeWFUUHJfTjM5WVp1blFaaVo4MmRra3lwUWNVV0dIcHhMcGN2cUhFWERHWU5hVTRVRzNubkRrbTlaX21pZms?oc=5",
+    "date": "2026-05-18",
+    "source": "The Economic Times",
+    "companies": [],
+    "summary": "US Stock Market: AI boom and consumer spending trends take center stage as earnings season nears key test  The Economic Times",
     "relevanceScore": 0.21
   },
   {
@@ -141,17 +318,6 @@
       "Cisco"
     ],
     "summary": "What Is Cisco Systems? A Beginner's Guide to CSCO Business and Stock Value  TradingKey",
-    "relevanceScore": 0.2
-  },
-  {
-    "title": "Cisco Systems stock (US17275R1023): AI-driven orders support outlook after earnings beat - AD HOC NEWS",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQOUVSaS1neXBlbkgwb3RqTVFxeEtLd29mVWtDdWtyQmZBSzBsM3VMZjV4SEQ5bXo4UTVZa18yX3ZzR3lfVkNrd1JIM0lmZTg2SVBlWFlSd0oxQ09BVTQ5NW5uMGlaNUszcXB1MVducHEzRUVjVk1xUDhtZUx3dGNNNTNuRDdEMzR1UHpLVWZEZ3RxTFprV3hidEE5YXIwQl9TbW1qMEZ6NTg3a0pKdGZfODNvanEtWUhmd1RjN3lmeVhmS2N2TG51SlJn?oc=5",
-    "date": "2026-05-18",
-    "source": "AD HOC NEWS",
-    "companies": [
-      "Cisco"
-    ],
-    "summary": "Cisco Systems stock (US17275R1023): AI-driven orders support outlook after earnings beat  AD HOC NEWS",
     "relevanceScore": 0.2
   },
   {
@@ -188,15 +354,33 @@
     "relevanceScore": 0.61
   },
   {
-    "title": "Tesla plans $119B investment in Terafab chip manufacturing facility",
-    "url": "https://cryptobriefing.com/tesla-terafab-chip-manufacturing-119-billion/",
+    "title": "Eclipse Ventures turns $6.5M Cerebras investment into $2.5B windfall",
+    "url": "https://cryptobriefing.com/eclipse-ventures-cerebras-investment-windfall/",
     "date": "2026-05-17",
     "source": "Crypto Briefing",
+    "companies": [],
+    "summary": "Eclipse Ventures' success underscores the growing investor appetite for AI infrastructure, highlighting a shift from software to hardware focus.\nThe post Eclipse Ventures turns $6.5M Cerebras investment into $2.5B windfall appeared first on Crypto Briefing.",
+    "relevanceScore": 0.52
+  },
+  {
+    "title": "For Eclipse, the $2.5B Cerebras win is just the start of realizing its physical-world thesis | TechCrunch",
+    "url": "https://techcrunch.com/2026/05/17/for-eclipse-the-2-5b-cerebras-win-is-just-the-start-of-realizing-its-physical-world-thesis/",
+    "date": "2026-05-17",
+    "source": "TechCrunch",
     "companies": [
-      "Tesla"
+      "ServiceNow"
     ],
-    "summary": "Tesla's Terafab could revolutionize tech industries by centralizing chip production, impacting global supply chains and tech innovation.\nThe post Tesla plans $119B investment in Terafab chip manufacturing facility appeared first on Crypto Briefing.",
-    "relevanceScore": 0.61
+    "summary": "Investing in the real world was lonely for Lior Susan 10 years ago. Now his firm finds itself at the center of the tech world's action.",
+    "relevanceScore": 0.5
+  },
+  {
+    "title": "Top Wall Street analysts suggest these 3 stocks for their long-term prospects",
+    "url": "https://www.cnbc.com/2026/05/17/top-analysts-suggest-these-3-stocks-for-their-long-term-prospects.html",
+    "date": "2026-05-17",
+    "source": "CNBC",
+    "companies": [],
+    "summary": "Robust spending and strong demand for AI infrastructure have reinforced analysts' confidence in several stocks after earnings season.",
+    "relevanceScore": 0.42
   },
   {
     "title": "Nebius: Massive AI Moat Meets A $25B CapEx Test (NASDAQ:NBIS) - Seeking Alpha",
@@ -208,12 +392,14 @@
     "relevanceScore": 0.41
   },
   {
-    "title": "Iceotope secures $26m funding to advance liquid cooling technology for AI infrastructure - New Electronics",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYW5VSTk2SkxsdEMxLS15czd4UTdBUlFxbkJIQmJzTlA5NTJyUTZvWUh4LUNodUhrWVRCZU9Cd2QxVWdqZWJIVUZzQWtIQ0s0ZGIxRUwwX0pmZWFZQXhPVzZqbGtIQnFjc1N4TXFnMTg4cnQ2WjBhSy11WjZoWl9EakhSdlk4S19Sb1pDX1loVWhSdDVJMTZhREZ1NEgyemtnUXVXOTBJNkMycGx5OV84b2hVNUVCUUFKZXY3cXR3aGVwd284UVg2U2hDRXNtUQ?oc=5",
+    "title": "Here’s Why Amazon (AMZN) Might Be the Ultimate Hard-Asset and AI Infrastructure Stock - AOL.com",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5jczFzMUFqUmFpQXBma1FGNXE1VkdHUFEwR1JiR3Z3dUxaSUNyUGZHbVl4eG1WdHk4WEl2amozZmRVLVQ2ZkNxZE5PNFBMbEt6WmpzRTV3aXpRTDktWWVQV0g3b0tOU1FnaFVpU3FHWlhWTDlpbFRfUVFrMXAwMTQ?oc=5",
     "date": "2026-05-17",
-    "source": "New Electronics",
-    "companies": [],
-    "summary": "Iceotope secures $26m funding to advance liquid cooling technology for AI infrastructure  New Electronics",
+    "source": "AOL.com",
+    "companies": [
+      "Amazon"
+    ],
+    "summary": "Here’s Why Amazon (AMZN) Might Be the Ultimate Hard-Asset and AI Infrastructure Stock  AOL.com",
     "relevanceScore": 0.41
   },
   {
@@ -228,70 +414,45 @@
     "relevanceScore": 0.41
   },
   {
-    "title": "India missed out on AI, and now its run as market darling may be over",
-    "url": "https://economictimes.indiatimes.com/markets/stocks/news/india-missed-out-on-ai-and-now-its-run-as-market-darling-may-be-over/articleshow/131148382.cms",
+    "title": "India–US Trade Tensions Cloud Modi’s Solar Energy and AI Ambitions",
+    "url": "https://www.fairobserver.com/world-news/india-news/india-us-trade-tensions-cloud-modis-solar-energy-and-ai-ambitions/",
     "date": "2026-05-17",
-    "source": "The Times of India",
+    "source": "Fair Observer",
     "companies": [
       "ServiceNow"
     ],
-    "summary": "India's stock market faces a significant downturn as global investment shifts towards AI. Foreign investors are leaving, impacting market value.  The country's IT sector, a major driver of past success, is now vulnerable to AI automation.  This presents a cri…",
+    "summary": "The India–US bilateral trade agreement, announced in February, was expected to be finalized by April this year. However, the deadline has now passed without an agreement, as the Trump administration’s unpredictable tariff policy has rendered the original term…",
     "relevanceScore": 0.41
   },
   {
-    "title": "AI Book Club discussion recording of 'Life 3.0: Being Human in the Age of Artificial Intelligence', by Max Tegmark",
-    "url": "https://idratherbewriting.com/blog/book-club-tegmark-life-3-0",
+    "title": "Berkshire Hathaway buys into Google parent Alphabet in landmark 13F filing",
+    "url": "https://cryptobriefing.com/berkshire-hathaway-alphabet-google-13f-filing/",
     "date": "2026-05-17",
-    "source": "Idratherbewriting.com",
+    "source": "Crypto Briefing",
     "companies": [
-      "Intel"
+      "Alphabet"
     ],
-    "summary": "This is a recording of the AI Book Club discussion of Max Tegmark's Life 3.0: Being Human in the Age of Artificial Intelligence. Our discussion explores Tegmark's visions of superintelligence, the unpredictability of AI goals and subgoals, and how the Asiloma…",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "Australia is missing AI boom, warns investor in Anthropic, OpenAI - AFR",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNR0xMcUNDVDZOdWxZUFhGbU5pQ0l3ajV1WHB3S1FZeDAydTFSVXNJS2cyZzNNemcxcFV4OTF2aVBvZGdOTE52THQyeTFiZFJ2YlJVS3lLMDBwdnZKWUc4OHhhc1lPMmI2Rnc4c0hOWEZLbkgxRWoyVS1LZ1hXLW9rdm5rMGdLc3VKS2JDS1JOZ3JsS3kza3Y0OGlGaWMzRmZ4OWFiZ1lGT1k5OHhyQjA0?oc=5",
-    "date": "2026-05-17",
-    "source": "AFR",
-    "companies": [
-      "OpenAI",
-      "Anthropic"
-    ],
-    "summary": "Australia is missing AI boom, warns investor in Anthropic, OpenAI  AFR",
+    "summary": "Berkshire's investment in Alphabet signals a strategic shift towards tech diversification, potentially influencing other investors' tech allocations.\nThe post Berkshire Hathaway buys into Google parent Alphabet in landmark 13F filing appeared first on Crypto …",
     "relevanceScore": 0.31
   },
   {
-    "title": "From axles to rare earth: India draws up list of 100 products it still can't make enough of",
-    "url": "https://economictimes.indiatimes.com/news/india/from-axles-to-rare-earth-india-draws-up-list-of-100-products-it-still-cant-make-enough-of/articleshow/131148994.cms",
+    "title": "LiveRamp Announces Fourth Quarter and Fiscal Year 2026 Results",
+    "url": "https://www.globenewswire.com/news-release/2026/05/17/3296257/0/en/LiveRamp-Announces-Fourth-Quarter-and-Fiscal-Year-2026-Results.html",
     "date": "2026-05-17",
-    "source": "The Times of India",
-    "companies": [
-      "Amazon"
-    ],
-    "summary": "India is set to boost its manufacturing sector by identifying around 100 products for domestic production. This initiative aims to reduce reliance on imports and enhance global competitiveness. The government is also streamlining foreign investment approvals …",
+    "source": "GlobeNewswire",
+    "companies": [],
+    "summary": "Q4 Revenue up 9% year-over-yearQ4 Annual Recurring Revenue up 8% year-over-yearQ4 Subscription Net Retention improved to 107%FY26 record annual Operating Cash Flow of $168 million and Share Repurchases of $194 million",
     "relevanceScore": 0.31
   },
   {
-    "title": "As electric bills rise, some states are focusing on the growing profits of utilities",
-    "url": "https://abcnews.com/US/wireStory/electric-bills-rise-states-focusing-growing-profits-utilities-133044569",
+    "title": "Nvidia boosts S&P 500 earnings growth with strong AI sales",
+    "url": "https://cryptobriefing.com/nvidia-sp500-earnings-ai-sales/",
     "date": "2026-05-17",
-    "source": "Abcnews.com",
+    "source": "Crypto Briefing",
     "companies": [
-      "Intel"
+      "Nvidia"
     ],
-    "summary": "The artificial intelligence boom is leading to fights in some states over growing utility profits",
-    "relevanceScore": 0.31
-  },
-  {
-    "title": "Malta just became the first country to give every citizen free ChatGPT Plus. There’s one condition.",
-    "url": "https://thenextweb.com/news/openai-malta-chatgpt-plus-free-citizens/",
-    "date": "2026-05-17",
-    "source": "The Next Web",
-    "companies": [
-      "OpenAI"
-    ],
-    "summary": "OpenAI has signed a deal with the government of Malta to provide all Maltese citizens and residents with free access to ChatGPT Plus for one year. There is one condition: they must first complete an AI literacy course developed by the University of Malta. It …",
+    "summary": "Nvidia's dominance highlights market fragility, as its performance heavily influences both S&P 500 earnings and AI-related crypto assets.\nThe post Nvidia boosts S&P 500 earnings growth with strong AI sales appeared first on Crypto Briefing.",
     "relevanceScore": 0.31
   },
   {
@@ -304,15 +465,6 @@
     "relevanceScore": 0.21
   },
   {
-    "title": "Big Tech Wants To Turn Suburbs Into AI Infrastructure - MITechNews",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZl9qS1BqOVBZYVgtNWp4U1lHQzJvajJneFBiUUdXTmIwald2WGJtb0JlOENFaG9md1c2eUZwa3VLMkYzdmFOMFM1MTNQSW9qUTgweXc0UDBidUp4UEI0OEVRRG53N0E3SkR0Q0xtZTJ0YzhGQ1V4eGd1UEZ1cVAxUWtLblBJQTNnNkJtVw?oc=5",
-    "date": "2026-05-17",
-    "source": "MITechNews",
-    "companies": [],
-    "summary": "Big Tech Wants To Turn Suburbs Into AI Infrastructure  MITechNews",
-    "relevanceScore": 0.21
-  },
-  {
     "title": "Why Advisors Are Betting on AI Infrastructure Over Apps - The Daily Upside",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbUhrTUZZWllBQWVYODg0aDIzSy03c3FVZnpZUUJZNVFPZGhBMk05QmRKU3FmbnlWWC10Z2YzMi0wbVRSSTc2bDlsSG94NTZ1LUR5VUw1c2pkeGcwcHJIZ3RTbnhacmowbWNJMjZkY1ZDVE9qN2tHaFJzZXI2VmZiU3JRQjRsQ09XSTAxWk9xWnVvbV9iS3Bkb2ZST3V5SE54eXpvbS1Td2tpeFdQMWllRDdhekVNT2c?oc=5",
     "date": "2026-05-17",
@@ -322,39 +474,12 @@
     "relevanceScore": 0.21
   },
   {
-    "title": "Lumentum Holdings: Optical Networking Driving AI Data Center Growth | 2026 - News and Statistics - IndexBox",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQXRwdTZ5aUJQY0xSOVNUTGlYSFdrQkhzQW1HbThjek5Xazd1U2F0TkQwSHM2QXhUMFV6UzhadkIxWllTdlhNMnZBaGkyN3RfU0sxUDRfbDdqVHJHTHpZc19tLS1kZmJnTUU1QlBfQnUydHhXT19CUEt4WkJZNWNZZG9ORUI1UmpJYm9UM192Q0hYUUF5aW9QQkU2aHdOUQ?oc=5",
+    "title": "Big Tech Wants To Turn Suburbs Into AI Infrastructure - MITechNews",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZl9qS1BqOVBZYVgtNWp4U1lHQzJvajJneFBiUUdXTmIwald2WGJtb0JlOENFaG9md1c2eUZwa3VLMkYzdmFOMFM1MTNQSW9qUTgweXc0UDBidUp4UEI0OEVRRG53N0E3SkR0Q0xtZTJ0YzhGQ1V4eGd1UEZ1cVAxUWtLblBJQTNnNkJtVw?oc=5",
     "date": "2026-05-17",
-    "source": "IndexBox",
+    "source": "MITechNews",
     "companies": [],
-    "summary": "Lumentum Holdings: Optical Networking Driving AI Data Center Growth | 2026 - News and Statistics  IndexBox",
-    "relevanceScore": 0.21
-  },
-  {
-    "title": "Why global AI infrastructure is vital for Scottish startups​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ - The Scotsman",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMDJsd2tCOUtDd0RjNmdKcDNuUkQ1M1ZkbHd3YjRwSVZ2OTlqdFJlX25HZjd0aUhCX0VMRXljOW5SOVNJVFJGR09RV0tMYlgycW8tY0ZkSUdDdjlIazRpbng5VDNkM19POVBfY3JyLU5GV293NVpia1dTbENFY3FUZlJ1LWt6ZGxFLWMw?oc=5",
-    "date": "2026-05-17",
-    "source": "The Scotsman",
-    "companies": [],
-    "summary": "Why global AI infrastructure is vital for Scottish startups​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​  The Scotsman",
-    "relevanceScore": 0.21
-  },
-  {
-    "title": "Mistral CEO says Europe has 2 years to build AI infrastructure or face permanent dependence on U.S. - 디지털투데이",
-    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQjBrWTVWTFk3Z1ZmVHJNcEJZODdvNHUybXFaRlZ6b1N5LVlNeVBJaDhuTEVLZjBnYThnSXRaYU1BREVsamVuZ0FxWXRGR2tldl9aUklOODJxakF5Zk9BVVNQUWZjOE9mbjdPb0dSeHphVHFQenNVQm1BRXF5cDl3WmtYNTBHeTQ5Sjk4Z1BVZFpNM013NkxtNThTMl82NkJidzRZUkRzdFVuekhWOUVCZFhHRG9laWlCV2pwaXJrQmdKZkpkZGpQYV8xbi1TWlhGZEQzcDBoa2M1d21q?oc=5",
-    "date": "2026-05-17",
-    "source": "디지털투데이",
-    "companies": [],
-    "summary": "Mistral CEO says Europe has 2 years to build AI infrastructure or face permanent dependence on U.S.  디지털투데이",
-    "relevanceScore": 0.21
-  },
-  {
-    "title": "AI spending surge could add 3% to US GDP, and that may be just the start: David Sacks - MSN",
-    "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNZXlHeXVWbjRrWUVBLTJvbC13MXVyOV9vRlV3U1U1UlhqYXVFTU1MNGVYVUFmS05QQW5xM1Rpd3AtVXVlUWxVZXVVNXctUkZWQjBCSWVPbEtHVWpwY0swTTBBenVXRVVzLXBzNllvbUxjNGFYelZQdTlZRng3YXUyZkJXeEFxT3czQU1SbzQtZnlGX1FYZVZRLTlGRTAwN3ZJcG9ralJpX1ZRLWN2X0pKSlQxZmpPYmhJOEpDTXMxZFhySE9lYTRYUFVFb3NndjJFRFFDYkI0UG9XOFZOU0pTaDMzOEhzMmtZNVN5RWtkYU9NSC1PZHRmd3BEaXRFcUFlV2hTR2lDcVF5N3BpeWw1Qg?oc=5",
-    "date": "2026-05-17",
-    "source": "MSN",
-    "companies": [],
-    "summary": "AI spending surge could add 3% to US GDP, and that may be just the start: David Sacks  MSN",
+    "summary": "Big Tech Wants To Turn Suburbs Into AI Infrastructure  MITechNews",
     "relevanceScore": 0.21
   },
   {
@@ -367,21 +492,21 @@
     "relevanceScore": 0.21
   },
   {
-    "title": "Yann LeCun argues LLMs will drive real-world applications, but not human-level thinking",
-    "url": "https://cryptobriefing.com/lecun-llms-real-world-applications-not-agi/",
+    "title": "This billionaire says the market may be in for a ‘breathtaking’ correction — but he’s still buying AI stocks. Here’s why",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/billionaire-says-market-may-breathtaking-143500756.html",
     "date": "2026-05-17",
-    "source": "Crypto Briefing",
+    "source": "Yahoo Entertainment",
     "companies": [],
-    "summary": "LeCun's stance suggests a potential reevaluation of AI investments, emphasizing practical applications over speculative AGI advancements.\nThe post Yann LeCun argues LLMs will drive real-world applications, but not human-level thinking appeared first on Crypto…",
+    "summary": "Here’s how you can get in on the action (smartly).",
     "relevanceScore": 0.21
   },
   {
-    "title": "India’s stock market risks dropping out of top five as AI rallies boost Taiwan and Korea",
-    "url": "https://cryptobriefing.com/india-stock-market-ai-rally-taiwan-korea/",
+    "title": "TechCrunch Mobility: The AI skills arms race is coming for automotive | TechCrunch",
+    "url": "https://techcrunch.com/2026/05/17/techcrunch-mobility-the-ai-skills-arms-race-is-coming-for-automotive/",
     "date": "2026-05-17",
-    "source": "Crypto Briefing",
+    "source": "TechCrunch",
     "companies": [],
-    "summary": "India's stock market may face reduced passive inflows and investment as AI hardware demand boosts Taiwan and Korea, impacting global rankings.\nThe post India’s stock market risks dropping out of top five as AI rallies boost Taiwan and Korea appeared first on …",
+    "summary": "Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation.",
     "relevanceScore": 0.21
   },
   {
@@ -396,14 +521,14 @@
     "relevanceScore": 0.2
   },
   {
-    "title": "Microsoft's 2 GW Wake-Up Call - Substack",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfaFRjek9sZi1Vc01YaXdjMi1ISDYzTzRieVhjYktqLUd3QVk0a1Y1dGczSWRfeDFCUnRnZF90bnZUdmFKc3hDWjF1R2NPZWRibUM0QndXc3ctSE1hOUk3ODhERmFhZw?oc=5",
+    "title": "Warren Buffett’s Berkshire Hathaway Just More Than Tripled Its Stake in Alphabet",
+    "url": "https://247wallst.com/investing/2026/05/17/warren-buffetts-berkshire-hathaway-just-more-than-tripled-its-stake-in-alphabet/",
     "date": "2026-05-17",
-    "source": "Substack",
+    "source": "24/7 Wall St.",
     "companies": [
-      "Microsoft"
+      "Alphabet"
     ],
-    "summary": "Microsoft's 2 GW Wake-Up Call  Substack",
+    "summary": "Cash is suddenly king again on Wall Street. With recession fears lingering, interest rates still elevated, and consumers showing signs of fatigue, corporate ...",
     "relevanceScore": 0.2
   },
   {
@@ -419,49 +544,16 @@
     "relevanceScore": 0.2
   },
   {
-    "title": "Samsung Union Rejects Offer, Pushes Ahead with May 21 Strike Despite Apology",
-    "url": "https://www.ibtimes.com.au/samsung-union-strike-wage-dispute-1868981",
+    "title": "Hers’s Why NVIDIA (NVDA) Is One of the Best Fundamentally Strong Stocks to Buy Now",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/hers-why-nvidia-nvda-one-163849863.html",
     "date": "2026-05-17",
-    "source": "Ibtimes.com.au",
+    "source": "Yahoo Entertainment",
     "companies": [
-      "Samsung"
-    ],
-    "summary": "Samsung Electronics' largest union plans an 18-day strike over wage disputes, rejecting the company's proposal despite a public apology from Vice Chairman Lee Jae-yong, risking significant production disruptions.",
-    "relevanceScore": 0.2
-  },
-  {
-    "title": "This tech job grew 729% in a year amid AI-related layoffs. Salaries now touch ₹1.7 crore",
-    "url": "https://www.livemint.com/companies/news/this-tech-job-grew-729-per-cent-in-a-year-as-ai-killed-others-around-it-salaries-now-touch-rs-1-7-crore-11778982935222.html",
-    "date": "2026-05-17",
-    "source": "Livemint",
-    "companies": [
-      "Palantir",
-      "OpenAI",
-      "Anthropic",
+      "Nvidia",
       "ServiceNow"
     ],
-    "summary": "Forward-deployed engineer job postings surged 729% between April 2025 and April 2026, with salaries topping $200,000. Anthropic, OpenAI, Palantir and McKinsey are all hiring. Here is what the role involves and why demand is exploding.",
+    "summary": "NVIDIA Corporation (NASDAQ:NVDA) is one of the Best Fundamentally Strong Stocks to Buy Now. On May 13, BofA lifted its price objective on the company’s stock...",
     "relevanceScore": 0.2
-  },
-  {
-    "title": "Cathie Wood sells $40.6 million of popular semiconductor stock",
-    "url": "https://www.thestreet.com/investing/stocks/cathie-wood-sells-40-6-million-of-taiwan-semiconductor-stock-tsmc-tsm",
-    "date": "2026-05-16",
-    "source": "TheStreet",
-    "companies": [],
-    "summary": "Cathie Wood, chief of Ark Investment Management, is known for actively trading her holdings, sometimes selling stocks during sharp market pullbacks...",
-    "relevanceScore": 0.52
-  },
-  {
-    "title": "Institutional investors flocked to establish new stakes in semiconductor firms in first quarter",
-    "url": "https://economictimes.indiatimes.com/tech/technology/institutional-investors-flocked-to-establish-new-stakes-in-semiconductor-firms-in-first-quarter/articleshow/131131201.cms",
-    "date": "2026-05-16",
-    "source": "The Times of India",
-    "companies": [
-      "Intel"
-    ],
-    "summary": "Institutional investors actively bought shares in semiconductor companies such as Micron and Intel during the first quarter. This move positioned them to benefit from a significant market rally. Demand for memory chips, fueled by AI development, drove substan…",
-    "relevanceScore": 0.52
   },
   {
     "title": "A Look At Meta Platforms (META) Valuation As AI Capex Surges And Share Buybacks Are Paused - simplywall.st",
@@ -472,17 +564,6 @@
       "Meta"
     ],
     "summary": "A Look At Meta Platforms (META) Valuation As AI Capex Surges And Share Buybacks Are Paused  simplywall.st",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "TCS outlines bold AI push from infrastructure to intelligence - MSN",
-    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNb0lrYXFXaXBDcEtSM1FTTzJ1aURuN0ViZ1h0d2hPc3MxM3dpOW5RcTN4RGo2RnNKZF9LT2tzWWlrOGlzZGtES05BcjQ3Zmk2WkZyZnZ3d0ZiM0twOG11cGQxOFRmSnYxVk5ZZjkxZlBvRDZKNHAwV2N4eURnbF9QUkhzMFFOTUlxXzZwNndIT3dLSTZoZGFTOVduVUFPUl8yeDdmNTFBeUxFMDJ4MGJaMjh4azMzSUduT29jZ1JsTzJaSktMZDFRTEVPQ0FnZnZJRmtMUHNYbjVIR1JIT2F0aUt3WXgzQQ?oc=5",
-    "date": "2026-05-16",
-    "source": "MSN",
-    "companies": [
-      "Intel"
-    ],
-    "summary": "TCS outlines bold AI push from infrastructure to intelligence  MSN",
     "relevanceScore": 0.41
   },
   {
@@ -499,12 +580,12 @@
     "relevanceScore": 0.41
   },
   {
-    "title": "AI data centers trigger massive 'irreversible' 76% electricity price spike in largest US region — federal watchdog demands tech giants pay for their own power infrastructure - Tom's Hardware",
-    "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxOZkVfQnFpTnpTR1hSd1E3M2hkeXFjdml2SmxweTNmYWU4S0x5bHNtenNxN1Y4emhwNXZfVVJaV2JqenJvSk1DQkNJSXNaUThnNFpPTjVFQUtnMXRBczBrcU9SbHNZT3NaWWF4OFJNdHR1VFhrSmdUbGVvcXl6a08yTl9fZ3h0WVo5eGVtN0Y5YThZSFVEOWlIWWJvTlJyYWd3QkViOUcwVmwtX291QjhrTU9aRXdBM2R3eFJzSi1WQ1l4SUo4VWVCeU1DN19rR0dOR1ZMZ1liSGJ0WXFEMmRyaWpCa1pHWXNHRF9Yb3BJNXlzaTQ1WWNrU3FjT2FiTzA5N2VwN3dEbXhXRG9vZ2hqWUtwVVZWbGZ1VDZ6LVZmeXlTc0tlM210bUZrSzhwY1NUM2wtdUlKQUFuWVlMMlBQQg?oc=5",
+    "title": "3 REITs to watch as AI data center spending surpasses office construction - MSN",
+    "url": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxNbG5WRjM0a0F6Y285MTRDa25zRG5WLXBaRHRya1pPaDNGSDZsaXgwYmM5aXdmcmNBclhtN25BTkc1UHZUU1liX1J6eDVRWDJ3R3cwWFdTVTREVVZzbWlyekw2MXZuNHFvSGVRbi1iRGtGLU0zYWptTHhJRmdZM0VzUV8xWmJMNnlTY0o2VnJFaDhhSTdsRkN3T0Fiak41blBRX0N0dGpDRGMtak94V20ydTE1M3ZGQU5GUmRYOTB1c181R0k3ZFlIejdnWk0xSWpSRENCQldreC0yMWdLT3RLZXZ3M1NrUmJiNUJNSFB4c1BZWGN5aUQ5aGdkdE5ZYTZubUEwYUdJOG1ORFlqcjhVekZBVFlkMFVKYTlXb2NxTUdicFhuSFFyUHYybWtEUDViQ3YtRTQxZUZnNHA2T3d1UjZNek03azlQRno5bWIxYUJGZm44dUs5M0R0dkZZODk5UGczd0c5UXZqX2F2bGpBdnZfaUY5YmhOZ0E?oc=5",
     "date": "2026-05-16",
-    "source": "Tom's Hardware",
+    "source": "MSN",
     "companies": [],
-    "summary": "AI data centers trigger massive 'irreversible' 76% electricity price spike in largest US region — federal watchdog demands tech giants pay for their own power infrastructure  Tom's Hardware",
+    "summary": "3 REITs to watch as AI data center spending surpasses office construction  MSN",
     "relevanceScore": 0.32
   },
   {
@@ -528,24 +609,13 @@
     "relevanceScore": 0.21
   },
   {
-    "title": "BlackRock Weighs Multibillion-Dollar Investment in SpaceX IPO - The Information",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZHpaMVd3UFI3UTVPYTF1Xzk3clpxcnM2dzRUaXpHMElISEY3ck1QSHpKemVwdlppM2JXU09BX0h4bTZybUVMU2NZMFpPQWtrN1VEdVY0NDZ3c05XTlByMmRJQU1KdjJISjZIcHg3V2p1aFVtMTNudDljaVZwSXNsUVdPQ25hV3dRNGhobkMwdnd6SmpSeXlJSHh6OTNENkk?oc=5",
+    "title": "AXT Turned the AI Data Center Boom Into an 8,436% 1-Year Return - Barchart.com",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdzgtUHdnMlJWdDFHWFRVOXJzaEhyLWhadExRb0NOeFFCVEF6cVhnVVdkbDFIME5vTDVNS2ZDR0Y5ZGNtaklMUHF6NGJLelBSQmJXdEdhc09Uck81WGdwS2Y3X0RZV0RxbEZvLWszTUFNemVGNHV1eVBvUXNSWWhzdXRKS2dCeERUdVlvSmtvMzcyQy1oQV9CMUw5cnFCbHZqZS1hVGJPeEstQQ?oc=5",
     "date": "2026-05-16",
-    "source": "The Information",
+    "source": "Barchart.com",
     "companies": [],
-    "summary": "BlackRock Weighs Multibillion-Dollar Investment in SpaceX IPO  The Information",
+    "summary": "AXT Turned the AI Data Center Boom Into an 8,436% 1-Year Return  Barchart.com",
     "relevanceScore": 0.21
-  },
-  {
-    "title": "Elon Musk Says If We Don't Do Something About Corruption And Waste, 'The Ship Of America Is Going To Sink' —And We're All Going Down With It",
-    "url": "https://finance.yahoo.com/economy/policy/articles/elon-musk-says-if-we-don39t-do-something-about-corruption-and-waste-39the-ship-of-america-is-going-to-sink39-and-we39re-all-going-down-with-it-230213252.html",
-    "date": "2026-05-16",
-    "source": "Yahoo Entertainment",
-    "companies": [
-      "Tesla"
-    ],
-    "summary": "America's debt bill has grown so large that even the world's richest man, Tesla and SpaceX CEO Elon Musk, sounded less like a tech mogul and more like...",
-    "relevanceScore": 0.2
   },
   {
     "title": "If You Want Commodity Exposure Without Futures Contracts, Start Here",
@@ -582,25 +652,25 @@
     "relevanceScore": 0.2
   },
   {
-    "title": "Investing $1 Million in This Artificial Intelligence Stock Today Could Be Worth $18.7 Million by 2032 - The Motley Fool",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeEViaU1VMk9xai1WVnFWSzE0YUgybDhUS1RNSmFnOHB1b0dRUGFoSnFHbXRIMFowNWZXQUs0RUpycDN4ZWhyTnIzUGt5cTB5aDlTTEFpV2JxM0YzRVZOSTdVb2NWT0I4N1FBUGNUYkVxNXB4WXU0NXdRdnRRaVFwQ0huc1pENVFOejFnQk9jOGxIdlZrTjVTMQ?oc=5",
+    "title": "Meta raises 2026 capex to up to $145B amid AI cost surge - MSN",
+    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPSUhVOXlodWp1RDJrWDluMjlWQVFLNFNBUDBHdnFKZGl6SVdnQ0lnOTdtdTktY1RuRU9rU0hFendwdDNHei1hTkJkNG5ULWN3Vm1LY0swclo3d0ozMUNkRTlwWGhfS0hlaEg2RkJOc3pvbXNQZkk3b3RkUkZSUU9NcVk5T0pHd2pienJfeDVNOFNPNmg4Nm93ZzNPbFVCeDRPZ2psRnl4dWFTWE9kdFZiZ1lOZGNFb0p5YkNFdHptdm9zamJ6Q0p4YW1ibUhzZktDTkJuSGNLMVh6TzlWX2tPOC0xMzB3NVRoR0lTR29n?oc=5",
     "date": "2026-05-15",
-    "source": "The Motley Fool",
+    "source": "MSN",
     "companies": [
-      "Intel"
+      "Meta"
     ],
-    "summary": "Investing $1 Million in This Artificial Intelligence Stock Today Could Be Worth $18.7 Million by 2032  The Motley Fool",
+    "summary": "Meta raises 2026 capex to up to $145B amid AI cost surge  MSN",
     "relevanceScore": 0.61
   },
   {
-    "title": "Where to Invest $1 Million Right Now - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNODc3T2hnal9OZWtwa1U3c2NPSTJTbm5PMFpXWmoyRWZhZGUtQ213Sm5VckxHTnVEUVFXcTBvZ2lXYUw2MHJUMVE5cDZoeHpTY1lUZkR2X1pFYkNtcFd2MlB1QVVXdGNKZTFMZm1sam80ZmNfeWNFOHJUQzh4RjN3Xw?oc=5",
+    "title": "Investing $1 Million in This Artificial Intelligence Stock Today Could Be Worth $18.7 Million by 2032 - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWURoNW5CXzN3dGRQUTIwb0hiNmNNYjF3ZGlBdERSbW1GTm1PNjQyOXVwa1N1TU10Sk81T05SRjVLQkJScGN1dExERk5jTUJkVGV2RmhnQUhVTjNNeDBaNERJVDBkUWg0bDAyaHZCcHNrcmZBYUJra3BURzVSYTU0QmVIUkFuRjdGa1NBN0NOUUNoZXhPZF85aDQ2U0F5TWo4TGhrbk81MFZCcGZY?oc=5",
     "date": "2026-05-15",
-    "source": "Bloomberg.com",
+    "source": "Yahoo Finance",
     "companies": [
-      "ServiceNow"
+      "Intel"
     ],
-    "summary": "Where to Invest $1 Million Right Now  Bloomberg.com",
+    "summary": "Investing $1 Million in This Artificial Intelligence Stock Today Could Be Worth $18.7 Million by 2032  Yahoo Finance",
     "relevanceScore": 0.61
   },
   {
@@ -647,39 +717,6 @@
       "Anthropic"
     ],
     "summary": "AI Capex Wave: Alphabet Yen Bond, Cisco Upgrade, Anthropic  Gotrade",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "‘Critical infrastructure for the AI era’: Cisco’s CEO on the earnings beat that sent shares to a record - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTS1jT3JFRUlKVGNzZTgtTzJZeTl6aHF4eXE3M0JSWFI1VmU4YUk1MzBPakZxbHNrbmtITF9iZUkwYkoxR3ZONUJOVDhkMVBfZGt1cDVDMHpoWi1FY2ZtamcxR3U3UGNoU0tCSk5SVkNQb0JwLU5CUFZKbk53T2JFZldhSEZkb0QyR2pUeV9ZSXVMX1EzVXVmUXRscFktZ2RaMXJWb0N0U2Y?oc=5",
-    "date": "2026-05-15",
-    "source": "Yahoo Finance",
-    "companies": [
-      "Cisco"
-    ],
-    "summary": "‘Critical infrastructure for the AI era’: Cisco’s CEO on the earnings beat that sent shares to a record  Yahoo Finance",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "AI Server Spending Has Nearly Doubled DRAM Prices: Threatened Samsung Walkout Could Drive Them Higher Still - Tech Times",
-    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTFBCZ25rNmZrVHRzb2tfZnljeTFzSVNiZWNxdzRoaGp3QXZSY3VCdzNoRjJkalVVeWwtOUVJSEEzVlNZbEFJMWtFSDUwNDQwSzZfaXI4OHotcjlJYUlQeXR1LUNfejhPUUVKTGdwNkowaENKODlfZHBRUFV6eml6TE9pSGJwUFg0NXNpZzdwOTlZWWxHenZFdjU5S2NRTTFUalFVaHBBSDB0YUJIYXgyWTVVazVGMkpqamExd1VwbUtSMzd1UnNYUlU0ZmdBQ2JxT0t1UDY4dHk3SkU2OG9LNW1B?oc=5",
-    "date": "2026-05-15",
-    "source": "Tech Times",
-    "companies": [
-      "Samsung"
-    ],
-    "summary": "AI Server Spending Has Nearly Doubled DRAM Prices: Threatened Samsung Walkout Could Drive Them Higher Still  Tech Times",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "Cisco cuts nearly 4,000 jobs as AI boom reshapes spending priorities and fuels hyperscaler surge - Tekedia",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZnlTd2ZoTm41QzRhaUl6UUZERFFGdWRSa0EtVVpPLUxBTHZmY1JvZkEyVzhGYlBHZGxsVldEVmktZ1FyYjBJVFlyQl94TkZ0Q3dUaHRqOFl2RDdBeUNxb0dXbFlQald5dHlJS293aTR1akJaei04MEQzWU1fQXRSZ0dmRDF0aC1UR1daeTRiR0o4STdGb1lqTUNHeG81OUdTYmlRTDl2VTZ3Qm16SkNUVmZHYlhnVmhqZzZSTg?oc=5",
-    "date": "2026-05-15",
-    "source": "Tekedia",
-    "companies": [
-      "Cisco"
-    ],
-    "summary": "Cisco cuts nearly 4,000 jobs as AI boom reshapes spending priorities and fuels hyperscaler surge  Tekedia",
     "relevanceScore": 0.41
   },
   {
@@ -789,15 +826,6 @@
     "relevanceScore": 0.21
   },
   {
-    "title": "Nebius Is Becoming An AI Infrastructure Giant (NASDAQ:NBIS) - Seeking Alpha",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMHBaOXA3LTRHSGlUQ3FEeW9SMkx0RGFLZjdjdXhyWHduZFplc19LY1lReG1XRnNsVzFGMU43azc1aktWbm5BZ1lyMGt0WUQxUmNubHItQ0dVZl9jZ2lmejZQZm5QRWFDQjR6UEdWbXVUNGFUdmdaaF9PMVQtNUtnQ3BzQkdSZWU2X3pkeEhqRQ?oc=5",
-    "date": "2026-05-15",
-    "source": "Seeking Alpha",
-    "companies": [],
-    "summary": "Nebius Is Becoming An AI Infrastructure Giant (NASDAQ:NBIS)  Seeking Alpha",
-    "relevanceScore": 0.21
-  },
-  {
     "title": "Vertiv Deepens AI Data Center Role With Liquid Cooling And Hut 8 Deal - simplywall.st",
     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWkFvZkJsMU1VOE52TzdIbjNqb1JFMGxEV2hLMml0QVNPU3lqUVdpX3JCaTRTc2pseWNfWkh3WTluWWhzQVlqcENEQXZJSTJnb0hFWU1HSVljU21EdjlSamozLW1SMml2T3dkbDM4WEVha085S3VMVzRqbkp3Q04xSVRzSG9TMjFuazlzQzIzQVhpd2pEZV9NZ3BVZXRUVzFZTkZIZ1c5dVhpRDg4aURoUTNhSk1Vc09zWmI1aWs2NERjT3pnY2REZ3pLQUZkQ0RuNWVRdDJn0gHbAUFVX3lxTE02Y2VBaGNnZl9VTEoxeWdBeDVESUx2enpYUlZ1cnFFdGUtZnhqbHkxV0h6NmVDalFLUHYzZzJpMHV4cG5YTi1qTFlEb2Z4MWFqYTNSdEM0OW1zeUhHZzlWOGRndTI2bThhZmdiczJlbGdSeWxVdDJZUk1YQjVSUV9jUjVkMVNjQTMxZTV6Y1pqTkhhazl5ejhfQ1lVTW9rMEJaZmdrY0NoSTBsY0NrTXgxZUR1cHJBam9ZQl9SRWRGU2NhekxHUUd5Tnd5ZzE2dnpmUWE1XzNVeGR5Zw?oc=5",
     "date": "2026-05-15",
@@ -822,17 +850,6 @@
     "source": "GlobeNewswire",
     "companies": [],
     "summary": "Global Device as a Service Market Size, Share & Segmentation, By Component, Device Type, Organization Size, End-Use Industry, Region and Forecast 2026-2035",
-    "relevanceScore": 0.2
-  },
-  {
-    "title": "Exclusive – T1 Energy CEO Dan Barcelo: ‘America Has to Learn How to Build Again’ to Compete with China",
-    "url": "https://www.breitbart.com/politics/2026/05/15/exclusive-t1-energy-ceo-dan-barcelo-america-has-to-learn-how-to-build-again-to-compete-with-china/",
-    "date": "2026-05-15",
-    "source": "Breitbart News",
-    "companies": [
-      "Intel"
-    ],
-    "summary": "T1 Energy CEO Dan Barcelo said during Breitbart News’s “Harnessing American Power” policy event that America “needs to learn how to build again” as it seeks to expand advanced manufacturing and energy production amid rising demand tied to artificial intellige…",
     "relevanceScore": 0.2
   },
   {
@@ -882,12 +899,12 @@
     "relevanceScore": 0.41
   },
   {
-    "title": "The Profit Margins for These 3 AI Infrastructure Stocks Are Off the Charts - The Globe and Mail",
-    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQbllnLVZoOHRtQ0JiVVZ4X1p2SFZzdXpwMFFOZjd1NEsxRTJpOFNzOEl5SElyZU1FdGRqQURqRWpIWDczd1BMbTZCZHJmMWY0VUtjdm5KSUpIazBKSUFMMDB2Ukw2MElvX1FXNkJHZzBtWWZVZ2ZnaWN3YjluV0Uzd1VqRUhEWDlWWkRtMEoxU05EZWI3UVNXdTZKVFZ6dlk4MHhHeFJycjlndUtrTUd2alVub09WWDdyUnJvM21SbXA0aHpweGMzeGRHWDFmZldnTjUtQVdNSGJHQlFya19kOGZ2M0hIaFEtVzhmcjI5OF85U2M?oc=5",
+    "title": "My Top 3 AI Infrastructure Stocks to Buy for May 2026 - The Motley Fool",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObkdyS3NxTk0xYnpuNFNPUWstUWRBS0VGdzY2bUVYREJ4VnhLckJxTWp4RE05Q3ZwcnlHUUtpVnRPc0tweDd2cmg5VE5FVWNUdjU2czRzZXI1U0VtaEJ3dVFiVFV3RHlUbGVUMDFoNlF1VzB6dFN2TDhFamdXSGtWT21ISEZpeHh2bUFPZ3hZMmt6UWdGR3pfdA?oc=5",
     "date": "2026-05-14",
-    "source": "The Globe and Mail",
+    "source": "The Motley Fool",
     "companies": [],
-    "summary": "The Profit Margins for These 3 AI Infrastructure Stocks Are Off the Charts  The Globe and Mail",
+    "summary": "My Top 3 AI Infrastructure Stocks to Buy for May 2026  The Motley Fool",
     "relevanceScore": 0.21
   },
   {
@@ -897,15 +914,6 @@
     "source": "AASTOCKS.com",
     "companies": [],
     "summary": "M Stanley: Asia Ready to Capture Surge in Global AI Capex; Lists Latest Regional Thematic Focus Stocks  AASTOCKS.com",
-    "relevanceScore": 0.21
-  },
-  {
-    "title": "Morgan Stanley sees AI and consumers driving growth as energy shock clouds outlook - TradingView",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOOG9hOTBURjlKWkhNTWFTdnRlbGloLXVHWm5KTGFhaV91RkY4VjU2M0xtb1p4eVpmUXBoQUdVc1VXeGhJRGRlUk84bWItVGY2YWFiMWhfQk92SUI1YkE1SWg4ZGlqNGZfS2J6RThzYTNoemFfNkJYR2dKRFU5TjR6YmJnZ2FOUFJZZjZxWVdEZWZNdlJNeDc3UHk4R3N5bXEtQkdPNjc3a05lcy1keHZTb2gzWUEyT2UzdmdzcWpEZGJQLXE4aElpWkVJTF9rTWJtU0c3eUxiUFE3QQ?oc=5",
-    "date": "2026-05-14",
-    "source": "TradingView",
-    "companies": [],
-    "summary": "Morgan Stanley sees AI and consumers driving growth as energy shock clouds outlook  TradingView",
     "relevanceScore": 0.21
   },
   {
@@ -921,24 +929,6 @@
     "relevanceScore": 0.41
   },
   {
-    "title": "Hyperscalers' AI buildout will require massive amounts of energy. Two under-the-radar stocks will benefit - CNBC",
-    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMk9SNmdFdU5zbmNrVTlyMC11Q2dHLUN6YUxEWjFjMEMzQV9SczFMdlAyYnFxU3B1RFJZNHBIRGNlQlI3bUhVb2xpcDRZMk83REZpNjhlZzh4WW4wRG5TOXFjYjd0RHJIMlZfWU5VaW02SlR4N1E0MnFKSzczOUNBU2N6U0QwVFMwVmNEVmloOFFVRWJYWmtGb1JJWFo0bGdXaldOYUJsRldUVXdYVXJndTFGYlhtLXM5T09NV0l1NXltN2dma0ZNTGlvdHBlcjU1cDVuY0xZZ9IB3AFBVV95cUxPWFRvbGNFbVhQbENHT0xHdXVDdEZsV2dobEdORUxqaEI0UUc2RHJlbGtyMUpLTDNsVV9rZjNkeFlRUkhHNmp3STY1MXBqMXlqQnpTVlZjSUhfQUFsVzZ3UXNnVV83dEhVWW1RT3pZdXpac2kxTmZXY3hpMDBOdkZ1cElTeHJGTUFsY1dzTGJpdnhMRC1HamM0dDhkNXdObWt0a1JYbnhxYUo2RVU3SHNKbWdZRC1uMWRIWWR6NjFsSGdpVlMyZU10S0ZnRC1EQm9ZY05rRE1HaHk0LXNK?oc=5",
-    "date": "2026-05-13",
-    "source": "CNBC",
-    "companies": [],
-    "summary": "Hyperscalers' AI buildout will require massive amounts of energy. Two under-the-radar stocks will benefit  CNBC",
-    "relevanceScore": 0.21
-  },
-  {
-    "title": "My Top 3 AI Infrastructure Stocks to Buy for May 2026 - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMlNlRlpTWHliWDR1U0NBN3BZbVNtd2MzUFhBd0Vfd1B5ZGZZVFpKRTMzNzNvajRxbzUyc05zaW4tWGg4bVd0a0ZjbS1ZdWxFOWllZWN1S3Y5dW5YZ1V3Vld6N0VxdVBnakJfaG96MFlUa0JBN0I3cDlVQmJqS1lzenBsLUpFTjhmYUphVTlDYXFpRE8zdE1vclB1eXcwd3lz?oc=5",
-    "date": "2026-05-13",
-    "source": "Yahoo Finance",
-    "companies": [],
-    "summary": "My Top 3 AI Infrastructure Stocks to Buy for May 2026  Yahoo Finance",
-    "relevanceScore": 0.21
-  },
-  {
     "title": "Best AI Stocks to Buy: Smart Artificial Intelligence Investments - Kiplinger",
     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxON2pBcWM0Q3FlQlRjU1VUbEhXTzc5bjBWeWkwazcxNi1teDFUMlUyVkhiLWY3OFJzVzFaTEVEcXU0Vjl6TXZKZ084NkpISk1RNzJyQkJBX1hBRHFuam4yX09pWHBpQnZiMkJSaGtKUktoa3Z0TVNmRjZOX3JMU0VOM0RfdXlJNnZuMGpKeTBybVFuc2h4Y3NmMDZmdURYaVhkcG5xbUNEVkZXUVVM?oc=5",
     "date": "2026-05-12",
@@ -950,13 +940,24 @@
     "relevanceScore": 0.52
   },
   {
-    "title": "Tech companies tap debt markets to fund AI and cloud expansion - Reuters",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWGhoV2p0ejNjMkltQ3BEaEZaUXV6SGpUUVd6akVEck5HMUpxWmhRM2lid3UtRmdCOHItS1k0TFlzdEd6X3c4WDZTbUxfa284N3k3TEMzWmVHdE1fMjRWTjh0N3NnYVBHVWZSc1ZRUkVhZnBvaXNSS3VNSnQ3MDlsTDBXbC04LXFDZnZyVWJIMUk5SmRvdkFsMGNaTnBjUktkajZVX3lkYnlHcFVDN05ZaEp6U2Q?oc=5",
+    "title": "AI spending likely higher than suggested - Semafor",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQkppaGR2M3ZrOWJqMk52bmVRT2FJaUtXcE1iZmNxMEYtTEtGempIbWZ0akNlN2h0TDAzcUxLeC1SdkctS3hyR2VRZ0RXLUR5Mk8zdXNfZE41QlpLSVRBTjBVZndfWk5mNnNDb0Iyb290RW52SHl4YXY4d2Uxa3RnVFA2UnpKMGloamJjWDNVQUNEZmxmaC00T2pyd1o?oc=5",
+    "date": "2026-05-12",
+    "source": "Semafor",
+    "companies": [],
+    "summary": "AI spending likely higher than suggested  Semafor",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "OpenAI creates new unit with $4 billion investment to aid corporate AI push - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONzBVZGx1c2JvQTRJeWZ2d1FPQU1GTnhSaEZONVV0YmpaRnI4WE50Q25udWxlNC1LbVR0ZkJnTzJYM0dRekdNZWVVempHSEZJT1ZTS1Q3bDI0NHJRdW5lOURaUmNPX0UtQVNnUXNyQUhXQnhvd1lYT1JZdXl5dWtiNk9CblcxV1FHQmdoSGpiekJjX3kwSlZSeHVOcE93ZHY1VU92bldWRTZqb2NKck1yUlRqWjkzRk0?oc=5",
     "date": "2026-05-11",
     "source": "Reuters",
-    "companies": [],
-    "summary": "Tech companies tap debt markets to fund AI and cloud expansion  Reuters",
-    "relevanceScore": 0.31
+    "companies": [
+      "OpenAI"
+    ],
+    "summary": "OpenAI creates new unit with $4 billion investment to aid corporate AI push  Reuters",
+    "relevanceScore": 0.82
   },
   {
     "title": "Alphabet: 8-K",
@@ -979,15 +980,6 @@
     "relevanceScore": 0.21
   },
   {
-    "title": "Huagong Tech eyes Hong Kong listing amid AI infrastructure boom - China Daily - Global Edition",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPU3FON3o5UXRUTVpyRDVDY3hZRXJlc3A2QThqU2xMb0pCcFowaGlFSlh5X04wcXVHMG1vczNyX2U3RnJ4ZDREMUdVaWVmejF1UGNqRi1sdGZLejhveXhlZVdJRm1VUk15T05Bc1Y0c3dzR0o1aDdjQU5KQUNDVzlicFF3?oc=5",
-    "date": "2026-05-11",
-    "source": "Global Edition",
-    "companies": [],
-    "summary": "Huagong Tech eyes Hong Kong listing amid AI infrastructure boom  China Daily - Global Edition",
-    "relevanceScore": 0.21
-  },
-  {
     "title": "Tech Giants' Cash Reserve Shrinks Amid $725 Billion AI Investment - PYMNTS.com",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWEhfRUI1WENUTzBib05SbnZYdlhSbjB6Y25oOHFrd3lBWC1KQXdRUTFFQXZMR0daVzVTbjZkRmNncm43WjRiUmo2VmFwa3BqUXZSUjc5UW4tUUhFMXFSXzB1M25PTTlzUS1HTGdueXRkRHNwLTIwelVtemUxcTZ2Sm1FOE1CMUY4b2N5TlljZXI1ZmhHSlc1Z1FiU0E1dzhJX0lFSEhZNC1rZnB5Vzg4ZkZCX2EyYmctNnc?oc=5",
     "date": "2026-05-10",
@@ -1006,6 +998,420 @@
     "relevanceScore": 0.31
   },
   {
+    "title": "Prediction: AI Infrastructure Stocks Will Crush the S&P 500 in 2026 - The Motley Fool",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa3ZQbkdpNENmTVIyN2NuS3BoLS1ZQUpDdUdtWkVGVmhseTBwX1BWa1JfcE5nR21abmdJMnE0Y2RKOUpsSHN2SVA0N0toOXdRU1M5NmpoMVJtQVV1V1ROTXNlZDZqUVJGSEJzXzRlSlNfMzh0TElJZ2pzdlFOS2xZN29OQzJkSVBPNk1qWW1EaXh6QktRQV9zMA?oc=5",
+    "date": "2026-05-10",
+    "source": "The Motley Fool",
+    "companies": [],
+    "summary": "Prediction: AI Infrastructure Stocks Will Crush the S&P 500 in 2026  The Motley Fool",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "Argentum AI Signs $2.5 Billion Deal for 300MW AI Data Center Deployment in Europe - The Fast Mode",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdTJiYy1IclFRNG1GazB0MEctRGZ5M3hIT3JpbGZNSEl2aFlNZUg3c3lnckNQSURUcWFHZ2R3OUJOM3g3UlVDWHBHTXNnX2ZycDZDZFR1bWJuQlYtWVl3am9LZ0tBOW9HZk5hblVGQTNkZnRDUEFZc1RsQU40dVRUTHJHX0R5MVNyb1h2d0pIdFFjWnhDSXg5RzV3M3U2cml3el9RQUgyaWRYR3NPVDRlMDdtdFZfRE1fV1dCazdCMS1nMC15cWYwV0RWYkNBZGpv?oc=5",
+    "date": "2026-05-18",
+    "source": "The Fast Mode",
+    "companies": [],
+    "summary": "Argentum AI Signs $2.5 Billion Deal for 300MW AI Data Center Deployment in Europe  The Fast Mode",
+    "relevanceScore": 0.52
+  },
+  {
+    "title": "Anthropic, a generative artificial intelligence (AI) company, has started to attract about $30 billi.. - 매일경제",
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9XeHBWS1JWNjUxNHJmS21WaVdld0ZHbHpWV0lUcUkxWmlxbVotNHloU25mTjlhb0ZkQld2bkx5T29uZEp3Y3pfZTQ4UQ?oc=5",
+    "date": "2026-05-18",
+    "source": "매일경제",
+    "companies": [
+      "Intel",
+      "Anthropic"
+    ],
+    "summary": "Anthropic, a generative artificial intelligence (AI) company, has started to attract about $30 billi..  매일경제",
+    "relevanceScore": 0.51
+  },
+  {
+    "title": "China Accelerates National AI Compute Grid to Turn Computing Power Into Public Infrastructure - CXO Digitalpulse",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWkZVemhqSXUycHFmcHYyUmJMc3Jhb0lyQUY2TnVnSlNOMlZELVQ2REdNSjNLWlgtQk01Z3JvZXpsbW5DcWZMM3pKbnoySWtZc0tveUFVSjNZaVZldnRBelFmWTE5LW45bDBOMFIweC0zY3hPMVJydWp2R2pzX0NZckFHWF84RVFESFBzSGdUSzBzUnlLQXRvSGFpeWpoRzRDcVBuSHhrSmJnMWI2S2Y4R1dxVkRYVlBmWXVSNlROdzRCSE1k?oc=5",
+    "date": "2026-05-18",
+    "source": "CXO Digitalpulse",
+    "companies": [],
+    "summary": "China Accelerates National AI Compute Grid to Turn Computing Power Into Public Infrastructure  CXO Digitalpulse",
+    "relevanceScore": 0.32
+  },
+  {
+    "title": "Publicis Groupe expands AI ambitions with $2.2B LiveRamp buyout - MEXC",
+    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5jWWt4RjFNTDBXb1pVOFF3WmVVTlpzdE1JaWlwSnEtc1F2cGVpT2dxTFVrZzJHVGRtc2hTd3B4V1Y0WG9scWNWOQ?oc=5",
+    "date": "2026-05-18",
+    "source": "MEXC",
+    "companies": [],
+    "summary": "Publicis Groupe expands AI ambitions with $2.2B LiveRamp buyout  MEXC",
+    "relevanceScore": 0.31
+  },
+  {
+    "title": "Cisco Systems stock (US17275R1023): AI-driven orders support outlook after earnings beat - AD HOC NEWS",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQOUVSaS1neXBlbkgwb3RqTVFxeEtLd29mVWtDdWtyQmZBSzBsM3VMZjV4SEQ5bXo4UTVZa18yX3ZzR3lfVkNrd1JIM0lmZTg2SVBlWFlSd0oxQ09BVTQ5NW5uMGlaNUszcXB1MVducHEzRUVjVk1xUDhtZUx3dGNNNTNuRDdEMzR1UHpLVWZEZ3RxTFprV3hidEE5YXIwQl9TbW1qMEZ6NTg3a0pKdGZfODNvanEtWUhmd1RjN3lmeVhmS2N2TG51SlJn?oc=5",
+    "date": "2026-05-18",
+    "source": "AD HOC NEWS",
+    "companies": [
+      "Cisco"
+    ],
+    "summary": "Cisco Systems stock (US17275R1023): AI-driven orders support outlook after earnings beat  AD HOC NEWS",
+    "relevanceScore": 0.2
+  },
+  {
+    "title": "Tesla plans $119B investment in Terafab chip manufacturing facility",
+    "url": "https://cryptobriefing.com/tesla-terafab-chip-manufacturing-119-billion/",
+    "date": "2026-05-17",
+    "source": "Crypto Briefing",
+    "companies": [
+      "Tesla"
+    ],
+    "summary": "Tesla's Terafab could revolutionize tech industries by centralizing chip production, impacting global supply chains and tech innovation.\nThe post Tesla plans $119B investment in Terafab chip manufacturing facility appeared first on Crypto Briefing.",
+    "relevanceScore": 0.61
+  },
+  {
+    "title": "Iceotope secures $26m funding to advance liquid cooling technology for AI infrastructure - New Electronics",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYW5VSTk2SkxsdEMxLS15czd4UTdBUlFxbkJIQmJzTlA5NTJyUTZvWUh4LUNodUhrWVRCZU9Cd2QxVWdqZWJIVUZzQWtIQ0s0ZGIxRUwwX0pmZWFZQXhPVzZqbGtIQnFjc1N4TXFnMTg4cnQ2WjBhSy11WjZoWl9EakhSdlk4S19Sb1pDX1loVWhSdDVJMTZhREZ1NEgyemtnUXVXOTBJNkMycGx5OV84b2hVNUVCUUFKZXY3cXR3aGVwd284UVg2U2hDRXNtUQ?oc=5",
+    "date": "2026-05-17",
+    "source": "New Electronics",
+    "companies": [],
+    "summary": "Iceotope secures $26m funding to advance liquid cooling technology for AI infrastructure  New Electronics",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "India missed out on AI, and now its run as market darling may be over",
+    "url": "https://economictimes.indiatimes.com/markets/stocks/news/india-missed-out-on-ai-and-now-its-run-as-market-darling-may-be-over/articleshow/131148382.cms",
+    "date": "2026-05-17",
+    "source": "The Times of India",
+    "companies": [
+      "ServiceNow"
+    ],
+    "summary": "India's stock market faces a significant downturn as global investment shifts towards AI. Foreign investors are leaving, impacting market value.  The country's IT sector, a major driver of past success, is now vulnerable to AI automation.  This presents a cri…",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "AI Book Club discussion recording of 'Life 3.0: Being Human in the Age of Artificial Intelligence', by Max Tegmark",
+    "url": "https://idratherbewriting.com/blog/book-club-tegmark-life-3-0",
+    "date": "2026-05-17",
+    "source": "Idratherbewriting.com",
+    "companies": [
+      "Intel"
+    ],
+    "summary": "This is a recording of the AI Book Club discussion of Max Tegmark's Life 3.0: Being Human in the Age of Artificial Intelligence. Our discussion explores Tegmark's visions of superintelligence, the unpredictability of AI goals and subgoals, and how the Asiloma…",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "Australia is missing AI boom, warns investor in Anthropic, OpenAI - AFR",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNR0xMcUNDVDZOdWxZUFhGbU5pQ0l3ajV1WHB3S1FZeDAydTFSVXNJS2cyZzNNemcxcFV4OTF2aVBvZGdOTE52THQyeTFiZFJ2YlJVS3lLMDBwdnZKWUc4OHhhc1lPMmI2Rnc4c0hOWEZLbkgxRWoyVS1LZ1hXLW9rdm5rMGdLc3VKS2JDS1JOZ3JsS3kza3Y0OGlGaWMzRmZ4OWFiZ1lGT1k5OHhyQjA0?oc=5",
+    "date": "2026-05-17",
+    "source": "AFR",
+    "companies": [
+      "OpenAI",
+      "Anthropic"
+    ],
+    "summary": "Australia is missing AI boom, warns investor in Anthropic, OpenAI  AFR",
+    "relevanceScore": 0.31
+  },
+  {
+    "title": "From axles to rare earth: India draws up list of 100 products it still can't make enough of",
+    "url": "https://economictimes.indiatimes.com/news/india/from-axles-to-rare-earth-india-draws-up-list-of-100-products-it-still-cant-make-enough-of/articleshow/131148994.cms",
+    "date": "2026-05-17",
+    "source": "The Times of India",
+    "companies": [
+      "Amazon"
+    ],
+    "summary": "India is set to boost its manufacturing sector by identifying around 100 products for domestic production. This initiative aims to reduce reliance on imports and enhance global competitiveness. The government is also streamlining foreign investment approvals …",
+    "relevanceScore": 0.31
+  },
+  {
+    "title": "As electric bills rise, some states are focusing on the growing profits of utilities",
+    "url": "https://abcnews.com/US/wireStory/electric-bills-rise-states-focusing-growing-profits-utilities-133044569",
+    "date": "2026-05-17",
+    "source": "Abcnews.com",
+    "companies": [
+      "Intel"
+    ],
+    "summary": "The artificial intelligence boom is leading to fights in some states over growing utility profits",
+    "relevanceScore": 0.31
+  },
+  {
+    "title": "Malta just became the first country to give every citizen free ChatGPT Plus. There’s one condition.",
+    "url": "https://thenextweb.com/news/openai-malta-chatgpt-plus-free-citizens/",
+    "date": "2026-05-17",
+    "source": "The Next Web",
+    "companies": [
+      "OpenAI"
+    ],
+    "summary": "OpenAI has signed a deal with the government of Malta to provide all Maltese citizens and residents with free access to ChatGPT Plus for one year. There is one condition: they must first complete an AI literacy course developed by the University of Malta. It …",
+    "relevanceScore": 0.31
+  },
+  {
+    "title": "Lumentum Holdings: Optical Networking Driving AI Data Center Growth | 2026 - News and Statistics - IndexBox",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQXRwdTZ5aUJQY0xSOVNUTGlYSFdrQkhzQW1HbThjek5Xazd1U2F0TkQwSHM2QXhUMFV6UzhadkIxWllTdlhNMnZBaGkyN3RfU0sxUDRfbDdqVHJHTHpZc19tLS1kZmJnTUU1QlBfQnUydHhXT19CUEt4WkJZNWNZZG9ORUI1UmpJYm9UM192Q0hYUUF5aW9QQkU2aHdOUQ?oc=5",
+    "date": "2026-05-17",
+    "source": "IndexBox",
+    "companies": [],
+    "summary": "Lumentum Holdings: Optical Networking Driving AI Data Center Growth | 2026 - News and Statistics  IndexBox",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "Why global AI infrastructure is vital for Scottish startups​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ - The Scotsman",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMDJsd2tCOUtDd0RjNmdKcDNuUkQ1M1ZkbHd3YjRwSVZ2OTlqdFJlX25HZjd0aUhCX0VMRXljOW5SOVNJVFJGR09RV0tMYlgycW8tY0ZkSUdDdjlIazRpbng5VDNkM19POVBfY3JyLU5GV293NVpia1dTbENFY3FUZlJ1LWt6ZGxFLWMw?oc=5",
+    "date": "2026-05-17",
+    "source": "The Scotsman",
+    "companies": [],
+    "summary": "Why global AI infrastructure is vital for Scottish startups​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​  The Scotsman",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "Mistral CEO says Europe has 2 years to build AI infrastructure or face permanent dependence on U.S. - 디지털투데이",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQjBrWTVWTFk3Z1ZmVHJNcEJZODdvNHUybXFaRlZ6b1N5LVlNeVBJaDhuTEVLZjBnYThnSXRaYU1BREVsamVuZ0FxWXRGR2tldl9aUklOODJxakF5Zk9BVVNQUWZjOE9mbjdPb0dSeHphVHFQenNVQm1BRXF5cDl3WmtYNTBHeTQ5Sjk4Z1BVZFpNM013NkxtNThTMl82NkJidzRZUkRzdFVuekhWOUVCZFhHRG9laWlCV2pwaXJrQmdKZkpkZGpQYV8xbi1TWlhGZEQzcDBoa2M1d21q?oc=5",
+    "date": "2026-05-17",
+    "source": "디지털투데이",
+    "companies": [],
+    "summary": "Mistral CEO says Europe has 2 years to build AI infrastructure or face permanent dependence on U.S.  디지털투데이",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "AI spending surge could add 3% to US GDP, and that may be just the start: David Sacks - MSN",
+    "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNZXlHeXVWbjRrWUVBLTJvbC13MXVyOV9vRlV3U1U1UlhqYXVFTU1MNGVYVUFmS05QQW5xM1Rpd3AtVXVlUWxVZXVVNXctUkZWQjBCSWVPbEtHVWpwY0swTTBBenVXRVVzLXBzNllvbUxjNGFYelZQdTlZRng3YXUyZkJXeEFxT3czQU1SbzQtZnlGX1FYZVZRLTlGRTAwN3ZJcG9ralJpX1ZRLWN2X0pKSlQxZmpPYmhJOEpDTXMxZFhySE9lYTRYUFVFb3NndjJFRFFDYkI0UG9XOFZOU0pTaDMzOEhzMmtZNVN5RWtkYU9NSC1PZHRmd3BEaXRFcUFlV2hTR2lDcVF5N3BpeWw1Qg?oc=5",
+    "date": "2026-05-17",
+    "source": "MSN",
+    "companies": [],
+    "summary": "AI spending surge could add 3% to US GDP, and that may be just the start: David Sacks  MSN",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "Yann LeCun argues LLMs will drive real-world applications, but not human-level thinking",
+    "url": "https://cryptobriefing.com/lecun-llms-real-world-applications-not-agi/",
+    "date": "2026-05-17",
+    "source": "Crypto Briefing",
+    "companies": [],
+    "summary": "LeCun's stance suggests a potential reevaluation of AI investments, emphasizing practical applications over speculative AGI advancements.\nThe post Yann LeCun argues LLMs will drive real-world applications, but not human-level thinking appeared first on Crypto…",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "India’s stock market risks dropping out of top five as AI rallies boost Taiwan and Korea",
+    "url": "https://cryptobriefing.com/india-stock-market-ai-rally-taiwan-korea/",
+    "date": "2026-05-17",
+    "source": "Crypto Briefing",
+    "companies": [],
+    "summary": "India's stock market may face reduced passive inflows and investment as AI hardware demand boosts Taiwan and Korea, impacting global rankings.\nThe post India’s stock market risks dropping out of top five as AI rallies boost Taiwan and Korea appeared first on …",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "Microsoft's 2 GW Wake-Up Call - Substack",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfaFRjek9sZi1Vc01YaXdjMi1ISDYzTzRieVhjYktqLUd3QVk0a1Y1dGczSWRfeDFCUnRnZF90bnZUdmFKc3hDWjF1R2NPZWRibUM0QndXc3ctSE1hOUk3ODhERmFhZw?oc=5",
+    "date": "2026-05-17",
+    "source": "Substack",
+    "companies": [
+      "Microsoft"
+    ],
+    "summary": "Microsoft's 2 GW Wake-Up Call  Substack",
+    "relevanceScore": 0.2
+  },
+  {
+    "title": "Samsung Union Rejects Offer, Pushes Ahead with May 21 Strike Despite Apology",
+    "url": "https://www.ibtimes.com.au/samsung-union-strike-wage-dispute-1868981",
+    "date": "2026-05-17",
+    "source": "Ibtimes.com.au",
+    "companies": [
+      "Samsung"
+    ],
+    "summary": "Samsung Electronics' largest union plans an 18-day strike over wage disputes, rejecting the company's proposal despite a public apology from Vice Chairman Lee Jae-yong, risking significant production disruptions.",
+    "relevanceScore": 0.2
+  },
+  {
+    "title": "This tech job grew 729% in a year amid AI-related layoffs. Salaries now touch ₹1.7 crore",
+    "url": "https://www.livemint.com/companies/news/this-tech-job-grew-729-per-cent-in-a-year-as-ai-killed-others-around-it-salaries-now-touch-rs-1-7-crore-11778982935222.html",
+    "date": "2026-05-17",
+    "source": "Livemint",
+    "companies": [
+      "Palantir",
+      "OpenAI",
+      "Anthropic",
+      "ServiceNow"
+    ],
+    "summary": "Forward-deployed engineer job postings surged 729% between April 2025 and April 2026, with salaries topping $200,000. Anthropic, OpenAI, Palantir and McKinsey are all hiring. Here is what the role involves and why demand is exploding.",
+    "relevanceScore": 0.2
+  },
+  {
+    "title": "Cathie Wood sells $40.6 million of popular semiconductor stock",
+    "url": "https://www.thestreet.com/investing/stocks/cathie-wood-sells-40-6-million-of-taiwan-semiconductor-stock-tsmc-tsm",
+    "date": "2026-05-16",
+    "source": "TheStreet",
+    "companies": [],
+    "summary": "Cathie Wood, chief of Ark Investment Management, is known for actively trading her holdings, sometimes selling stocks during sharp market pullbacks...",
+    "relevanceScore": 0.52
+  },
+  {
+    "title": "Institutional investors flocked to establish new stakes in semiconductor firms in first quarter",
+    "url": "https://economictimes.indiatimes.com/tech/technology/institutional-investors-flocked-to-establish-new-stakes-in-semiconductor-firms-in-first-quarter/articleshow/131131201.cms",
+    "date": "2026-05-16",
+    "source": "The Times of India",
+    "companies": [
+      "Intel"
+    ],
+    "summary": "Institutional investors actively bought shares in semiconductor companies such as Micron and Intel during the first quarter. This move positioned them to benefit from a significant market rally. Demand for memory chips, fueled by AI development, drove substan…",
+    "relevanceScore": 0.52
+  },
+  {
+    "title": "TCS outlines bold AI push from infrastructure to intelligence - MSN",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNb0lrYXFXaXBDcEtSM1FTTzJ1aURuN0ViZ1h0d2hPc3MxM3dpOW5RcTN4RGo2RnNKZF9LT2tzWWlrOGlzZGtES05BcjQ3Zmk2WkZyZnZ3d0ZiM0twOG11cGQxOFRmSnYxVk5ZZjkxZlBvRDZKNHAwV2N4eURnbF9QUkhzMFFOTUlxXzZwNndIT3dLSTZoZGFTOVduVUFPUl8yeDdmNTFBeUxFMDJ4MGJaMjh4azMzSUduT29jZ1JsTzJaSktMZDFRTEVPQ0FnZnZJRmtMUHNYbjVIR1JIT2F0aUt3WXgzQQ?oc=5",
+    "date": "2026-05-16",
+    "source": "MSN",
+    "companies": [
+      "Intel"
+    ],
+    "summary": "TCS outlines bold AI push from infrastructure to intelligence  MSN",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "AI data centers trigger massive 'irreversible' 76% electricity price spike in largest US region — federal watchdog demands tech giants pay for their own power infrastructure - Tom's Hardware",
+    "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxOZkVfQnFpTnpTR1hSd1E3M2hkeXFjdml2SmxweTNmYWU4S0x5bHNtenNxN1Y4emhwNXZfVVJaV2JqenJvSk1DQkNJSXNaUThnNFpPTjVFQUtnMXRBczBrcU9SbHNZT3NaWWF4OFJNdHR1VFhrSmdUbGVvcXl6a08yTl9fZ3h0WVo5eGVtN0Y5YThZSFVEOWlIWWJvTlJyYWd3QkViOUcwVmwtX291QjhrTU9aRXdBM2R3eFJzSi1WQ1l4SUo4VWVCeU1DN19rR0dOR1ZMZ1liSGJ0WXFEMmRyaWpCa1pHWXNHRF9Yb3BJNXlzaTQ1WWNrU3FjT2FiTzA5N2VwN3dEbXhXRG9vZ2hqWUtwVVZWbGZ1VDZ6LVZmeXlTc0tlM210bUZrSzhwY1NUM2wtdUlKQUFuWVlMMlBQQg?oc=5",
+    "date": "2026-05-16",
+    "source": "Tom's Hardware",
+    "companies": [],
+    "summary": "AI data centers trigger massive 'irreversible' 76% electricity price spike in largest US region — federal watchdog demands tech giants pay for their own power infrastructure  Tom's Hardware",
+    "relevanceScore": 0.32
+  },
+  {
+    "title": "BlackRock Weighs Multibillion-Dollar Investment in SpaceX IPO - The Information",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZHpaMVd3UFI3UTVPYTF1Xzk3clpxcnM2dzRUaXpHMElISEY3ck1QSHpKemVwdlppM2JXU09BX0h4bTZybUVMU2NZMFpPQWtrN1VEdVY0NDZ3c05XTlByMmRJQU1KdjJISjZIcHg3V2p1aFVtMTNudDljaVZwSXNsUVdPQ25hV3dRNGhobkMwdnd6SmpSeXlJSHh6OTNENkk?oc=5",
+    "date": "2026-05-16",
+    "source": "The Information",
+    "companies": [],
+    "summary": "BlackRock Weighs Multibillion-Dollar Investment in SpaceX IPO  The Information",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "Elon Musk Says If We Don't Do Something About Corruption And Waste, 'The Ship Of America Is Going To Sink' —And We're All Going Down With It",
+    "url": "https://finance.yahoo.com/economy/policy/articles/elon-musk-says-if-we-don39t-do-something-about-corruption-and-waste-39the-ship-of-america-is-going-to-sink39-and-we39re-all-going-down-with-it-230213252.html",
+    "date": "2026-05-16",
+    "source": "Yahoo Entertainment",
+    "companies": [
+      "Tesla"
+    ],
+    "summary": "America's debt bill has grown so large that even the world's richest man, Tesla and SpaceX CEO Elon Musk, sounded less like a tech mogul and more like...",
+    "relevanceScore": 0.2
+  },
+  {
+    "title": "Where to Invest $1 Million Right Now - Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNODc3T2hnal9OZWtwa1U3c2NPSTJTbm5PMFpXWmoyRWZhZGUtQ213Sm5VckxHTnVEUVFXcTBvZ2lXYUw2MHJUMVE5cDZoeHpTY1lUZkR2X1pFYkNtcFd2MlB1QVVXdGNKZTFMZm1sam80ZmNfeWNFOHJUQzh4RjN3Xw?oc=5",
+    "date": "2026-05-15",
+    "source": "Bloomberg.com",
+    "companies": [
+      "ServiceNow"
+    ],
+    "summary": "Where to Invest $1 Million Right Now  Bloomberg.com",
+    "relevanceScore": 0.61
+  },
+  {
+    "title": "‘Critical infrastructure for the AI era’: Cisco’s CEO on the earnings beat that sent shares to a record - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTS1jT3JFRUlKVGNzZTgtTzJZeTl6aHF4eXE3M0JSWFI1VmU4YUk1MzBPakZxbHNrbmtITF9iZUkwYkoxR3ZONUJOVDhkMVBfZGt1cDVDMHpoWi1FY2ZtamcxR3U3UGNoU0tCSk5SVkNQb0JwLU5CUFZKbk53T2JFZldhSEZkb0QyR2pUeV9ZSXVMX1EzVXVmUXRscFktZ2RaMXJWb0N0U2Y?oc=5",
+    "date": "2026-05-15",
+    "source": "Yahoo Finance",
+    "companies": [
+      "Cisco"
+    ],
+    "summary": "‘Critical infrastructure for the AI era’: Cisco’s CEO on the earnings beat that sent shares to a record  Yahoo Finance",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "AI Server Spending Has Nearly Doubled DRAM Prices: Threatened Samsung Walkout Could Drive Them Higher Still - Tech Times",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTFBCZ25rNmZrVHRzb2tfZnljeTFzSVNiZWNxdzRoaGp3QXZSY3VCdzNoRjJkalVVeWwtOUVJSEEzVlNZbEFJMWtFSDUwNDQwSzZfaXI4OHotcjlJYUlQeXR1LUNfejhPUUVKTGdwNkowaENKODlfZHBRUFV6eml6TE9pSGJwUFg0NXNpZzdwOTlZWWxHenZFdjU5S2NRTTFUalFVaHBBSDB0YUJIYXgyWTVVazVGMkpqamExd1VwbUtSMzd1UnNYUlU0ZmdBQ2JxT0t1UDY4dHk3SkU2OG9LNW1B?oc=5",
+    "date": "2026-05-15",
+    "source": "Tech Times",
+    "companies": [
+      "Samsung"
+    ],
+    "summary": "AI Server Spending Has Nearly Doubled DRAM Prices: Threatened Samsung Walkout Could Drive Them Higher Still  Tech Times",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "Cisco cuts nearly 4,000 jobs as AI boom reshapes spending priorities and fuels hyperscaler surge - Tekedia",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZnlTd2ZoTm41QzRhaUl6UUZERFFGdWRSa0EtVVpPLUxBTHZmY1JvZkEyVzhGYlBHZGxsVldEVmktZ1FyYjBJVFlyQl94TkZ0Q3dUaHRqOFl2RDdBeUNxb0dXbFlQald5dHlJS293aTR1akJaei04MEQzWU1fQXRSZ0dmRDF0aC1UR1daeTRiR0o4STdGb1lqTUNHeG81OUdTYmlRTDl2VTZ3Qm16SkNUVmZHYlhnVmhqZzZSTg?oc=5",
+    "date": "2026-05-15",
+    "source": "Tekedia",
+    "companies": [
+      "Cisco"
+    ],
+    "summary": "Cisco cuts nearly 4,000 jobs as AI boom reshapes spending priorities and fuels hyperscaler surge  Tekedia",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "Nebius Is Becoming An AI Infrastructure Giant (NASDAQ:NBIS) - Seeking Alpha",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMHBaOXA3LTRHSGlUQ3FEeW9SMkx0RGFLZjdjdXhyWHduZFplc19LY1lReG1XRnNsVzFGMU43azc1aktWbm5BZ1lyMGt0WUQxUmNubHItQ0dVZl9jZ2lmejZQZm5QRWFDQjR6UEdWbXVUNGFUdmdaaF9PMVQtNUtnQ3BzQkdSZWU2X3pkeEhqRQ?oc=5",
+    "date": "2026-05-15",
+    "source": "Seeking Alpha",
+    "companies": [],
+    "summary": "Nebius Is Becoming An AI Infrastructure Giant (NASDAQ:NBIS)  Seeking Alpha",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "Exclusive – T1 Energy CEO Dan Barcelo: ‘America Has to Learn How to Build Again’ to Compete with China",
+    "url": "https://www.breitbart.com/politics/2026/05/15/exclusive-t1-energy-ceo-dan-barcelo-america-has-to-learn-how-to-build-again-to-compete-with-china/",
+    "date": "2026-05-15",
+    "source": "Breitbart News",
+    "companies": [
+      "Intel"
+    ],
+    "summary": "T1 Energy CEO Dan Barcelo said during Breitbart News’s “Harnessing American Power” policy event that America “needs to learn how to build again” as it seeks to expand advanced manufacturing and energy production amid rising demand tied to artificial intellige…",
+    "relevanceScore": 0.2
+  },
+  {
+    "title": "The Profit Margins for These 3 AI Infrastructure Stocks Are Off the Charts - The Globe and Mail",
+    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQbllnLVZoOHRtQ0JiVVZ4X1p2SFZzdXpwMFFOZjd1NEsxRTJpOFNzOEl5SElyZU1FdGRqQURqRWpIWDczd1BMbTZCZHJmMWY0VUtjdm5KSUpIazBKSUFMMDB2Ukw2MElvX1FXNkJHZzBtWWZVZ2ZnaWN3YjluV0Uzd1VqRUhEWDlWWkRtMEoxU05EZWI3UVNXdTZKVFZ6dlk4MHhHeFJycjlndUtrTUd2alVub09WWDdyUnJvM21SbXA0aHpweGMzeGRHWDFmZldnTjUtQVdNSGJHQlFya19kOGZ2M0hIaFEtVzhmcjI5OF85U2M?oc=5",
+    "date": "2026-05-14",
+    "source": "The Globe and Mail",
+    "companies": [],
+    "summary": "The Profit Margins for These 3 AI Infrastructure Stocks Are Off the Charts  The Globe and Mail",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "Morgan Stanley sees AI and consumers driving growth as energy shock clouds outlook - TradingView",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOOG9hOTBURjlKWkhNTWFTdnRlbGloLXVHWm5KTGFhaV91RkY4VjU2M0xtb1p4eVpmUXBoQUdVc1VXeGhJRGRlUk84bWItVGY2YWFiMWhfQk92SUI1YkE1SWg4ZGlqNGZfS2J6RThzYTNoemFfNkJYR2dKRFU5TjR6YmJnZ2FOUFJZZjZxWVdEZWZNdlJNeDc3UHk4R3N5bXEtQkdPNjc3a05lcy1keHZTb2gzWUEyT2UzdmdzcWpEZGJQLXE4aElpWkVJTF9rTWJtU0c3eUxiUFE3QQ?oc=5",
+    "date": "2026-05-14",
+    "source": "TradingView",
+    "companies": [],
+    "summary": "Morgan Stanley sees AI and consumers driving growth as energy shock clouds outlook  TradingView",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "Hyperscalers' AI buildout will require massive amounts of energy. Two under-the-radar stocks will benefit - CNBC",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMk9SNmdFdU5zbmNrVTlyMC11Q2dHLUN6YUxEWjFjMEMzQV9SczFMdlAyYnFxU3B1RFJZNHBIRGNlQlI3bUhVb2xpcDRZMk83REZpNjhlZzh4WW4wRG5TOXFjYjd0RHJIMlZfWU5VaW02SlR4N1E0MnFKSzczOUNBU2N6U0QwVFMwVmNEVmloOFFVRWJYWmtGb1JJWFo0bGdXaldOYUJsRldUVXdYVXJndTFGYlhtLXM5T09NV0l1NXltN2dma0ZNTGlvdHBlcjU1cDVuY0xZZ9IB3AFBVV95cUxPWFRvbGNFbVhQbENHT0xHdXVDdEZsV2dobEdORUxqaEI0UUc2RHJlbGtyMUpLTDNsVV9rZjNkeFlRUkhHNmp3STY1MXBqMXlqQnpTVlZjSUhfQUFsVzZ3UXNnVV83dEhVWW1RT3pZdXpac2kxTmZXY3hpMDBOdkZ1cElTeHJGTUFsY1dzTGJpdnhMRC1HamM0dDhkNXdObWt0a1JYbnhxYUo2RVU3SHNKbWdZRC1uMWRIWWR6NjFsSGdpVlMyZU10S0ZnRC1EQm9ZY05rRE1HaHk0LXNK?oc=5",
+    "date": "2026-05-13",
+    "source": "CNBC",
+    "companies": [],
+    "summary": "Hyperscalers' AI buildout will require massive amounts of energy. Two under-the-radar stocks will benefit  CNBC",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "My Top 3 AI Infrastructure Stocks to Buy for May 2026 - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMlNlRlpTWHliWDR1U0NBN3BZbVNtd2MzUFhBd0Vfd1B5ZGZZVFpKRTMzNzNvajRxbzUyc05zaW4tWGg4bVd0a0ZjbS1ZdWxFOWllZWN1S3Y5dW5YZ1V3Vld6N0VxdVBnakJfaG96MFlUa0JBN0I3cDlVQmJqS1lzenBsLUpFTjhmYUphVTlDYXFpRE8zdE1vclB1eXcwd3lz?oc=5",
+    "date": "2026-05-13",
+    "source": "Yahoo Finance",
+    "companies": [],
+    "summary": "My Top 3 AI Infrastructure Stocks to Buy for May 2026  Yahoo Finance",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "Tech companies tap debt markets to fund AI and cloud expansion - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWGhoV2p0ejNjMkltQ3BEaEZaUXV6SGpUUVd6akVEck5HMUpxWmhRM2lid3UtRmdCOHItS1k0TFlzdEd6X3c4WDZTbUxfa284N3k3TEMzWmVHdE1fMjRWTjh0N3NnYVBHVWZSc1ZRUkVhZnBvaXNSS3VNSnQ3MDlsTDBXbC04LXFDZnZyVWJIMUk5SmRvdkFsMGNaTnBjUktkajZVX3lkYnlHcFVDN05ZaEp6U2Q?oc=5",
+    "date": "2026-05-11",
+    "source": "Reuters",
+    "companies": [],
+    "summary": "Tech companies tap debt markets to fund AI and cloud expansion  Reuters",
+    "relevanceScore": 0.31
+  },
+  {
+    "title": "Huagong Tech eyes Hong Kong listing amid AI infrastructure boom - China Daily - Global Edition",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPU3FON3o5UXRUTVpyRDVDY3hZRXJlc3A2QThqU2xMb0pCcFowaGlFSlh5X04wcXVHMG1vczNyX2U3RnJ4ZDREMUdVaWVmejF1UGNqRi1sdGZLejhveXhlZVdJRm1VUk15T05Bc1Y0c3dzR0o1aDdjQU5KQUNDVzlicFF3?oc=5",
+    "date": "2026-05-11",
+    "source": "Global Edition",
+    "companies": [],
+    "summary": "Huagong Tech eyes Hong Kong listing amid AI infrastructure boom  China Daily - Global Edition",
+    "relevanceScore": 0.21
+  },
+  {
     "title": "Keysight Technologies:The AI Infrastructure Winner Most Investors Miss (NYSE:KEYS) - Seeking Alpha",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ3gzUkx2clVtNVBOci0tT3RJT1ZpVkFHNm9yaHVSd041NnZPc0hqdi1ORmRaOFMyYm1MYWsyNldiY1RzQ1g4RFh5WEgzQUJJQVR5VmxwZjhHd1FMWnR0b3U5S1F2cGVObVczYUZ6c09seHRkNWl1OHNtT09QaG14NmdmYnBld0JybEh3MnZnSTNaQ0pnck1DWHZIWTNxMXljTWNfNG9qMjhYbzdvMlE0?oc=5",
     "date": "2026-05-10",
@@ -1013,17 +1419,6 @@
     "companies": [],
     "summary": "Keysight Technologies:The AI Infrastructure Winner Most Investors Miss (NYSE:KEYS)  Seeking Alpha",
     "relevanceScore": 0.21
-  },
-  {
-    "title": "Forbes 2026 AI 50 List | Top Artificial Intelligence Companies - Forbes",
-    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5uUGIzcFRTdFZwdkxZTnpHdUpfVmhCQ21iczlSQjJrMnlSa19sYzB4S2JuVC1wSWo1UFhRWnlpVWtrb0NIN1RmS2Nn?oc=5",
-    "date": "2026-05-17",
-    "source": "Forbes",
-    "companies": [
-      "Intel"
-    ],
-    "summary": "Forbes 2026 AI 50 List | Top Artificial Intelligence Companies  Forbes",
-    "relevanceScore": 0.41
   },
   {
     "title": "Nebius CEO doubles down on capex spending - thestreet.com",
@@ -1053,17 +1448,6 @@
     "companies": [],
     "summary": "Argentum AI Secures $2.5 Billion European Data Center Deal Amid AI Infrastructure Booms  CXO Digitalpulse",
     "relevanceScore": 0.62
-  },
-  {
-    "title": "Meta raises 2026 capex to up to $145B amid AI cost surge - MSN",
-    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPSUhVOXlodWp1RDJrWDluMjlWQVFLNFNBUDBHdnFKZGl6SVdnQ0lnOTdtdTktY1RuRU9rU0hFendwdDNHei1hTkJkNG5ULWN3Vm1LY0swclo3d0ozMUNkRTlwWGhfS0hlaEg2RkJOc3pvbXNQZkk3b3RkUkZSUU9NcVk5T0pHd2pienJfeDVNOFNPNmg4Nm93ZzNPbFVCeDRPZ2psRnl4dWFTWE9kdFZiZ1lOZGNFb0p5YkNFdHptdm9zamJ6Q0p4YW1ibUhzZktDTkJuSGNLMVh6TzlWX2tPOC0xMzB3NVRoR0lTR29n?oc=5",
-    "date": "2026-05-16",
-    "source": "MSN",
-    "companies": [
-      "Meta"
-    ],
-    "summary": "Meta raises 2026 capex to up to $145B amid AI cost surge  MSN",
-    "relevanceScore": 0.61
   },
   {
     "title": "Cerebras Systems achieves $60B valuation after blockbuster IPO",
@@ -1144,15 +1528,6 @@
     "relevanceScore": 0.4
   },
   {
-    "title": "3 REITs to watch as AI data center spending surpasses office construction - MSN",
-    "url": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxNbG5WRjM0a0F6Y285MTRDa25zRG5WLXBaRHRya1pPaDNGSDZsaXgwYmM5aXdmcmNBclhtN25BTkc1UHZUU1liX1J6eDVRWDJ3R3cwWFdTVTREVVZzbWlyekw2MXZuNHFvSGVRbi1iRGtGLU0zYWptTHhJRmdZM0VzUV8xWmJMNnlTY0o2VnJFaDhhSTdsRkN3T0Fiak41blBRX0N0dGpDRGMtak94V20ydTE1M3ZGQU5GUmRYOTB1c181R0k3ZFlIejdnWk0xSWpSRENCQldreC0yMWdLT3RLZXZ3M1NrUmJiNUJNSFB4c1BZWGN5aUQ5aGdkdE5ZYTZubUEwYUdJOG1ORFlqcjhVekZBVFlkMFVKYTlXb2NxTUdicFhuSFFyUHYybWtEUDViQ3YtRTQxZUZnNHA2T3d1UjZNek03azlQRno5bWIxYUJGZm44dUs5M0R0dkZZODk5UGczd0c5UXZqX2F2bGpBdnZfaUY5YmhOZ0E?oc=5",
-    "date": "2026-05-16",
-    "source": "MSN",
-    "companies": [],
-    "summary": "3 REITs to watch as AI data center spending surpasses office construction  MSN",
-    "relevanceScore": 0.32
-  },
-  {
     "title": "Institutional Capital Shifts Toward AI-Powered Blockchain Infrastructure as SHRMiner Expands Intelligent Platform - Bitget",
     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBkWGMxMm1kMjNXMnhiQWJ6VmRxTWZrOFl3ajdqVWNpcXh1X2wxYUpWZ0R2ZlBTVFNNNExsZzkyaFZhaHJTeGpzTzBPWEZnZXVmdWdJSWlyVWZJV2FHOFHSAWNBVV95cUxNbDgzRDRwVy1mYVhoMWxSWDV4aTBKclNhcE8wZHV1YWxBaHJJdk1xT3pJeXFGT05GQjd3bWt0ZVgxekdCcDhCTzljaFNaMXJuY0NiLU9rclJQempieXVaal9DQTQ?oc=5",
     "date": "2026-05-16",
@@ -1200,15 +1575,6 @@
     "source": "Indian Startup Times",
     "companies": [],
     "summary": "From Failed Startups to AI Infrastructure: How HyperleapAI Is Making Enterprise-Grade AI Accessible for SMBs  Indian Startup Times",
-    "relevanceScore": 0.21
-  },
-  {
-    "title": "AXT Turned the AI Data Center Boom Into an 8,436% 1-Year Return - Barchart.com",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdzgtUHdnMlJWdDFHWFRVOXJzaEhyLWhadExRb0NOeFFCVEF6cVhnVVdkbDFIME5vTDVNS2ZDR0Y5ZGNtaklMUHF6NGJLelBSQmJXdEdhc09Uck81WGdwS2Y3X0RZV0RxbEZvLWszTUFNemVGNHV1eVBvUXNSWWhzdXRKS2dCeERUdVlvSmtvMzcyQy1oQV9CMUw5cnFCbHZqZS1hVGJPeEstQQ?oc=5",
-    "date": "2026-05-16",
-    "source": "Barchart.com",
-    "companies": [],
-    "summary": "AXT Turned the AI Data Center Boom Into an 8,436% 1-Year Return  Barchart.com",
     "relevanceScore": 0.21
   },
   {
@@ -1537,15 +1903,6 @@
     "companies": [],
     "summary": "BuzzHPC targets $200M in AI revenue while Big Tech is still burning cash  thestreet.com",
     "relevanceScore": 0.31
-  },
-  {
-    "title": "My Top 3 AI Infrastructure Stocks to Buy for May 2026 - The Motley Fool",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObkdyS3NxTk0xYnpuNFNPUWstUWRBS0VGdzY2bUVYREJ4VnhLckJxTWp4RE05Q3ZwcnlHUUtpVnRPc0tweDd2cmg5VE5FVWNUdjU2czRzZXI1U0VtaEJ3dVFiVFV3RHlUbGVUMDFoNlF1VzB6dFN2TDhFamdXSGtWT21ISEZpeHh2bUFPZ3hZMmt6UWdGR3pfdA?oc=5",
-    "date": "2026-05-14",
-    "source": "The Motley Fool",
-    "companies": [],
-    "summary": "My Top 3 AI Infrastructure Stocks to Buy for May 2026  The Motley Fool",
-    "relevanceScore": 0.21
   },
   {
     "title": "The New Tech Split: Monetized AI vs Uncertain Infrastructure Bets - Technology Org",
@@ -2176,378 +2533,5 @@
     "companies": [],
     "summary": "Cerebras’ blockbuster debut shows the AI infrastructure boom is far from over  Fortune",
     "relevanceScore": 0.21
-  },
-  {
-    "title": "Foxconn projects 30% capex growth in 2026 amid robust AI demand",
-    "url": "https://www.thehindubusinessline.com/info-tech/foxconn-projects-30-capex-growth-in-2026-amid-robust-ai-demand/article70981501.ece",
-    "date": "2026-05-15",
-    "source": "BusinessLine",
-    "companies": [],
-    "summary": "Foxconn (Hon Hai) posted a first-quarter net profit of NT$49.92 billion ($1.58 billion), representing a 19% increase from the previous year and a 10% rise from the final quarter of 2025",
-    "relevanceScore": 0.52
-  },
-  {
-    "title": "Elea Data Centers completes first phase of $470M Petrobras project",
-    "url": "https://cryptobriefing.com/elea-data-centers-petrobras-470m-project/",
-    "date": "2026-05-15",
-    "source": "Crypto Briefing",
-    "companies": [],
-    "summary": "The Petrobras-Elea project highlights the growing necessity for robust data infrastructure in traditional industries, driving tech integration and investment.\nThe post Elea Data Centers completes first phase of $470M Petrobras project appeared first on Crypto…",
-    "relevanceScore": 0.52
-  },
-  {
-    "title": "Marvell Stock Has Rallied 100%. It’s Still a Top Buy for Long-Term Investors.",
-    "url": "https://www.barchart.com/story/news/1954594/marvell-stock-has-rallied-100-its-still-a-top-buy-for-long-term-investors",
-    "date": "2026-05-15",
-    "source": "Barchart.com",
-    "companies": [],
-    "summary": "Demand for Marvell’s data center and custom AI chips continues to accelerate as hyperscalers ramp up spending on next-generation AI infrastructure.",
-    "relevanceScore": 0.5
-  },
-  {
-    "title": "Ford soars 21% in two days as AI hype spreads to old economy",
-    "url": "https://financialpost.com/technology/ford-soars-ai-hype-spreads-to-old-economy",
-    "date": "2026-05-15",
-    "source": "Financial Post",
-    "companies": [
-      "Intel"
-    ],
-    "summary": "Ford Motor Co. became the latest old-economy manufacturing company to be swept up in the hype around artificial intelligence. Read more here",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "Runway started by helping filmmakers. Now it wants to beat Google at AI. | TechCrunch",
-    "url": "https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/",
-    "date": "2026-05-15",
-    "source": "TechCrunch",
-    "companies": [
-      "Alphabet",
-      "ServiceNow"
-    ],
-    "summary": "AI video generation startup Runway is betting that video generation is the path to world models. And that being an AI outsider is an advantage, not a liability.",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "The software supply chain is the new ground zero for enterprise cyber risk. Don’t get caught short",
-    "url": "https://siliconangle.com/2026/05/15/software-supply-chain-new-ground-zero-enterprise-cyber-risk-dont-get-caught-short/",
-    "date": "2026-05-15",
-    "source": "SiliconANGLE News",
-    "companies": [
-      "Intel",
-      "Anthropic"
-    ],
-    "summary": "In just a short few months, we have witnessed several artificial intelligence technology events that deserve the overused “unprecedented” descriptor: a highly complex supply chain attack by TeamPCP, Anthropic PBC’s Claude Code source leak, and the debut of An…",
-    "relevanceScore": 0.31
-  },
-  {
-    "title": "BlackRock Gives AI Capex Warning For Financial Markets - BeInCrypto",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBWYXlsQVVwNnNNdXZxV21CNHROSXQ5bFhudlRtZmNZS2gzRVc0SGtvd0o3R0tKVURqUjd5MUhIZHJBZk1GVVkwOEtISjRyYlRjSUFXVFkwSmk1U3RlcWs0ZmhYV0dKaGs?oc=5",
-    "date": "2026-05-15",
-    "source": "BeInCrypto",
-    "companies": [],
-    "summary": "BlackRock Gives AI Capex Warning For Financial Markets  BeInCrypto",
-    "relevanceScore": 0.21
-  },
-  {
-    "title": "Denmark Data Centers, AI Native College Graduates, Kenya Data Centers, More: ResearchBuzz AI Update, May 15, 2026",
-    "url": "https://researchbuzz.me/2026/05/15/denmark-data-centers-ai-native-college-graduates-kenya-data-centers-more-researchbuzz-ai-update-may-15-2026/",
-    "date": "2026-05-15",
-    "source": "Researchbuzz.me",
-    "companies": [],
-    "summary": "TWEAKS AND UPDATES Tom’s Hardware: Denmark presses pause on new data center grid connections as total requests hit 60 GW — Nordic nation is the latest to put the brakes on AI buildouts. &#822…",
-    "relevanceScore": 0.21
-  },
-  {
-    "title": "SUI Group Backs Nof1 as AI Trading Push Moves Into Treasury Strategy",
-    "url": "https://www.cryptoprowl.com/releases/sui-group-backs-nof1-as-ai-trading-push-moves-into-treasury-strategy-5496",
-    "date": "2026-05-15",
-    "source": "Cryptoprowl.com",
-    "companies": [],
-    "summary": "SUI Group (NASDAQ: $SUIG) is adding two AI investments to its Sui (CRYPTO: $SUI) treasury strategy as the company t...",
-    "relevanceScore": 0.21
-  },
-  {
-    "title": "AI’s time machine: How Cisco, Intel, and Corning are reviving fears of the tech crash - Invezz",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVk1kaHR0OTZBS0czY0NUODlZbGdPWTZsUmxWbHFCaGhiTjlybHFoMjhkWVB0OHJqckgzczZySXNvWjM2SnkzSHRsZ3JodXdZVXF4TXNuVHJvYk1faVk0RnFnaFNTR2M4el80NlpfcUdFdXhHRThVb2lJT1lmdkk2ZUJnSkVITjJKNmpjQVppajBNNU94NWJCVmlaSE9weVVpUHgtX01XWUp3eWZXR25zOGdfdHp3YWhS?oc=5",
-    "date": "2026-05-15",
-    "source": "Invezz",
-    "companies": [
-      "Intel",
-      "Cisco"
-    ],
-    "summary": "AI’s time machine: How Cisco, Intel, and Corning are reviving fears of the tech crash  Invezz",
-    "relevanceScore": 0.2
-  },
-  {
-    "title": "Why is US stock market falling today? Dow Jones, S&P 500 and Nasdaq crash after Trump concludes China visit - Nvidia and Amazon stocks sink amid inflation fears and Iran war uncertainty shaking Wall Street",
-    "url": "https://economictimes.indiatimes.com/news/international/us/why-is-us-stock-market-falling-today-dow-jones-sp-500-and-nasdaq-crash-after-trump-concludes-china-visit-nvidia-and-amazon-stocks-sink-amid-inflation-fears-and-iran-war-uncertainty-shaking-wall-street/articleshow/131120735.cms",
-    "date": "2026-05-15",
-    "source": "The Times of India",
-    "companies": [
-      "Amazon",
-      "Nvidia"
-    ],
-    "summary": "US stock market today suffered a sharp selloff as the Dow Jones, S&P 500, and Nasdaq crashed after President Donald Trump ended his China visit without easing deeper market fears. The S&P 500 fell 0.86% to 7,436, the Nasdaq dropped 1.25%, and the Dow lost 366…",
-    "relevanceScore": 0.2
-  },
-  {
-    "title": "Meta Is Burning Cash With Nothing to Show for It. Buy This Stock Instead",
-    "url": "https://247wallst.com/investing/2026/05/14/meta-is-burning-cash-with-nothing-to-show-for-it-buy-this-stock-instead/",
-    "date": "2026-05-14",
-    "source": "24/7 Wall St.",
-    "companies": [
-      "Meta"
-    ],
-    "summary": "Meta Platforms (NASDAQ:META) is dominating headlines because Q1 looked like a blowout, with EPS of $10.44 versus $6.66 expected and revenue of $56.31 billion...",
-    "relevanceScore": 0.51
-  },
-  {
-    "title": "Tech Bytes: Megaport surges as AI infrastructure contracts reshape growth outlook - Yahoo Finance Australia",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORmdFZkVCM1FkX09xRHh3ZzNBWGdJOGtpeGJkUmJFYzNtbUJJejVRMGpyZVd2NjY0Y1h1TnNDM1VJQlQteDRxUmhnUE9nMWJ2X2RYaDB2c205LWdaX3dWZ3llUUVOOUI4ekRRUjR4dU9VNUQxWTYtRmZYLTFITUtlaG9sdG4?oc=5",
-    "date": "2026-05-14",
-    "source": "Yahoo Finance Australia",
-    "companies": [],
-    "summary": "Tech Bytes: Megaport surges as AI infrastructure contracts reshape growth outlook  Yahoo Finance Australia",
-    "relevanceScore": 0.21
-  },
-  {
-    "title": "Bitdeer Swings to Q1 Loss as It Accelerates Pivot to AI Infrastructure - TipRanks",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPLXZ3OUZWZzFwOTA1N3FjbjJYbEVVVHZkMEpOTHlMRE42azV0eHBEdkdNVk1XeWl3ankwV2w4MXdaSTRCa1d0b3I3TDBTcUMwOFZMS3pqdGJWTGNpa282cENYMlNHQUxnMWdjWms4WVFFTmpPUmc5dlY1d2hmbk9Raks5Q2dBcmhobDd4VjBST2sza1l4UXdGSkFxbFZqT2lLNV9ZYWpiQlpXbnVSTm1KUU1yWExtNVdIY25SblBBbw?oc=5",
-    "date": "2026-05-14",
-    "source": "TipRanks",
-    "companies": [],
-    "summary": "Bitdeer Swings to Q1 Loss as It Accelerates Pivot to AI Infrastructure  TipRanks",
-    "relevanceScore": 0.21
-  },
-  {
-    "title": "Robo.ai Subsidiary Neurovia AI Launches NeuroStream Technology Platform to Build Physical AI Visual Data Infrastructure - Finviz",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZFJqMEprS0U5WnJsRllVSG00NFhaZ1A1eE9OY2NmUVl5ZUJiYXBYTlZabE5DRE9FQ0lwUENXc3lWQUF2LWZvYWRkeVNvd3hDbjJqWFZ5cDl6R0pvLThVUUN4VEpoazNKTTdOTU9IUWFxWEpqRjJZMFN3ZDR1eld6ZmY0TjhJYl92RzNDbm1Xd2xYMThVQjFyaV9NRmxNdHZFcGczZmQzdHpmY25xUnhjSkJkVTFCdjMySUp6X1hmeUs0VFdGbXFqWkc3Z18zdnZjcWdlWVpmcXJEQjJBWVVqcFJZOA?oc=5",
-    "date": "2026-05-14",
-    "source": "Finviz",
-    "companies": [],
-    "summary": "Robo.ai Subsidiary Neurovia AI Launches NeuroStream Technology Platform to Build Physical AI Visual Data Infrastructure  Finviz",
-    "relevanceScore": 0.21
-  },
-  {
-    "title": "Utah is not jazzed about a potential AI data center - Morning Brew",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUkVLVWJKc1M1SGo3aTVLd3hkaVdxWVA5NnBabnAya3N2dUVHQ3NIa3pPYnpLcjc1ZnBKb1ltaUExN3JfUUZkdmJITTZwRUE5MGRONEUyQ090cFIyaWVjN2ZkNDhETExYWmkxQ3hNOVN6RklxTkhJSWNEUVZMWWZxZWplb19Oa0hxUGJSdmFLbFY?oc=5",
-    "date": "2026-05-14",
-    "source": "Morning Brew",
-    "companies": [],
-    "summary": "Utah is not jazzed about a potential AI data center  Morning Brew",
-    "relevanceScore": 0.21
-  },
-  {
-    "title": "Americans Really Don't Want AI Data Centers Close To Their Homes - Engadget",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWjlpa1ZxSDJ3VU8tZjE0T2kxYjV2S0NoV1FGdjhwWGxqd2pYaDRwVnFUVDRvSGhKY3BFWnF6TE9BQzBta3lHN3N5Ymtudi1WWldCbzEtQ0YtNkZGd3NDRHdwam92WVlONWtwdXp1UlFFZWFRM3FyY3VicXoxNTJtRGxENTktUDRaUERFTlREZVVFc3hGZTd6WUVxRFdMdw?oc=5",
-    "date": "2026-05-14",
-    "source": "Engadget",
-    "companies": [],
-    "summary": "Americans Really Don't Want AI Data Centers Close To Their Homes  Engadget",
-    "relevanceScore": 0.21
-  },
-  {
-    "title": "Nebius Accelerates AI Infrastructure Build-Out: $25 Billion Capex, 4 Gigawatt Target, and a $50 Bill - AD HOC NEWS",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOGUxMkZWNTNPUi1Xa0o3akgxRHJuMGpNVXRpMjNtVUJDRXlBX2ZCNWRGUXZ5dk5MZDlMMlJBVkJRNloyOVpYOWNCMk1XZHgwMkptTkx3SWdxWnhZTHVFUTQ4V1h3RjlpYzdERXZXRy1CXy1odW9pNlJYMXBoZ196cHZuV085YklBa3VKOGxWQ0VKRThhS01jWnlpRWk5eVVHMm5UMjE5ck82ZUJzd0c5c2NjeHQxbE5WWG80NHUyT0RGQQ?oc=5",
-    "date": "2026-05-16",
-    "source": "AD HOC NEWS",
-    "companies": [],
-    "summary": "Nebius Accelerates AI Infrastructure Build-Out: $25 Billion Capex, 4 Gigawatt Target, and a $50 Bill  AD HOC NEWS",
-    "relevanceScore": 0.62
-  },
-  {
-    "title": "10 Top AI Stocks Poised for Explosive Gains in 2026 as Spending Hits $2.5 Trillion",
-    "url": "https://www.ibtimes.com.au/top-10-ai-stocks-2026-growth-1868849",
-    "date": "2026-05-15",
-    "source": "Ibtimes.com.au",
-    "companies": [
-      "Microsoft",
-      "Nvidia"
-    ],
-    "summary": "Investors are focusing on top AI stocks like NVIDIA and Microsoft, as global AI spending is projected to reach $2.5 trillion by 2026, driven by infrastructure and generative tool adoption.",
-    "relevanceScore": 0.72
-  },
-  {
-    "title": "Alphabet sells yen bonds worth $3.6 billion, largest such issue by foreign company",
-    "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/alphabet-sells-yen-bonds-worth-3-6-billion-largest-such-issue-by-foreign-company/articleshow/131107512.cms",
-    "date": "2026-05-15",
-    "source": "The Times of India",
-    "companies": [
-      "Alphabet"
-    ],
-    "summary": "Alphabet has issued a record-breaking 576.5 billion yen ($3.6 billion) in yen-denominated bonds, marking its first such debt offering. This move supports its substantial AI investment program and funding diversification efforts. The issuance saw strong demand…",
-    "relevanceScore": 0.72
-  },
-  {
-    "title": "Thrive Capital Bets $100 Million on Shopify’s AI Future - PYMNTS.com",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdWk3TkEtRkRnMll5bGlXQWVYM1BzM090b0JhNjRUT0wyQ0VJUGVUc3l1MmhnZHJqZ0VnckdkTkN6TkVoMDNhQVNkT1lHSVVLN2FOTVBPdFNDdFR4MEZQR3RHMThySmxzSGFCYndlOW12UmZ5eHNqRi1HMnVPMlZvbDZTRlhQR2pOYnlucnNrb3QwZjdIZFBOUXJveG5yZw?oc=5",
-    "date": "2026-05-15",
-    "source": "PYMNTS.com",
-    "companies": [
-      "Shopify"
-    ],
-    "summary": "Thrive Capital Bets $100 Million on Shopify’s AI Future  PYMNTS.com",
-    "relevanceScore": 0.61
-  },
-  {
-    "title": "AMD EPYC dominates the server market with a record 46.2% revenue share",
-    "url": "https://www.tweaktown.com/news/111604/amd-epyc-dominates-the-server-market-with-a-record-46-2-percent-revenue-share/index.html",
-    "date": "2026-05-15",
-    "source": "TweakTown",
-    "companies": [
-      "AMD"
-    ],
-    "summary": "AMD's data center sector brought in $5.8 billion this quarter, and a new report suggests that AMD EPYC CPUs were the likely driving force.Continue reading at TweakTown",
-    "relevanceScore": 0.61
-  },
-  {
-    "title": "Alibaba AI Spending Lifts Cloud Growth, Squeezes Margins - WinBuzzer",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNN3YxaVVMY2Rjb0Q5cWR1ckR0MmpWa3NvYWtUOE9OLVlmY2FIMkt4MHluVTBhWFRJSHIyZWgtcXpvV3psYmoyQ05oZ0dTS1VUYW1qUEg1dkQ5T1FiUEtVOTJDZ2dRLTNkb1VBWkg0TWxxTENrSVQ3b0lOa2dDWGdrMk5UNlYtUG1WQmYzaUc2RHJ5cjFyakE?oc=5",
-    "date": "2026-05-15",
-    "source": "WinBuzzer",
-    "companies": [
-      "Alibaba"
-    ],
-    "summary": "Alibaba AI Spending Lifts Cloud Growth, Squeezes Margins  WinBuzzer",
-    "relevanceScore": 0.52
-  },
-  {
-    "title": "PM Modi in UAE: India signs defence, gas supply and strategic oil reserves pacts wih UAE",
-    "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/pm-modi-in-uae-india-signs-defence-gas-supply-and-strategic-oil-reserves-pacts-wih-uae/articleshow/131111781.cms",
-    "date": "2026-05-15",
-    "source": "The Times of India",
-    "companies": [],
-    "summary": "India and the United Arab Emirates forged new ties on Friday. Key agreements were signed in defence cooperation, energy security, and infrastructure investment. The UAE committed $5 billion to Indian infrastructure and financial institutions. These pacts were…",
-    "relevanceScore": 0.52
-  },
-  {
-    "title": "India, UAE Sign Major Agreements Across Energy, Defence and AI; Abu Dhabi Announces $5 Billion Investment - Elets Technomedia",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQ21DNmJVcWhVTXJ4bUp1amltWEdZeU9Nb3p0SnBkd3hBeWxDa3RrY0lmRmIxQ3RTbzVhLTg5Qkx0dmNKX1ctTklGTlZGQWFVQWdKbDU3QUdWYzNTQmdrREU5cEl3WHRrYmE4bFhoRzVQNThqRDVzWWJSUjJrSFBrYWl0am1LVy1ucVBVR0VBTk1JazNvSDNUa0NxcHc1N2JyMWdyYTIwZVNGNXhVa3RIZzI5c0JRUlFmMGJ5ekNQQXpNMUJMdlA2d2ltVmFMOVZpX3p1QlZB?oc=5",
-    "date": "2026-05-15",
-    "source": "Elets Technomedia",
-    "companies": [],
-    "summary": "India, UAE Sign Major Agreements Across Energy, Defence and AI; Abu Dhabi Announces $5 Billion Investment  Elets Technomedia",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "Meta Platforms stock (US30303M1027): strong Q1 2026 earnings meet AI capex worries - AD HOC NEWS",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdVoyRnJJclRpdzhtekowZVlGZlppM2g2VUhVZFRmVkxvLXE0eGZ1RVRkRGJCTUhjc0EtMVJwSEZYcVY2ZGswWTBtWjFOMjVMNEJGX25tZzc5RWF3WENCVTN1ckdCM1RYYTlqYURuS2lyU1ZmMWp1NVJMYVlobU1XN0dSNWxRbE9XR1cwQV81X1NXWTYzUURNTm9VVlVDY0V6eDhTcFR5aW5OQTR1cFZiUVVfb0pkN1dLRDdBeXpoTnBNOHRMLUNDSi13?oc=5",
-    "date": "2026-05-15",
-    "source": "AD HOC NEWS",
-    "companies": [
-      "Meta"
-    ],
-    "summary": "Meta Platforms stock (US30303M1027): strong Q1 2026 earnings meet AI capex worries  AD HOC NEWS",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "SK Hynix vs Samsung 2026: AI HBM Leader Edges Samsung in Best Stock Buy",
-    "url": "https://www.ibtimes.com.au/samsung-vs-sk-hynix-2026-ai-memory-supercycle-1868887",
-    "date": "2026-05-15",
-    "source": "Ibtimes.com.au",
-    "companies": [
-      "Samsung"
-    ],
-    "summary": "Investors must choose between Samsung's diversified stability and SK Hynix's AI-focused growth as the memory-chip supercycle intensifies, with both companies posting record results driven by AI demand.",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "Cisco Systems Stock Rally: AI Orders Fuel 13.4% Gain After Fiscal Q3 Report - News and Statistics - IndexBox",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbWVZRm52N184S252cVR4LTBHYUx5cllDNGE5d20zcVdHQjRTYW9uSzIxNXZiNFN1REc0LThVejZHdF9LUVI3MHV1OXNXWVJwYm02MjJkOTNJencwUEstTmhrNFZCVmNQaUJEY3M0UjlBQ2xGS2VvckdPYmp4ZVY3WC1vSE9YNjJFNUk2RnY2UFF0Smc0?oc=5",
-    "date": "2026-05-15",
-    "source": "IndexBox",
-    "companies": [
-      "Cisco"
-    ],
-    "summary": "Cisco Systems Stock Rally: AI Orders Fuel 13.4% Gain After Fiscal Q3 Report - News and Statistics  IndexBox",
-    "relevanceScore": 0.31
-  },
-  {
-    "title": "Kalafatis: Greece produces 50% of Europe’s oncology drugs, 30% of cardio-metabolic drugs and 25% of penicillin drugs",
-    "url": "https://www.naftemporiki.gr/english/2110654/kalafatis-greece-produces-50-of-europes-oncology-drugs-30-of-cardio-metabolic-drugs-and-25-of-penicillin-drugs/",
-    "date": "2026-05-15",
-    "source": "Naftemporiki.gr",
-    "companies": [
-      "Meta",
-      "Intel"
-    ],
-    "summary": "“In a world where biomedical research, new digital technologies and Artificial Intelligence are transforming healthcare systems, strengthening cooperation between the state, industry, the academic and research community, and the innovation…\nKalafatis: Greece …",
-    "relevanceScore": 0.31
-  },
-  {
-    "title": "Apple's 2026 Outlook: Strong Earnings and AI Initiatives Drive Growth",
-    "url": "https://www.ibtimes.com.au/apple-2026-outlook-earnings-ai-growth-1868869",
-    "date": "2026-05-15",
-    "source": "Ibtimes.com.au",
-    "companies": [
-      "Apple"
-    ],
-    "summary": "Apple's 2026 outlook remains positive with strong earnings growth, AI initiatives, and high iPhone demand. Analysts maintain a Moderate Buy consensus, highlighting potential upside despite some risks.",
-    "relevanceScore": 0.31
-  },
-  {
-    "title": "Fiber Optics Market Size to Worth USD 19.73 Billion by 2035 | Research by SNS Insider",
-    "url": "https://www.globenewswire.com/news-release/2026/05/15/3295582/0/en/Fiber-Optics-Market-Size-to-Worth-USD-19-73-Billion-by-2035-Research-by-SNS-Insider.html",
-    "date": "2026-05-15",
-    "source": "GlobeNewswire",
-    "companies": [],
-    "summary": "Global Fiber Optics Market Size, Share, Revenue Trends & Segmentation Analysis, By Type, By Application, By Region, And Forecast 2026-2035...",
-    "relevanceScore": 0.31
-  },
-  {
-    "title": "Market Moves: Why is Trump betting big on Nvidia, Boeing and AI stocks?",
-    "url": "https://m.economictimes.com/markets/us-stocks/news/market-moves-why-is-trump-betting-big-on-nvidia-boeing-and-ai-stocks/trumps-billion-dollar-trading-blitz/slideshow/131110510.cms",
-    "date": "2026-05-15",
-    "source": "Economictimes.com",
-    "companies": [
-      "Nvidia"
-    ],
-    "summary": "Newly released ethics filings revealed extensive trading activity linked to U.S. President Donald Trump during the first quarter of 2026. The disclosures showed major purchases and sales involving technology, aerospace, banking, and consumer companies. AI-foc…",
-    "relevanceScore": 0.31
-  },
-  {
-    "title": "Microsoft Israel Head to Resign Following Probe into Military Cloud Dealings",
-    "url": "https://www.naturalnews.com/2026-05-15-microsoft-israel-head-resign-military-cloud-dealings.html",
-    "date": "2026-05-15",
-    "source": "Naturalnews.com",
-    "companies": [
-      "Microsoft",
-      "Intel"
-    ],
-    "summary": "Alon Haimovich, the general manager of Microsoft Israel, will leave the company following an internal inquiry that examined whether Microsoft’s Azure cloud platform was used by Israeli military intelligence Unit 8200 for mass surveillance of Palestinian phone…",
-    "relevanceScore": 0.31
-  },
-  {
-    "title": "Investors are anxious about AI spending, but these parts of the market profit no matter who wins",
-    "url": "https://www.businessinsider.com/ai-boom-south-korea-kospi-taiwan-stock-market-chip-winners-2026-5",
-    "date": "2026-05-15",
-    "source": "Business Insider",
-    "companies": [],
-    "summary": "South Korea and Taiwan's stock markets are emerging as major winners of the global AI buildout as investors grow nervous about AI spending.",
-    "relevanceScore": 0.21
-  },
-  {
-    "title": "After an opaque summit, China and the US want to work together again. That might not be good news for the world",
-    "url": "https://theconversation.com/after-an-opaque-summit-china-and-the-us-want-to-work-together-again-that-might-not-be-good-news-for-the-world-282603",
-    "date": "2026-05-15",
-    "source": "The Conversation Africa",
-    "companies": [
-      "ServiceNow"
-    ],
-    "summary": "This week’s summit has revived a 20-year-old idea of the ‘Group of Two’ superpowers working together with global benefits. But we’re now living in a different world.",
-    "relevanceScore": 0.2
-  },
-  {
-    "title": "Weekly news roundup: Googlebook announced, WhatsApp Incognito, Altman under fire and Foxconn breach",
-    "url": "https://www.techtarget.com/searchcio/feature/Weekly-news-roundup-Googlebook-announced-WhatsApp-Incognito-Altman-under-fire-and-Foxconn-breach",
-    "date": "2026-05-15",
-    "source": "Techtarget.com",
-    "companies": [
-      "SAP",
-      "Alphabet",
-      "Meta"
-    ],
-    "summary": "Stay up to date with the latest U.S. tech news, IPOs and executive moves shaping the industry each week.",
-    "relevanceScore": 0.2
   }
 ]
