@@ -1,5 +1,268 @@
 [
   {
+    "title": "SoftBank plans 75 billion euros of AI investments in France, as Europe struggles to catch up with U.S. and China",
+    "url": "https://www.cnbc.com/2026/05/31/softbank-to-build-up-ai-data-centers-in-france-with-major-investment.html",
+    "date": "2026-05-31",
+    "source": "CNBC",
+    "companies": [],
+    "summary": "The Japanese tech giant plans to develop and operate 5 GW of AI data center capacity in France, with an initial 3.1 GW of facilities in the country's north.",
+    "relevanceScore": 0.72
+  },
+  {
+    "title": "United Integrated Services sees AI capex boom extending fab order visibility to 2030",
+    "url": "https://www.digitimes.com/news/a20260529PD243/fab-construction-capex-tsmc-usa-expansion-2026.html",
+    "date": "2026-05-31",
+    "source": "Digitimes",
+    "companies": [
+      "TSMC",
+      "Intel"
+    ],
+    "summary": "United Integrated Services, a key fab-building partner for TSMC and Micron, said the global artificial intelligence (AI) boom is continuing to drive semiconductor capital spending and lifting its order backlog to record levels. At its shareholders' meeting on…",
+    "relevanceScore": 0.7
+  },
+  {
+    "title": "SpaceX, OpenAI fundraising sparks investor hunt for Asia’s next AI winners beyond chipmaking giants",
+    "url": "https://www.livemint.com/companies/news/spacex-openai-fundraising-sparks-investor-hunt-for-asia-s-next-ai-winners-beyond-chipmaking-giants-11780199679564.html",
+    "date": "2026-05-31",
+    "source": "Livemint",
+    "companies": [
+      "OpenAI",
+      "Anthropic"
+    ],
+    "summary": "Fresh fundraising and potential IPOs by OpenAI, SpaceX and Anthropic are driving investors to seek new AI opportunities across Asia. Bloomberg reported that firms involved in components, servers, packaging, connectivity and energy infrastructure could benefit…",
+    "relevanceScore": 0.52
+  },
+  {
+    "title": "AI firm MiniMax prepares for mainland China listing after shares surge in Hong Kong",
+    "url": "https://www.scmp.com/business/china-business/article/3355418/ai-firm-minimax-prepares-mainland-china-listing-after-shares-surge-hong-kong",
+    "date": "2026-05-31",
+    "source": "Post Magazine",
+    "companies": [
+      "Intel"
+    ],
+    "summary": "MiniMax Group, the Chinese artificial intelligence model company, has officially kicked off plans to sell shares in mainland China. This offers onshore investors access to AI players beyond chipmakers and completes a dual-listing status in addition to Hong Ko…",
+    "relevanceScore": 0.52
+  },
+  {
+    "title": "How should Irish investors react to upcoming $1 trillion AI stock market listings?",
+    "url": "https://www.thejournal.ie/ai-stock-market-irish-investment-analysis-7056059-May2026/",
+    "date": "2026-05-31",
+    "source": "TheJournal.ie",
+    "companies": [
+      "OpenAI",
+      "Anthropic"
+    ],
+    "summary": "As SpaceX, OpenAI and Anthropic eye trillion-dollar listings, Irish investors are already exposed, whether they realise it or not.",
+    "relevanceScore": 0.51
+  },
+  {
+    "title": "SpaceX, OpenAI windfall fuels bets on next-wave Asian AI winners",
+    "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/spacex-openai-windfall-fuels-bets-on-next-wave-asian-ai-winners/articleshow/131419620.cms",
+    "date": "2026-05-31",
+    "source": "The Times of India",
+    "companies": [
+      "OpenAI"
+    ],
+    "summary": "Anticipating significant capital raises from tech giants like SpaceX and OpenAI, investors are shifting focus to Asian supply chain companies. This strategic move aims to capitalize on anticipated increased technology spending, particularly in server parts, s…",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "Intel vs AMD Stock 2026: Analysts Favor AMD Momentum Over Intel Turnaround Bet",
+    "url": "https://www.ibtimes.com.au/amd-vs-intel-semiconductor-landscape-2026-1869820",
+    "date": "2026-05-31",
+    "source": "Ibtimes.com.au",
+    "companies": [
+      "Intel",
+      "AMD"
+    ],
+    "summary": "AMD and Intel present contrasting strategies in the semiconductor sector amid the AI boom, with AMD showing stronger execution and Intel focusing on manufacturing turnaround. Investors weigh growth versus turnaround potential.",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "Korea should join frontier AI race dominated by US, China: ICT minister",
+    "url": "https://www.theinvestor.co.kr/article/10760270",
+    "date": "2026-05-31",
+    "source": "Theinvestor.co.kr",
+    "companies": [
+      "Intel",
+      "ServiceNow"
+    ],
+    "summary": "South Korea should now try to build frontier artificial intelligence models on par with those of the US and China, Deputy Prime Minister and ICT Minister Bae Ky",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "If Elon Musk merges SpaceX with Tesla he’ll create a $3.4 trillion behemoth—with zero profits",
+    "url": "https://fortune.com/2026/05/31/spacex-tesla-odds-of-merging-could-it-happen/",
+    "date": "2026-05-31",
+    "source": "Fortune",
+    "companies": [
+      "Tesla"
+    ],
+    "summary": "A SpaceX-Tesla union would mark by far the largest merger of all time.",
+    "relevanceScore": 0.4
+  },
+  {
+    "title": "Where Can Investors Turn Beyond AI Stocks as Inflation Persists?",
+    "url": "https://newsonjapan.com/article/149457.php",
+    "date": "2026-05-31",
+    "source": "Newsonjapan.com",
+    "companies": [],
+    "summary": "As soaring valuations in AI and semiconductor stocks prompt concerns about concentration risk, market analysts are increasingly pointing to energy shares as a potential alternative investment theme in an inflationary environment. (News On Japan)",
+    "relevanceScore": 0.32
+  },
+  {
+    "title": "The Irish priest behind the scenes of the Vatican’s work on artificial intelligence",
+    "url": "https://www.irishtimes.com/world/europe/2026/05/31/the-irish-priest-behind-the-scenes-of-the-vaticans-work-on-artificial-intelligence/",
+    "date": "2026-05-31",
+    "source": "The Irish Times",
+    "companies": [
+      "Intel"
+    ],
+    "summary": "Bishop Paul Tighe became a link between Silicon Valley and the Vatican dialogue going back a decade",
+    "relevanceScore": 0.31
+  },
+  {
+    "title": "Wall Street Week Ahead",
+    "url": "https://seekingalpha.com/article/4910428-wall-street-week-ahead",
+    "date": "2026-05-31",
+    "source": "Seeking Alpha",
+    "companies": [
+      "HPE",
+      "Broadcom",
+      "ServiceNow"
+    ],
+    "summary": "Track this week’s market catalysts: May jobs report, key economic data, big tech/AI events, IPOs, and earnings from AVGO, CRWD, HPE & more—read now.",
+    "relevanceScore": 0.31
+  },
+  {
+    "title": "AI Agents Are Buying Ads Now: He Built the Systems They Learned From",
+    "url": "https://www.israelnationalnews.com/news/427874",
+    "date": "2026-05-31",
+    "source": "Israelnationalnews.com",
+    "companies": [
+      "ServiceNow"
+    ],
+    "summary": "Major ad giants are handing negotiations and optimization to autonomous AI agents.",
+    "relevanceScore": 0.31
+  },
+  {
+    "title": "Top Wall Street analysts see robust growth potential in these 3 stocks",
+    "url": "https://www.cnbc.com/2026/05/31/top-wall-street-analysts-see-robust-growth-potential-in-these-3-stocks.html",
+    "date": "2026-05-31",
+    "source": "CNBC",
+    "companies": [],
+    "summary": "Investors keen on capitalizing on the AI boom can track recommendations from top Wall Street analysts",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "SoftBank pledges €75B for Europe’s largest AI facility in France",
+    "url": "https://cryptobriefing.com/softbank-75b-ai-facility-france-2/",
+    "date": "2026-05-31",
+    "source": "Crypto Briefing",
+    "companies": [],
+    "summary": "SoftBank's investment could bolster Europe's AI independence, potentially reshaping tech dynamics and stimulating related industries.\nThe post SoftBank pledges €75B for Europe’s largest AI facility in France appeared first on Crypto Briefing.",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "Adani says US legal issues behind it, bets on AI-driven infrastructure boom",
+    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/adani-says-us-legal-issues-behind-it-bets-on-ai-driven-infrastructure-boom/articleshow/131421754.cms",
+    "date": "2026-05-31",
+    "source": "The Times of India",
+    "companies": [],
+    "summary": "Gautam Adani announced the Adani Group has overcome US legal challenges and is accelerating investments in energy, transport, and digital infrastructure. The conglomerate is positioning itself to capitalise on AI-driven growth, with significant capital expend…",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "India falls behind Taiwan in market rankings—but which market is better positioned to handle risk?",
+    "url": "https://www.livemint.com/money/personal-finance/india-falls-behind-taiwan-in-market-rankings-but-which-market-is-better-positioned-to-handle-risk-11779888803031.html",
+    "date": "2026-05-31",
+    "source": "Livemint",
+    "companies": [],
+    "summary": "As reported by Bloomberg on May 26, Taiwan's market capitalization stands at $4.95 trillion, slightly ahead of India's $4.92 trillion. While this has raised concerns among retail investors in India, you may be surprised to know which market is actually more s…",
+    "relevanceScore": 0.2
+  },
+  {
+    "title": "AJ Chronicles: Google Just Changed the way We’re Going to Find Culture",
+    "url": "https://www.artsjournal.com/diacritical/2026/05/aj-chronicles-google-just-changed-the-way-were-going-to-find-culture.html",
+    "date": "2026-05-31",
+    "source": "Artsjournal.com",
+    "companies": [
+      "Alphabet"
+    ],
+    "summary": "What Google presented this month was revolutionary, a declaration that the web as we know it is dead, and an operating manual for how the new web will work. More important, it suggests how we all will find — or fail to find — culture over the next decade.",
+    "relevanceScore": 0.2
+  },
+  {
+    "title": "Nvidia’s latest product is a game-changer",
+    "url": "https://www.thestreet.com/investing/stocks/nvidias-latest-product-is-a-game-changer",
+    "date": "2026-05-31",
+    "source": "TheStreet",
+    "companies": [
+      "Nvidia"
+    ],
+    "summary": "Nvidia (NVDA) stock is up about 15.44% year to date, at the time of writing, Friday afternoon, May 29. Meanwhile, the SPDR S&P 500 index (SPY) is up about...",
+    "relevanceScore": 0.2
+  },
+  {
+    "title": "SoftBank to invest €45B in AI data centers in France by 2031",
+    "url": "https://cryptobriefing.com/softbank-45b-ai-data-centers-france/",
+    "date": "2026-05-30",
+    "source": "Crypto Briefing",
+    "companies": [],
+    "summary": "SoftBank's investment in French AI data centers could significantly boost Europe's tech infrastructure, attracting further global tech investments.\nThe post SoftBank to invest €45B in AI data centers in France by 2031 appeared first on Crypto Briefing.",
+    "relevanceScore": 0.42
+  },
+  {
+    "title": "Meta vs Google Stock 2026: Which Tech Titan Is the Better Buy in AI Era?",
+    "url": "https://www.ibtimes.com.au/meta-vs-alphabet-ai-investment-2026-1869764",
+    "date": "2026-05-30",
+    "source": "Ibtimes.com.au",
+    "companies": [
+      "Alphabet",
+      "Meta"
+    ],
+    "summary": "Meta and Alphabet are investing heavily in AI, with Meta focusing on ad-driven growth and Alphabet on cloud expansion. Analysts see distinct growth paths for these tech giants in 2026.",
+    "relevanceScore": 0.41
+  },
+  {
+    "title": "SanDisk vs Micron Stock 2026: Which AI Memory Play Offers Better Value?",
+    "url": "https://www.ibtimes.com.au/sandisk-vs-micron-ai-memory-boom-2026-1869768",
+    "date": "2026-05-30",
+    "source": "Ibtimes.com.au",
+    "companies": [],
+    "summary": "Investors must choose between SanDisk and Micron for exposure to the AI memory boom in 2026, considering differing business models, valuations, and risk profiles amid surging data center demand.",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "Top 5 Stocks That Will Ride the Data Center Chip Equipment Supercycle",
+    "url": "https://247wallst.com/investing/2026/05/30/top-5-stocks-that-will-ride-the-data-center-chip-equipment-supercycle/",
+    "date": "2026-05-30",
+    "source": "24/7 Wall St.",
+    "companies": [],
+    "summary": "Jim Cramer called it “the greatest time in the history of the industry” on Mad Money Thursday night, and the data is screaming the same thing: Applied...",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "Seagate Stock 2026: Buy or Sell as AI Data Storage Boom Drives Record Margins?",
+    "url": "https://www.ibtimes.com.au/seagate-stock-surges-ai-demand-storage-1869748",
+    "date": "2026-05-30",
+    "source": "Ibtimes.com.au",
+    "companies": [],
+    "summary": "Seagate Technology's stock has surged in 2026 due to increased demand for high-capacity storage driven by AI infrastructure needs, with strong financial results and optimistic analyst ratings supporting growth.",
+    "relevanceScore": 0.21
+  },
+  {
+    "title": "Amazon: FORM 8-K",
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001018724&type=8-K&dateb=&owner=include&count=5",
+    "date": "2026-05-22",
+    "source": "SEC EDGAR",
+    "companies": [
+      "Amazon"
+    ],
+    "summary": "Official SEC 8-K filing from Amazon on 2026-05-22. FORM 8-K",
+    "relevanceScore": 0.3
+  },
+  {
     "title": "With a €75 billion investment, France enters the artificial intelligence race with the largest data center in Europe - صوت الإمارات",
     "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOOW1BQ1VxQ1FrQnhpSk5LeVFMMWJ5cmk0cFBFZWIyMGRUel9lc2pxVHFYS0RFM0hSWDNKX3hTeFNPZjdXa3Z4djFxX2pSczNHZTBXb0lkaDByRGQwY25YSkQtY2pzQWVCZzEzektSelVaa1AtaXlyVjhnV0FHZDgwSk9DeF83YkJ1eDNqOXdyeXlkdnVPQWVwNE5meVpWM2dVaWRMM0tHNmUyM0ZaYk1rZzVJaFA2OEhROXU1bXF5aVl6UzhmS1JQbWhkWVRiZTl3cVVnSWFQZ1pxNTQ3R3kwaGhzOEc2Z3BlaTZfY3ZiM1RmTUtRdE1VV1pJWktlNzdod3AtbFE1MWpaNlk?oc=5",
     "date": "2026-05-31",
@@ -21,15 +284,6 @@
     ],
     "summary": "Nvidia Projects Data Center Spending to Reach $1 Trillion  Intellectia AI",
     "relevanceScore": 0.72
-  },
-  {
-    "title": "SoftBank plans 75 billion euros of AI investments in France, as Europe struggles to catch up with U.S. and China - CNBC",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeGdvazJVU0FLWWxqTjhBWS1CM2IyZThDc29uckwwc0h1US1Cd0NRcWpnLXpUNmpkck5Dc29MQmpxLXk4TDFNWlhUUHQ5YlAzTjk2Q2d0eW5GMVI4V29ZYWdXMjRnWC0zb3Z6NVp2Vll6TDlNV2gtb2tmTXBkQWE3RWFzaGQzczBuTlhhU1I3Z19WcG1hQ2hhYWVIYlFoQm9UWXVxRVVBRErSAa4BQVVfeXFMTTRzWVdjYzFEdTJZME5BSUxDaXBsd2pfLVdVMS12NFljOTFNN2MxS2hJNk95WTFlSnpvTm0tOGY4LTBmSTJXbXNLQk5uNXBidjJLWjZFYklLUW9ldGUwOXROTlM2M01GS2xNU2pHVS15UWs2aWY0b1YzUzdBaU9oelVNTlZYYUNOU2JDR2tFR2gyM3l6YlRVblVoOHhRamRDQnV3R3liVlA2UnQ3Y1l3?oc=5",
-    "date": "2026-05-31",
-    "source": "CNBC",
-    "companies": [],
-    "summary": "SoftBank plans 75 billion euros of AI investments in France, as Europe struggles to catch up with U.S. and China  CNBC",
-    "relevanceScore": 0.62
   },
   {
     "title": "India’s AI Revolution Accelerates as Billion-Dollar Investments Reshape the Artificial Intelligence Market - Spherical Insights",
@@ -154,17 +408,6 @@
     "relevanceScore": 0.32
   },
   {
-    "title": "SpaceX, OpenAI windfall fuels bets on next-wave Asian AI winners - The Straits Times",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQV0xhbUpSaXJXYlEzQTZNbGQzbHdoWk1TWjJWT1dTUGs4VVo4ZWV1Ymp2c3ZaMmJObTBLVEZQNzhDVXhXdGVhX1BWcV9mU2xGTjZDZWRHMzJsclJxNjFvVUxTMnVTTzVvTE5vSHJjYlJQc3d3OGE1d1BMdm82YlFuanhramR1NUkxUzFxdkpqM2dwMmlfQkYxd0d1OG12VTNVa29R?oc=5",
-    "date": "2026-05-31",
-    "source": "The Straits Times",
-    "companies": [
-      "OpenAI"
-    ],
-    "summary": "SpaceX, OpenAI windfall fuels bets on next-wave Asian AI winners  The Straits Times",
-    "relevanceScore": 0.31
-  },
-  {
     "title": "SoftBank Bets Big on AI: €75 Billion to Build Massive French Data Hub - Yahoo Finance",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPM3otNHZ6cmJqQ0hhNG8ydlpJVmVFeHJoRUZMQ3FOMktTUmFyenlVN04yZHhzSmZzNnZjT1NZdWF1UDBOZU1yZ1dBUU5saVBKYy1Pb0lVN1Q2OU9YbV9QZ3FVOWZOWmxlTGQyOWwxdGhaNXFhY3kwc2NUaHNObXU5dUZVRzZITWZIVHdGb1puYjR6RXpFczJn?oc=5",
     "date": "2026-05-31",
@@ -276,15 +519,6 @@
     "relevanceScore": 0.52
   },
   {
-    "title": "Softbank to Invest Up To 75 Billion Euros on AI Data Centers in France - The Information",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbFpkQWg1LXU1SU9pWTl5MUVvM0pac0RyMVVBVFRwdlFGM0Z4SGctbW1iRnFpUTFVYTZqX3FfVUVXU0ZmWnNDTDl6Zzl0WERoQlE3NHdaNjlqRE9UeURnTjdlSUVlQ3lVZVg0SmJNMEoxYU12VF9ybDMzd0w3ZGViUHVUeVZLYjV2V0hhMko1QlJzQjdKZHJWN0pQOFo?oc=5",
-    "date": "2026-05-30",
-    "source": "The Information",
-    "companies": [],
-    "summary": "Softbank to Invest Up To 75 Billion Euros on AI Data Centers in France  The Information",
-    "relevanceScore": 0.52
-  },
-  {
     "title": "Intel vs Dell Stock 2026: Which Tech Giant Is the Better Buy Right Now?",
     "url": "https://www.ibtimes.com.au/dell-vs-intel-ai-growth-investment-risks-2026-1869762",
     "date": "2026-05-30",
@@ -342,18 +576,6 @@
       "Intel"
     ],
     "summary": "Nebius Group's Promising AI Investment Outlook  Intellectia AI",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "Meta vs Google Stock 2026: Which Tech Titan Is the Better Buy in AI Era?",
-    "url": "https://www.ibtimes.com.au/meta-vs-alphabet-ai-investment-2026-1869764",
-    "date": "2026-05-30",
-    "source": "Ibtimes.com.au",
-    "companies": [
-      "Alphabet",
-      "Meta"
-    ],
-    "summary": "Meta and Alphabet are investing heavily in AI, with Meta focusing on ad-driven growth and Alphabet on cloud expansion. Analysts see distinct growth paths for these tech giants in 2026.",
     "relevanceScore": 0.41
   },
   {
@@ -527,33 +749,6 @@
     "source": "MSN",
     "companies": [],
     "summary": "Rising AI chip costs spark global economic concerns  MSN",
-    "relevanceScore": 0.21
-  },
-  {
-    "title": "SanDisk vs Micron Stock 2026: Which AI Memory Play Offers Better Value?",
-    "url": "https://www.ibtimes.com.au/sandisk-vs-micron-ai-memory-boom-2026-1869768",
-    "date": "2026-05-30",
-    "source": "Ibtimes.com.au",
-    "companies": [],
-    "summary": "Investors must choose between SanDisk and Micron for exposure to the AI memory boom in 2026, considering differing business models, valuations, and risk profiles amid surging data center demand.",
-    "relevanceScore": 0.21
-  },
-  {
-    "title": "Top 5 Stocks That Will Ride the Data Center Chip Equipment Supercycle",
-    "url": "https://247wallst.com/investing/2026/05/30/top-5-stocks-that-will-ride-the-data-center-chip-equipment-supercycle/",
-    "date": "2026-05-30",
-    "source": "24/7 Wall St.",
-    "companies": [],
-    "summary": "Jim Cramer called it “the greatest time in the history of the industry” on Mad Money Thursday night, and the data is screaming the same thing: Applied...",
-    "relevanceScore": 0.21
-  },
-  {
-    "title": "Seagate Stock 2026: Buy or Sell as AI Data Storage Boom Drives Record Margins?",
-    "url": "https://www.ibtimes.com.au/seagate-stock-surges-ai-demand-storage-1869748",
-    "date": "2026-05-30",
-    "source": "Ibtimes.com.au",
-    "companies": [],
-    "summary": "Seagate Technology's stock has surged in 2026 due to increased demand for high-capacity storage driven by AI infrastructure needs, with strong financial results and optimistic analyst ratings supporting growth.",
     "relevanceScore": 0.21
   },
   {
@@ -2395,201 +2590,5 @@
     ],
     "summary": "Anthropic's valuation surge highlights AI's pivotal role in tech infrastructure, while unauthorized equity tokens underscore regulatory challenges.\nThe post Anthropic nears $1T valuation after raising $65B in largest private AI round ever appeared first on Cr…",
     "relevanceScore": 0.61
-  },
-  {
-    "title": "Dell raises annual forecasts as AI data center buildout fuels demand",
-    "url": "https://www.channelnewsasia.com/business/dell-raises-annual-forecasts-ai-data-center-buildout-fuels-demand-6148366",
-    "date": "2026-05-28",
-    "source": "CNA",
-    "companies": [
-      "Nvidia",
-      "Dell Technologies"
-    ],
-    "summary": "May 28 : Dell boosted its annual revenue and profit expectations on Thursday, showing data center expansion by clients is fueling demand for its AI-optimized servers that are powered by Nvidia's powerful chips.Shares of the company rose more than 10 per cent …",
-    "relevanceScore": 0.52
-  },
-  {
-    "title": "Rising AI spend turns FinOps into a boardroom strategist",
-    "url": "https://siliconangle.com/2026/05/28/finops-ai-spending-boardroom-strategy-finopsx/",
-    "date": "2026-05-28",
-    "source": "SiliconANGLE News",
-    "companies": [
-      "Intel",
-      "ServiceNow"
-    ],
-    "summary": "Artificial intelligence has turned technology spending into a strategic boardroom priority across the entire enterprise. Companies are now using FinOps data to decide where capital goes and the value it delivers. This strategic aspect of FinOps is expected to…",
-    "relevanceScore": 0.52
-  },
-  {
-    "title": "Anthropic secures $965 billion valuation after raising $65 billion - NBC News",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUF9XSjNDdTFfNWxjUHhaV2gyUmdiaWdTZmY0bTdmekZVMFdiaVdWWnBvbGhiNlh5WmZJMWktVXZzOUs4bDJlR25LZnByRVVYeGNTeHJpQ29CemN3Y1d2bDlDaXUzeE5MSGVoemYyNlBxZkJUNDJfNXVBbmVvVFVLTGhCbGM1UUE1RC1PaGlJem54VGJab0FpaDFHbDRZc3JuY1IxNTJJdDFnaGZE?oc=5",
-    "date": "2026-05-28",
-    "source": "NBC News",
-    "companies": [
-      "Anthropic"
-    ],
-    "summary": "Anthropic secures $965 billion valuation after raising $65 billion  NBC News",
-    "relevanceScore": 0.51
-  },
-  {
-    "title": "IBM, Red Hat launch $5B Project Lightwell to boost open-source security",
-    "url": "https://siliconangle.com/2026/05/28/ibm-red-hat-launch-5b-project-lightwell-boost-open-source-security/",
-    "date": "2026-05-28",
-    "source": "SiliconANGLE News",
-    "companies": [
-      "IBM"
-    ],
-    "summary": "IBM Corp. and its Red Hat subsidiary today launched an initiative called Project Lightwell to improve the security of open-source projects. Project Lightwell is backed by a $5 billion commitment. In addition, IBM and Red Hat will assign more than 20,000 engin…",
-    "relevanceScore": 0.51
-  },
-  {
-    "title": "What’s rarer than a unicorn? Anthropic didn’t just join the Series H club, it almost became the first $1 trillion private company ever",
-    "url": "https://fortune.com/2026/05/28/anthropic-series-h-valuation-ipo-unicorn/",
-    "date": "2026-05-28",
-    "source": "Fortune",
-    "companies": [
-      "Anthropic"
-    ],
-    "summary": "The $65 billion funding round was led by Altimeter, Dragoneer, Greenoaks and Sequoia, more than doubling the company's valuation in just three months.",
-    "relevanceScore": 0.51
-  },
-  {
-    "title": "ORCL stock slips as Oracle navigates AI infrastructure strategy, avg target $261.46 - eciks.org",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcTM5alJzcDhaaDZoclF0YU9HazdSTWE3S3Y0bzJYUXl5aXRSQVF2UXpRMHlmbE1keVlNajlkQ3laa0JmNDRINUk0RUc5VXNic2VtS3Y5dXpSWXJtU2xodkgySUJYOVBJa3Q4UXZYaXV5VURzeElpS2JPdWxDeDlPUWE2ZW5LekpPa3NRd3pwbF95U0hkOHdtVXVIVVJqUTRyVDBBZjI3cktIaDJpSkE?oc=5",
-    "date": "2026-05-28",
-    "source": "eciks.org",
-    "companies": [
-      "Oracle"
-    ],
-    "summary": "ORCL stock slips as Oracle navigates AI infrastructure strategy, avg target $261.46  eciks.org",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "Microsoft Is Spending Billions on AI, But Investors Aren’t Buying It - The Globe and Mail",
-    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPdFotZHk0NUoyTE1oV1Fxa2pUaG9HM1NzY2R2aFNUVVV4YUR2akZVSTFncGFGQW1YYWlIZ1RTQUNDUDZicUhYclJyUlpDazVCZlptYUoyNklQdUVsYl9GMkZ0dzh2Ukc4OTN0TnFSSnN3WGlQSldHSllzdWRiUEZ2amdacW8yS2s1blhDMVRiNERMbjAwcFdJQUlIRFE4ZjVUWVdidWtuTy1mNzJOTFo5RXVvTVlzRlh2SXlyRGUzcTIyUnJ4a1VMd2FhU3hHTGd1ODVsR3FQam4tRk5tT1duRXpQXzhZZw?oc=5",
-    "date": "2026-05-28",
-    "source": "The Globe and Mail",
-    "companies": [
-      "Microsoft"
-    ],
-    "summary": "Microsoft Is Spending Billions on AI, But Investors Aren’t Buying It  The Globe and Mail",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "Dell earnings set for today with AI infrastructure momentum on full display - eciks.org",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeG0zdmNlcktMeDFhdHpMSWZLZmFTRTB1Wm1PcVpUR0NwUnQzb2VMbmd3aGQxeTVSTDZTb1BNdFF5dmRLdmZORndTRGI1Yl8yYUtFb1lJVDU2cWljVWpwNXFmMDg4OHNDR2dPLTVlUTgySW9SWmNjQUJpOTdqQ0VOOG5lRFdkZ190QnM3cXZwN2dYZFo1WjYycG9PQjdPeEFZRE40N1k3TQ?oc=5",
-    "date": "2026-05-28",
-    "source": "eciks.org",
-    "companies": [
-      "Dell Technologies"
-    ],
-    "summary": "Dell earnings set for today with AI infrastructure momentum on full display  eciks.org",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "BABA vs. META: Which AI Data Center Giant Is the Better Bet? - TradingView",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdm9CV3dnd0dlX0hMZzFubXoweW45b0VrY01lRUd6Wm9fOEppekhaNERjOHNXVVpnbDFGWFpVcTl1ajVnNlFSUmF0UmQxcVI0U1VUWTlEYlN1a1NSbFI0NUtKdGlwQlZLU1lBcGlFZjdIUzFOMFF0QUs5Yms1NDlUVzdfaVB0MVdJU1V2T3YzQXVSQkExMEQxbGJ5c2p6ZVJGYlBCd3I0RGVWd3ZDaXdNcnVYMA?oc=5",
-    "date": "2026-05-28",
-    "source": "TradingView",
-    "companies": [
-      "Meta",
-      "Alibaba"
-    ],
-    "summary": "BABA vs. META: Which AI Data Center Giant Is the Better Bet?  TradingView",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "The CFOs steering Big Tech’s trillion-dollar AI bet",
-    "url": "https://fortune.com/2026/05/28/cfo-steering-big-tech-trillion-dollar-ai-bet/",
-    "date": "2026-05-28",
-    "source": "Fortune",
-    "companies": [
-      "Alphabet",
-      "Microsoft",
-      "Meta",
-      "Oracle",
-      "Nvidia",
-      "OpenAI"
-    ],
-    "summary": "At Meta, Microsoft, Alphabet, Oracle, OpenAI, and Nvidia, the finance chiefs steering AI investments are all women.",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "Why are Taiwanese firms issuing more debt for AI capacity? #tech",
-    "url": "https://alltoc.com/tech/why-are-taiwanese-firms-issuing-more-debt-for-ai-capacity",
-    "date": "2026-05-28",
-    "source": "Alltoc.com",
-    "companies": [],
-    "summary": "Taiwanese companies secure record debt to expand AI infrastructure Taiwanese tech companies have completed a record $14.5B of debt deals so far this year, as they race to secure financing needed to meet soaring demand for AI capacity. The core issue is timing…",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "Dell shares jump 19% after server maker reports fastest sales growth since return to public market in 2018",
-    "url": "https://www.cnbc.com/2026/05/28/dell-q1-earnings-report-2027.html",
-    "date": "2026-05-28",
-    "source": "CNBC",
-    "companies": [
-      "Dell Technologies"
-    ],
-    "summary": "Dell has gone from being a sleepy legacy tech company to a high-growth AI story, assembling servers packed with graphics processing units.",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "Elon Musk defends AI ambitions as IPO reveals trouble",
-    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/elon-musk-defends-ai-ambitions-as-ipo-reveals-trouble/articleshow/131376049.cms",
-    "date": "2026-05-28",
-    "source": "The Times of India",
-    "companies": [
-      "Intel"
-    ],
-    "summary": "Elon Musk insists that his artificial intelligence venture xAI remains a serious competitor, pushing back against mounting doubts after revelations that the supercomputing facilities built to power his own AI models are being rented out to a rival. It has als…",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "NVIDIA Stock Edges Higher to $212.63 as AI Demand Powers Continued Market Leadership in 2026",
-    "url": "https://www.ibtimes.com.au/nvidia-ai-dominance-stock-growth-1869666",
-    "date": "2026-05-28",
-    "source": "Ibtimes.com.au",
-    "companies": [
-      "Nvidia"
-    ],
-    "summary": "NVIDIA's stock rose slightly amid market caution, driven by its AI infrastructure dominance and strong partnerships. Despite valuation concerns, analysts remain bullish on its long-term growth potential.",
-    "relevanceScore": 0.41
-  },
-  {
-    "title": "AI Capex Fatigue: Why Hedge Funds Are Questioning the Hyperscaler Spending Boom: - HedgeCo.Net",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbENUTHhkQ20zME41dUhjLU1WMUF2bG9JdEJ0aEN1N0luYzJNOVN6Y2YyY2FaMVhRaEN4RFF0cTZ6bmdybVpnYmxaSE1uVDRaTFBwMUV2WW9iR3Z0TmlXTDBBbFJST2lSNmt4eGNUdUpCSWVSUWowRVlnN2ZjcGhLbTg0Y0p3dy10bGNHN3VUTlFmQWhualExVk1NTE83Q1pDeVFmUi1sSkpHUkNpWFVfNmRRRmxEdGs?oc=5",
-    "date": "2026-05-28",
-    "source": "HedgeCo.Net",
-    "companies": [],
-    "summary": "AI Capex Fatigue: Why Hedge Funds Are Questioning the Hyperscaler Spending Boom:  HedgeCo.Net",
-    "relevanceScore": 0.32
-  },
-  {
-    "title": "Fastly vs. Cloudflare: Which Edge AI Infrastructure Stock Wins? - TradingView",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdFZDREdoM05jT3dPT2lEcDRON05fWDdTQjFmZ01lLThsQ3ZaX1VHRWllbWlyVVpVaUdwLXJjTnFnVUtvQ3F3UHpZVmhfTFF0RXU5aXp1QUFCUlViOWhJQ0w5RVphV3RHWlVFaFNwUWJSY09uc05Ta29zRXRUMVppMnJ1QU9OQlF5ZkdTc2d5TTNoaE1xN2xQYldmV0k3WkJUZUw4czVaUHJpcjZKcDd4eUg4WG9GcW8?oc=5",
-    "date": "2026-05-28",
-    "source": "TradingView",
-    "companies": [],
-    "summary": "Fastly vs. Cloudflare: Which Edge AI Infrastructure Stock Wins?  TradingView",
-    "relevanceScore": 0.32
-  },
-  {
-    "title": "MPWR Gains From AI Infrastructure Spending: Is the Rally Sustainable? - TradingView",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNU05NUW1udFg4WFRFMHBRZUZDVTdHZ19YQjdubzU5Y1RVekZrMll1bGZHTnZILWRqZUlvMEl3SG5UR3VkOTJBZFROM3NhZnI0TGpic25JeVdCdkNxRVJZUkJFOTI0cjdkT19jNUUtb05PMVUyUGNfQXNLbDlJU01ycG5ZUFFPeEhVMjdaUUU4MkNFM21ocGRMT1RWNUtuXzJxLWhmc2NLWlNVRXhEYVNrV3JHc2QzQ2VQbndMQnNicFo?oc=5",
-    "date": "2026-05-28",
-    "source": "TradingView",
-    "companies": [],
-    "summary": "MPWR Gains From AI Infrastructure Spending: Is the Rally Sustainable?  TradingView",
-    "relevanceScore": 0.32
-  },
-  {
-    "title": "5 Bitcoin Miner Stocks Crushing BTC as AI Infrastructure Spending Explodes - BeInCrypto",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9OODB6NkFYVGxIZjg4eU9YY0F1N3pCV2NVdU5MWWRnaDYxaFE2NFZCZXJTVU1EM1hVelVlbjZ3dUt6R0d4RW5YaXhJZFF6SFRkZnNqUklXNjVFRDdiMmx3dHdBMjBnenM5MkZXcHVhVjQ1WnRaV0E?oc=5",
-    "date": "2026-05-28",
-    "source": "BeInCrypto",
-    "companies": [],
-    "summary": "5 Bitcoin Miner Stocks Crushing BTC as AI Infrastructure Spending Explodes  BeInCrypto",
-    "relevanceScore": 0.32
   }
 ]
